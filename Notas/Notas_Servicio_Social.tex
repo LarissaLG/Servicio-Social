@@ -50,7 +50,6 @@
 
 
 %----------------------------------------------------------------------------------
-
 \usepackage{hyperref}
 \hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=magenta,}
 
@@ -59,11 +58,14 @@
 \fancyhead{} % Blank out the default header
 \fancyfoot{} % Blank out the default footer
 
+
 \fancyhead[RO,LE]{Universidad Nacional Autónoma de México $\bullet$ Facultad de Ciencias $\bullet$ 01 de abril de 2024  } % Custom header text
 \renewcommand{\headrulewidth}{0.4pt}
 
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
 \fancyheadoffset[RO,LE]{0.01\textwidth}
+
+
 %----------------------------------------------------------------------------------------
 %       TITLE SECTION
 %----------------------------------------------------------------------------------------
@@ -109,7 +111,7 @@ o bien,
 \end{equation*}
 \begin{figure}
     \centering
-    \includegraphics[width=5cm1]{../../Pictures/servicio social/dipolo.png} 
+    \includegraphics[width=5cm1]{../../../../Pictures/servicio social/dipolo.png} 
     \caption{Dipolo eléctrico.}
     \label{dipolo_elec}
 \end{figure}
@@ -280,7 +282,7 @@ por lo cual,
 donde ($\uvec{\xi},\uvec{\eta},\uvec{\zeta}$) corresponden al sistema de coordenadas elipsoidales  conveniente para la simetría del problema. Obsérvese que si $\xi$ es constante, se obtiene un elipsoide confocal. De esta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Cuando $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas.\\
 \begin{figure}[H]
     \centering
-    \includegraphics[width=9cm]{../../Pictures/servicio social/elipticalcoordinates.png} 
+    \includegraphics[width=9cm]{../../../../Pictures/servicio social/elipticalcoordinates.png} 
     \caption{Sistema coordenado elipsoidal con un elipsoide centrado en el origen, con semiejes ($a, b, c$), $a > b > c.$}
     \label{fig:enter-label}
 \end{figure}
@@ -705,12 +707,37 @@ Nótese que entonces los factores de depolarización dependen de la composición
 
 
 
-\section{Modelo de Drude}
+\section{Modelos}
 \textcolor{red}{Versión preliminar, faltan incluir referencias y pulir redacción}\\
  
 
+Hay dos conjuntos de cantidades usadas usualmente para describir propiedades ópticas: la parte real e imaginaria del índice de refracción complejo $N=n+ik$ y la parte real e imaginaria de la fucnión dieléctrica $\epsilon=\epsilon'+i\epsilon''$. este último conjunto se emplea para el estudio de la absorción y el esparcimiento de partículas en el límite cuasiestático.
+
+\section{Modelo de Lorentz}
+En este modelo se estudia a los electrones como osciladores armónicos isotrópicos (misma frecuencia $\omega$) simples sujetos a la fuerza de los campos electromagnéticos. Consideremos un oscilador de masa $m$ y carga $e$, sobre este actúa una fuerza lineal de restauración  $K\Vec{x}$, donde $K$ es la constante de resorte y $\Vec{x}$ es el desplazamiento del equilibrio; la fuerza amortiguadora  $b\Vec{x}$ con $b$ la constante de amortiguamiento y la fuerza conductora producida por el campo eléctrico local (?)  $\Vec{E}_{\mbox{local}}$. Entonces, la ecuación de movimiento del oscilador es
+
+\begin{equation}
+		m\ddot{\Vec{x}}+b\dot{\Vec{x}}+Kx=e\Vec{\mbox{local}}
+		\label{Ec_mov}
+\end{equation}
+El campo local $\Vec{E}_{\mbox{local}}$ que ve un oscilador y el campo macroscópico $\Vec{E}$, que es un promedio de toda la región conteniendo a los osciladores, son independientes en general. Sin embargo, en este modelo se ignorará esta diferencia. La solución a la Ec.\ref{Ec_mov} está compuesta por una parte transiente, que desaparece debido a la amortiguación y una parte oscilatoria con la misma frecuencia que el campo conductor dada por
+\begin{equation}
+		\Vec{x}=\frac{(e/m)\Vec{E}}{\omega_0^2-\omega^2-i\gamma\omega}
+\end{equation} 
+donde $\omega_0^2=K/m$ y $\gamma=b/m$. Si $\gamma\neq 0$, la relación entre $\Vec{x}$ y $\Vec{E}$ es compleja; entonces, el campo y el desplazamiento por lo general no están en fase. 
 
 
+
+
+\section{Modelo del oscilador múltiple}
+
+\section{Modelo de Drude}
+Este modelo se basa en la diferencia de las propiedades ópticas entre conductores y no conductores y explica cómo es que un metal responde linealmente a un campo eléctrico.
+
+
+Debido a la periodicidad de una red cristalina, los niveles de energía están agrupados en bandas. Si existe una banda prohibida, the \textit{band gap},entre bandas completamente ocupadas o completamente vacías, el material es un no conductor (aislante o semiconductor. Si por el contrario, una banda no está complemente llena o una banda llena se traspasa con una vacía, el material es un conductor, por lo que los electrones pueden ser excitados a estados no ocupados adyacentes al aplicar un campo eléctrico, produciendo una corriente eléctrica.
+
+En los materiales conductores, dado que existen estados de electrones vacantes en la misma banda de energía hay absorción intrabanda, que es la absorción de fotones de baja energía. Mientras que en los aislantes, cuando hay fotones de mayor energía que el band gap, hay absorción interbanda. De esta forma se puede ver que los aislantes tienden a ser transparentes y reflejan débilmente para fotones con energías menores que el band gap, mientras que los metales tienen a absorber y reflejar en longitudes de onda del visible y del infrarrojo.
 
 
 
