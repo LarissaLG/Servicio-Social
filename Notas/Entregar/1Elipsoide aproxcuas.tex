@@ -1,0 +1,447 @@
+\subsection{Elipsoide en la aproximación cuasiestática}
+En esta sección se busca estudiar el esparcimiento de luz por un elipsoide centrado en el origen, con semiejes ($a,b,c$) paralelos a los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y con dimensiones tales que $\lambda\gg a>b>c$. La partícula regular suave más general que cumple con lo anterior es un elipsoide con semiejes $a > b > c$, cuya superficie está dada por 
+\begin{equation}
+    \frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1.
+    \label{elipsoide1}
+\end{equation}
+
+Las coordenadas más naturales, aunque poco conocidas, para estudiar el sistema enunciado previamente son las coordenadas elipsoidales (ver Fig.\ref{elipse}). Para construir este conjunto de coordenadas, se modifica la Ec. (\ref{elipsoide1}) como 
+\begin{equation}
+	\frac{x^2}{a^2+u}+\frac{y^2}{b^2+u}+\frac{z^2}{c^2+u}=1,
+	\label{elipsoide2}
+\end{equation}
+ donde debe determinarse el valor del parámetro $u$. La Ec. (\ref{elipsoide2}) es una ecuación de tercer grado para $u$, por lo que las soluciones (reales) son un conjunto de tres valores reales $\{\xi,\eta,\zeta\}$ tales que
+\begin{equation}
+	\infty<\xi<-c^2,\hspace{0.5cm}-b^2<\eta<-c^2,\hspace{0.5cm}-a^2<\zeta<\infty
+\end{equation}
+y que corresponden a tres formas cuadráticas con focos en común (https://mathworld.wolfram.com/Confocal EllipsoidalCoordinates.html). Por lo tanto,
+\begin{align}
+    \frac{x^2}{a^2+\xi}+\frac{y^2}{b^2+\xi}+\frac{z^2}{c^2+\xi}=1,&& \infty<\xi<-c^2;\\
+    \frac{x^2}{a^2+\eta}+\frac{y^2}{b^2+\eta}+\frac{z^2}{c^2+\eta}=1,&& -b^2<\eta<-c^2;\\
+    \frac{x^2}{a^2+\zeta}+\frac{y^2}{b^2+\zeta}+\frac{z^2}{c^2+\zeta}=1,&& -a^2<\zeta<-b^2.
+\end{align}
+donde ($\uvec{\xi},\uvec{\eta},\uvec{\zeta}$) corresponden al sistema de coordenadas elipsoidales  conveniente para la simetría del problema. Obsérvese que si $\xi$ es constante, se obtiene un elipsoide confocal. De esta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Cuando $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas.\\
+
+\noindent Es así como, a cualquier punto ($x,y,z$) le corresponde un conjunto de coordenadas elipsoidales ($\xi,\eta,\zeta$). Sin embargo, esto no es cierto para el caso contrario. Estas coordenadas determinan ocho puntos simétricamente localizados en cada uno de los octantes cuyo espacio está particionado por los ejes coordenados $x,y,z$ anteriormente mencionados.\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{../../Figuras/elipticalcoordinates}    
+    \caption{Sistema coordenado elipsoidal con un elipsoide centrado en el origen, con semiejes ($a, b, c$), $a > b > c.$}
+    \label{elipse}
+\end{figure}
+\noindent Las ecuaciones anteriores se pueden reescribir de forma matricial como
+\begin{equation*}
+    \begin{pmatrix}
+    \frac{1}{a^2+\xi} & \frac{1}{b^2+\xi} & \frac{1}{c^2+\xi}\\
+    \frac{1}{a^2+\eta} & \frac{1}{a^2+\eta} & \frac{1}{a^2+\eta}\\
+    \frac{1}{a^2+\zeta} & \frac{1}{a^2+\zeta} & \frac{1}{a^2+\zeta}\end{pmatrix}\begin{pmatrix}
+        x^2\\
+        y^2\\
+        z^2
+    \end{pmatrix}=\begin{pmatrix}
+        1\\
+        1\\
+    \end{pmatrix}.
+\end{equation*}
+Cuya solución está dada por las expresiones:
+
+\begin{align}
+    x^2&=\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)},\label{x_elips}\\
+     y^2&=\frac{(b^2+\xi)(b^2+\eta)(b^2+\zeta)}{(a^2-b^2)(c^2-b^2)},\label{y_elips}\\
+     z^2&=\frac{(c^2+\xi)(c^2+\eta)(c^2+\zeta)}{(a^2-c^2)(b^2-c^2)}. \label{z_elips}    
+\end{align}
+
+Dado que se quiere resolver el problema del esparcimiento de luz por un elipsoide centrado en el origen, lo primero que hay que hacer, dado que se considera el límite cuasiestático, es resolver la ecuación de Laplace para el potencial; por lo cual, lo más conveniente es emplear las coordenadas anteriores. Para ello, se expresa al laplaciano en coordenadas generalizadas \cite{Arfken}
+\begin{equation}
+	\nabla^2\phi=\frac{1}{h_1h_2h_3}\left[\frac{\partial}{\partial q_1}\left(\frac{h_2h_3}{h_1}\frac{\partial\phi}{\partial q_1}\right)+\frac{\partial}{\partial q_2}\left(\frac{h_3h_1}{h_2}\frac{\partial\phi}{\partial q_2}\right)+\frac{\partial}{\partial q_3}\left(\frac{h_1h_2}{h_3}\frac{\partial\phi}{\partial q_3}\right)\right],
+	\label{laplaciano}    
+\end{equation}
+donde $\phi$ es una función escalar, y  $h_i$ con $i=1,2,3$ los factores de escala que, para coordenadas elipsoidales se asocian como $1\rightarrow\xi, 2\rightarrow\eta$ y $3\rightarrow\zeta,$ y se determinan al hacer un cambio de base de coordenadas cartesianas a elipsoidales. Para ello, se encuentra un vector unitario en la dirección de la i-ésima coordenada, que mide cómo es que cambia el vector posición $\vec{r}=(x,y,z)$ en una dirección dada y se define como \cite{Arfken}
+\begin{equation}
+	\uvec{i}=\frac{1}{h_i}\left(\frac{\partial \Vec{r}}{\partial q_i}\right), \hspace{0.5cm} ;    
+\end{equation}
+con
+\begin{equation}
+	h_i=\Big|\frac{\partial \Vec{r}}{\partial q_i}\Big|=\sqrt{\left(\frac{\partial x}{\partial q_i}\right)^2+\left(\frac{\partial y}{\partial q_i}\right)^2+\left(\frac{\partial z}{\partial q_i}\right)^2}
+\end{equation} 
+Para la variación en $x$, empleando la Ec.(\ref{x_elips}), se tiene que \begin{align*}
+	\frac{\partial x}{\partial \xi}&=\frac{1}{2}\left(\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)}\right)^{-1/2}\frac{\partial}{\partial \xi}\left(\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)}\right)\nonumber\\
+	&=\frac{1}{2}\frac{1}{a^2+\xi}\sqrt{\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)}}\nonumber\\
+	&=\frac{1}{2x}\frac{\partial x^2}{\partial\xi}
+\end{align*}
+por tanto,
+\begin{equation*}
+	\frac{\partial x}{\partial \xi}=\frac{1}{2x}\frac{\partial x^2}{\partial\xi}=\frac{1}{2}\frac{x}{(a^2+\xi)}.
+\end{equation*}
+Análogamente, empleando las Ecs.(\ref{y_elips}) y (\ref{z_elips}) para $y$ y $z$, respectivamente
+\begin{align*}
+	\frac{\partial y}{\partial \xi}&=\frac{1}{2y}\frac{\partial y^2}{\partial\xi}=\frac{1}{2}\frac{y}{(b^2+\xi)},\\
+	\frac{\partial z}{\partial \xi}&=\frac{1}{2z}\frac{\partial z^2}{\partial\xi}=\frac{1}{2}\frac{z}{(c^2+\xi)}.
+\end{align*}
+De esta forma, el cuadrado del primer factor de escala $h_1$ es
+\begin{equation}
+	h_1^2=\frac{1}{4}\left[\frac{x^2}{(a^2+\xi)^2}+\frac{y}{(b^2+\xi)^2}+\frac{z}{(c^2+\xi)^2}\right].
+	\label{h1}
+\end{equation}
+Se propone que la Ec.(\ref{elipsoide2}), correspondiente al lugar geométrico de los elipsoides se modifique como
+\begin{equation}
+	1-\frac{x^2}{a^2+u}-\frac{y^2}{b^2+u}-\frac{z^2}{c^2+u}=\frac{g(u)}{(a^2+u)(b^2+u)(c^2+u)},
+\end{equation}
+donde $g(u)$ es una función cúbica con tres raíces reales dentro del rango descrito por las limitaciones de cada variable. Es decir, que $g(u)$ se reescribe como $g(u)=(u-\xi)(u-\eta)(u-\zeta)$. Al derivar la ecuación anterior con respecto de $u$ se tiene que
+\begin{align}
+	\frac{x^2}{(a^2+u)^2}+\frac{y^2}{(b^2+u)^2}+\frac{z^2}{(c^2+u)^2}&=\frac{g(u)}{[f(u)]^2}\left[\frac{1}{u-\xi}+\frac{1}{u-\zeta}+\frac{1}{u-\eta}-\left(\frac{1}{a^2+u}+\frac{1}{b^2+u}+\frac{1}{c^2+u}\right)\right],
+\end{align}
+con 
+\begin{equation}
+	f(u)=\sqrt{(a^2+u)(b^2+u)(c^2+u)}.    
+\end{equation}
+Es así como se puede reescribir al primer factor de escala de la Ec.(\ref{h1}) como
+\begin{align*}
+	h_1^2&=\frac{1}{4}\frac{g(u)}{[f(u)]^2}\left[\frac{1}{u-\xi}+\frac{1}{u-\zeta}+\frac{1}{u-\eta}-\left(\frac{1}{a^2+u}+\frac{1}{b^2+u}+\frac{1}{c^2+u}\right)\right]\nonumber\\
+	&=\frac{1}{4}\frac{g(u)}{[f(u)]^2}\left[\frac{(u-\zeta)(u-\eta)+(u-\xi)(u-\eta)+(u-\xi)(u-\zeta)}{g(u)}-\left(\frac{1}{a^2+u}+\frac{1}{b^2+u}+\frac{1}{c^2+u}\right)\right].    
+\end{align*}
+Dado que $\xi$ es una raíz de $g(u)$, entonces, $g(u)=0$, por lo que el factor de escala $h_1$ es
+\begin{equation}
+	h_1=\frac{\sqrt{(\xi-\eta)(\xi-\zeta)}}{2f(\xi)}.
+\end{equation}
+Desarrollando un proceso análogo, se cumple que  
+\begin{equation}
+	h_2=\frac{\sqrt{(\eta-\xi)(\eta-\zeta)}}{2f(\eta)}\hspace{0.5cm}\mbox{y}\hspace{0.5cm}
+	h_3=\frac{\sqrt{(\zeta-\xi)(\zeta-\eta)}}{2f(\zeta)}.
+\end{equation}
+De la Ec.(\ref{laplaciano})
+\begin{align*}
+	\frac{1}{h_1h_2h_3}\frac{\partial}{\partial \xi}\left(\frac{h_2h_3}{h_1}\frac{\partial\phi}{\partial \xi}\right)&=\frac{1}{\frac{\sqrt{(\xi-\eta)(\xi-\zeta)}}{2f(\xi)}\frac{\sqrt{(\eta-\xi)(\eta-\zeta)}}{2f(\eta)}\frac{\sqrt{(\zeta-\xi)(\zeta-\eta)}}{2f(\zeta)}}\frac{\partial}{\partial\xi}\left(\frac{\frac{\sqrt{(\eta-\xi)(\eta-\zeta)}}{2f(\eta)}\frac{\sqrt{(\zeta-\xi)(\zeta-\eta)}}{2f(\zeta)}}{\frac{\sqrt{(\xi-\eta)(\xi-\zeta)}}{2f(\xi)}}\frac{\partial\phi}{\partial\xi}\right)
+\end{align*}
+Sea $\Lambda=\frac{\sqrt{(\xi-\eta)(\xi-\zeta)(\eta-\xi)(\eta-\zeta)(\zeta-\xi)(\eta-\zeta)}}{8f(\xi)f(\eta)f(\zeta)}$,
+\begin{equation}
+	\frac{1}{h_1h_2h_3}\frac{\partial}{\partial \xi}\left(\frac{h_2h_3}{h_1}\frac{\partial\phi}{\partial \xi}\right)&=\frac{\sqrt{(\eta-\zeta)(\zeta-\eta)}}{2\Lambda f(\eta)f(\zeta)}\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right) \label{eq_xi}
+\end{equation}
+Ánalogamente, 
+\begin{align}
+	\frac{1}{h_1h_2h_3}\frac{\partial}{\partial \eta}\left(\frac{h_3h_1}{h_2}\frac{\partial\phi}{\partial \eta}\right)&=\frac{\sqrt{(\zeta-\xi)(\xi-\zeta)}}{2\Lambda f(\zeta)f(\xi)}\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\phi}{\partial\eta}\right)\label{ec_eta}\\
+	\frac{1}{h_1h_2h_3}\frac{\partial}{\partial \zeta}\left(\frac{h_1h_2}{h_3}\frac{\partial\phi}{\partial \zeta}\right)&=\frac{\sqrt{(\xi-\eta)(\eta-\xi)}}{2\Lambda f(\eta)f(\xi)}\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right).\label{ec_zeta}
+\end{align}
+Sustituyendo las Ecs.(\ref{eq_xi}), (\ref{ec_eta}) y (\ref{ec_zeta}) en la Ec.(\ref{laplaciano}) y simplificando
+\begin{align}
+	\nabla^2\phi&=\frac{4f(\xi)}{(\xi-\eta)(\zeta-\xi)}\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+\frac{4f(\eta)}{(\xi-\eta)(\eta-\zeta)}\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\phi}{\partial\eta}\right)+\frac{4f(\zeta)}{(\zeta-\xi)(\eta-\xi)}\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)\nonumber\\
+	&=\frac{4}{\Upsilon}\left[(\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+(\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\eta}{\partial\eta}\right)+(\xi-\zeta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)\right],
+\end{align}
+donde a $\Upsilon$ se le conoce como el valor absoluto del determinante funcional \cite{Kellogg}
+\begin{equation}
+	\Upsilon=(\xi-\eta)(\zeta-\xi)(\eta-\zeta).
+\end{equation}
+Como resultado de lo anterior, la ecuación de Laplace en coordenadas elipsoidales es
+\begin{equation}
+	\nabla^2\phi=(\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+(\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\eta}{\partial\eta}\right)+(\xi-\eta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)=0
+	\label{laplaceplisoidal}
+\end{equation}
+Como la solución a esta ecuación está determinada por la forma del campo
+incidente, descrito por el potencial anterior, y que cumple las condiciones de contorno, la ecuación se resuelve mediante el método de reducción de orden al proponer una solución no trivial y buscar una segunda solución.\\
+
+Si se considera un elipsoide homogéneo bajo un campo eléctrico incidente uniforme alineado a lo largo del eje $\uvec{z}$, como a cada punto en las coordenadas elipsoidales le corresponde ocho distintos en las coordenadas cartesianas debido a la simetría del problema, el potencial electrostático hereda las siguietes propiedades de simetría:
+\begin{equation}
+    \phi(x,y,z)=\phi(-x,y,z)=\phi(x,-y,z)=\phi(-x,-y,z),
+\end{equation}
+\begin{equation}
+    \phi(x,y,-z)=\phi(-x,y,-z)=\phi(x,-y,-z)=\phi(-x,-y,-z),
+\end{equation}
+donde $x,y,z$ son positivas. Entonces, solo se tiene que considerar el potencial en dos octantes: uno con $z$ positivo y otro con $z$ negativo. Más aún, el potencial y su derivada con respecto a $z$ deben de ser continuos en el plano $z=0$ \footnote{Debido a la discontinuidad del campo eléctrico en $z=0$ y a que en este regimen el medio material es el mismo, la derivada del potencial con respecto a la componente normal al plano del vector de desplazamiento es continua.}. El potencial eléctrico asociado a una onda plana se puede describir como
+\begin{equation}
+\phi_0=-E_0 r\cos\theta=-E_0 z=-E_0\left[\frac{(c^2+\xi)(c^2+\eta)(c^2+\zeta)}{(a^2-c^2)(b^2-c^2)}\right]^{1/2},
+\label{pot_0}
+\end{equation}
+en donde se empleó la Ec.(\ref{z_elips}).\\
+
+\noindent Se debe de considerar un potencial de perturbación $\phi_p$ asociado al esparcimiento producido por la partícula. En consecuencia, el potencial fuera de la partícula $\phi_{ext}$ está formado por la superposición del potencial incidente $\phi_0$ y el potencial de perturbación $\phi_p$
+\begin{equation}
+\phi_{ext}(\xi,\eta,\zeta)=\phi_0(\xi,\eta,\zeta)+\phi_p(\xi,\eta,\zeta).    
+\end{equation}
+Además, el potencial debe de ser continuo en la superficie de la elipse
+\begin{equation}
+\phi_{int}(0,\eta,\zeta)=\phi_{ext}(0,\eta,\zeta)+\phi_p(0,\eta,\zeta),    
+\end{equation}
+y, para distancias lo suficientemente lejanas a la partícula, es decir, cuando $\xi\gg a^2$, al factorizar $\xi$ de  la Ec.(\ref{def_x}), se tiene que 
+\begin{equation*}
+    \frac{x^2}{\frac{a^2}{\xi}+1}+\frac{y^2}{\frac{b^2}{\xi}+1}+\frac{z^2}{\frac{c^2}{\xi}+1}=\xi,
+\end{equation*}
+donde
+\begin{equation*}
+    \lim_{\xi\rightarrow\infty}\left(\frac{x^2}{\frac{a^2}{\xi}+1}+\frac{y^2}{\frac{b^2}{\xi}+1}+\frac{z^2}{\frac{c^2}{\xi}+1}\right)=x^2+y^2+z^2=r^2,
+\end{equation*}
+entonces, $\xi \simeq r^2$ en el límite asintótico. Asimismo, en esta aproximación el potencial de perturbación es despreciable, por lo que 
+\begin{equation}
+\lim_{\xi\rightarrow\infty}\phi_p=0
+\label{limitephi_p}.
+\end{equation}
+Sean $\phi_{int}$ y $\epsilon_p$ el potencial y la permitividad eléctrica en el interior del elipsoide y las mismas cantidades $\phi_{ext}$ y $\epsilon_m$ para el exterior de este, como el potencial es continuo y la componente tangencial del campo eléctrico por ausencia de cargas externas también
+\begin{subequations}
+\label{condicionesfrontera}
+\begin{align}
+    \phi_{int}|_{\xi=0}&=\phi_{ext}|_{\xi=0}\label{cf1},\\
+    \epsilon_p\frac{\partial \phi_{int}}{\partial \xi}\Big |_{\xi=0}&=
+    \epsilon_m\frac{\partial \phi_{ext}}{\partial \xi}\Big |_{\xi=0}\label{cf2}.
+\end{align}
+\end{subequations}
+Reescribiendo al potencial en la Ec.(\ref{pot_0}) de la forma
+\begin{align}
+    \phi_0(\xi,\eta,\zeta)&=F(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}
+    \label{phi0 con F},
+\end{align}
+ tiene que satisfacer la Ec. (\ref{laplaceplisoidal}). Analizando cada componente por separado
+\begin{align}
+     (\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)&= (\eta-\zeta)[(c^2+\eta)(c^2+\zeta)]^{1/2}\left[f(\xi)\frac{d}{d\xi}\left(f(\xi)\frac{ d F(\xi)}{d\xi}\right)\right],\label{laplace1}
+\end{align}
+y,
+\begin{align}
+    (\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\phi}{\partial\eta}\right)&=(\zeta-\xi)F(\xi)(c^2+\zeta)^{1/2}\left[f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial}{\partial\eta}(c^2+\eta)^{1/2}\right)\right]\nonumber\\
+    &=\frac{1}{4}(\zeta-\xi)[(c^2+\zeta)(c^2+\eta)^{1/2}(a^2+b^2+2\eta)F(\xi).\label{laplace2}
+\end{align}
+Análogamente,
+\begin{equation}
+    (\xi-\eta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)=\frac{1}{4}(\xi-\eta)[(c^2+\zeta)(c^2+\eta)]^{1/2}(a^2+b^2+2\zeta)F(\xi).\label{laplace3}
+\end{equation}
+Sumando las Ecs.(\ref{laplace1}), (\ref{laplace2}) y (\ref{laplace3}) 
+\begin{equation}
+  (\eta-\zeta)[(c^2+\zeta)(c^2+\eta)]^{1/2}\left[f(\xi)\frac{d}{d\xi}\left(f(\xi)\frac{ d F(\xi)}{d\xi}\right)-\frac{1}{4}F(\xi)(a^2+b^2+2\xi)\right]=0,
+\end{equation}
+por lo que resolver la Ec.(\ref{laplaceplisoidal}) es equivalente a que
+\begin{equation}
+    f(\xi)\frac{d}{d\xi}\left(f(\xi)\frac{ d F(\xi)}{d\xi}\right)-\left(\frac{a^2+b^2}{4}+\frac{\xi}{2}\right)F(\xi)=0.
+\end{equation}
+La ecuación anterior es una ecuación diferencial ordinaria lineal de segundo orden, por lo que existen dos soluciones no triviales linealmente independientes. Una de estas soluciones es
+\begin{equation}
+    F_1(\xi)=(c^2+\xi)^{1/2},
+    \label{F1}
+\end{equation}
+y la segunda solución se obtiene mediante el método de reducción de orden. Como $F_1(\xi)$ es solución de la Ec.(\ref{F1}), se propone una segunda solución dada por $F_2(\xi)=v(\xi)F_1(\xi)$ donde $v(\xi)$ se determina al sustituir dicha solución en la ecuación diferencial dada, reduciéndola a una ecuación de primer orden donde la variable dependiente será $v$. Derivando la ecuación anterior respecto a $\xi$
+\begin{align*}
+    \frac{dF_2(\xi)}{d\xi}&=F_1(\xi)\frac{dv(\xi)}{d\xi}+v(\xi)\frac{F_1(\xi)}{d\xi},\\
+    \frac{d^2F_2(\xi)}{d\xi^2}&=F_1(\xi)\frac{d^2v(\xi)}{d\xi^2}+2\frac{dv(\xi)}{d\xi}\frac{dF_1(\xi)}{d\xi}+v(\xi)\frac{d^2F_1(\xi)}{d\xi^2},
+\end{align*}
+y sustituyendo las derivadas anteriores en la Ec.(\ref{F1}), se obtiene
+\begin{multline}
+    f^2(\xi)\left(F_1(\xi)\frac{d^2v(\xi)}{d\xi^2}+2\frac{dv(\xi)}{d\xi}\frac{dF_1(\xi)}{d\xi}+v(\xi)\frac{d^2F_1(\xi)}{d\xi^2}\right)+\left(F_1(\xi)\frac{dv(\xi)}{d\xi}+v(\xi)\frac{F_1(\xi)}{d\xi}\right)f(\xi)\frac{df(\xi)}{d\xi}-
+    \\ \left(\frac{a^2+b^2}{4}+\frac{\xi}{2}\right)v(\xi)F_1(\xi)=0,
+\end{multline}
+de donde tres términos se eliminan, pues
+\begin{equation*}
+    v(\xi)\frac{d^2F_1(\xi)}{d\xi^2}f^2(\xi)=-\frac{1}{4}v(\xi)[(a^2+\xi)(b^2+\xi)(c^2+\xi)^{-1/2}]
+\end{equation*}
+\begin{multline*}
+    v(\xi)\frac{dF_1(\xi)}{d\xi}f(\xi)\frac{df(\xi)}{d\xi}=\frac{1}{4}v(\xi)(a^2+\xi)(b^2+\xi)(c^2+\xi)^{-1/2}+\left(\frac{a^2+b^2}{4}+\frac{\xi}{2}\right)v(\xi)F_1(\xi)\\-\left(\frac{a^2+b^2}{4}+\frac{\xi}{2}\right)v(\xi)F_1(\xi),
+\end{multline*}
+es así como
+\begin{equation*}
+    f^2(\xi)F_1(\xi)\frac{d^2v(\xi)}{d\xi^2}+\frac{dv(\xi)}{d\xi}\left[f(\xi)F_1(\xi)\frac{df(\xi)}{d\xi}+2f^2(\xi)\frac{dF_1(\xi)}{d\xi}\right]=0.
+\end{equation*}
+Haciendo el cambio de variable $V(\xi)=dv(\xi)/d\xi$, se tiene que
+\begin{equation*}
+    f^2(\xi)F_1(\xi)\frac{dV(\xi)}{d\xi^2}+V(\xi)\left[f(\xi)F_1(\xi)\frac{df(\xi)}{d\xi}+2f^2(\xi)\frac{dF_1(\xi)}{d\xi}\right]=0,    
+\end{equation*}
+\begin{equation*}
+    \frac{1}{V(\xi)}\frac{dV(\xi)}{d\xi}=-\frac{1}{f^2(\xi)F_1(\xi)}\left[f(\xi)F_1(\xi)\frac{df(\xi)}{d\xi}+2f^2(\xi)\frac{dF_1(\xi)}{d\xi}\right].
+\end{equation*}
+ La integral indefinida de las ecuación anterior da como resultado
+\begin{align}
+    \ln[V(q)]=\int\frac{1}{V(\xi)}\text{d}V(\xi)&=-\left[\int \frac{df(\xi)}{f(\xi)}+2\int \frac{dF_1(\xi)}{F_1(\xi)}\right]\nonumber\\
+    &=-\{ln[f(q)]+ln[F_1^2(q)]\}=-ln[F_1^2(q)f(q)],
+\end{align}
+entonces,
+\begin{equation}
+    \frac{dv(q)}{dq}=\frac{1}{F_1^2(q)f(q)},
+\end{equation}
+donde $dv(q)/dq$ es distinto de cero, por lo que $v(q)$ es constante. Integrando lo anterior se tiene que
+\begin{equation}
+    v(\xi)=\int_{\xi}^{\infty}\frac{dq}{F_1^2(q)f(q)},
+\end{equation}
+por lo tanto, 
+\begin{equation}
+  F_2(\xi)=F_1(\xi)\int_{\xi}^{\infty}\frac{dq}{F_1^2(q)f(q)}.
+  \label{F2}
+\end{equation}
+Al escribir explícitamente el integrando, usando las Ecs. (\ref{F1}) y (\ref{F2}), y haciendo una integración por partes con $u=1/(a^2+q)^{1/2}$ y $dv=1/[(c^2+q)^{3/2}(b^2+q)^{1/2}]$ se obtiene
+\begin{align}
+    F_2(\xi)&=F_1(\xi)\int_{\xi}^{\infty}\frac{dq}{(c^2+q)[(a^2+q)(b^2+q)(c^2+q)]^{1/2}}\nonumber\\
+    &=\frac{F_1(\xi)}{c^2-b^2}\left[\frac{b^2+q}{(a^2+q)(c^2+q)}\right]^{1/2}\Bigg|_\xi^{\infty}-\int_\xi^{\infty}\sqrt{\frac{b^2+q}{c^2+q}}\frac{dq}{(c^2-b^2)(a^2+q)^{3/2}}.
+\end{align}
+Reescribiendo la segunda integral
+\begin{equation}
+	\int_\xi^{\infty}\frac{\sqrt{\frac{b^2+q}{a^2+q}}\sqrt{\frac{b^2+q}{a^2+q}}\sqrt{a^2-c^2}\:dq}{\sqrt{a^2-c^2}(c^2-b^2)\sqrt{\frac{c^2+q}{a^2+q}}\sqrt{\frac{b^2+q}{c^2+q}}(a^2+q)^{3/2}\sqrt{\frac{c^2+q}{a^2+q}}}\label{eliptic}
+\end{equation}
+y considerando que
+\begin{equation*}
+	\frac{d}{dq}\left(E\left(\mbox{arcsen}\left(\frac{\sqrt{a^2-c^2}}{\sqrt{a^2+q}}\right)\Bigg|\frac{a^2-b^2}{a^2-c^2}\right)\right)=-\frac{\sqrt{\frac{b^2+q}{a^2+q}}\sqrt{a^2-c^2}}{(a^2+q)^{3/2}\sqrt{\frac{c^2+q}{a^2+q}}}
+\end{equation*}
+sustituyendo en la Ec. (\ref{eliptic}) y haciendo uso del teorema fundamental del cálculo, se obtiene que 
+\begin{align}
+    F_2(\xi)&=\frac{2F_1(\xi)}{c^2-b^2}\Bigg\{\left[\frac{b^2+q}{(a^2+q)(c^2+q)}\right]^{1/2}-\frac{1}{(a^2-c^2)^{1/2}}E\left(\mbox{arcsen}\left(\frac{\sqrt{a^2-c^2}}{a^2+q}\right)\Bigg|\frac{a^2-b^2}{a^2-c^2}\right)\Bigg\}\Bigg|_\xi^{\infty},
+\end{align}
+donde $E(\phi|m)$ es una integral elíptica de segundo tipo definida como \cite{Abramo}
+\begin{equation}
+    E(x|k)=\int_{0}^x\frac{\sqrt{1-k^2t^2}}{1-t^2}dt,\hspace{1cm}0\leq m\leq 1,
+\end{equation}
+donde el módulo angular es $\alpha=\mbox{arcsin}\:k$ y $k$ es la excentricidad. En el primer límite de integración ($\infty$) de $F_2(\xi)$ al evaluar se obtiene que el primer sumando es cero, y en el segundo la función arcoseno es cero. De esta forma, la parte angular de la integral es cero, es decir, $E(0|m)=0$. En consecuencia, considerando la definición de $F_1$ en la Ec.(\ref{F1}) se tiene que $F_1$ y $F_2$ cumplen
+
+\begin{equation}
+    \lim_{\xi \to 0}F_1(\xi)=c\hspace{1cm}\mbox{y}\hspace{1cm} \lim_{\xi \to \infty}F_2(\xi)=0.
+\end{equation}
+De esta forma, considerando que $F_1$ no satisface la condición impuesta sobre $\phi_p$ en la Ec. (\ref{limitephi_p}) y que necesariamente el potencial dentro de la partícula debe de ser finito y $F_2$ no satisface este requisito, los potenciales $\phi_{int}$ y $\phi_p$, propuestos como en la Ec.(\ref{phi0 con F}), están dados por
+\begin{align}
+    \phi_{int}&=C_1F_1(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}\label{phi_int},\\
+    \phi_p&=C_2F_2(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}\label{phi_p},
+\end{align}
+donde $C_1$ y $C_2$ son constantes determinadas a partir de las condiciones de frontera dadas por las Ecs.(\ref{condicionesfrontera}). Usando la primera condición de contorno de la Ec.(\ref{cf1}), se tiene que,
+\begin{equation}
+    C_1F_1(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}=E_0\left[\frac{(c^2+\xi)(c^2+\eta)(c^2+\zeta)}{(a^2-c^2)(b^2-c^2)}\right]^{1/2}+C_2F_2(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}
+\end{equation}
+entonces, 
+\begin{align}
+    C_1F_1(\xi)&=E_0\left[\frac{(c^2+\xi)}{(a^2-c^2)(b^2-c^2)}\right]^{1/2}+C_2F_2(\xi)\nonumber\\
+    \Rightarrow \frac{C_2F_2(\xi)-C_1F_1(\xi)}{(c^2+\xi)^{1/2}}&=\frac{E_0}{[(a^2-c^2)(b^2-c^2)]^{1/2}}\nonumber\\
+    \Rightarrow \frac{C_2 F_1(\xi)\int_{0}^{\infty}\frac{dq}{(c^2+q)f(q)}-C_1F_1(\xi)}{(c^2+\xi)^{1/2}}&=\frac{E_0}{[(a^2-c^2)(b^2-c^2)]^{1/2}}\nonumber\\
+    \Rightarrow C_2 \int_{0}^{\infty}\frac{dq}{(c^2+q)f(q)}-C_1&=\frac{E_0}{[(a^2-c^2)(b^2-c^2)]^{1/2}}.
+\end{align}
+Si definimos
+\begin{equation}
+    L^{(3)}=\frac{abc}{2}\int_{0}^{\infty}\frac{dq}{(c^2+q)f(q)},
+\end{equation}
+entonces,
+\begin{equation}
+    C_2L^{(3)}\left(\frac{2}{abc}\right)-C_1=\frac{E_0}{[(a^2-c^2)(b^2-c^2)]^{1/2}}
+    \label{ec1 de cf}
+\end{equation}
+Usando la segunda condición de contorno de la Ec.(\ref{cf2}), se tiene que
+\begin{align*}
+    \frac{\epsilon_pC_1}{2}\left[\frac{(c^2+\eta)(c^2+\zeta)}{(c^2+\xi)}\right]^{1/2}&=\frac{\epsilon_mE_0}{2}\left[\frac{(c^2+\eta)(c^2+\zeta)}{(c^2+\xi)(a^2-c^2)(b^2-c^2)}\right]^{1/2}+\frac{\epsilon_m C_2}{2}\left[\frac{(c^2+\eta)(c^2+\zeta)}{(c^2+\xi)}\right]^{1/2}\int_{\xi}^{\infty}\frac{dq}{(c^2+q)f(q)}\\
+   &+\epsilon_mC_2[(c^2+\xi)(c^2+\eta)(c^2+\zeta)]^{1/2}\frac{d}{d\xi}\Bigg\{\int_{\xi}^{\infty}\frac{dq}{(c^2+q)f(q)}\Bigg\},
+\end{align*}
+donde la integral del tercer sumando es
+\begin{align*}
+    \frac{d}{d\xi}\left[\int_{\xi}^{\infty}\frac{dq}{(c^2+q)f(q)}\right]&=\frac{d}{d\xi}\left[\lim_{a\to\infty}\int_{\xi}^{a}\frac{dq}{(c^2+q)f(q)}\right]=-\lim_{a\to\infty}\frac{1}{(c^2+\xi)f(\xi)}=-\frac{1}{(c^2+\xi)f(\xi)}.
+\end{align*}
+Al evaluar en $\xi=0$ se tiene que
+\begin{align*}
+    \frac{\epsilon_p C_1}{2}&=\epsilon_m E_0\left[\frac{1}{(a^2-c^2)(b^2-c^2)}\right]^{1/2}+\epsilon_m C_2\left(\frac{2}{abc}\right)\left(L^{(3)}-1\right),
+\end{align*}
+por tanto,
+\begin{equation}
+    \epsilon_m C_2\left(\frac{2}{abc}\right)\left(L^{(3)}-1\right)- \epsilon_p C_1=\frac{\epsilon_m E_0}{[(a^2-c^2)(b^2-c^2)]^{1/2}}.
+     \label{ec2 de cf}
+\end{equation}
+Las constantes $C_1$ y $C_2$ se obtienen de resolver el sistema de ecuaciones entre las Ecs. (\ref{ec1 de cf}) y (\ref{ec2 de cf}), por lo
+cual, al multiplicar la Ec. (\ref{ec1 de cf}) por $\epsilon_p$ y restándole la Ec.(\ref{ec2 de cf})
+\begin{equation*}
+    \epsilon_p C_2L^{(3)}\left(\frac{2}{abc}\right)-C_1\epsilon_1-\epsilon_m C_2\left(\frac{2}{abc}\right)\left(L^{(3)}-1\right)- \epsilon_p C_1=\epsilon_p\frac{E_0}{[(a^2-c^2)(b^2-c^2)]^{1/2}}-\frac{\epsilon_m E_0}{[(a^2-c^2)(b^2-c^2)]^{1/2}},
+\end{equation*}
+simplificando se obtiene que
+\begin{equation}
+    C_2=\frac{abc}{2}\frac{E_0(\epsilon_p-\epsilon_m)}{[(a^2-c^2)(b^2-c^2)]^{1/2}}\left[L^{(3)}(\epsilon_p-\epsilon_m)+\epsilon_m\right]^{-1},
+\end{equation}
+por lo tanto, al sustituir $C_2$ en la Ec.(\ref{ec1 de cf}) se tiene que:
+\begin{equation}
+    C_1=\frac{E_0}{[(a^2-c^2)(b^2-c^2)]^{1/2}}\Bigg\{ \left[1+\frac{\epsilon_m}{L^{(3)}(\epsilon_p-\epsilon_m)}\right]^{-1}-1\Bigg\}.
+\end{equation}
+De esta forma, ya se puede determinar el potencial dentro de la partícula sustituyendo $F_1$ y $C_1$ en la Ec.(\ref{phi_int}), por lo que
+\begin{align}
+    \phi_{int}&=E_0\left[\frac{(c^2+\xi)(c^2+\eta)(c^2+\zeta)}{(a^2-c^2)(b^2-c^2)}\right]^{1/2}\Bigg\{ \left[1+\frac{\epsilon_m}{L^{(3)}(\epsilon_p-\epsilon_m)}\right]^{-1}-1\Bigg\}\nonumber\\
+    &=\phi_0 \left[\frac{\epsilon_m}{L^{(3)}(\epsilon_p-\epsilon_m)+\epsilon_m}\right]\nonumber\\
+    &=\frac{1}{1+\frac{L^{(3)}(\epsilon_p-\epsilon_m)}{\epsilon_m}}\phi_0
+\end{align}
+y,
+\begin{equation}
+    \phi_p=\frac{abc}{2}\frac{\frac{(\epsilon_m-\epsilon_p)}{\epsilon_m}\int_{\xi}^{\infty}\frac{dq}{F_1^2(q)f(q)}}{1+\frac{L^{(3)}(\epsilon_p-\epsilon_m)}{\epsilon_m}}\phi_0.
+\end{equation}
+
+A pesar de que inicialmente se había considerado el octante donde $x,y,z$ eran positivas, las ecuaciones anteriormente obtenidas nos dan el potencial en todos los puntos del espacio, como consecuencia de la simetría de la partícula.\\
+
+Si consideramos distancias $r$ muy alejadas del origen tales que $\xi\simeq r^2\gg a^2$ se tiene que
+\begin{equation*}
+    \int_{\xi}^{\infty}\frac{dq}{F_1^2(q)f(q)}= \int_{\xi}^{\infty}\frac{dq}{(c^2+q)f(q)}=\int_{\xi}^{\infty}\frac{dq}{q^{5/2}}=\frac{2}{3}\xi^{-3/2},
+\end{equation*}
+y entonces el potencial $\phi_p$ está dado por
+\begin{equation}
+    \phi_p\sim\frac{E_0\cos\theta}{r^2}\frac{\frac{abc}{3}\frac{\epsilon_p-\epsilon_m}{\epsilon_m}}{1+\frac{L^{(3)}(\epsilon_p-\epsilon_m)}{\epsilon_m}},\hspace{1cm}(r\gg a)
+\end{equation}
+cuya expresión es equivalente a la de un dipolo puntual dado por
+\begin{equation}
+    \Vec{p}=4\pi\epsilon_m abc\frac{\epsilon_p-\epsilon_m}{3\epsilon_m+3L^{(3)}(\epsilon_p-\epsilon_m)}\Vec{E}_0
+    \label{momento_dip}.
+\end{equation}
+Entonces, la polarizabilidad $\alpha_3$ de un elipsoide en un campo paralelo a uno de sus ejes principales es
+\begin{equation}
+    \alpha^{(3)}=V\frac{\epsilon_p-\epsilon_m}{\epsilon_m+L^{(3)}(\epsilon_p-\epsilon_m)},
+\end{equation}
+donde $V=4\pi abc/3$ es el volumen del elipsoide. De manera análoga, las polarizabilidades $ \alpha^{(1)}$ y $ \alpha^{(2)}$ cuando el campo es aplicado en los ejes $x$ y $y$ son
+\begin{align*}
+    \alpha^{(1)}&=4\pi abc \frac{\epsilon_p-\epsilon_m}{3\epsilon_m+3L^{(1)}(\epsilon_p-\epsilon_m)},&
+    \alpha^{(2)}&=4\pi abc \frac{\epsilon_p-\epsilon_m}{3\epsilon_m+3L^{(2)}(\epsilon_p-\epsilon_m)},
+\end{align*}
+donde 
+\begin{align*}
+    L^{(1)}&=\frac{abc}{2}\int_{0}^{\infty}\frac{dq}{(a^2+q)f(q)},&\text{y} && 
+    L^{(2)}&=\frac{abc}{2}\int_{0}^{\infty}\frac{dq}{(b^2+q)f(q)}.
+\end{align*}
+Se puede concluir en general que la polarizabilidad en una dirección arbitraria $j$, paralela a algún eje cartesiano es
+\begin{equation}
+    \alpha^{(j)}=V\frac{\epsilon_p-\epsilon_m}{\epsilon_m+L^{(j)}(\epsilon_p-\epsilon_m)}
+\end{equation}
+donde a $L^{(j)}$ se le conoce como \textit{factor geométrico}, dado por la integral 
+\begin{equation}
+    L^{(j)}=\frac{abc}{2}\int_0^{\infty}\frac{dq}{(a_j^2+q)f(q)}
+\end{equation}
+donde el superíndice ($j$) de $L$ indica la dirección en la que se calcula el factor de geométrico y $a_j$ denota al semieje del elipsoide orientado en esa misma dirección.\\ 
+
+\noindent Cabe mencionar que los factores geométricos  satisfacen que $L^{(1)}\leq L^{(2)}\leq L^{(3)}$\footnote{Debido a la simetría del elipsoide.} y que solo dos de los tres son independientes, ya que tienen que cumplir la relación 
+\begin{equation}
+    L^{(1)}+L^{(2)}+L^{(3)}=1,
+    \label{rel_fac_geom}
+\end{equation}
+pues, 
+\begin{equation*}
+	L^{(1)}+L^{(2)}+L^{(3)}=\frac{abc}{2}\int_0^{\infty}\left[\frac{1}{(a^2+q)}+\frac{1}{(b^2+q)}+\frac{1}{(c^2+q)}\right]\frac{dq}{f(q)},
+\end{equation*}
+y como
+$$\frac{1}{(a^2+q)}+\frac{1}{(b^2+q)}+\frac{1}{(c^2+q)}=-2 f(q)\frac{d}{dq}\left(\frac{1}{f(q)}\right),$$
+entonces,
+$$L^{(1)}+L^{(2)}+L^{(3)}=-abc\int_0^{\infty}\frac{d}{dq}\left(\frac{1}{f(q)}\right)dq,$$
+donde usando el teorema fundamental del cálculo se tiene que
+\begin{align*}
+	\int_0^{\infty}\frac{d}{dq}\left(\frac{1}{f(q)}\right)dq=\frac{1}{f(q)}\Big|_{(abc)^2}^{\infty}=-\frac{1}{abc},
+\end{align*}
+y por consiguiente, se cumple la Ec.(\ref{rel_fac_geom}).\\
+
+\noindent En el caso en el que los semiejes son iguales ($a=b=c$), es decir, en el caso de una esfera se tiene que
+\begin{equation*}
+    L_{\text{esfera}}=L^{(1)}=L^{(2)}=L^{(3)}=\frac{a^3}{2}\int_0^{\infty}\frac{dq}{(a^2+q)^{5/2}}=\frac{1}{3}.
+\end{equation*}
+
+Una clase especial de elipsoides son los \textit{esferoides}, los cuales tienen dos ejes de igual longitud, por lo cual, solo uno de los factores geométricos es independiente. El esferoide prolato [Fig. \ref{esf_prolato}], para el cual $b=c>a$ y $L_2=L_3$ es generado por la rotación de una elipse sobre su eje mayor; el esferoide oblato [Fig.\ref{esf_oblato}], para el cual $b=a>c$ y $L_1=L_2$ es generado al rotar una elipse sobre su eje menor. Para los esferoides, se tiene una expresión analítica para $L_1$ como función de la excentricidad $e$ \cite{Bohren}
+\begin{itemize}
+    \item Esferoide prolato:
+    \begin{equation}
+        L_1=\frac{1-e^2}{e^2}\left(-1+\frac{1}{2e}ln\frac{1+e}{1-e}\right)\hspace{1cm}e^2=1-\frac{b^2}{a^2}
+    \end{equation}
+    \item Esferoide oblato:
+    \begin{align}
+        L_1&=\frac{g(e)}{2e^2}\left[\frac{\pi}{2}-\mbox{tan}^{-1}g(e)\right]-\frac{g^2(e)}{2},\\
+        g(e)&=\left(\frac{1-e^2}{e^2}\right)^{1/2},\hspace{1cm}e^2=1-\frac{c^2}{a^2}
+    \end{align}
+\end{itemize}
+\begin{figure}[h!]
+	\centering
+	\subfloat[Esferoide prolato.]{\includegraphics[width=.3\textwidth]{../../Figuras/prolato}\label{esf_prolato}}
+	\subfloat[Esferoide oblato.]{\includegraphics[width=.3\textwidth]{../../Figuras/oblato} \label{esf_oblato}}
+	\caption{Clases especiales de elipsoides. El eje mayor del elipsoide está orientado en la dirección del eje a) $\hat{e}_z$ y b) $\hat{e}_y$.}
+\end{figure}
+
+Los factores geométricos $L_j$ están relacionados con los \textit{factores de depolarización} $\bar{L_j}$ mediante la expresión \cite{Bohren}
+\begin{equation}
+	\bar{L_j}=\frac{\epsilon_p-\epsilon_m}{\epsilon_p-\epsilon_0}\frac{L_j}{\epsilon_m}
+	\label{depolar_fact}
+\end{equation}
+y se definen como 
+\begin{equation*}
+    E_{px}=E_{0x}-\bar{L_1}P_{px},\hspace{1cm}    E_{py}=E_{0y}-\bar{L_2}P_{py},\hspace{1cm}    E_{pz}=E_{0z}-\bar{L_3}P_{pz}
+\end{equation*}
+donde $\Vec{E}_1$ y $\Vec{P}_1$ son el campo eléctrico y la polarización inducida en la partícula al aplicar el campo $\Vec{E}_0$. A partir de la Ec. (\ref{depolar_fact}) se puede observar que los factores de depolarización dependen de la composición de la partícula, lo cual no se cumple cuando el medio en el que está embebida la partícula es el vacío, en ese caso $\bar{L_j}=L_j/\epsilon_0$. 

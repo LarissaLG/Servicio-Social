@@ -59,7 +59,7 @@
 \fancyfoot{} % Blank out the default footer
 
 
-\fancyhead[RO,LE]{Universidad Nacional Autónoma de México $\bullet$ Facultad de Ciencias $\bullet$ 01 de abril de 2024  } % Custom header text
+\fancyhead[RO,LE]{Universidad Nacional Autónoma de México | Facultad de Ciencias | Servicio Social } % Custom header text
 \renewcommand{\headrulewidth}{0.4pt}
 
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
@@ -87,10 +87,17 @@
 \maketitle % Insert title
 \thispagestyle{fancy} % All pages have headers and footers
 
-\section{Introducción}
-\include{Teoría de Mie}
-\include{Aproximación cuasiestática}
-\include{Elipsoide aproxcuas}
+El estudio de las propiedades ópticas de las células biológicas en particular, de los eritrocitos, es de gran importancia para el área médica pues, el poder interpretar la interacción de la luz con estas células permite obtener información de su composición y función celular haciendo posible el diagnóstico de enfermedades como la anemia en sus diferentes tipos y el diseño de nuevas terapias ópticas como el tratamiento con láser de las venas varicosas. Por ello, la implementación de métodos numéricos para el cálculo de propiedades ópticas que permita obtener predicciones de los resultados de ciertas terapias o del estado morfológico de los eritrocitos es de gran interés en el área médica.
+
+
+El presente proyecto de Servicio Social está centrado en la investigación de las propiedades ópticas de células biológicas: los eritrocitos, el cual contribuirá no sólo a mejorar el diagnóstico de enfermedades asociadas a cambios morfológicos, sino también a la evaluación del desempeño de las terapias actuales para tratar estas enfermedades.
+
+En este trabajo se estudió la solución a las ecuaciones de Maxwell con condiciones de contorno esféricas, conocida como teoría de Mie. Posteriormente, se estudió el caso de nanopartículas elipsoidales y se calcularon las secciones transversales de esparcimiento, absorción y extinción para elipsoides oblatos de oro, plata, aluminio, bismuto y óxido de magnesio de tamaños de 30 y 50 nm, en la aproximación cuasi-estática como primera aproximación de eritrocitos.
+
+
+\input{Teoría de Mie}
+\input{Aproximación cuasiestática}
+\input{Elipsoide aproxcuas}
 
 
 
