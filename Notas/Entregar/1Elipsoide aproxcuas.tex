@@ -428,12 +428,15 @@ Una clase especial de elipsoides son los \textit{esferoides}, los cuales tienen 
         g(e)&=\left(\frac{1-e^2}{e^2}\right)^{1/2},\hspace{1cm}e^2=1-\frac{c^2}{a^2}
     \end{align}
 \end{itemize}
+
+\floatsetup[figure]{style=plain,subcapbesideposition=top}
+
 \begin{figure}[h!]
-	\centering
-	\subfloat[Esferoide prolato.]{\includegraphics[width=.3\textwidth]{../../Figuras/prolato}\label{esf_prolato}}
-	\subfloat[Esferoide oblato.]{\includegraphics[width=.3\textwidth]{../../Figuras/oblato} \label{esf_oblato}}
-	\caption{Clases especiales de elipsoides. El eje mayor del elipsoide está orientado en la dirección del eje a) $\hat{e}_z$ y b) $\hat{e}_y$.}
+	\sidesubfloat[]{\includegraphics[width=3cm]{../../Figuras/prolato} \label{fig:sub1}}\quad%
+	\sidesubfloat[]{\includegraphics[width=.3\textwidth]{../../Figuras/oblato}\label{fig:sub2}}%
+	\caption{Clases especiales de elipsoides. \textbf{a)} Prolato. El eje mayor del elipsoide está orientado en la dirección del eje $\hat{e}_z$. \textbf{b)} Oblato. El eje mayor del elipsoide está orientado en la dirección del eje $\hat{e}_y$.}\label{fig:test}
 \end{figure}
+
 
 Los factores geométricos $L_j$ están relacionados con los \textit{factores de depolarización} $\bar{L_j}$ mediante la expresión \cite{Bohren}
 \begin{equation}

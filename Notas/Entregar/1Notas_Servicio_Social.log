@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  19 OCT 2024 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  21 OCT 2024 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -197,6 +197,31 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTright=\skip70
 \flrow@types=\toks32
 )
+(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+\c@caption@flags=\count290
+\c@continuedfloat=\count291
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: floatrow package is loaded.
+)
+\c@KVtest=\count292
+\sf@farskip=\skip71
+\sf@captopadj=\dimen164
+\sf@capskip=\skip72
+\sf@nearskip=\skip73
+\c@subfigure=\count293
+\c@subfigure@save=\count294
+\c@lofdepth=\count295
+\c@subtable=\count296
+\c@subtable@save=\count297
+\c@lotdepth=\count298
+\sf@top=\skip74
+\sf@bottom=\skip75
+)
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks33
@@ -211,15 +236,15 @@ Package: expl3 2024-08-16 L3 programming layer (loader)
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
 x.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count290
+\l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box57
 ))
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count291
-\l__lipsum_a_int=\count292
-\l__lipsum_b_int=\count293
+\g__lipsum_par_int=\count300
+\l__lipsum_a_int=\count301
+\l__lipsum_b_int=\count302
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
@@ -228,24 +253,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count294
-\c@Blindtext=\count295
-\c@blind@countparstart=\count296
-\blind@countxx=\count297
-\blindtext@numBlindtext=\count298
-\blind@countyy=\count299
-\c@blindlist=\count300
-\c@blindlistlevel=\count301
-\c@blindlist@level=\count302
-\blind@listitem=\count303
-\c@blind@listcount=\count304
-\c@blind@levelcount=\count305
-\blind@mathformula=\count306
-\blind@Mathformula=\count307
-\c@blind@randomcount=\count308
-\c@blind@randommax=\count309
-\c@blind@pangramcount=\count310
-\c@blind@pangrammax=\count311
+\c@blindtext=\count303
+\c@Blindtext=\count304
+\c@blind@countparstart=\count305
+\blind@countxx=\count306
+\blindtext@numBlindtext=\count307
+\blind@countyy=\count308
+\c@blindlist=\count309
+\c@blindlistlevel=\count310
+\c@blindlist@level=\count311
+\blind@listitem=\count312
+\c@blind@listcount=\count313
+\c@blind@levelcount=\count314
+\blind@mathformula=\count315
+\blind@Mathformula=\count316
+\c@blind@randomcount=\count317
+\c@blind@randommax=\count318
+\c@blind@pangramcount=\count319
+\c@blind@pangrammax=\count320
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -263,22 +288,18 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
  (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen164
-\Gin@req@width=\dimen165
-) (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-\c@caption@flags=\count312
-\c@continuedfloat=\count313
-Package caption Info: float package is loaded.
-Package caption Info: floatrow package is loaded.
-Package caption Info: floatrow package is loaded.
+\Gin@req@height=\dimen165
+\Gin@req@width=\dimen166
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count314
-Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count315
+LaTeX Info: Redefining \subref on input line 189.
+Package subcaption Info: The counter `subfigure' was already defined by
+(subcaption)             \newsubfloat (offered by the subfig package) on input 
+line 238.
+Package subcaption Info: The counter `subtable' was already defined by
+(subcaption)             \newsubfloat (offered by the subfig package) on input 
+line 238.
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
@@ -328,19 +349,19 @@ Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count316
+\etb@tempcnta=\count321
 )
 \MT@toks=\toks35
 \MT@tempbox=\box58
-\MT@count=\count317
+\MT@count=\count322
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
 LaTeX Info: Redefining \leftprotrusion on input line 1062.
 \MT@prot@toks=\toks36
 LaTeX Info: Redefining \rightprotrusion on input line 1081.
 LaTeX Info: Redefining \textls on input line 1392.
-\MT@outer@kern=\dimen166
+\MT@outer@kern=\dimen167
 LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
-\MT@listname@count=\count318
+\MT@listname@count=\count323
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdfte
 x.def
@@ -348,7 +369,7 @@ File: microtype-pdftex.def 2024/03/29 v3.1b Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 902.
 LaTeX Info: Redefining \lslig on input line 902.
-\MT@outer@space=\skip71
+\MT@outer@space=\skip76
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -363,40 +384,40 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count319
-\Gm@cntv=\count320
-\c@Gm@tempcnt=\count321
-\Gm@bindingoffset=\dimen167
-\Gm@wd@mp=\dimen168
-\Gm@odd@mp=\dimen169
-\Gm@even@mp=\dimen170
-\Gm@layoutwidth=\dimen171
-\Gm@layoutheight=\dimen172
-\Gm@layouthoffset=\dimen173
-\Gm@layoutvoffset=\dimen174
+\Gm@cnth=\count324
+\Gm@cntv=\count325
+\c@Gm@tempcnt=\count326
+\Gm@bindingoffset=\dimen168
+\Gm@wd@mp=\dimen169
+\Gm@odd@mp=\dimen170
+\Gm@even@mp=\dimen171
+\Gm@layoutwidth=\dimen172
+\Gm@layoutheight=\dimen173
+\Gm@layouthoffset=\dimen174
+\Gm@layoutvoffset=\dimen175
 \Gm@dimlist=\toks37
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
-\c@tracingmulticols=\count322
+\c@tracingmulticols=\count327
 \mult@box=\box59
-\multicol@leftmargin=\dimen175
-\c@unbalance=\count323
-\c@collectmore=\count324
-\doublecol@number=\count325
-\multicoltolerance=\count326
-\multicolpretolerance=\count327
-\full@width=\dimen176
-\page@free=\dimen177
-\premulticols=\dimen178
-\postmulticols=\dimen179
-\multicolsep=\skip72
-\multicolbaselineskip=\skip73
+\multicol@leftmargin=\dimen176
+\c@unbalance=\count328
+\c@collectmore=\count329
+\doublecol@number=\count330
+\multicoltolerance=\count331
+\multicolpretolerance=\count332
+\full@width=\dimen177
+\page@free=\dimen178
+\premulticols=\dimen179
+\postmulticols=\dimen180
+\multicolsep=\skip77
+\multicolbaselineskip=\skip78
 \partial@page=\box60
 \last@line=\box61
 \mc@boxedresult=\box62
-\maxbalancingoverflow=\dimen180
+\maxbalancingoverflow=\dimen181
 \mult@rightbox=\box63
 \mult@grightbox=\box64
 \mult@firstbox=\box65
@@ -437,35 +458,41 @@ Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
 \@tempa=\box100
 \@tempa=\box101
 \@tempa=\box102
-\c@minrows=\count328
-\c@columnbadness=\count329
-\c@finalcolumnbadness=\count330
-\last@try=\dimen181
-\multicolovershoot=\dimen182
-\multicolundershoot=\dimen183
+\c@minrows=\count333
+\c@columnbadness=\count334
+\c@finalcolumnbadness=\count335
+\last@try=\dimen182
+\multicolovershoot=\dimen183
+\multicolundershoot=\dimen184
 \mult@nat@firstbox=\box103
 \colbreak@box=\box104
-\mc@col@check@num=\count331
+\mc@col@check@num=\count336
+)
+Package caption Info: Option `figurename' requires the `newfloat' package on in
+put line 27.
+
+(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/newfloat\newfloat.sty
+Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen184
-\lightrulewidth=\dimen185
-\cmidrulewidth=\dimen186
-\belowrulesep=\dimen187
-\belowbottomsep=\dimen188
-\aboverulesep=\dimen189
-\abovetopsep=\dimen190
-\cmidrulesep=\dimen191
-\cmidrulekern=\dimen192
-\defaultaddspace=\dimen193
-\@cmidla=\count332
-\@cmidlb=\count333
-\@aboverulesep=\dimen194
-\@belowrulesep=\dimen195
-\@thisruleclass=\count334
-\@lastruleclass=\count335
-\@thisrulewidth=\dimen196
+\heavyrulewidth=\dimen185
+\lightrulewidth=\dimen186
+\cmidrulewidth=\dimen187
+\belowrulesep=\dimen188
+\belowbottomsep=\dimen189
+\aboverulesep=\dimen190
+\abovetopsep=\dimen191
+\cmidrulesep=\dimen192
+\cmidrulekern=\dimen193
+\defaultaddspace=\dimen194
+\@cmidla=\count337
+\@cmidlb=\count338
+\@aboverulesep=\dimen195
+\@belowrulesep=\dimen196
+\@thisruleclass=\count339
+\@lastruleclass=\count340
+\@thisrulewidth=\dimen197
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
@@ -509,15 +536,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count336
+\c@section@level=\count341
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen197
-\Hy@linkcounter=\count337
-\Hy@pagecounter=\count338
+\@linkdim=\dimen198
+\Hy@linkcounter=\count342
+\Hy@pagecounter=\count343
  (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -526,7 +553,7 @@ Now handling font encoding PD1 ...
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count339
+\Hy@SavedSpaceFactor=\count344
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
@@ -540,14 +567,14 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count340
+\c@Hy@tempcnt=\count345
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen198
+\XeTeXLinkMargin=\dimen199
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -557,9 +584,9 @@ ty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count341
-\Field@Width=\dimen199
-\Fld@charsize=\dimen256
+\Fld@menulength=\count346
+\Field@Width=\dimen256
+\Fld@charsize=\dimen257
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -572,9 +599,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count342
-\c@Item=\count343
-\c@Hfootnote=\count344
+\Hy@abspage=\count347
+\c@Item=\count348
+\c@Hfootnote=\count349
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -586,8 +613,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count345
-\c@bookmark@seq@number=\count346
+\Fld@listcount=\count350
+\c@bookmark@seq@number=\count351
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
 heck.sty
@@ -600,12 +627,12 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip74
+\Hy@SectionHShift=\skip79
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen257
-\WF@size=\dimen258
-\c@WF@wrappedlines=\count347
+\wrapoverhang=\dimen258
+\WF@size=\dimen259
+\c@WF@wrappedlines=\count352
 \WF@box=\box105
 \WF@everypar=\toks38
 Package: wrapfig 2003/01/31  v 3.6
@@ -635,33 +662,33 @@ File: lettrine.sty 2024-06-26 v2.61 (Daniel Flipo)
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.sty
 Package: xfp 2024-08-16 L3 Floating point unit
 )
-\c@DefaultLines=\count348
-\c@DefaultDepth=\count349
-\DefaultFindent=\dimen259
-\DefaultNindent=\dimen260
-\DefaultSlope=\dimen261
-\DiscardVskip=\dimen262
+\c@DefaultLines=\count353
+\c@DefaultDepth=\count354
+\DefaultFindent=\dimen260
+\DefaultNindent=\dimen261
+\DefaultSlope=\dimen262
+\DiscardVskip=\dimen263
 \L@lettrine=\box106
 \L@lbox=\box107
 \L@tbox=\box108
-\c@L@lines=\count350
-\c@L@depth=\count351
-\L@Pindent=\dimen263
-\L@Findent=\dimen264
-\L@Nindent=\dimen265
-\L@lraise=\dimen266
-\L@first=\dimen267
-\L@next=\dimen268
-\L@slope=\dimen269
-\L@height=\dimen270
-\L@novskip=\dimen271
-\L@ruleht=\dimen272
-\L@target@ht=\dimen273
-\L@target@dp=\dimen274
-\L@target@tht=\dimen275
-\LettrineWidth=\dimen276
-\LettrineHeight=\dimen277
-\LettrineDepth=\dimen278
+\c@L@lines=\count355
+\c@L@depth=\count356
+\L@Pindent=\dimen264
+\L@Findent=\dimen265
+\L@Nindent=\dimen266
+\L@lraise=\dimen267
+\L@first=\dimen268
+\L@next=\dimen269
+\L@slope=\dimen270
+\L@height=\dimen271
+\L@novskip=\dimen272
+\L@ruleht=\dimen273
+\L@target@ht=\dimen274
+\L@target@dp=\dimen275
+\L@target@tht=\dimen276
+\LettrineWidth=\dimen277
+\LettrineHeight=\dimen278
+\LettrineDepth=\dimen279
 
 Loading lettrine.cfg
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg)
@@ -669,64 +696,64 @@ Loading lettrine.cfg
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/paralist\paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
-\pltopsep=\skip75
-\plpartopsep=\skip76
-\plitemsep=\skip77
-\plparsep=\skip78
+\pltopsep=\skip80
+\plpartopsep=\skip81
+\plitemsep=\skip82
+\plparsep=\skip83
 \pl@lab=\toks40
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/abstract\abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip79
-\absleftindent=\skip80
-\absrightindent=\skip81
-\absparindent=\skip82
-\absparsep=\skip83
+\abstitleskip=\skip84
+\absleftindent=\skip85
+\absrightindent=\skip86
+\absparindent=\skip87
+\absparsep=\skip88
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box109
-\beforetitleunit=\skip84
-\aftertitleunit=\skip85
-\ttl@plus=\dimen279
-\ttl@minus=\dimen280
+\beforetitleunit=\skip89
+\aftertitleunit=\skip90
+\ttl@plus=\dimen280
+\ttl@minus=\dimen281
 \ttl@toksa=\toks41
-\titlewidth=\dimen281
-\titlewidthlast=\dimen282
-\titlewidthfirst=\dimen283
+\titlewidth=\dimen282
+\titlewidthlast=\dimen283
+\titlewidthfirst=\dimen284
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 58.
+Package hyperref Info: Option `colorlinks' set `true' on input line 59.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip86
-\f@nch@O@elh=\skip87
-\f@nch@O@erh=\skip88
-\f@nch@O@olh=\skip89
-\f@nch@O@orh=\skip90
-\f@nch@O@elf=\skip91
-\f@nch@O@erf=\skip92
-\f@nch@O@olf=\skip93
-\f@nch@O@orf=\skip94
+\f@nch@headwidth=\skip91
+\f@nch@O@elh=\skip92
+\f@nch@O@erh=\skip93
+\f@nch@O@olh=\skip94
+\f@nch@O@orh=\skip95
+\f@nch@O@elf=\skip96
+\f@nch@O@erf=\skip97
+\f@nch@O@olf=\skip98
+\f@nch@O@orf=\skip99
 )
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 66.
+ine 67.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 69.
+ine 70.
 
 
 Package fancyhdr Warning: \fancyheadoffset's `E' option without twoside option 
 is useless.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 70.
+ine 71.
 
 
 LaTeX Warning: Unused global option(s):
@@ -737,60 +764,113 @@ LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
 
 
-LaTeX Warning: Label `fig:first' multiply defined.
+LaTeX Warning: Label `fig:test' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:first' multiply defined.
+LaTeX Warning: Label `fig:sub1' multiply defined.
 
 
-LaTeX Warning: Label `fig:second' multiply defined.
+LaTeX Warning: Label `sub@fig:sub1' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:second' multiply defined.
+LaTeX Warning: Label `fig:sub2' multiply defined.
 
 
-LaTeX Warning: Label `fig:figures' multiply defined.
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
 
 )
 \openout1 = `1Notas_Servicio_Social.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Info: Redefining \. on input line 84.
+LaTeX Info: Redefining \% on input line 84.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
+ (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/floatrow\fr-subfig.sty
+Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
+\FBsc@max=\skip100
+\FBso@max=\skip101
+)
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count352
-\scratchdimen=\dimen284
+\scratchcounter=\count357
+\scratchdimen=\dimen285
 \scratchbox=\box110
-\nofMPsegments=\count353
-\nofMParguments=\count354
+\nofMPsegments=\count358
+\nofMParguments=\count359
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count355
-\MPscratchDim=\dimen285
-\MPnumerator=\count356
-\makeMPintoPDFobject=\count357
+\MPscratchCnt=\count360
+\MPscratchDim=\dimen286
+\MPnumerator=\count361
+\makeMPintoPDFobject=\count362
 \everyMPtoPDFconversion=\toks43
 )
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
@@ -802,19 +882,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 83.
-Package microtype Info: Applying patch `item' on input line 83.
-Package microtype Info: Applying patch `toc' on input line 83.
-Package microtype Info: Applying patch `eqnum' on input line 83.
-Package microtype Info: Applying patch `footnote' on input line 83.
-Package microtype Info: Applying patch `verbatim' on input line 83.
+LaTeX Info: Redefining \microtypecontext on input line 84.
+Package microtype Info: Applying patch `item' on input line 84.
+Package microtype Info: Applying patch `toc' on input line 84.
+Package microtype Info: Applying patch `eqnum' on input line 84.
+Package microtype Info: Applying patch `footnote' on input line 84.
+Package microtype Info: Applying patch `verbatim' on input line 84.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 83.
+LaTeX Info: Redefining \showhyphens on input line 84.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -857,7 +937,9 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 83.
+Package newfloat Info: `float' package detected.
+Package newfloat Info: `wrapfig' package detected.
+Package hyperref Info: Link coloring ON on input line 84.
 (1Notas_Servicio_Social.out) (1Notas_Servicio_Social.out)
 \@outlinefile=\write3
 \openout3 = `1Notas_Servicio_Social.out'.
@@ -866,7 +948,7 @@ Package hyperref Info: Link coloring ON on input line 83.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.85 \thispagestyle
+l.86 \thispagestyle
                    {fancy} % All pages have headers and footers
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -875,7 +957,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.85 \thispagestyle
+l.86 \thispagestyle
                    {fancy} % All pages have headers and footers
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -885,35 +967,35 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
-5.
+6.
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-5.
+6.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-85.
+86.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-85.
+86.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 85.
+(Font)              <12> on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 85.
+(Font)              <8> on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 85.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+(Font)              <6> on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -922,7 +1004,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
 
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1097,54 +1179,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 411--413
  []
 
 
+LaTeX Warning: Reference `esf_prolato' on page 15 undefined on input line 419.
+
+
+LaTeX Warning: Reference `esf_oblato' on page 15 undefined on input line 419.
+
+
 
 [15]
-<../../Figuras/prolato.png, id=338, 346.239pt x 287.985pt>
+<../../Figuras/prolato.png, id=335, 813.79031pt x 983.17313pt>
 File: ../../Figuras/prolato.png Graphic file (type png)
 <use ../../Figuras/prolato.png>
-Package pdftex.def Info: ../../Figuras/prolato.png  used on input line 433.
-(pdftex.def)             Requested size: 145.11052pt x 120.6936pt.
-<../../Figuras/oblato.png, id=339, 326.967pt x 222.504pt>
+Package pdftex.def Info: ../../Figuras/prolato.png  used on input line 435.
+(pdftex.def)             Requested size: 85.35826pt x 103.1237pt.
+<../../Figuras/oblato.png, id=336, 326.967pt x 222.504pt>
 File: ../../Figuras/oblato.png Graphic file (type png)
 <use ../../Figuras/oblato.png>
-Package pdftex.def Info: ../../Figuras/oblato.png  used on input line 434.
+Package pdftex.def Info: ../../Figuras/oblato.png  used on input line 436.
 (pdftex.def)             Requested size: 145.11052pt x 98.75084pt.
 ) (1Resultados.tex
-<../../Figuras/CextAlbueno.pdf, id=344, 356.43408pt x 272.44647pt>
+<../../Figuras/CextAlbueno.pdf, id=341, 358.77173pt x 273.67209pt>
 File: ../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
 <use ../../Figuras/CextAlbueno.pdf>
-Package pdftex.def Info: ../../Figuras/CextAlbueno.pdf  used on input line 12.
-(pdftex.def)             Requested size: 227.3381pt x 173.77481pt.
-<../../Figuras/AlContribuciones3.pdf, id=345, 355.10123pt x 258.26642pt>
+Package pdftex.def Info: ../../Figuras/CextAlbueno.pdf  used on input line 10.
+(pdftex.def)             Requested size: 215.24863pt x 164.19199pt.
+<../../Figuras/AlContribuciones3.pdf, id=342, 359.33989pt x 272.19879pt>
 File: ../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
 <use ../../Figuras/AlContribuciones3.pdf>
 Package pdftex.def Info: ../../Figuras/AlContribuciones3.pdf  used on input lin
-e 18.
-(pdftex.def)             Requested size: 241.84842pt x 175.89862pt.
+e 11.
+(pdftex.def)             Requested size: 212.82779pt x 161.2189pt.
+
+! Extra }, or forgotten \endgroup.
+\sf@endfloatbox ...gefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.13 \end{figure}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../../Figuras/AlAR.pdf, id=345, 354.22502pt x 265.72052pt>
+File: ../../Figuras/AlAR.pdf Graphic file (type pdf)
+<use ../../Figuras/AlAR.pdf>
+Package pdftex.def Info: ../../Figuras/AlAR.pdf  used on input line 22.
+(pdftex.def)             Requested size: 215.24863pt x 161.46892pt.
+<../../Figuras/Alc.pdf, id=346, 355.63713pt x 268.60835pt>
+File: ../../Figuras/Alc.pdf Graphic file (type pdf)
+<use ../../Figuras/Alc.pdf>
+Package pdftex.def Info: ../../Figuras/Alc.pdf  used on input line 23.
+(pdftex.def)             Requested size: 212.82779pt x 160.74818pt.
 
 
 [16 <../../Figuras/prolato.png> <../../Figuras/oblato.png>]
-<../../Figuras/AlAR.pdf, id=358, 354.22502pt x 265.72052pt>
-File: ../../Figuras/AlAR.pdf Graphic file (type pdf)
-<use ../../Figuras/AlAR.pdf>
-Package pdftex.def Info: ../../Figuras/AlAR.pdf  used on input line 37.
-(pdftex.def)             Requested size: 237.0141pt x 177.79665pt.
-<../../Figuras/Alc.pdf, id=359, 355.63713pt x 268.60835pt>
-File: ../../Figuras/Alc.pdf Graphic file (type pdf)
-<use ../../Figuras/Alc.pdf>
-Package pdftex.def Info: ../../Figuras/Alc.pdf  used on input line 43.
-(pdftex.def)             Requested size: 237.0141pt x 179.01576pt.
-<../../Figuras/AgAR.pdf, id=360, 359.78557pt x 275.78424pt>
+<../../Figuras/AgAR.pdf, id=363, 359.78557pt x 275.78424pt>
 File: ../../Figuras/AgAR.pdf Graphic file (type pdf)
 <use ../../Figuras/AgAR.pdf>
-Package pdftex.def Info: ../../Figuras/AgAR.pdf  used on input line 55.
-(pdftex.def)             Requested size: 237.0141pt x 181.67729pt.
-<../../Figuras/Agc.pdf, id=361, 359.78557pt x 275.78424pt>
+Package pdftex.def Info: ../../Figuras/AgAR.pdf  used on input line 28.
+(pdftex.def)             Requested size: 215.24863pt x 164.99208pt.
+<../../Figuras/Agc.pdf, id=364, 359.78557pt x 275.78424pt>
 File: ../../Figuras/Agc.pdf Graphic file (type pdf)
 <use ../../Figuras/Agc.pdf>
-Package pdftex.def Info: ../../Figuras/Agc.pdf  used on input line 61.
-(pdftex.def)             Requested size: 237.0141pt x 181.67729pt.
-)
+Package pdftex.def Info: ../../Figuras/Agc.pdf  used on input line 29.
+(pdftex.def)             Requested size: 212.82779pt x 163.1363pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../../Figuras/AuARbueno.pdf, id=365, 362.02869pt x 476.90463pt>
+File: ../../Figuras/AuARbueno.pdf Graphic file (type pdf)
+<use ../../Figuras/AuARbueno.pdf>
+Package pdftex.def Info: ../../Figuras/AuARbueno.pdf  used on input line 36.
+(pdftex.def)             Requested size: 215.24863pt x 283.55438pt.
+<../../Figuras/Aucnuevo.pdf, id=366, 361.72221pt x 477.68437pt>
+File: ../../Figuras/Aucnuevo.pdf Graphic file (type pdf)
+<use ../../Figuras/Aucnuevo.pdf>
+Package pdftex.def Info: ../../Figuras/Aucnuevo.pdf  used on input line 37.
+(pdftex.def)             Requested size: 212.82779pt x 281.05872pt.
+
 
 [17 <../../Figuras/CextAlbueno.pdf> <../../Figuras/AlContribuciones3.pdf
 
@@ -1159,10 +1276,35 @@ iple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ../../Figuras/Alc.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
+<../../Figuras/BisAR.pdf, id=429, 359.78557pt x 278.88567pt>
+File: ../../Figuras/BisAR.pdf Graphic file (type pdf)
+<use ../../Figuras/BisAR.pdf>
+Package pdftex.def Info: ../../Figuras/BisAR.pdf  used on input line 42.
+(pdftex.def)             Requested size: 215.24863pt x 166.84756pt.
+<../../Figuras/Bic.pdf, id=430, 361.35pt x 286.06876pt>
+File: ../../Figuras/Bic.pdf Graphic file (type pdf)
+<use ../../Figuras/Bic.pdf>
+Package pdftex.def Info: ../../Figuras/Bic.pdf  used on input line 43.
+(pdftex.def)             Requested size: 212.82779pt x 168.491pt.
+
 
 [18 <../../Figuras/AgAR.pdf> <../../Figuras/Agc.pdf
 
 pdfTeX warning: pdflatex.exe (file ../../Figuras/Agc.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <../../Figuras/AuARbueno.pdf
+
+pdfTeX warning: pdflatex.exe (file ../../Figuras/AuARbueno.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <../../Figuras/Aucnuevo.pdf
+
+pdfTeX warning: pdflatex.exe (file ../../Figuras/Aucnuevo.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>])
+
+[19 <../../Figuras/BisAR.pdf> <../../Figuras/Bic.pdf
+
+pdfTeX warning: pdflatex.exe (file ../../Figuras/Bic.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >] (1Notas_Servicio_Social.aux
 LaTeX Info: Redefining \. on input line 18.
@@ -1184,40 +1326,39 @@ Package rerunfilecheck Info: File `1Notas_Servicio_Social.out' has not changed.
 (rerunfilecheck)             Checksum: 27EFB0DB71C9D0EA6BF667505246187C;1450.
  ) 
 Here is how much of TeX's memory you used:
- 18348 strings out of 473898
- 304215 string characters out of 5727423
+ 18712 strings out of 473898
+ 311648 string characters out of 5727423
  1957960 words of memory out of 5000000
- 40576 multiletter control sequences out of 15000+600000
- 631034 words of font info for 180 fonts, out of 8000000 for 9000
+ 40890 multiletter control sequences out of 15000+600000
+ 629172 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,14n,93p,1021b,668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,14n,93p,1021b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C
-:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/U
-sers/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/User
-s/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users
-/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/P
-oh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Poh
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/Poh/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Poh/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Poh/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Poh/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Poh/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Poh/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Poh/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Poh/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/lm/lmr8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmri10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/lm/lmsy10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/lm/lmsy5.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/lm/lmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/lm/lmsy7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (18 pages, 2319201 bytes).
+:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/U
+sers/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Us
+ers/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/User
+s/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/
+Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/Poh
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Poh/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Poh/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Poh/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Poh/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Poh/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/Poh/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Poh/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Poh/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/lm/lmri10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/lm/lmsy10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmsy5.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/lm/lmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/lm/lmsy7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb>
+Output written on 1Notas_Servicio_Social.pdf (19 pages, 2573097 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 39037 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 719 PDF objects out of 1000 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
+ 37009 words of extra memory for PDF output out of 42996 (max. 10000000)
 

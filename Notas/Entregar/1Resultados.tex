@@ -1,74 +1,49 @@
-Dado que en los sistemas biológicos las partículas se encuentran aleatoriamente orientadas, es de gran utilidad considerar las secciones transversales promedio $\langle C_{abs}\rangle$ y $\langle C_{sca}\rangle$, que son independientes de la polarización de la luz incidente\footnote{Considerando que las partículas no sean ópticamente activas.}, éstas están dadas por \cite{Bohren}
+Dado que en los sistemas biológicos las partículas se encuentran aleatoriamente orientadas, es de gran utilidad considerar las secciones transversales promedio $\langle C_{abs}\rangle$ y $\langle C_{sca}\rangle$, que son independientes de la polarización de la luz incidente\footnote{Considerando que las partículas no sean ópticamente activas.}, éstas están dadas por \cite{Bohren}:
 \begin{align*}
 	\langle C_{abs}\rangle &= \frac{k}{3} \text{Im}\{\alpha^{(1)}+\alpha^{(2)}+\alpha^{(3)}\},\\
-	\langle C_{abs}\rangle &= \frac{k^4}{3(6\pi)} \text{Im}\{\alpha^{(1)}+\alpha^{(2)}+\alpha^{(3)}\}.
+	\langle C_{sca}\rangle &= \frac{k^4}{3(6\pi)} \text{Im}\{\alpha^{(1)}+\alpha^{(2)}+\alpha^{(3)}\}.
 \end{align*}
 
-En este trabajo se realizaron los cálculos para elipsoides oblatos, por tanto, se tendrá que por la simetría del elipsoide, $C_{ext}^{(1)}=C_{ext}^{(2)}$ que denotan las secciones transversales de extinción de un elipsoide oblato centrado en el origen con sus semiejes paralelos a los ejes del sistema cartesiano, sobre el cual actúa un campo eléctrico incidente alineado en las direcciones $\hat{e}_x$ y $\hat{e}_y$, respectivamente. En la siguiente figura se grafican $\langle C_{ext}\rangle$, $C_{ext}^{(1)}$ como función de la longitud de onda y de la energía $C_{ext}^{(3)}$ para una partícula de alumino caracterizada por su función dieléctrica dada por el modelo de Drude ($\hbar\omega_p=13.142\text{ eV}$, $\hbar\gamma=0.197\text{ eV}$), con semiejes $a=b=1.5\text{ nm}$, $c=1\text{ nm}$ e inmersa en agua ($n_m=1.33$).
+En este trabajo se realizaron los cálculos para elipsoides oblatos, por lo cual, debido a la simetría del elipsoide, se satisface que $C_{ext}^{(1)}=C_{ext}^{(2)}$. 
 
-\begin{figure}
-	\centering
-	\begin{subfigure}{0.47\textwidth}
-		\includegraphics[width=\textwidth]{../../Figuras/CextAlbueno}
-		\caption{Firts subfigure.}
-		\label{fig:first}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}{0.5\textwidth}
-		\includegraphics[width=\textwidth]{../../Figuras/AlContribuciones3}
-		\caption{Second subfigure.}
-		\label{fig:second}
-	\end{subfigure}
-	
-	\caption{Creating subfigures in \LaTeX.}
-	\label{fig:figures}
+\begin{figure}[h!]
+	\sidesubfloat[]{\includegraphics[width=.445\textwidth]{../../Figuras/CextAlbueno} \label{Cextpromedio}}\quad%
+	\sidesubfloat[]{\includegraphics[width=.44\textwidth]{../../Figuras/AlContribuciones3}\label{Contribuciones}}%
+	\caption{Secciones transversales como función de la energía $\hbar\omega$ y de la longitud de onda $\lambda$ para una partícula elipsoidal oblata de aluminio caracterizada por su función dieléctrica dada por el modelo de Drude ($\hbar\omega_p=13.142\text{ eV}$, $\hbar\gamma=0.197\text{ eV}$), con semiejes $a=b=1.5\text{ nm}$, $c=1\text{ nm}$ e inmersa en agua ($n_m=1.33$). \textbf{a)} Sección transversal de extinción promedio $\langle C_{ext}\rangle$, $C_{ext}^{(1)}$  y $C_{ext}^{(3)}$. \textbf{b)} Sección transversal de extinción promedio $\langle C_{ext}\rangle$ , sección transversal de absorción promedio $\langle C_{abs}\rangle$ y sección transversal de esparcimiento promedio $\langle C_{sca}\rangle$.} }\label{fig:test}
 \end{figure}
-
-Dado que se trata de un elipsoide oblato, al considerar $\langle C_{ext}\rangle$ se observan dos resonancias en las que la sección transversal es máxima, que coinciden con las resonancias producto de iluminar a la partícula con un campo eléctrico paralelo a uno de los ejes, dado que se obtiene un promedio, la amplitud de la sección transversal en las resonancias es menor que la de las resonancias individuales.
+\noindent En la Fig. \ref{Cextpromedio}, dado que se trata de un elipsoide oblato, al considerar $\langle C_{ext}\rangle$ se observan dos frecuencias en las que la sección transversal es máxima, las cuales coinciden con las frecuencias asociadas a $C_{ext}^{(1)}$ y $C_{ext}^{(3)}$ cuando éstas se maximizan. En la Fig. \ref{Contribuciones} se observa que en partículas pequeñas, la absorción tiene una contribución mayor en la extinción que el esparcimiento.
 
 A continuación se presentan los cálculos de las secciones tranversales de extinción para aluminio, plata, oro, bismuto y óxido de magnesio.
 
 
 
 \subsection*{Aluminio y plata}
-\begin{figure}
-	\centering
-	\begin{subfigure}{0.49\textwidth}
-		\includegraphics[width=\textwidth]{../../Figuras/AlAR}
-		\caption{Firts subfigure.}
-		\label{fig:first}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}{0.49\textwidth}
-		\includegraphics[width=\textwidth]{../../Figuras/Alc}
-		\caption{Second subfigure.}
-		\label{fig:second}
-	\end{subfigure}
-	
-	\caption{Aluminio.}
-	\label{fig:figures}
-\end{figure}
-\subsection*{Aluminio y plata}
-\begin{figure}
-	\centering
-	\begin{subfigure}{0.49\textwidth}
-		\includegraphics[width=\textwidth]{../../Figuras/AgAR}
-		\caption{Firts subfigure.}
-		\label{fig:first}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}{0.49\textwidth}
-		\includegraphics[width=\textwidth]{../../Figuras/Agc}
-		\caption{ubfigure.}
-		\label{fig:second}
-	\end{subfigure}
-	
-	\caption{Plata.}
-	\label{fig:figures}
+\begin{figure}[h!]
+	\sidesubfloat[]{\includegraphics[width=.445\textwidth]{../../Figuras/AlAR} \label{fig:sub1}}\quad%
+	\sidesubfloat[]{\includegraphics[width=.44\textwidth]{../../Figuras/Alc}\label{fig:sub2}}%
+	\caption{Secciones transversales de extinción promedio $\langle C_{ext}\rangle$ como función de la energía $\hbar\omega$ y de la longitud de onda $\lambda$ para una partícula elipsoidal oblata de aluminio caracterizada por su función dieléctrica dada por el modelo de Drude ($\hbar\omega_p=13.142\text{ eV}$, $\hbar\gamma=0.197\text{ eV}$) e inmersa en agua ($n_m=1.33$). \textbf{a)} Razón de aspecto $AR=2$ constante, excepto en el caso de una esfera (línea gris punteada) donde $AR=1$. \textbf{b)} Semieje menor $c=1$ nm constante.}\label{fig:test}
 \end{figure}
 
+\begin{figure}[h!]
+	\sidesubfloat[]{\includegraphics[width=.445\textwidth]{../../Figuras/AgAR} \label{fig:sub1}}\quad%
+	\sidesubfloat[]{\includegraphics[width=.44\textwidth]{../../Figuras/Agc}\label{fig:sub2}}%
+	\caption{Secciones transversales de extinción promedio $\langle C_{ext}\rangle$ como función de la energía $\hbar\omega$ y de la longitud de onda $\lambda$ para una partícula elipsoidal oblata de plata, cuyo índice de refracción complejo fue obtenido a partir de datos experimentales  e inmersa en agua ($n_m=1.33$). \textbf{a)} Razón de aspecto $AR=2$ constante, excepto en el caso de una esfera (línea gris punteada) donde $AR=1$. \textbf{b)} Semieje menor $c=1$ nm constante. nm}\label{fig:test}
+\end{figure}
 
 \subsection*{Oro y bismuto}
+
+\begin{figure}[H]
+	\sidesubfloat[]{\includegraphics[width=.445\textwidth]{../../Figuras/AuARbueno} \label{fig:sub1}}\quad%
+	\sidesubfloat[]{\includegraphics[width=.44\textwidth]{../../Figuras/Aucnuevo}\label{fig:sub2}}%
+	\caption{Secciones transversales de extinción promedio $\langle C_{ext}\rangle$ como función de la energía $\hbar\omega$ y de la longitud de onda $\lambda$ para una partícula elipsoidal oblata de oro, cuyo índice de refracción complejo fue obtenido a partir de datos experimentales  e inmersa en agua ($n_m=1.33$) y curvas de comparación de la función dieléctrica (parte real en azul, parte imaginaria en rojo) como función de la energía $\hbar\omega$ y de la longitud de onda $\lambda$ para el oro. \textbf{a)} Razón de aspecto $AR=2$ constante, excepto en el caso de una esfera (línea gris punteada) donde $AR=1$. \textbf{b)} Semieje menor $c=1$ nm constante..}\label{fig:test}
+\end{figure}
+
+\begin{figure}[H]
+	\sidesubfloat[]{\includegraphics[width=.445\textwidth]{../../Figuras/BisAR} \label{fig:sub1}}\quad%
+	\sidesubfloat[]{\includegraphics[width=.44\textwidth]{../../Figuras/Bic}\label{fig:sub2}}%
+	\caption{Secciones transversales de extinción promedio $\langle C_{ext}\rangle$ como función de la energía $\hbar\omega$ y de la longitud de onda $\lambda$ para una partícula elipsoidal oblata de bismuto, cuyo índice de refracción complejo fue obtenido a partir de datos experimentales  e inmersa en agua ($n_m=1.33$) y curvas de comparación de la función dieléctrica (parte real en azul, parte imaginaria en rojo) como función de la energía $\hbar\omega$ y de la longitud de onda $\lambda$ para el bismuto. \textbf{a)} Razón de aspecto $AR=2$ constante, excepto en el caso de una esfera (línea gris punteada) donde $AR=1$. \textbf{b)} Semieje menor $c=1$ nm constante..}\label{fig:test}
+\end{figure}
+
 
 \subsection*{Óxido de magnesio}
 

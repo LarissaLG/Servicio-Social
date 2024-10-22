@@ -6,6 +6,7 @@
 \decimalpoint
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
 \usepackage{floatrow}
+\usepackage{subfig}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{lipsum} % Package to generate dummy text throughout this template
@@ -22,7 +23,7 @@
 \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
 \usepackage{multicol} % Used for the two-column layout of the document
 %\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
-
+\usepackage[figurename=Fig.]{caption}
 \usepackage{booktabs} % Horizontal rules in tables
 \usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
 \usepackage{hyperref} % For hyperlinks in the PDF
@@ -83,6 +84,7 @@
 \begin{document}
 \maketitle % Insert title
 \thispagestyle{fancy} % All pages have headers and footers
+\floatsetup[figure]{style=plain,subcapbesideposition=top}
 \section{Introducción}
 \input{1Aproximación cuasiestática}
 \input{1Extinción,esp,abs}
