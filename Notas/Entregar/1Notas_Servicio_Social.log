@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  21 OCT 2024 15:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  24 OCT 2024 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,51 +781,6 @@ LaTeX Warning: Label `sub@fig:sub2' multiply defined.
 
 LaTeX Warning: Label `fig:test' multiply defined.
 
-
-LaTeX Warning: Label `fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test' multiply defined.
-
-
-LaTeX Warning: Label `fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test' multiply defined.
-
-
-LaTeX Warning: Label `fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:sub2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test' multiply defined.
-
 )
 \openout1 = `1Notas_Servicio_Social.aux'.
 
@@ -1224,43 +1179,44 @@ deleted material, e.g., by typing `I$}'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../../Figuras/AlAR.pdf, id=345, 354.22502pt x 265.72052pt>
-File: ../../Figuras/AlAR.pdf Graphic file (type pdf)
-<use ../../Figuras/AlAR.pdf>
-Package pdftex.def Info: ../../Figuras/AlAR.pdf  used on input line 22.
-(pdftex.def)             Requested size: 215.24863pt x 161.46892pt.
-<../../Figuras/Alc.pdf, id=346, 355.63713pt x 268.60835pt>
-File: ../../Figuras/Alc.pdf Graphic file (type pdf)
-<use ../../Figuras/Alc.pdf>
-Package pdftex.def Info: ../../Figuras/Alc.pdf  used on input line 23.
-(pdftex.def)             Requested size: 212.82779pt x 160.74818pt.
 
 
 [16 <../../Figuras/prolato.png> <../../Figuras/oblato.png>]
-<../../Figuras/AgAR.pdf, id=363, 359.78557pt x 275.78424pt>
+<../../Figuras/AlAR.pdf, id=367, 357.31436pt x 275.78424pt>
+File: ../../Figuras/AlAR.pdf Graphic file (type pdf)
+<use ../../Figuras/AlAR.pdf>
+Package pdftex.def Info: ../../Figuras/AlAR.pdf  used on input line 24.
+(pdftex.def)             Requested size: 215.24863pt x 166.13248pt.
+<../../Figuras/Alc.pdf, id=368, 359.68755pt x 273.0004pt>
+File: ../../Figuras/Alc.pdf Graphic file (type pdf)
+<use ../../Figuras/Alc.pdf>
+Package pdftex.def Info: ../../Figuras/Alc.pdf  used on input line 25.
+(pdftex.def)             Requested size: 212.82779pt x 161.53954pt.
+
+! Extra }, or forgotten \endgroup.
+\sf@endfloatbox ...gefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.27 \end{figure}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<../../Figuras/AgAR.pdf, id=369, 358.84062pt x 275.78424pt>
 File: ../../Figuras/AgAR.pdf Graphic file (type pdf)
 <use ../../Figuras/AgAR.pdf>
-Package pdftex.def Info: ../../Figuras/AgAR.pdf  used on input line 28.
-(pdftex.def)             Requested size: 215.24863pt x 164.99208pt.
-<../../Figuras/Agc.pdf, id=364, 359.78557pt x 275.78424pt>
+Package pdftex.def Info: ../../Figuras/AgAR.pdf  used on input line 30.
+(pdftex.def)             Requested size: 215.24863pt x 165.42973pt.
+<../../Figuras/Agc.pdf, id=370, 359.78557pt x 275.78424pt>
 File: ../../Figuras/Agc.pdf Graphic file (type pdf)
 <use ../../Figuras/Agc.pdf>
-Package pdftex.def Info: ../../Figuras/Agc.pdf  used on input line 29.
+Package pdftex.def Info: ../../Figuras/Agc.pdf  used on input line 31.
 (pdftex.def)             Requested size: 212.82779pt x 163.1363pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../../Figuras/AuARbueno.pdf, id=365, 362.02869pt x 476.90463pt>
-File: ../../Figuras/AuARbueno.pdf Graphic file (type pdf)
-<use ../../Figuras/AuARbueno.pdf>
-Package pdftex.def Info: ../../Figuras/AuARbueno.pdf  used on input line 36.
-(pdftex.def)             Requested size: 215.24863pt x 283.55438pt.
-<../../Figuras/Aucnuevo.pdf, id=366, 361.72221pt x 477.68437pt>
-File: ../../Figuras/Aucnuevo.pdf Graphic file (type pdf)
-<use ../../Figuras/Aucnuevo.pdf>
-Package pdftex.def Info: ../../Figuras/Aucnuevo.pdf  used on input line 37.
-(pdftex.def)             Requested size: 212.82779pt x 281.05872pt.
 
 
 [17 <../../Figuras/CextAlbueno.pdf> <../../Figuras/AlContribuciones3.pdf
@@ -1276,37 +1232,67 @@ iple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ../../Figuras/Alc.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-<../../Figuras/BisAR.pdf, id=429, 359.78557pt x 278.88567pt>
-File: ../../Figuras/BisAR.pdf Graphic file (type pdf)
-<use ../../Figuras/BisAR.pdf>
-Package pdftex.def Info: ../../Figuras/BisAR.pdf  used on input line 42.
-(pdftex.def)             Requested size: 215.24863pt x 166.84756pt.
-<../../Figuras/Bic.pdf, id=430, 361.35pt x 286.06876pt>
-File: ../../Figuras/Bic.pdf Graphic file (type pdf)
-<use ../../Figuras/Bic.pdf>
-Package pdftex.def Info: ../../Figuras/Bic.pdf  used on input line 43.
-(pdftex.def)             Requested size: 212.82779pt x 168.491pt.
+<../../Figuras/AuARbueno.pdf, id=438, 362.02869pt x 476.90463pt>
+File: ../../Figuras/AuARbueno.pdf Graphic file (type pdf)
+<use ../../Figuras/AuARbueno.pdf>
+Package pdftex.def Info: ../../Figuras/AuARbueno.pdf  used on input line 40.
+(pdftex.def)             Requested size: 215.24863pt x 283.55438pt.
+<../../Figuras/Aucnuevo.pdf, id=439, 361.72221pt x 477.68437pt>
+File: ../../Figuras/Aucnuevo.pdf Graphic file (type pdf)
+<use ../../Figuras/Aucnuevo.pdf>
+Package pdftex.def Info: ../../Figuras/Aucnuevo.pdf  used on input line 41.
+(pdftex.def)             Requested size: 212.82779pt x 281.05872pt.
 
 
 [18 <../../Figuras/AgAR.pdf> <../../Figuras/Agc.pdf
 
 pdfTeX warning: pdflatex.exe (file ../../Figuras/Agc.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
-> <../../Figuras/AuARbueno.pdf
+>]
+<../../Figuras/BiARbueno.pdf, id=484, 368.18198pt x 471.61494pt>
+File: ../../Figuras/BiARbueno.pdf Graphic file (type pdf)
+<use ../../Figuras/BiARbueno.pdf>
+Package pdftex.def Info: ../../Figuras/BiARbueno.pdf  used on input line 49.
+(pdftex.def)             Requested size: 215.24863pt x 275.72452pt.
+<../../Figuras/Bicbueno.pdf, id=485, 367.34564pt x 472.84825pt>
+File: ../../Figuras/Bicbueno.pdf Graphic file (type pdf)
+<use ../../Figuras/Bicbueno.pdf>
+Package pdftex.def Info: ../../Figuras/Bicbueno.pdf  used on input line 50.
+(pdftex.def)             Requested size: 212.82779pt x 273.94914pt.
 
-pdfTeX warning: pdflatex.exe (file ../../Figuras/AuARbueno.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
-> <../../Figuras/Aucnuevo.pdf
+
+[19 <../../Figuras/AuARbueno.pdf> <../../Figuras/Aucnuevo.pdf
 
 pdfTeX warning: pdflatex.exe (file ../../Figuras/Aucnuevo.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->])
+>]
+<../../Figuras/MgOAR.pdf, id=539, 359.78557pt x 265.55853pt>
+File: ../../Figuras/MgOAR.pdf Graphic file (type pdf)
+<use ../../Figuras/MgOAR.pdf>
+Package pdftex.def Info: ../../Figuras/MgOAR.pdf  used on input line 58.
+(pdftex.def)             Requested size: 215.24863pt x 158.8744pt.
+<../../Figuras/MgOc.pdf, id=540, 359.78557pt x 265.55853pt>
+File: ../../Figuras/MgOc.pdf Graphic file (type pdf)
+<use ../../Figuras/MgOc.pdf>
+Package pdftex.def Info: ../../Figuras/MgOc.pdf  used on input line 59.
+(pdftex.def)             Requested size: 212.82779pt x 157.08743pt.
+)
 
-[19 <../../Figuras/BisAR.pdf> <../../Figuras/Bic.pdf
+[20 <../../Figuras/BiARbueno.pdf> <../../Figuras/Bicbueno.pdf
 
-pdfTeX warning: pdflatex.exe (file ../../Figuras/Bic.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
->] (1Notas_Servicio_Social.aux
+pdfTeX warning: pdflatex.exe (file ../../Figuras/Bicbueno.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <../../Figuras/MgOAR.pdf
+
+pdfTeX warning: pdflatex.exe (file ../../Figuras/MgOAR.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <../../Figuras/MgOc.pdf
+
+pdfTeX warning: pdflatex.exe (file ../../Figuras/MgOc.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>]
+
+[21] (1Notas_Servicio_Social.aux
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
 )
@@ -1326,13 +1312,13 @@ Package rerunfilecheck Info: File `1Notas_Servicio_Social.out' has not changed.
 (rerunfilecheck)             Checksum: 27EFB0DB71C9D0EA6BF667505246187C;1450.
  ) 
 Here is how much of TeX's memory you used:
- 18712 strings out of 473898
- 311648 string characters out of 5727423
+ 18775 strings out of 473898
+ 312750 string characters out of 5727423
  1957960 words of memory out of 5000000
- 40890 multiletter control sequences out of 15000+600000
- 629172 words of font info for 192 fonts, out of 8000000 for 9000
+ 40928 multiletter control sequences out of 15000+600000
+ 630008 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,14n,93p,1021b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,14n,93p,1117b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C
 :/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/U
@@ -1356,9 +1342,9 @@ ype1/public/lm/lmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/lm/lmsy7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (19 pages, 2573097 bytes).
+Output written on 1Notas_Servicio_Social.pdf (21 pages, 2723565 bytes).
 PDF statistics:
- 719 PDF objects out of 1000 (max. 8388607)
- 172 named destinations out of 1000 (max. 500000)
- 37009 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
+ 37019 words of extra memory for PDF output out of 42996 (max. 10000000)
 
