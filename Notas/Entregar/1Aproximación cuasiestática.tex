@@ -1,25 +1,22 @@
 \subsection{Aproximación cuasiestática}
 \subsubsection{Dipolo eléctrico (caso estático)}
 
-En electrodinámica clásica, se entiende como \textit{límite cuasiestático} el considerar a la partícula a estudiar mucho menor que la longitud de onda de la luz incidente. \cite{Cuasiest} En el caso de una elipsoide caracterizado por una función dieléctrica $\epsilon_p$, de semieje mayor $a$ que se encuentra inmerso en un medio caracterizado por una función dieléctrica $\epsilon_m$, estrictamente se puede definir el límite cuasiestático cuando el parámetro de tamaño $x=ka$ es mucho menor que la unidad \cite{Bohren}, donde $k=2\pi \sqrt{\epsilon_m}/\lambda$ representa el número de onda. Esta aproximación garantiza que el elipsoide esté sujeto a un campo eléctrico de la misma intensidad y dirección. \cite{Miguel}\\
+En electrodinámica clásica, se entiende como \textit{límite cuasiestático} el considerar una partícula de tamaño mucho menor que la longitud de onda de la luz incidente \cite{Cuasiest}. En el caso de un elipsoide caracterizado por una función dieléctrica $\epsilon_p$, que se encuentra inmerso en un medio caracterizado por una función dieléctrica $\epsilon_m$ y cuyo semieje mayor es $a$, se puede definir el límite cuasiestático cuando el parámetro de tamaño $x=ka$ es mucho menor que la unidad \cite{Bohren}, donde $k=2\pi \sqrt{\epsilon_m}/\lambda$. Esta aproximación garantiza que toda la geometría del elipsoide esté sujeta a un campo eléctrico de la misma intensidad y dirección. \cite{Miguel}\\
 
 
-En distancias mucho mayores que el tamaño de una partícula, es posible aproximar a esta como un \textit{dipolo eléctrico puntual}, por lo cual, es conveniente estudiar el potencial y campo eléctrico que produce.\\
-
-Un dipolo físico consiste en dos cargas puntuales $q$ y $-q$ separadas a una distancia $d$ (ver Fig.\ref{dipolo_elec}), con momento dipolar $\Vec{p}=p\hat{e}_z$ donde $p=qd$. Si las cargas se encuentran embebidas en un medio homogéneo e infinito con función dieléctrica $\epsilon_m$, entonces el potencial $\phi$ del dipolo en un punto $P$ en $\Vec{r}$ es \cite{Bohren,Griffiths}
+En la aproximación cuasiestática, es posible analizar a la partícula mediante la aproximación dipolar. Para ello, es necesario estudiar un \textit{dipolo físico}, el cual puede considerarse como un \textit{dipolo eléctrico puntual} al aplicar un límite específico en su configuración. Un dipolo físico consiste en dos cargas puntuales $q$ y $-q$ separadas a una distancia $d$, con momento dipolar $\Vec{p}=p\hat{e}_z$ donde $p=qd$. Si las cargas se encuentran embebidas en un medio homogéneo e infinito con función dieléctrica $\epsilon_m$ y están localizadas a una distancia $r_{\pm}$ de $\Vec{r}$, donde $r_{+}$ corresponde a la distancia entre $q$ y $\Vec{r}$, y $r_{-}$ a la distancia entre $-q$ y $\Vec{r}$, el potencial  electrostático $\phi$ producido por el dipolo físico evaluado en $\Vec{r}$ está dado por \cite{Bohren,Griffiths}:
 \begin{equation}
     \phi(\Vec{r})=\frac{q}{4\pi\epsilon_m}\left(\frac{1}{r_+}-\frac{1}{r_{-}}\right),    
 \end{equation}
-con,
+donde, al emplear la ley de cosenos con $\cos\theta=\Vec{r}\cdot\hat{e}_z/r$,
 \begin{equation*}
-  \frac{1}{r_{\pm}}=\frac{1}{r}\left(1+\left(\frac{d}{2r}\right)^2\mp \frac{\Vec{r}\cdot\hat{e}_z}{r^2}d\right)^{-1/2}   \approx\frac{1}{r}\left(1\mp \frac{\Vec{r}\cdot\hat{e}_z}{r^2}d\right)^{-1/2}\approx\frac{1}{r}\left(1\pm \frac{\Vec{r}\cdot\hat{e}_z}{2r^2}d\right).  
+	r_{\pm}=r^2+\left(\frac{d}{2}\right)^2\mp r\:d\cos\theta=r^2\left(1\mp\frac{d}{r}\cos\theta+\frac{d^2}{4r^2}\right).
 \end{equation*}
-donde el primer término se origina de considerar la ley de cosenos con $\cos\theta=\Vec{r}\cdot\hat{e}_z/r$,. La primera aproximación surge debido a que la región de interés es para $r\gg d$ de forma que el segundo término tiende a cero y la segunda aproximación se obtiene de la expansión binomial a primer orden de $(1\mp x)^n=1+nx$.
-De esta forma,
+Al evaluar el potencial en $r\gg d$, se desprecian los términos de segundo orden de $r/d$ y al realizar una expansión en serie de Taylor de un binomio, se obtiene:
 \begin{equation}
     \frac{1}{r_+}-\frac{1}{r_{-}}\approx\frac{1}{r}\left(1+ \frac{\Vec{r}\cdot\hat{e}_z}{2r^2}d-1+ \frac{\Vec{r}\cdot\hat{e}_z}{2r^2}d\right)\approx\frac{1}{r}\left( \frac{\Vec{r}\cdot\hat{e}_z}{r^2}d\right)=\frac{\Vec{r}\cdot\hat{e}_z}{r^3}d.    
 \end{equation}
-Si $d$ se aproxima a cero de tal forma que $qd$ permanezca constante \cite{Bohren}, se obtiene el potencial para un dipolo puntual
+Al considerar la aproximación dipolar, es decir, aproximar a $d$ igual a cero de tal forma que $qd$ permanezca constante \cite{Bohren}, se obtiene el potencial para un dipolo puntual:
 \begin{equation}
 \phi=\frac{p}{4\pi\epsilon_m}\left(\frac{\Vec{r}\cdot\hat{e}_z}{r^3}\right)=\frac{\Vec{p}\cdot\Vec{r}}{4\pi\epsilon_m r^3}=\frac{p\cos\theta}{4\pi\epsilon_m r^2}.
 \label{pot_dipolo}
@@ -27,46 +24,42 @@ Si $d$ se aproxima a cero de tal forma que $qd$ permanezca constante \cite{Bohre
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=4.5cm]{../../Figuras/dipolo}
-	\caption{Esquema de un dipolo físico. Se muestran dos cargas puntuales de carga $q$ y $-q$ separadas a una distancia $d$, así como un punto $P$ localizado en $\Vec{r}$. La distancia entre el punto P y las cargas $q$ y $-q$ está dada por $r_+$ y $r_{-}$, respectivamente. }
+	\includegraphics[width=4.2cm]{../../Figuras/aproxdipolar}
+	\caption{Esquema de un dipolo físico. Se muestran dos cargas puntuales $q$ y $-q$ separadas a una distancia $d$. La distancia entre $\Vec{r}$ y las cargas $q$ y $-q$ está dada por $r_+$ y $r_{-}$, respectivamente. }
 	\label{dipolo_elec}
 \end{figure}
 
 \subsubsection{Dipolo eléctrico (caso dinámico)}
-Dado que el interés está en el caso en el que el campo incidente es una onda plana variando en el tiempo y en el espacio, se puede considerar un sistema de cargas y corrientes variando con el tiempo, hacer una expansión en series de Fourier de la dependencia del tiempo y manejar cada componente de Fourier por separado. De esta forma, no se pierde generalidad de considerar a los potenciales y campos de un sistema localizado de cargas y corrientes variando en el tiempo y que oscilan a la frecuencia $\omega$ del campo aplicado \cite{Jackson}
+Los campos electromagnéticos presentan diferentes propiedades propiedades según la región en la que se encuentren. Al considerar las dimensiones de la fuente  del orden $d$ y la longitud de onda $\lambda=2\pi c/\omega$, entonces hay tres regiones de interés: la región cercana (estática) en donde $d\ll r\ll\lambda$, que se estudió en la sección anterior, la región intermedia en donde $d\ll r\sim \lambda$ y la región lejana (de radiación) donde $d\ll \lambda\ll r$.
+
+El potencial de la sección anterior considera que las cargas se encuentran fijas en el espacio y están sometidas a un campo eléctrico homogéneo. Este potencial correspondería al de la partícula elipsoidal con una polarización $p$ a determinar en presencia de un campo eléctrico homogéneo alineado en la dirección $\hat{e}_z$. El siguiente escenario a considerar es de las cargas moviéndose en presencia de un campo eléctrico dinámico. Una forma de solucionar este problema es considerar que el movimiento de los campos, y por lo tanto de las cargas y corrientes, es armónico; lo cual es equivalente a realizar un análisis en componentes de Fourier de cualquier movimiento. De esta forma, no se pierde generalidad de considerar a los potenciales y campos de un sistema de cargas y corrientes localizadas en el espacio vacío, con una dependencia armónica variando en el tiempo y que oscilan a la frecuencia $\omega$ del campo electromagnético aplicado \cite{Jackson}
 \begin{align}
     \rho(\Vec{r},t)&=\rho(\Vec{r})e^{-i\omega t},\nonumber\\
     \Vec{J}(\Vec{r},t)&=\Vec{J}(\Vec{r})e^{-i\omega t},
     \label{armonicf}
 \end{align}
-considerando que el significado físico lo posee la parte real y que las fuentes están consideradas localizadas en el espacio vacío. Por consiguiente, las Ecuaciones de Maxwell están dadas por
+considerando que el significado físico lo posee la parte real. Por consiguiente, las Ecuaciones de Maxwell están dadas por
 \begin{align}
-	\nabla\cdot\Vec{E}&=0,\\
+	\nabla\cdot\Vec{E}&=\frac{\rho}{\epsilon_0},\\
 	\nabla\cdot\Vec{H}&=0,\\
-	\nabla\times\Vec{E}&=i\omega\mu\Vec{H},\\
-	\nabla\times\Vec{H}&=-i\omega\epsilon\Vec{E},
+	\nabla\times\Vec{E}&=i\omega\mu_0\Vec{H},\\
+	\nabla\times\Vec{H}&=\Vec{J}-i\omega\epsilon_0\Vec{E},
 \end{align}
 donde $\Vec{B}=\nabla\times\Vec{A}$, con $\Vec{A}$ el potencial vectorial y $ \Vec{H}=\Vec{B}/\mu_0$. Entonces,
 \begin{equation}
 	\Vec{H}=\frac{1}{\mu_0}\nabla\times\Vec{A}\hspace{0.5cm}\mbox{y}\hspace{0.5cm}    \Vec{E}=\frac{i}{\omega\epsilon}\nabla\times\Vec{H}.
 \end{equation}
 
-Si se consideran fuentes armónicas en el tiempo, como las mostradas en la Ec.(\ref{armonicf}), es posible determinar los campos electromagnéticos mediante el potencial vectorial, el cuál está dado por \cite{Jackson}
+Si se consideran fuentes armónicas en el tiempo [Ec. (\ref{armonicf})], es posible determinar los campos electromagnéticos mediante el potencial vectorial como \cite{Jackson}:
 \begin{align*}
-  \Vec{A}(\Vec{r},t)&=\frac{\mu_0}{4\pi}\int d^3r'\int dt'\frac{\Vec{J}(\Vec{r'},t')}{|\Vec{r}-\Vec{r'}|}\delta\left(t'-\left(t-\frac{|\Vec{r}-\Vec{r'}|}{c}\right)\right)\nonumber\\
-  &=\frac{\mu_0}{4\pi}\int d^3r'\frac{\Vec{J}(\Vec{r'})e^{-i\omega \left(t-\frac{|\Vec{r}-\Vec{r'}|}{c}\right)}}{|\Vec{r}-\Vec{r'}|}=\frac{\mu_0}{4\pi}\int d^3r'\frac{\Vec{J}(\Vec{r'})e^{i\omega \frac{|\Vec{r}-\Vec{r'}|}{c}}}{|\Vec{r}-\Vec{r'}|}e^{-i\omega t},
+  \Vec{A}(\Vec{r},t)=\frac{\mu_0}{4\pi}\int d^3r'\frac{\Vec{J}(\Vec{r'})e^{i\omega \frac{|\Vec{r}-\Vec{r'}|}{c}}}{|\Vec{r}-\Vec{r'}|}e^{-i\omega t},
 \end{align*}
-en donde se trabaja con la norma de Lorentz \cite{Griffiths} y en donde la función delta de Dirac está evaluada en el tiempo de retardo $t-|\Vec{r}-\Vec{r'}|/c$. Sea $k=\omega/c$ y omitiendo la dependencia temporal
+en donde se emplea la norma de Lorentz \cite{Griffiths} y la densidad de corriente se evalúa en el tiempo de retardo $t_r=t-|\Vec{r}-\Vec{r'}|/c$. Sea $k=\omega/c$ y omitiendo la dependencia temporal
 \begin{equation}
     \Vec{A}(\Vec{r},t)=\frac{\mu_0}{4\pi}\int \Vec{J}(\Vec{r'})\frac{e^{ik|\Vec{r}-\Vec{r'}|}}{|\Vec{r}-\Vec{r'}|} d^3r'.
     \label{pot_vectorial}
 \end{equation} 
 
-
-
-
-Si las dimensiones de la fuente son del orden $d$ y la longitud de onda es $\lambda=2\pi c/\omega$, y $d\ll\lambda$, entonces hay tres regiones de interés: la región cercana (estática) en donde $d\ll r\ll\lambda$, la región intermedia en donde $d\ll r\sim \lambda$ y la región lejana (de radiación) donde $d\ll \lambda\ll r$.
-En la región de campo cercano los campos, omitiendo la dependencia armónica, son como los campos estáticos con componentes radiales. En la región de campo lejano, los campos son transversales al vector de onda y decaen como $r^{-1}$. 
 Para la región de campo cercano donde $r\ll\lambda$ (o $kr\ll 1$) la exponencial del potencial vectorial [Ec.\ref{pot_vectorial}] se aproxima a la unidad y con ello encontramos la expresión conocida de este \cite{Jackson}
 \begin{equation*}
 	\Vec{A}(\Vec{r},t)=\frac{\mu_0}{4\pi}\int \frac{\Vec{J}(\Vec{r'})}{|\Vec{r}-\Vec{r'}|} d^3r'.
