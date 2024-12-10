@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  5 DEC 2024 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  10 DEC 2024 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,9 +769,6 @@ LaTeX Warning: Label `h1' multiply defined.
 
 LaTeX Warning: Label `fig:test' multiply defined.
 
-
-LaTeX Warning: Label `fig:test' multiply defined.
-
 )
 \openout1 = `1Notas_Servicio_Social.aux'.
 
@@ -984,53 +981,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<../../Figuras/shereE0.png, id=38, 376.40625pt x 402.00188pt>
-File: ../../Figuras/shereE0.png Graphic file (type png)
-<use ../../Figuras/shereE0.png>
-Package pdftex.def Info: ../../Figuras/shereE0.png  used on input line 20.
-(pdftex.def)             Requested size: 170.71652pt x 182.3284pt.
-! Missing { inserted.
-<to be read again> 
-                   $
-l.21 ...un campo eléctrico uniforme $\Vec{E}_0$.}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.21 ...un campo eléctrico uniforme $\Vec{E}_0$.}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing { inserted.
-<to be read again> 
-                   $
-l.21 ...un campo eléctrico uniforme $\Vec{E}_0$.}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.21 ...un campo eléctrico uniforme $\Vec{E}_0$.}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 
 [1{C:/Users/Poh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Poh/
@@ -1040,6 +990,54 @@ AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 :/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/User
 s/Poh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/
 Poh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+<../../Figuras/shereE0.png, id=66, 376.40625pt x 402.00188pt>
+File: ../../Figuras/shereE0.png Graphic file (type png)
+<use ../../Figuras/shereE0.png>
+Package pdftex.def Info: ../../Figuras/shereE0.png  used on input line 20.
+(pdftex.def)             Requested size: 170.71652pt x 182.3284pt.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.21 ...un campo eléctrico uniforme $\Vec{E}_0$.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21 ...un campo eléctrico uniforme $\Vec{E}_0$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.21 ...un campo eléctrico uniforme $\Vec{E}_0$.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.21 ...un campo eléctrico uniforme $\Vec{E}_0$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 ! Too many }'s.
 l.25 ...ction{Dipolo eléctrico (caso dinámico)}}
                                                   
@@ -1054,7 +1052,7 @@ Underfull \hbox (badness 4913) in paragraph at lines 52--52
 -si�n bi-no-mial $\OMS/lmsy/m/n/8 j[] ^^@ []j \OT1/lmr/m/n/8 (+20) = [] =
  []
 
-<../../Figuras/aprox.jpg, id=87, 282.72025pt x 218.2554pt>
+<../../Figuras/aprox.jpg, id=91, 282.72025pt x 218.2554pt>
 File: ../../Figuras/aprox.jpg Graphic file (type jpg)
 <use ../../Figuras/aprox.jpg>
 Package pdftex.def Info: ../../Figuras/aprox.jpg  used on input line 61.
@@ -1072,7 +1070,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--112
  []
 
 ) (1Extinción,esp,abs.tex
-<../../Figuras/WA.pdf, id=114, 347.16005pt x 293.14487pt>
+<../../Figuras/WA.pdf, id=117, 347.16005pt x 293.14487pt>
 File: ../../Figuras/WA.pdf Graphic file (type pdf)
 <use ../../Figuras/WA.pdf>
 Package pdftex.def Info: ../../Figuras/WA.pdf  used on input line 10.
@@ -1095,7 +1093,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-<../../Figuras/ellipsoid.png, id=163, 374.57541pt x 285.53877pt>
+<../../Figuras/ellipsoid.png, id=167, 374.57541pt x 285.53877pt>
 File: ../../Figuras/ellipsoid.png Graphic file (type png)
 <use ../../Figuras/ellipsoid.png>
 Package pdftex.def Info: ../../Figuras/ellipsoid.png  used on input line 22.
@@ -1223,46 +1221,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--350
 
 
 [13]
-<../../Figuras/prolato.png, id=304, 813.79031pt x 983.17313pt>
+<../../Figuras/prolato.png, id=308, 813.79031pt x 983.17313pt>
 File: ../../Figuras/prolato.png Graphic file (type png)
 <use ../../Figuras/prolato.png>
 Package pdftex.def Info: ../../Figuras/prolato.png  used on input line 372.
 (pdftex.def)             Requested size: 85.35826pt x 103.1237pt.
-<../../Figuras/oblato.png, id=305, 326.967pt x 222.504pt>
+<../../Figuras/oblato.png, id=309, 326.967pt x 222.504pt>
 File: ../../Figuras/oblato.png Graphic file (type png)
 <use ../../Figuras/oblato.png>
 Package pdftex.def Info: ../../Figuras/oblato.png  used on input line 373.
 (pdftex.def)             Requested size: 145.11052pt x 98.75084pt.
 ) (1Resultados.tex
-<../../Figuras/CextAlbueno.pdf, id=308, 360.04826pt x 286.30008pt>
+<../../Figuras/CextAlbueno.pdf, id=312, 360.04826pt x 286.30008pt>
 File: ../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
 <use ../../Figuras/CextAlbueno.pdf>
-Package pdftex.def Info: ../../Figuras/CextAlbueno.pdf  used on input line 10.
+Package pdftex.def Info: ../../Figuras/CextAlbueno.pdf  used on input line 11.
 (pdftex.def)             Requested size: 215.24863pt x 171.15666pt.
-<../../Figuras/AlContribuciones3.pdf, id=309, 361.35pt x 292.09125pt>
+<../../Figuras/AlContribuciones3.pdf, id=313, 361.35pt x 292.09125pt>
 File: ../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
 <use ../../Figuras/AlContribuciones3.pdf>
 Package pdftex.def Info: ../../Figuras/AlContribuciones3.pdf  used on input lin
-e 11.
+e 12.
 (pdftex.def)             Requested size: 212.82779pt x 172.03816pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../../Figuras/AlAR.pdf, id=318, 357.71756pt x 282.2694pt>
+
+
+[14 <../../Figuras/prolato.png> <../../Figuras/oblato.png>]
+<../../Figuras/AlAR.pdf, id=348, 357.71756pt x 282.2694pt>
 File: ../../Figuras/AlAR.pdf Graphic file (type pdf)
 <use ../../Figuras/AlAR.pdf>
-Package pdftex.def Info: ../../Figuras/AlAR.pdf  used on input line 25.
+Package pdftex.def Info: ../../Figuras/AlAR.pdf  used on input line 26.
 (pdftex.def)             Requested size: 215.24863pt x 169.85394pt.
-<../../Figuras/Alc.pdf, id=319, 356.90395pt x 278.07796pt>
+<../../Figuras/Alc.pdf, id=349, 356.90395pt x 278.07796pt>
 File: ../../Figuras/Alc.pdf Graphic file (type pdf)
 <use ../../Figuras/Alc.pdf>
-Package pdftex.def Info: ../../Figuras/Alc.pdf  used on input line 26.
+Package pdftex.def Info: ../../Figuras/Alc.pdf  used on input line 27.
 (pdftex.def)             Requested size: 212.82779pt x 165.82545pt.
+
 ! Extra }, or forgotten \endgroup.
 \sf@endfloatbox ...gefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.28 \end{figure}
+l.29 \end{figure}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1270,23 +1272,29 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-
-
-[14 <../../Figuras/prolato.png> <../../Figuras/oblato.png>]
-<../../Figuras/AgAR.pdf, id=337, 359.07512pt x 282.2694pt>
+<../../Figuras/AgAR.pdf, id=350, 359.07512pt x 282.2694pt>
 File: ../../Figuras/AgAR.pdf Graphic file (type pdf)
 <use ../../Figuras/AgAR.pdf>
-Package pdftex.def Info: ../../Figuras/AgAR.pdf  used on input line 31.
+Package pdftex.def Info: ../../Figuras/AgAR.pdf  used on input line 32.
 (pdftex.def)             Requested size: 215.24863pt x 169.21219pt.
-<../../Figuras/Agc.pdf, id=338, 359.59344pt x 282.2694pt>
+<../../Figuras/Agc.pdf, id=351, 359.59344pt x 282.2694pt>
 File: ../../Figuras/Agc.pdf Graphic file (type pdf)
 <use ../../Figuras/Agc.pdf>
-Package pdftex.def Info: ../../Figuras/Agc.pdf  used on input line 32.
+Package pdftex.def Info: ../../Figuras/Agc.pdf  used on input line 33.
 (pdftex.def)             Requested size: 212.82779pt x 167.06726pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<../../Figuras/Au2.pdf, id=355, 373.7646pt x 327.46431pt>
+File: ../../Figuras/Au2.pdf Graphic file (type pdf)
+<use ../../Figuras/Au2.pdf>
+Package pdftex.def Info: ../../Figuras/Au2.pdf  used on input line 42.
+(pdftex.def)             Requested size: 215.24863pt x 188.5903pt.
+<../../Figuras/Au.pdf, id=356, 373.76457pt x 354.06776pt>
+File: ../../Figuras/Au.pdf Graphic file (type pdf)
+<use ../../Figuras/Au.pdf>
+Package pdftex.def Info: ../../Figuras/Au.pdf  used on input line 43.
+(pdftex.def)             Requested size: 212.82779pt x 201.61542pt.
 
 
 [15 <../../Figuras/CextAlbueno.pdf> <../../Figuras/AlContribuciones3.pdf
@@ -1302,66 +1310,67 @@ iple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ../../Figuras/Alc.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-<../../Figuras/Au.pdf, id=501, 373.76457pt x 354.06776pt>
-File: ../../Figuras/Au.pdf Graphic file (type pdf)
-<use ../../Figuras/Au.pdf>
-Package pdftex.def Info: ../../Figuras/Au.pdf  used on input line 41.
-(pdftex.def)             Requested size: 215.24863pt x 203.91153pt.
-<../../Figuras/Au2.pdf, id=502, 373.7646pt x 327.46431pt>
-File: ../../Figuras/Au2.pdf Graphic file (type pdf)
-<use ../../Figuras/Au2.pdf>
-Package pdftex.def Info: ../../Figuras/Au2.pdf  used on input line 42.
-(pdftex.def)             Requested size: 212.82779pt x 186.4667pt.
-<../../Figuras/Bi.pdf, id=506, 372.02643pt x 365.71161pt>
-File: ../../Figuras/Bi.pdf Graphic file (type pdf)
-<use ../../Figuras/Bi.pdf>
-Package pdftex.def Info: ../../Figuras/Bi.pdf  used on input line 50.
-(pdftex.def)             Requested size: 215.24863pt x 211.59949pt.
-<../../Figuras/Bi2.pdf, id=507, 366.42867pt x 364.3062pt>
+<../../Figuras/Bi2.pdf, id=520, 366.42867pt x 364.3062pt>
 File: ../../Figuras/Bi2.pdf Graphic file (type pdf)
 <use ../../Figuras/Bi2.pdf>
 Package pdftex.def Info: ../../Figuras/Bi2.pdf  used on input line 51.
-(pdftex.def)             Requested size: 212.82779pt x 211.59792pt.
+(pdftex.def)             Requested size: 215.24863pt x 214.0049pt.
+<../../Figuras/Bi.pdf, id=521, 372.02643pt x 365.71161pt>
+File: ../../Figuras/Bi.pdf Graphic file (type pdf)
+<use ../../Figuras/Bi.pdf>
+Package pdftex.def Info: ../../Figuras/Bi.pdf  used on input line 52.
+(pdftex.def)             Requested size: 212.82779pt x 209.21669pt.
 
 
 [16 <../../Figuras/AgAR.pdf> <../../Figuras/Agc.pdf
 
 pdfTeX warning: pdflatex.exe (file ../../Figuras/Agc.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
-> <../../Figuras/Au.pdf
-
-pdfTeX warning: pdflatex.exe (file ../../Figuras/Au.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
 > <../../Figuras/Au2.pdf
 
 pdfTeX warning: pdflatex.exe (file ../../Figuras/Au2.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
+> <../../Figuras/Au.pdf
+
+pdfTeX warning: pdflatex.exe (file ../../Figuras/Au.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
 >]
-<../../Figuras/MgOAR.pdf, id=671, 358.93935pt x 274.41193pt>
-File: ../../Figuras/MgOAR.pdf Graphic file (type pdf)
-<use ../../Figuras/MgOAR.pdf>
-Package pdftex.def Info: ../../Figuras/MgOAR.pdf  used on input line 59.
-(pdftex.def)             Requested size: 215.24863pt x 164.5563pt.
-<../../Figuras/MgOc.pdf, id=672, 357.55714pt x 268.93834pt>
+<../../Figuras/MgOc.pdf, id=687, 357.55714pt x 268.93834pt>
 File: ../../Figuras/MgOc.pdf Graphic file (type pdf)
 <use ../../Figuras/MgOc.pdf>
-Package pdftex.def Info: ../../Figuras/MgOc.pdf  used on input line 60.
-(pdftex.def)             Requested size: 212.82779pt x 160.0798pt.
-)
+Package pdftex.def Info: ../../Figuras/MgOc.pdf  used on input line 61.
+(pdftex.def)             Requested size: 215.24863pt x 161.90182pt.
+<../../Figuras/MgOAR.pdf, id=688, 358.93935pt x 274.41193pt>
+File: ../../Figuras/MgOAR.pdf Graphic file (type pdf)
+<use ../../Figuras/MgOAR.pdf>
+Package pdftex.def Info: ../../Figuras/MgOAR.pdf  used on input line 62.
+(pdftex.def)             Requested size: 212.82779pt x 162.70557pt.
+) (1Conclusiones.tex
 
-[17 <../../Figuras/Bi.pdf> <../../Figuras/Bi2.pdf
+[17 <../../Figuras/Bi2.pdf> <../../Figuras/Bi.pdf
 
-pdfTeX warning: pdflatex.exe (file ../../Figuras/Bi2.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
-> <../../Figuras/MgOAR.pdf
-
-pdfTeX warning: pdflatex.exe (file ../../Figuras/MgOAR.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ../../Figuras/Bi.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
 > <../../Figuras/MgOc.pdf
 
 pdfTeX warning: pdflatex.exe (file ../../Figuras/MgOc.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->]
+> <../../Figuras/MgOAR.pdf
+
+pdfTeX warning: pdflatex.exe (file ../../Figuras/MgOAR.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>])
+! Misplaced alignment tab character &.
+l.132 \bibitem[14]{MgO} Stephens, R. E., &
+                                           Malitson, I. H. (1952). Index of ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
 
 [18] (1Notas_Servicio_Social.aux
 LaTeX Info: Redefining \. on input line 18.
@@ -1377,16 +1386,16 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `1Notas_Servicio_Social.out' has not changed.
 
-(rerunfilecheck)             Checksum: 294DB0779534D518C14902E69E507F20;1351.
+(rerunfilecheck)             Checksum: 90978FFD5ABA0FBA59C24180FAD72634;1454.
  ) 
 Here is how much of TeX's memory you used:
- 18709 strings out of 473898
- 311437 string characters out of 5727423
+ 18738 strings out of 473898
+ 311863 string characters out of 5727423
  1953960 words of memory out of 5000000
- 40908 multiletter control sequences out of 15000+600000
- 629417 words of font info for 195 fonts, out of 8000000 for 9000
+ 40919 multiletter control sequences out of 15000+600000
+ 630009 words of font info for 200 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,13n,93p,1253b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,13n,93p,1328b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C
 :/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/U
@@ -1410,9 +1419,9 @@ ype1/public/lm/lmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/lm/lmsy7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (18 pages, 6300813 bytes).
+Output written on 1Notas_Servicio_Social.pdf (18 pages, 6309955 bytes).
 PDF statistics:
- 974 PDF objects out of 1000 (max. 8388607)
- 145 named destinations out of 1000 (max. 500000)
- 37011 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 990 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 37019 words of extra memory for PDF output out of 42996 (max. 10000000)
 
