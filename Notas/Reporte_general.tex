@@ -1,0 +1,180 @@
+%CONFIGURACIÓN DEL DOCUMENTO Y HOJA
+
+\documentclass[8.5pt,letterpaper]{article}
+\setlength{\parindent}{0em}                  %DISTANCIA SANGRÍA
+\setlength{\parskip}{0.5em}                  %DISTANCIA ENTRE PÁRRAFOS
+\textwidth 6.5in
+\textheight 9.in
+\oddsidemargin 0in
+\headheight 0in
+
+%PAQUETES DEL TEMPLATE
+\usepackage[table]{xcolor}
+\usepackage{fancybox}
+\usepackage[utf8]{inputenc}
+\usepackage{epsfig,graphicx}
+\usepackage{multicol,pst-plot}
+\usepackage{pstricks}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{eucal}
+\usepackage[left=2cm,right=2cm,top=1.5cm,bottom=3cm]{geometry}
+\usepackage{multirow}
+\renewcommand{\multirowsetup}{\centering}
+\newlength{\LL}\settowidth{\LL}{texto}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage[spanish]{babel}
+\decimalpoint
+\usepackage[colorlinks]{hyperref}
+\usepackage{cancel}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{upgreek}
+\usepackage{gensymb}
+\usepackage{subfigure}
+\usepackage{siunitx}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{minted}
+\usepackage{mdframed}
+\usepackage{natbib}
+\bibliographystyle{mnras}
+\setcitestyle{aysep{","}}
+\usepackage{multicol}
+\setlength{\bibsep}{3pt}
+\renewcommand{\tablename}{Tabla}
+%DEFINICIÓN DE COLORES EXTRAS
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.95}
+\hypersetup{colorlinks=true,linkcolor=codegreen,citecolor=blue,filecolor=blue,urlcolor=magenta,}
+
+%CONFIGURACIÓN DE LSTLISTINGS PARA CÓDIGOS
+
+\lstset{ %
+	language=python,                % choose the language of the code
+	basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+	numbers=left,                   % where to put the line-numbers
+	numberstyle=\footnotesize,      % the size of the fonts that are used for the line-numbers
+	stepnumber=1,                   % the step between two line-numbers. If it is 1 each line will be numbered
+	numbersep=5pt,                  % how far the line-numbers are from the code
+	backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,                   % adds a frame around the code
+	tabsize=2,                      % sets default tabsize to 2 spaces
+	captionpos=b,                   % sets the caption-position to bottom
+	breaklines=true,                % sets automatic line breaking
+	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+	escapeinside={\%*}{*)}          % if you want to add a comment within your code
+}
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{red},
+	keywordstyle=\bfseries\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codegreen},
+	basicstyle=\footnotesize\ttfamily,
+	identifierstyle=\color{blue},
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+%ENCABEZADO
+
+
+
+%COMIENZA EL DOCUMENTO
+
+\begin{document}
+	
+	\definecolor{indigo(dye)}{rgb}{0.0, 0.25, 0.42}
+	%CONFIGURACIÓN DEL ENCABEZADO
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[scale=0.07,bb=5400 1350 1350 100]{../../Figuras/image (7)}
+		\end{center}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%era 400 al final
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%                                                         Figura: Escudo UNAM                                                   %%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[scale=0.195,bb=-1500 370 40 200]{../../Figuras/image (7)}
+		\end{center}
+	\end{figure}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-10mm}
+	
+	\centerline{\Large \textbf{ \textsc{Universidad Nacional Autónoma} }}
+	\vspace{2mm}
+	\centerline{\Large \textbf{ \textsc{ de México} }}	
+	\vspace{3mm}
+	\centerline{\large \textsc{Facultad de Ciencias}}
+	\vspace{2mm}
+	\centerline{\large \textsc{Física Biomédica}}
+	\vspace{-5pt}
+	\begin{center}\hrulefill
+	\end{center}
+	\begin{flushright}Ciudad Universitaria, 24 de julio de 2024\end{flushright} 
+	
+	\begin{flushleft}
+		Comisión de Servicio Social\\
+		Departamento de Física\\
+		Facultad de Ciencias\\
+		Universidad Nacional Autónoma de México\\
+		PRESENTE
+	\end{flushleft} 
+	\begin{center}
+		\textbf{INFORME DE ACTIVIDADES DEL SERVICIO SOCIAL}\\
+		\textbf{de la estudiante Dana Larissa Luna González}
+	\end{center}
+	
+	Por medio de la presente, reporto las actividades realizadas durante mi servicio social en el programa Apoyo a la Investigación, con el titulo  con clave 2022-12/12-127. Proyecto que realice bajo la supervisión del Dr. Alejandro Reyes Coronado, en el Departamento de Física, cubículo 422 en la Facultad de Ciencias de la UNAM. Realice las actividades en el periodo comprendido entre el 29 de septiembre del 2022 al 13
+	de abril de 2023.
+	
+	
+	
+	El objetivo principal de este trabajo fue caracterizar la respuesta óptica de elipsoides de diferentes materiales y tamaños dentro de la nanoescala. Se calcularon las secciones transversales de absorción, esparcimiento y extinción, bajo la aproximación cuasiestática, para partículas elipsoidales oblatas de aluminio, plata, oro, bismuto y óxido de magnesio. Se encontró que para partículas cuyo diámetro es menor a 20 nm, la contribución predominante en la extinción es la absorción, mientras que el esparcimiento es despreciable. Aunado a esto, se encontró que para los materiales que presentan un comportamiento que se ajusta con el modelo de Drude, es posible observar las dos resonancias plasmónicas correspondientes a iluminar la partícula en las direcciones $\hat{e}_x$ y $\hat{e}_z$; mientras que en las partículas semimetálicas, como el oro y el bismuto se observan distintas resonancias, no necesariamente plasmónicas, asociadas a transiciones interbanda o intrabanda y estrechamente relacionadas con sus funciones dieléctricas. Finalmente, para las partículas de óxido de magnesio, se observó que la sección transversal de extinción era creciente, comportamiento debido a su naturaleza dieléctrica.
+	
+	El estudio de las propiedades ópticas de las células biológicas en particular, de los eritrocitos, es de gran importancia para el área médica, pues mediante éste, es posible obtener información de su composición y estado morfológico, lo cual tiene potenciales aplicaciones en el diagnóstico de enfermedades como la anemia en sus diferentes tipos y el diseño de nuevas terapias ópticas \cite{Blood}. \\
+	
+	El objetivo de este trabajo fue caracterizar la respuesta óptica de elipsoides de diferentes materiales (oro, plata, aluminio, bismuto y óxido de magnesio) y tamaños dentro de la nanoescala, por medio de las secciones transversales de esparcimiento, absorción y extinción, bajo la aproximación cuasi-estática como primera aproximación de eritrocitos.
+
+
+\begin{thebibliography}{99}
+	\bibitem[1]{Blood} Bosschaart N., et al., \textit{A literature review and novel theoretical approach on the optical properties of whole blood}. Lasers in Medical Science, \textbf{29}(2), 453-79 (2022). DOI:10.1007/s10103-021-03361-7
+	\bibitem[2]{Cuasiest} Larsson, J., \textit{Electromagnetics from a quasistatic perspective}. American Journal of Physics, \textbf{75}(3), 230–239 (2007). DOI:10.1119/1.2397095 
+	\bibitem[3]{Miguel} García, C. M. (2019). \textit{Respuesta electromagnética de nanopartículas magnético/metálicas tipo core-shell}. Tesis de licenciatura. Universidad Nacional Autónoma de México.
+	\bibitem [4]{Bohren} 
+	Bohren, C.F. y  Huffman D.R.  (1998). \textit{Absorption and scattering of light by small particles}. John Wiley \& Sons.
+	\bibitem[5]{Griffiths}
+	Griffiths, D. J.  (2013). \textit{Introduction to electrodynamics.} 4.$^a$ ed. Pearson.
+	\bibitem[6]{Jackson}
+	Jackson, J.D.  (1999). \textit{Classical Electrodynamics}. 3.$^a$ ed.  John Wiley \& Sons.
+	\bibitem[7]{Math} Weisstein, E. W. Confocal Ellipsoidal Coordinates. Recuperado el 27 de marzo de 2024, de MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/ConfocalEllipsoidalCoordinates.html
+	\bibitem[8]{Arfken} Arfken, G.B., Weber, H.J y Harris F.E. (2013). \textit{Mathematical Methods for Physicists: A Comprehensive Guide}. 7.$^a$ ed. Elsevier.
+	\bibitem[9]{Kellogg} Kellogg, O. D.(1954). \textit{Foundations of Potential Theory}. Springer.
+	\bibitem[10]{Abramo} Abramowitz, M. I., Stegun A. (1974). \textit{Handbook of Mathematical Functions with Formulas, Graphs, and
+		Mathematical Tables}. Dover Publications, Inc.
+\end{thebibliography}
+
+	
+
+\end{document}
