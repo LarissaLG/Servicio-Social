@@ -1,5 +1,5 @@
 \subsection{Elipsoide en la aproximación cuasiestática}
-En esta sección se busca estudiar el esparcimiento de luz por un elipsoide centrado en el origen, con semiejes ($a,b,c$) paralelos a los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y con dimensiones tales que $\lambda\gg a>b>c$. Las coordenadas más naturales, aunque poco conocidas, para estudiar el sistema enunciado previamente son las coordenadas elipsoidales [ver Fig. \ref{elipse}], que describen la superficie del elipsoide como
+En esta sección se busca estudiar el esparcimiento de luz por un elipsoide centrado en el origen, con semiejes ($a,b,c$) paralelos a los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y con dimensiones tales que $\lambda\gg a>b>c$. Mediante las cordenadas elipsoidales confocales \footnote{Existen diversas definiciones que pueden revisarse en \cite{Math}, sin embargo, se emplea la proporcionada en \cite{Arfken}. } [ver Fig. \ref{elipse}] se puede obtener una solución analítica (pero aproximada) al problema de esparcimiento de luz por un elipsoide. Estas describen la superficie del elipsoide como \cite{Math}
 \begin{equation}
 	\frac{x^2}{a^2-u}+\frac{y^2}{b^2-u}+\frac{z^2}{c^2-u}=1,
 	\label{elipsoide2}
@@ -8,13 +8,13 @@ En esta sección se busca estudiar el esparcimiento de luz por un elipsoide cent
 \begin{equation}
 	-\infty<\xi<c^2<\eta<b^2<\zeta<a^2
 \end{equation}
-que corresponden a tres formas cuadráticas con focos en común (https://mathworld.wolfram.com/Confocal EllipsoidalCoordinates.html)
+que corresponden a tres formas cuadráticas con focos en común.
 \begin{align}
     \frac{x^2}{a^2-\xi}+\frac{y^2}{b^2-\xi}+\frac{z^2}{c^2-\xi}=1,\\
     \frac{x^2}{a^2-\eta}+\frac{y^2}{b^2-\eta}+\frac{z^2}{c^2-\eta}=1,\\
     \frac{x^2}{a^2-\zeta}+\frac{y^2}{b^2-\zeta}+\frac{z^2}{c^2-\zeta}=1.
 \end{align}
-Obsérvese que si $\xi$ es constante, se obtiene un elipsoide confocal. De esta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Cuando $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas.\\
+Si $\xi$ es constante, se obtiene un elipsoide confocal. De esta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Cuando $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas.\\
 
 \noindent Es así como, a cualquier punto ($x,y,z$) le corresponde un conjunto de coordenadas elipsoidales ($\xi,\eta,\zeta$). Sin embargo, esto no es cierto para el caso contrario. Estas coordenadas determinan ocho puntos simétricamente localizados en los octantes cuyo espacio está particionado por los ejes coordenados $x,y,z$ anteriormente mencionados.\\
 \begin{figure}[H]
@@ -37,6 +37,7 @@ Obsérvese que si $\xi$ es constante, se obtiene un elipsoide confocal. De esta 
 			\end{pmatrix}=\begin{pmatrix}
 				1\\
 				1\\
+				1\\
 			\end{pmatrix},
 		\end{equation*}
 	}
@@ -48,7 +49,7 @@ cuya solución está dada por las expresiones
      z^2&=\frac{(c^2+\xi)(c^2+\eta)(c^2+\zeta)}{(a^2-c^2)(b^2-c^2)}. \label{z_elips}    
 \end{align}
 
-Como se quiere resolver el problema del esparcimiento de luz por un elipsoide centrado en el origen, lo primero que hay que hacer, dado que se considera el límite cuasiestático, es resolver la ecuación de Laplace en coordenadas elipsoidales para el potencial eléctrico, lo cual se puede obtener al expresar al laplaciano en coordenadas generalizadas \cite{Arfken}
+En el problema de esparcimento de luz sin retardo (o límite cuasiestático) se resuelve la ecuación de Laplace para el potencial eléctrico; en un sistema coordenado general, esta ecuación se escribe en términos de coordenadas generalizadas \cite{Arfken}
 \begin{equation}
 	\nabla^2\phi=\frac{1}{h_1h_2h_3}\left[\frac{\partial}{\partial q_1}\left(\frac{h_2h_3}{h_1}\frac{\partial\phi}{\partial q_1}\right)+\frac{\partial}{\partial q_2}\left(\frac{h_3h_1}{h_2}\frac{\partial\phi}{\partial q_2}\right)+\frac{\partial}{\partial q_3}\left(\frac{h_1h_2}{h_3}\frac{\partial\phi}{\partial q_3}\right)\right],
 	\label{laplaciano}    
@@ -61,7 +62,7 @@ con
 \begin{equation}
 	h_i=\Big|\frac{\partial \Vec{r}}{\partial q_i}\Big|=\sqrt{\left(\frac{\partial x}{\partial q_i}\right)^2+\left(\frac{\partial y}{\partial q_i}\right)^2+\left(\frac{\partial z}{\partial q_i}\right)^2}.
 \end{equation} 
-Para la variación en $x$, empleando la Ec. (\ref{x_elips}), se tiene que \begin{align*}
+En particular, para el caso de coordenadas elipsoidales, considerando la variación en la dirección $x$, empleando la Ec. (\ref{x_elips}), se tiene que \begin{align*}
 	\frac{\partial x}{\partial \xi}&=\frac{1}{2}\left(\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)}\right)^{-1/2}\frac{\partial}{\partial \xi}\left(\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)}\right)\nonumber\\
 	&=\frac{1}{2}\frac{1}{a^2+\xi}\sqrt{\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)}}\nonumber\\
 	&=\frac{1}{2x}\frac{\partial x^2}{\partial\xi},
@@ -70,7 +71,7 @@ por tanto,
 \begin{equation*}
 	\frac{\partial x}{\partial \xi}=\frac{1}{2}\frac{x}{(a^2+\xi)}.
 \end{equation*}
-Análogamente, empleando las Ecs. (\ref{y_elips}) y (\ref{z_elips}) para $y$ y $z$, respectivamente
+Empleando las Ecs. (\ref{y_elips}) y (\ref{z_elips}) para $y$ y $z$, respectivamente, se obtiene
 \begin{align*}
 	\frac{\partial y}{\partial \xi}&=\frac{1}{2y}\frac{\partial y^2}{\partial\xi}=\frac{1}{2}\frac{y}{(b^2+\xi)},\\
 	\frac{\partial z}{\partial \xi}&=\frac{1}{2z}\frac{\partial z^2}{\partial\xi}=\frac{1}{2}\frac{z}{(c^2+\xi)}.
@@ -80,11 +81,11 @@ De esta forma, el cuadrado del primer factor de escala $h_1$ es
 	h_1^2=\frac{1}{4}\left[\frac{x^2}{(a^2+\xi)^2}+\frac{y}{(b^2+\xi)^2}+\frac{z}{(c^2+\xi)^2}\right].
 	\label{h1}
 \end{equation}
-Al proponer que la Ec. (\ref{elipsoide2}), correspondiente al lugar geométrico de los elipsoides, se modifique como
+Por economía, se define a la función $g(u)=(u-\xi)(u-\eta)(u-\zeta)$, que permite reescribir la Ec. (\ref{elipsoide2}) como
 \begin{equation}
 	1-\frac{x^2}{a^2+u}-\frac{y^2}{b^2+u}-\frac{z^2}{c^2+u}=\frac{g(u)}{(a^2+u)(b^2+u)(c^2+u)},
 \end{equation}
-donde $g(u)=(u-\xi)(u-\eta)(u-\zeta)$ es una función cúbica con tres raíces reales dentro del rango descrito por las limitaciones de cada variable, y al  derivarla con respecto de $u$ se obtiene
+donde $g(u)$ es una función cúbica con tres raíces reales dentro del rango descrito por las limitaciones de cada variable, y al  derivarla con respecto de $u$ se obtiene
 \begin{align}
 	\frac{x^2}{(a^2+u)^2}+\frac{y^2}{(b^2+u)^2}+\frac{z^2}{(c^2+u)^2}&=\frac{g(u)}{[f(u)]^2}\left[\frac{1}{u-\xi}+\frac{1}{u-\zeta}+\frac{1}{u-\eta}-\left(\frac{1}{a^2+u}+\frac{1}{b^2+u}+\frac{1}{c^2+u}\right)\right],
 \end{align}
@@ -101,7 +102,7 @@ Dado que $\xi$ es una raíz de $g(u)$, entonces, $g(u)=0$, por lo que el factor 
 	h_1=\frac{\sqrt{(\xi-\eta)(\xi-\zeta)}}{2f(\xi)}.
 	\label{h1}
 \end{equation}
-Desarrollando un proceso análogo, se cumple que  
+Mediante un proceso semejante, se tiene que
 \begin{equation}
 	h_2=\frac{\sqrt{(\eta-\xi)(\eta-\zeta)}}{2f(\eta)}\hspace{0.5cm}\mbox{y}\hspace{0.5cm}
 	h_3=\frac{\sqrt{(\zeta-\xi)(\zeta-\eta)}}{2f(\zeta)}.
@@ -115,20 +116,20 @@ donde a $\Upsilon$ se le conoce como el valor absoluto del determinante funciona
 \begin{equation}
 	\Upsilon=(\xi-\eta)(\zeta-\xi)(\eta-\zeta).
 \end{equation}
-Como resultado de lo anterior, la ecuación de Laplace en coordenadas elipsoidales es
+Como resultado de lo anterior, la ecuación de Laplace en coordenadas elipsoidales se reescribe como
 \begin{equation}
-	\nabla^2\phi=(\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+(\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\eta}{\partial\eta}\right)+(\xi-\eta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)=0,
+	\nabla^2\phi=(\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+(\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\eta}{\partial\eta}\right)+(\xi-\eta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)=0.
 	\label{laplaceplisoidal}
 \end{equation}
-cuya solución está determinada por la forma del campo
-incidente, descrito por el potencial anterior, y que cumple las condiciones de contorno, por lo cual, la ecuación se puede resolver mediante el método de reducción de orden al proponer una solución no trivial y buscar una segunda solución.\\
+La ecuación anterior se puede resolver mediante el método de reducción de orden, que consiste en proponer una solución no trivial y buscar una segunda solución. \cite{Braun}. cuya solución está determinada por la forma del campo incidente, descrito por el potencial anterior, y que cumple las condiciones de contorno. \\
 
-Al considerar un elipsoide homogéneo bajo un campo eléctrico incidente uniforme alineado a lo largo del eje $\uvec{z}$, como a cada punto en las coordenadas elipsoidales le corresponde ocho distintos en las coordenadas cartesianas debido a la simetría del problema, el potencial electrostático hereda las siguientes propiedades de simetría
+
+El potencial eléctrico solución a la Ec. (\ref{laplaceplisoidal}) hereda la simetría del sistema de interés, el cual consiste en un elipsoide homogéneo iluminado por un campo eléctrico incidente uniforme alineado a lo largo del eje $\uvec{z}$. Por tanto,  a cada punto del espacio descrito por las coordenadas eliposidales le corresponde ocho distintos en las coordenadas cartesianas. Es decir, las propiedades de simetría del sistema en el potencial eléctrico son:
 \begin{equation}
     \phi(x,y,z)=\phi(-x,y,z)=\phi(x,-y,z)=\phi(-x,-y,z),
 \end{equation}
 \begin{equation}
-    \phi(x,y,-z)=\phi(-x,y,-z)=\phi(x,-y,-z)=\phi(-x,-y,-z),
+    \phi(x,y,-z)=\phi(-x,y ,-z)=\phi(x,-y,-z)=\phi(-x,-y,-z),
 \end{equation}
 donde $x,y,z$ son positivas. Entonces, solo se tiene que considerar el potencial en dos octantes: uno con $z$ positivo y otro con $z$ negativo. \\
 
