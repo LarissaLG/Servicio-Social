@@ -1,5 +1,5 @@
 \subsection{Elipsoide en la aproximación cuasiestática}
-Las seciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En esta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes confinadas en un elipsoide centrado en el origen, con semiejes ($a,b,c$) alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$, a distancias alejadas del origen. Mediante las cordenadas elipsoidales confocales \footnote{Existen diversas definiciones que pueden revisarse en \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en \cite{Arfken}. } (Fig. \ref{elipse}) se puede obtener una solución analítica, pero aproximada, al problema de esparcimiento de luz por un elipsoide. Estas describen la superficie del elipsoide como \cite{ConfocalEllip}
+Las secciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En esta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes confinadas en un elipsoide centrado en el origen, con semiejes ($a,b,c$) alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$, a distancias alejadas del origen [ver Fig. \ref{elipse}]. Mediante las coordenadas elipsoidales confocales \footnote{Existen diversas definiciones que pueden revisarse en \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en \cite{Arfken}. } [Fig. \ref{SystemElip}] se puede obtener una solución analítica, pero aproximada, al problema de esparcimiento de luz por un elipsoide. Estas describen la superficie del elipsoide como \cite{ConfocalEllip}
 \begin{equation}
 	\frac{x^2}{a^2-u}+\frac{y^2}{b^2-u}+\frac{z^2}{c^2-u}=1,
 	\label{elipsoide2}
@@ -8,7 +8,7 @@ Las seciones transversales de extinción, absorción y esparcimiento para distri
 \begin{equation}
 	-\infty<\xi<c^2<\eta<b^2<\zeta<a^2
 \end{equation}
-que corresponden a tres formas cuadráticas con focos en común. Estas se relacionan con las coordenadas cartesianas mediante el siguiente sistema de ecuaciones escrito en forma matricial
+que corresponden a tres formas cuádricas con focos en común [ver Fig. \ref{Quadrics}]. Estas se relacionan con las coordenadas cartesianas mediante el siguiente sistema de ecuaciones escrito en forma matricial
 \begin{center}
 	\resizebox{0.44\textwidth}{!}{
 	\begin{equation*}
@@ -33,29 +33,27 @@ cuya solución está dada por las expresiones
 	y^2&=\frac{(b^2+\xi)(b^2+\eta)(b^2+\zeta)}{(a^2-b^2)(c^2-b^2)},\label{y_elips}\\
 	z^2&=\frac{(c^2+\xi)(c^2+\eta)(c^2+\zeta)}{(a^2-c^2)(b^2-c^2)}. \label{z_elips}    
 \end{align}
-A partir del sistema de ecuaciones anterior, se puede observar que cuando $\xi$ es constante, se obtiene un elipsoide confocal. De esta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Mientras que si $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas.\\
+A partir del sistema de ecuaciones anterior, se puede observar que cuando $\xi$ es constante, se obtiene un elipsoide confocal. De esta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Mientras que si $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas [ver Fig. \ref{SystemElip}]. Cada punto ($x,y,z$) tiene una correspondencia única con ($\xi,\eta,\zeta$), pero la transformación inversa no es biyectiva, ya que cada ($\xi,\eta,\zeta$) se asocia a ocho puntos simétricos respecto a los ejes ($x,y,z$). \cite{Cambdrige} \\
 
-
-
-\noindent Cada punto ($x,y,z$) tiene una correspondencia única con ($\xi,\eta,\zeta$), pero la transformación inversa no es biyectiva, ya que cada ($\xi,\eta,\zeta$) se asocia a ocho puntos simétricos respecto a los ejes ($x,y,z$). \cite{Cambdrige} \\
 
 \begin{figure}[H]
 	\centering
-	\sidesubfloat[][a]{\includegraphics[width=0.5\textwidth]{../../Figuras/ConfocalCoord.png}\label{system}}
-	\sidesubfloat[][b]{\includegraphics[width=0.5\textwidth]{../../Figuras/Quadratics}\label{electricfieldsphere}}
-	\caption{Cuádricas confocales. \textbf{a)} Coordenadas elipsoidales confocales. El vector $\hat{e}_{\xi}$ es tangente a la curva creada por la intersección de el hiperboloide de una hoja con el elipsoide confocal. El vector   \textbf{b)} Campo eléctrico fuera de la esfera resultado de la superposición del campo eléctrico aplicado y del campo eléctrico producido por un dipolo eléctrico puntual localizado en el origen con momento dipolar $\vec{p}= \epsilon_m\alpha\Vec{E}_0$.}
-	\label{steady_state}
+	\includegraphics[width=8cm]{../../Figuras/ellipsoid.png}    
+	\caption{Elipsoide centrado en el origen, con semiejes ($a, b, c$), $a > b > c.$}
+	\label{elipse}
 \end{figure}
-
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=8cm]{../../Figuras/ellipsoid.png}    
-    \caption{Sistema coordenado elipsoidal con un elipsoide centrado en el origen, con semiejes ($a, b, c$), $a > b > c.$}
-    \label{elipse}
+	\centering
+	\sidesubfloat[][a]{\includegraphics[width=0.5\textwidth]{../../Figuras/ConfocalCoord.png}\label{SystemElip}}
+	\sidesubfloat[][b]{\includegraphics[width=0.5\textwidth]{../../Figuras/Quadratics}\label{Quadrics}}
+	\caption{Cuádricas confocales. \textbf{a)} Coordenadas elipsoidales confocales. El vector $\hat{e}_{\xi}$ es tangente a la curva creada por la intersección del hiperboloide de una hoja con el elipsoide confocal. El vector  $\hat{e}_{\zeta}$ es tangente a la curva creada por la intersección del hiperboloide de dos hojas con el elipsoide confocal. El vector  $\hat{e}_{\eta}$ es tangente a la curva creada por la intersección del hiperboloide de dos hojas con el hiperboloide de una hoja.  \textbf{b)} Hiperboloide de una hoja (superficie azul) con $u=0.8$, hiperboloide de dos hojas (superficie verde) con $u=0.5$ y elipsoide (superficie naranja) con $u=0.1$. Todas las superficies poseen semiejes con valores $a=1, b=0.8$ y $c=0.6$. Ambas figuras se modificaron de \cite{BaseElip} }
+	\label{ConfocalQuadrics}
 \end{figure}
 
-En el problema de esparcimento de luz sin retardo (o límite cuasiestático) se resuelve la ecuación de Laplace para el potencial eléctrico; en un sistema coordenado general, esta ecuación se escribe en términos de coordenadas generalizadas \cite{Arfken}
+
+
+En el problema de esparcimento de luz sin retardo (o límite cuasiestático) se resuelve la ecuación de Laplace para el potencial eléctrico. En un sistema coordenado general, esta ecuación se escribe en términos de coordenadas generalizadas \cite{Arfken}
 \begin{equation}
 	\nabla^2\phi=\frac{1}{h_1h_2h_3}\left[\frac{\partial}{\partial q_1}\left(\frac{h_2h_3}{h_1}\frac{\partial\phi}{\partial q_1}\right)+\frac{\partial}{\partial q_2}\left(\frac{h_3h_1}{h_2}\frac{\partial\phi}{\partial q_2}\right)+\frac{\partial}{\partial q_3}\left(\frac{h_1h_2}{h_3}\frac{\partial\phi}{\partial q_3}\right)\right],
 	\label{laplaciano}    
