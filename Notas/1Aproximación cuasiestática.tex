@@ -5,41 +5,48 @@
 
 \subsubsection{Dipolo eléctrico (caso estático)}
 
-En electrodinámica clásica, se entiende como \textit{límite cuasiestático} el considerar una partícula de tamaño mucho menor que la longitud de onda de la luz incidente \cite{Cuasiest}. Para el caso de una partícula esférica, se puede emplear la aproximación cuasiestática al resolver la ecuación de Laplace para el potencial eléctrico $\phi$. En particular, esta solución deviene en \cite{Griffiths}:
+En electrodinámica clásica, se entiende como \textit{límite cuasiestático} el considerar una partícula de tamaño mucho menor que la longitud de onda de la luz incidente \cite{Cuasiestatico}. Para el caso de una partícula esférica, se puede emplear la aproximación cuasiestática al resolver la ecuación de Laplace para el potencial eléctrico $\phi$. Si se considera una esfera con permitividad eléctrica $\epsilon_p$, embebida en un medio caracterizado por su función dieléctrica $\epsilon_m$ en el cual existe un campo eléctrico uniforme $\Vec{E}_0=E_0\hat{e}_z$, al resolver la ecuación de Laplace considerando las condiciones de frontera entre la esfera y el medio, se obtiene que el potencial eléctrico fuera de la esfera es la superposición del campo eléctrico aplicado y del campo eléctrico producido por un dipolo eléctrico puntual $\phi_p$ localizado en el origen \cite{Griffiths}
 \begin{equation}
-\phi=\frac{p}{4\pi\epsilon_m}\left(\frac{\Vec{r}\cdot\hat{e}_z}{r^3}\right)=\frac{\Vec{p}\cdot\Vec{r}}{4\pi\epsilon_m r^3}=\frac{p\cos\theta}{4\pi\epsilon_m r^2}
-\label{pot_dipolo}
+	\phi_p(\vec{r})=\frac{p}{4\pi\epsilon_m}\left(\frac{\Vec{r}\cdot\hat{e}_z}{r^3}\right)=\frac{\Vec{p}\cdot\Vec{r}}{4\pi\epsilon_m r^3}=\frac{p\cos\theta}{4\pi\epsilon_m r^2}
+	\label{pot_dipolo}
 \end{equation}
-donde $\Vec{p}$ representa el momento dipolar eléctrico. Si se considera una esfera con permitividad eléctrica $\epsilon_p$, embebida en el mismo medio caracterizado por su función dieléctrica $\epsilon_m$ en el cual existe un campo eléctrico uniforme $\Vec{E}_0=E_0\hat{e}_z$, al resolver la ecuación de Laplace considerando las condiciones de frontera entre la esfera y el medio, se obtiene que el campo eléctrico fuera de la esfera es la superposición del campo eléctrico aplicado y del campo eléctrico producido por un dipolo eléctrico puntual localizado en el origen con momento dipolar \cite{Bohren}:
+donde $\Vec{p}$ representa el momento dipolar eléctrico dado por \cite{Bohren}
 \begin{equation}
-	\vec{p}= \epsilon_m\alpha\Vec{E}_0=4\pi\epsilon_m a^3\frac{\epsilon_1-\epsilon_m}{\epsilon_1+2\epsilon_m}\Vec{E}_0, \;\text{con}\; \alpha=4\pi a^3(\epsilon_1-\epsilon_m)/(\epsilon_1+2\epsilon_m),
+	\vec{p}= \epsilon_m\alpha\Vec{E}_0=4\pi\epsilon_m a^3\frac{\epsilon_1-\epsilon_m}{\epsilon_1+2\epsilon_m}\Vec{E}_0, \;\text{con}\; \alpha=4\pi a^3(\epsilon_1-\epsilon_m)/(\epsilon_1+2\epsilon_m) 
 	\label{momentdipol}
 \end{equation}
-donde $\alpha$ es la polarizabilidad eléctrica, que representa la facilidad con la que se polariza la esfera. Es decir, el campo eléctrico induce un dipolo eléctrico en la esfera.
-\begin{figure}[h!]
-	\includegraphics[width=6cm]{../../Figuras/shereE0}
-	\caption{Esfera de radio $r$ caracterizada por su función dieléctrica $\epsilon_p$ y embebida en un medio caracterizado por su función dieléctrica $\epsilon_$ en la cual incide un campo eléctrico uniforme $\Vec{E}_0$.}
-\end{figure}
+la polarizabilidad eléctrica, que representa la facilidad con la que se polariza la esfera. Es decir, el campo eléctrico induce un dipolo eléctrico en la esfera. El dipolo eléctrico, a su vez, produce un campo eléctrico dado por el gradiente $\nabla$ del potencial eléctrico obtenido en la Ec. (\ref{pot_dipolo}) , \footnote{Donde se emplea el gradiente en coordenadas esféricas dado por $\nabla=\frac{\partial}{\partial r}\hat{e}_r+\frac{1}{r}\frac{\partial}{\partial \theta}\hat{e}_\theta+\frac{1}{r\sin\theta}\frac{\partial}{\partial \varphi}\hat{e}_\varphi$}
+\begin{equation}
+	\Vec{E}_p(\vec{r})=-\nabla \phi =\frac{p}{4\pi \epsilon_m r^3 }\left(2\cos\theta\hat{e}_r+\sen\theta\hat{e}_{\theta}\right)
+\end{equation}
 
+\begin{figure}[H]
+	\centering
+		\sidesubfloat[][a]{\includegraphics[width=0.3\textwidth]{../../Figuras/shereE0}\label{system}}
+		\sidesubfloat[][b]{\includegraphics[width=0.25\textwidth]{../../Figuras/electricfield_sphere.png}\label{electricfieldsphere}}
+	\caption{Problema de una esfera inmersa en un campo eléctrico homogéneo. \textbf{a)} Esfera de radio $a$ caracterizada por su función dieléctrica $\epsilon_p$ y embebida en un medio caracterizado por su función dieléctrica $\epsilon_m$ en la cual incide un campo eléctrico uniforme $\Vec{E}_0$. \textbf{b)} Campo eléctrico fuera de la esfera generado por la superposición del campo eléctrico aplicado y del campo eléctrico producido por un dipolo eléctrico puntual localizado en el origen con momento dipolar $\vec{p}= \epsilon_m\alpha\Vec{E}_0$.}
+	\label{steady_state}
+\end{figure}
+ 
 
 \subsubsection{Dipolo eléctrico (caso dinámico)}}
 
-En la sección anterior se abordó una solución que asume que el campo eléctrico,  por tanto el dipolo inducido, son estáticos. Para resolver el caso dinámico en el límite cuasiestático, se asume ahora que las cargas están localizadas en un volumen finito moviéndose en presencia de un campo eléctrico dinámico; lo cual es equivalente a realizar un análisis en componentes de Fourier de los potenciales y campos de un sistema de cargas y corrientes localizadas en el espacio vacío, con una dependencia armónica $e^{-i\omega t}$, tal que varían en el tiempo y oscilan a la frecuencia $\omega$ del campo electromagnético aplicado. De esta forma, la densidad volumétrica de carga $\rho(\Vec{r},t)$ y la densidad de corriente $\Vec{J}(\Vec{r},t)$  en la posición $\Vec{r}$ se expresan como \cite{Jackson}
+En la sección anterior se abordó una solución que asume que el campo eléctrico,  por tanto el dipolo inducido, son estáticos. Para resolver el caso dinámico en el régimen cuasiestático, se considera que, al iluminar cargas confinadas en un volumen finito con una onda electromagnética, estas experimentan movimiento. Esto equivale a realizar un análisis en términos de componentes de Fourier de los potenciales y campos generados por un sistema de cargas y corrientes localizadas en el espacio vacío, con una dependencia armónica $e^{-i\omega t}$, tal que varían en el tiempo y oscilan a la frecuencia $\omega$ del campo electromagnético aplicado. De esta forma, la densidad de carga volumétrica  $\rho(\Vec{r},t)$ y la densidad de corriente volumétrica $\Vec{J}(\Vec{r},t)$  en la posición $\Vec{r}$ se expresan como \cite{Jackson}
 \begin{align}
     \rho(\Vec{r},t)&=\rho(\Vec{r})e^{-i\omega t},\nonumber\\
     \Vec{J}(\Vec{r},t)&=\Vec{J}(\Vec{r})e^{-i\omega t},
     \label{armonicf}
 \end{align}
-considerando que el significado físico lo posee la parte real. Mediante lo anterior, es posible determinar los campos electromagnéticos mediante el potencial vectorial como \cite{Jackson}:
+considerando que el significado físico lo posee la parte real. Mediante lo anterior, es posible determinar los campos electromagnéticos generados por las cargas y corrientes mediante el potencial vectorial como \cite{Jackson}:
 \begin{align}
-  \Vec{A}(\Vec{r},t)=\frac{\mu_0}{4\pi}\int \text{d}^3r'\frac{\Vec{J}(\Vec{r'})e^{i\omega \frac{|\Vec{r}-\Vec{r'}|}{c}}}{|\Vec{r}-\Vec{r'}|}e^{-i\omega t_r},
+  \Vec{A}(\Vec{r},t)=\frac{\mu_0}{4\pi}\int \left( \text{d}^3r'\frac{\Vec{J}(\Vec{r'})}{|\Vec{r}-\Vec{r'}|}\right)e^{-i\omega t_r},
   \label{Achafa}
 \end{align}
 en donde se emplea la norma de Lorentz \cite{Griffiths} y la densidad de corriente se evalúa en el tiempo de retardo $t_r=t-|\Vec{r}-\Vec{r'}|/c$. \\
 
 El comportamiento de los campos electromagnéticos se puede estudiar al delimitar diferentes regiones considerando valores extremos de $k=\omega/c$, como se verá a continuación. Empleando la definición anterior y obviando la dependencia temporal, la Ec. (\ref{Achafa}) se reescribe como
 \begin{equation}
-    \Vec{A}(\Vec{r},t)=\frac{\mu_0}{4\pi}\int \Vec{J}(\Vec{r'})\frac{e^{ik|\Vec{r}-\Vec{r'}|}}{|\Vec{r}-\Vec{r'}|} \text{d}^3r'.
+    \Vec{A}(\Vec{r})=\frac{\mu_0}{4\pi}\int \Vec{J}(\Vec{r'})\frac{e^{ik|\Vec{r}-\Vec{r'}|}}{|\Vec{r}-\Vec{r'}|} \text{d}^3r'.
     \label{pot_vectorial}
 \end{equation} 
 En la región de campo cercano, donde $r\ll\lambda$ (o $kr\ll 1$), tal que exp($ik|\Vec{r}-\Vec{r'}|)\to 1$, se tiene \cite{Jackson}
@@ -94,14 +101,18 @@ Al calcular el campo $\Vec{H}$ como función del potencial vectorial, y empleand
 \end{align}
 A partir de las Ecs. (\ref{E})  y (\ref{H}) se puede observar que el campo $\Vec{H}$ es transversal al vector radial para cualquier distancia, mientras el campo eléctrico tiene componentes paralelas y perpendiculares a $\hat{e}_r$.\\ 
 
- De forma análoga al desarrollo de la Ec. (\ref{A_dip}) y empleando la Ley de Faraday Lenz, en la zona de radiación cuando $kr\gg 1$, se tiene que al excitar a las fuentes en el sistema mediante una onda electromagnética de frecuencia angular $\omega$, lo que sería equivalente a iluminar al sistema con una onda plana armónica en el tiempo, se induce un dipolo eléctrico $\Vec{p}$ que genera campos electromagnéticos $\Vec{E}_p$ y $\Vec{H}_p$ y  que oscilan a la misma frecuencia $\omega$ 
+ De forma análoga al desarrollo de la Ec. (\ref{A_dip}) y empleando la Ley de Faraday-Lenz, en la zona de radiación cuando $kr\gg 1$, se tiene que al excitar a las fuentes en el sistema mediante una onda electromagnética de frecuencia angular $\omega$, lo que sería equivalente a iluminar al sistema con una onda plana armónica en el tiempo, se induce un dipolo eléctrico $\Vec{p}$ que genera campos electromagnéticos $\Vec{E}_p$ y $\Vec{H}_p$ y  que oscilan a la misma frecuencia $\omega$ 
 \begin{align}
     \Vec{E}_p&=\frac{e^{ikr}}{-ikr}\frac{ik^3}{4\pi\epsilon_m}\hat{e}_r\times(\hat{e}_r\times \Vec{p}) e^{i\omega t}, \hspace{1cm}
     \Vec{H}_p=\frac{ck^2}{4\pi}(\hat{e}_r\times\Vec{p})\frac{e^{ikr}}{r}e^{i\omega t}.
 \end{align}
-En el caso particular en que el sistema se ilumine con una onda plana monocromática, es decir, de una sola frecuencia, y polarizada en la dirección $\hat{e}_x$, que induce un dipolo eléctrico con momento dipolar  $\Vec{p}=\epsilon_m \alpha E_0 e^{-i\omega t}\hat{e}_x$, se pueden reescribir a los campos generados por el dipolo inducido mediante el vector de amplitud de esparcimiento
+En el caso particular en que el sistema se ilumine con una onda plana monocromática, es decir, de una sola frecuencia, y polarizada en la dirección $\hat{e}_x$, que induce un dipolo eléctrico con momento dipolar  $\Vec{p}=\epsilon_m \alpha E_0 e^{-i\omega t}\hat{e}_x$, al reescribir al vector en la dirección $\hat{e}_x$ en la base de vectores esféricos como
 \begin{equation}
-	\Vec{X}=\frac{ik^3}{4\pi}\alpha \left( \hat{e}_r\times(\hat{e}_r\times \hat{e}_x)\right),
+	\hat{e}_x=\sin\theta\cos\phi\: \hat{e}_r+\cos\theta\cos\phi\: \hat{e}_{\theta}-\sin\phi \:\hat{e}_{\phi},
+\end{equation}
+se pueden reescribir a los campos generados por el dipolo inducido mediante el vector de amplitud de esparcimiento
+\begin{equation}
+	\Vec{X}=\frac{ik^3}{4\pi}\alpha \left( \hat{e}_r\times(\hat{e}_r\times \hat{e}_x)\right)=\frac{ik^3}{4\pi}\alpha \left(-\cos\theta\cos\phi \hat{e}_{\theta}+\sin\phi \hat{e}_{\phi} \right),
 	\label{Xvec}
 \end{equation}
 como
@@ -111,5 +122,4 @@ como
  	\Vec{H}_{p}=\frac{k}{\omega\mu}\hat{e}_r\times\Vec{E}_{p}.
  	\label{EH_s}
  \end{align}
-donde la polarización en la base de vectores esféricos es $\Vec{p}=\epsilon_m \alpha E_0 e^{-i\omega t}(\sin\theta\cos\phi\: \hat{e}_r+\cos\theta\cos\phi\: \hat{e}_{\theta}-\sin\phi \:\hat{e}_{\phi})$. \footnote{Es decir, $\hat{e}_r\times(\hat{e}_r\times \hat{e}_x)=-\cos\theta\cos\phi \hat{e}_{\theta}+\sin\phi \hat{e}_{\phi}$. } \\
 

@@ -1,7 +1,6 @@
 %            PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 \documentclass[paper=letter,8.5pt]{article}
-
 \usepackage[spanish]{babel} 
 \decimalpoint
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
@@ -86,7 +85,7 @@
 \thispagestyle{fancy} % All pages have headers and footers
 \floatsetup[figure]{style=plain,subcapbesideposition=top}
 \section{Introducción}
-El estudio de las propiedades ópticas de las células biológicas como los osteoblastos \cite{Osteo}, los linfocitos \cite{Linfo}, y los eritrocitos \cite{Blood}, es de gran importancia para el área médica. A partir de las propiedades ópticas de las células, se obtiene información de su composición y estado morfológico, lo cual tiene potenciales aplicaciones en el diagnóstico y la detección temprana de diversas enfermedades, incluidos cánceres e infecciones virales \cite{Linfo}. En particular, el estudio de los eritrocitos tiene un papel importante en el diagnóstico de la anemia en sus diferentes tipos y el diseño de nuevas terapias ópticas, como el tratamiento de las venas varicosas \cite{Blood}. \\
+El estudio de las propiedades ópticas de las células biológicas como los osteoblastos \cite{Osteoblastos}, los linfocitos \cite{Linfocitos}, y los eritrocitos \cite{Blood}, es de gran importancia para el área médica. A partir de las propiedades ópticas de las células, se obtiene información de su composición y estado morfológico, lo cual tiene potenciales aplicaciones en el diagnóstico y la detección temprana de diversas enfermedades, incluidos cánceres e infecciones virales \cite{Linfocitos}. En particular, el estudio de los eritrocitos tiene un papel importante en el diagnóstico de la anemia en sus diferentes tipos y el diseño de nuevas terapias ópticas, como el tratamiento de las venas varicosas \cite{Blood}. \\
 
 Los eritrocitos sanos presentan forma de discoides cóncavos con longitudes de entre 4 a 9 mm de diámetro. Estos no poseen núcleo, por lo que pueden modelarse como un objeto homogéneo \cite{Cassini}. Debido a su forma, para simplificar el proceso de modelado, se han empleado diferentes opciones como los óvalos de Cassini \cite{Cassini} o funciones en términos de coordenadas esféricas \cite{Esferico}. Sin embargo, el modelo más simple a estudiar como una primera aproximación es un elipsoide. El objetivo este trabajo es el de analizar la convergencia y propiedades físicas de la respuesta óptica de elipsoides de diferentes materiales (oro, plata, aluminio, bismuto y óxido de magnesio) y tamaños dentro de la nanoescala, por medio de las secciones transversales de esparcimiento, absorción y extinción, bajo la aproximación cuasi-estática para, posteriormente, orientarlo a eritrocitos. En la primera sección de este trabajo, se resuelve de forma analítica el problema de esparcimiento de luz por una partícula elispoidal arbitraria en la aproximación cuasiestática, donde se presentan, además, la secciones tranversales de extinción, absorción y esparcimiento. Finalmente, se estudia el esparcimiento de luz por un elipsoide centrado en el origen en la aproximación cuasi-estática. En la segunda sección, se exponen los resultados obtenidos de las secciones transversales de extinción para partículas elipsoidales oblatas de materiales tanto plasmónicos como dieléctricos. En la última sección, denominada Resultados, se discute la implementación del método desarrollado para el caso de los eritrocitos.
 
@@ -97,44 +96,9 @@ Los eritrocitos sanos presentan forma de discoides cóncavos con longitudes de e
 \input{1Resultados}
 \input{1Conclusiones}
 
+\bibliographystyle{ieeetr}
+\bibliography{Referencias}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\begin{thebibliography}{99}
-\bibitem[1]{Osteo} Antunes, A., Pontes, J. H., Monte, A. F., Barbosa, A., \& Ferreira, N. M. (2019, September). Optical properties on bone analysis: an approach to biomaterials. In \textit{Proceedings} (Vol. 27, No. 1, p. 36). MDPI.
-\bibitem[2]{Linfo} Yoon, J., Jo, Y., Kim, M. H., Kim, K., Lee, S., Kang, S. J., \& Park, Y. (2017). Identification of non-activated lymphocytes using three-dimensional refractive index tomography and machine learning. \textit{Scientific reports}, 7(1), 6654.
-\bibitem[3]{Blood} Bosschaart, N., Edelman, G. J., Aalders, M. C., van Leeuwen, T. G., \& Faber, D. J. (2014). A literature review and novel theoretical approach on the optical properties of whole blood.\textit{ Lasers in medical science, 29}, 453-479. DOI:10.1007/s10103-021-03361-7
-\bibitem[4]{Cassini} Eremina, E., Hellmers, J., Eremin, Y., \& Wriedt, T. (2006). Different shape models for erythrocyte: Light scattering analysis based on the discrete sources method. \textit{Journal of Quantitative Spectroscopy and Radiative Transfer, 102}(1), 3-10.
-\bibitem[5]{Esferico} Borovoi, A. G., Naats, E. I., \& Oppel, U. G. (1998). Scattering of light by a red blood cell. \textit{Journal of biomedical optics, 3}(3), 364-372.
-\bibitem[6]{Cuasiest} Larsson, J. (2007). Electromagnetics from a quasistatic perspective. \textit{American Journal of Physics, 75}(3), 230-239.
-\bibitem[7]{Miguel} Rosas, C. M. G. (2019). \textit{Respuesta electromagnética de nanopartıculas magnético/metálicas tipo core–shell} (Doctoral dissertation, Universidad Nacional Autónoma de México).
-\bibitem [8]{Bohren} Bohren, C. F., \& Huffman, D. R. (2008). \textit{Absorption and scattering of light by small particles}. John Wiley \& Sons.
-\bibitem[9]{Griffiths}
-Griffiths, D. J. (2023). \textit{Introduction to electrodynamics}. Cambridge University Press.
-\bibitem[10]{Jackson} Jackson, J. D. (2021). \textit{Classical electrodynamics}. John Wiley \& Sons.
-\bibitem[11]{Math} Weisstein, E. W. \textit{Confocal Ellipsoidal Coordinates}. Recuperado el 27 de marzo de 2024, de MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/ConfocalEllipsoidalCoordinates.html
-\bibitem[12]{Arfken} Arfken, G. B., Weber, H. J., \& Harris, F. E. (2011). \textit{Mathematical methods for physicists: a comprehensive guide}. Academic press.
-\bibitem[13]{Braun} Braun, M., \& Golubitsky, M. (1983). \textit{Differential equations and their applications} (Vol. 2). New York: Springer-Verlag.
-\bibitem[14]{Kellogg} Kellogg, O. D. (2012). \textit{Foundations of potential theory} (Vol. 31). Springer Science \& Business Media.
-\bibitem[15]{Abramo} Abramowitz, M., \& Stegun, I. A. (Eds.). (1948). \textit{Handbook of mathematical functions with formulas, graphs, and mathematical tables} (Vol. 55). US Government printing office.
-\bibitem[16]{Aluminio} Rakić, A. D. (1995). Algorithm for the determination of intrinsic optical constants of metal films: application to aluminum. \textit{Applied optics, 34}(22), 4755-4767.
-\bibitem[17]{Plata} \textit{Johnson, P. B., \& Christy, R. W. (1972). Optical constants of the noble metals. Physical review B, 6}(12), 4370.
-\bibitem[18]{Bismuto} Hagemann, H. J. (1974). \textit{Optical Constants from the Far Infrared to the X-ray Region}.
-\bibitem[19]{MgO} Stephens, R. E., \& Malitson, I. H. (1952). Index of refraction of magnesium oxide. \textit{Journal of Research of the National Bureau of Standards, 49}(4), 249-252.
-\end{thebibliography}
 
 %----------------------------------------------------------------------------------------
-%\end{multicols}
 \end{document}
