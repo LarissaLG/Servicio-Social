@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.3)  6 FEB 2025 21:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.3)  13 FEB 2025 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1226,7 +1226,7 @@ Package pdftex.def Info: Figuras/../../Figuras/oblato.png  used on input line 3
 83.
 (pdftex.def)             Requested size: 145.11052pt x 98.75084pt.
 ) (1Resultados.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
@@ -1234,99 +1234,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
 [15 <./Figuras/../../Figuras/prolato.png> <./Figuras/../../Figuras/oblato.png>]
 
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
-<Figuras/../../Figuras/AlContribuciones3.pdf, id=380, 361.35pt x 282.05376pt>
+<Figuras/../../Figuras/AlContribuciones3.pdf, id=381, 361.35pt x 282.05376pt>
 File: Figuras/../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlContribuciones3.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AlContribuciones3.pdf  used on i
-nput line 23.
+nput line 22.
 (pdftex.def)             Requested size: 215.24863pt x 168.01558pt.
-<Figuras/../../Figuras/CextAlbueno.pdf, id=381, 361.35pt x 292.09125pt>
+<Figuras/../../Figuras/CextAlbueno.pdf, id=382, 361.35pt x 292.09125pt>
 File: Figuras/../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/CextAlbueno.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/CextAlbueno.pdf  used on input l
-ine 24.
+ine 23.
 (pdftex.def)             Requested size: 212.82779pt x 172.03816pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
 
 
-[16 <./Figuras/../../Figuras/AlContribuciones3.pdf> <./Figuras/../../Figuras/Ce
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+<Figuras/../../Figuras/AlAR.pdf, id=407, 361.35pt x 288.07625pt>
+File: Figuras/../../Figuras/AlAR.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/AlAR.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/AlAR.pdf  used on input line 41.
+
+(pdftex.def)             Requested size: 215.24863pt x 171.60309pt.
+<Figuras/../../Figuras/AgAR.pdf, id=408, 359.18732pt x 282.2694pt>
+File: Figuras/../../Figuras/AgAR.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/AgAR.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/AgAR.pdf  used on input line 42.
+
+(pdftex.def)             Requested size: 212.82779pt x 167.25677pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+
+[17 <./Figuras/../../Figuras/AlContribuciones3.pdf> <./Figuras/../../Figuras/Ce
 xtAlbueno.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/CextAlbueno.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-<Figuras/../../Figuras/AlAR.pdf, id=454, 361.35pt x 288.07625pt>
-File: Figuras/../../Figuras/AlAR.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/AlAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/AlAR.pdf  used on input line 40.
-
-(pdftex.def)             Requested size: 215.24863pt x 171.60309pt.
-<Figuras/../../Figuras/AgAR.pdf, id=455, 359.18732pt x 282.2694pt>
-File: Figuras/../../Figuras/AgAR.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/AgAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/AgAR.pdf  used on input line 41.
-
-(pdftex.def)             Requested size: 212.82779pt x 167.25677pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--44
-
- []
+<Figuras/../../Figuras/Alc.pdf, id=476, 361.35pt x 284.06125pt>
+File: Figuras/../../Figuras/Alc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Alc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Alc.pdf  used on input line 51.
+(pdftex.def)             Requested size: 215.24863pt x 169.21141pt.
+<Figuras/../../Figuras/Agc.pdf, id=477, 359.77855pt x 282.2694pt>
+File: Figuras/../../Figuras/Agc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Agc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Agc.pdf  used on input line 52.
+(pdftex.def)             Requested size: 212.82779pt x 166.98111pt.
 
 
-
-[17 <./Figuras/../../Figuras/AlAR.pdf> <./Figuras/../../Figuras/AgAR.pdf
+[18 <./Figuras/../../Figuras/AlAR.pdf> <./Figuras/../../Figuras/AgAR.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/AgAR.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->]
-<Figuras/../../Figuras/Alc.pdf, id=567, 361.35pt x 284.06125pt>
-File: Figuras/../../Figuras/Alc.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Alc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Alc.pdf  used on input line 56.
-(pdftex.def)             Requested size: 215.24863pt x 169.21141pt.
-<Figuras/../../Figuras/Agc.pdf, id=568, 359.77855pt x 282.2694pt>
-File: Figuras/../../Figuras/Agc.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Agc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Agc.pdf  used on input line 57.
-(pdftex.def)             Requested size: 212.82779pt x 166.98111pt.
-<Figuras/../../Figuras/Au2.pdf, id=574, 373.7646pt x 327.46431pt>
-File: Figuras/../../Figuras/Au2.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Au2.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 69.
-(pdftex.def)             Requested size: 215.24863pt x 188.5903pt.
-<Figuras/../../Figuras/Au.pdf, id=575, 373.76457pt x 354.06776pt>
-File: Figuras/../../Figuras/Au.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Au.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 70.
-(pdftex.def)             Requested size: 212.82779pt x 201.61542pt.
+> <./Figuras/../../Figuras/Alc.pdf
 
-
-[18 <./Figuras/../../Figuras/Alc.pdf> <./Figuras/../../Figuras/Agc.pdf
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Alc.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./Figuras/../../Figuras/Agc.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Agc.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/Bi2.pdf, id=680, 366.42867pt x 364.3062pt>
+<Figuras/../../Figuras/Au2.pdf, id=677, 373.7646pt x 327.46431pt>
+File: Figuras/../../Figuras/Au2.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Au2.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 64.
+(pdftex.def)             Requested size: 215.24863pt x 188.5903pt.
+<Figuras/../../Figuras/Au.pdf, id=678, 373.76457pt x 354.06776pt>
+File: Figuras/../../Figuras/Au.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Au.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 65.
+(pdftex.def)             Requested size: 212.82779pt x 201.61542pt.
+<Figuras/../../Figuras/Bi2.pdf, id=683, 366.42867pt x 364.3062pt>
 File: Figuras/../../Figuras/Bi2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Bi2.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 78.
+Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 76.
 (pdftex.def)             Requested size: 215.24863pt x 214.0049pt.
-<Figuras/../../Figuras/Bi.pdf, id=681, 372.02643pt x 365.71161pt>
+<Figuras/../../Figuras/Bi.pdf, id=684, 372.02643pt x 365.71161pt>
 File: Figuras/../../Figuras/Bi.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Bi.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 79.
+Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 77.
 (pdftex.def)             Requested size: 212.82779pt x 209.21669pt.
 
 
@@ -1334,34 +1359,34 @@ Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 79.
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Au.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
-> <./Figuras/../../Figuras/Bi2.pdf
+>]
+<Figuras/../../Figuras/MgOc.pdf, id=762, 361.35pt x 271.0125pt>
+File: Figuras/../../Figuras/MgOc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/MgOc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 86.
 
-pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Bi2.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
-> <./Figuras/../../Figuras/Bi.pdf
+(pdftex.def)             Requested size: 215.24863pt x 161.43845pt.
+<Figuras/../../Figuras/MgOAR.pdf, id=763, 361.35pt x 278.03876pt>
+File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/MgOAR.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 87
+.
+(pdftex.def)             Requested size: 212.82779pt x 163.76143pt.
+
+
+[20 <./Figuras/../../Figuras/Bi2.pdf> <./Figuras/../../Figuras/Bi.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Bi.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->]
-<Figuras/../../Figuras/MgOc.pdf, id=818, 361.35pt x 271.0125pt>
-File: Figuras/../../Figuras/MgOc.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/MgOc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 88.
+> <./Figuras/../../Figuras/MgOc.pdf
 
-(pdftex.def)             Requested size: 215.24863pt x 161.43845pt.
-<Figuras/../../Figuras/MgOAR.pdf, id=819, 361.35pt x 278.03876pt>
-File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/MgOAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 89
-.
-(pdftex.def)             Requested size: 212.82779pt x 163.76143pt.
-) (1Conclusiones.tex) (1Notas_Servicio_Social.bbl
-
-[20 <./Figuras/../../Figuras/MgOc.pdf> <./Figuras/../../Figuras/MgOAR.pdf
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/MgOc.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./Figuras/../../Figuras/MgOAR.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/MgOAR.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->]
+>]) (1Conclusiones.tex) (1Notas_Servicio_Social.bbl
 
 [21])
 
@@ -1382,13 +1407,13 @@ Package rerunfilecheck Info: File `1Notas_Servicio_Social.out' has not changed.
 (rerunfilecheck)             Checksum: A45C8E433D63C8698549D94379398FD5;1822.
  ) 
 Here is how much of TeX's memory you used:
- 19070 strings out of 473529
- 320606 string characters out of 5715742
- 886571 words of memory out of 5000000
+ 19098 strings out of 473529
+ 320892 string characters out of 5715742
+ 887280 words of memory out of 5000000
  41582 multiletter control sequences out of 15000+600000
- 630683 words of font info for 199 fonts, out of 8000000 for 9000
+ 631849 words of font info for 213 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,13n,93p,1694b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,13n,93p,1694b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C
 :/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/U
@@ -1412,9 +1437,9 @@ ype1/public/lm/lmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/lm/lmsy7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (22 pages, 21315168 bytes).
+Output written on 1Notas_Servicio_Social.pdf (22 pages, 21321600 bytes).
 PDF statistics:
- 1072 PDF objects out of 1200 (max. 8388607)
+ 1078 PDF objects out of 1200 (max. 8388607)
  171 named destinations out of 1000 (max. 500000)
  37034 words of extra memory for PDF output out of 42996 (max. 10000000)
 
