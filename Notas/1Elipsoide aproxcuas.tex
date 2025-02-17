@@ -1,5 +1,5 @@
 \subsection{Elipsoide en la aproximación cuasiestática}
-Las secciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En esta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes confinadas en un elipsoide centrado en el origen, con semiejes ($a,b,c$) alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$, a distancias alejadas del origen [ver Fig. \ref{elipse}]. Mediante las coordenadas elipsoidales confocales \footnote{Existen diversas definiciones que pueden revisarse en \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en \cite{Arfken}. } [Fig. \ref{SystemElip}] se puede obtener una solución analítica, pero aproximada, al problema de esparcimiento de luz por un elipsoide. Estas describen la superficie del elipsoide como \cite{ConfocalEllip}
+Las secciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En esta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes iluminadas por una onda plana electromagnética y confinadas en un elipsoide centrado en el origen, con semiejes $a,b,c$ alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$, a distancias alejadas del origen (ver Fig. \ref{elipse}), donde $\lambda$ es la longitud de onda que se relaciona con el vector de onda como $k=2\pi\sqrt{\epsilon_m/\lambda}$. A diferencia de la sección anterior, no se cuenta con simetría esférica, sin embargo es posible calcular una solución analítica, aproximada, al emplear las coordenadas elipsoidales confocales. \footnote{Existen diversas definiciones que pueden revisarse en \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en \cite{Arfken}. } Estas describen la superficie del elipsoide como \cite{ConfocalEllip}
 \begin{equation}
 	\frac{x^2}{a^2-u}+\frac{y^2}{b^2-u}+\frac{z^2}{c^2-u}=1,
 	\label{elipsoide2}
@@ -8,7 +8,7 @@ Las secciones transversales de extinción, absorción y esparcimiento para distr
 \begin{equation}
 	-\infty<\xi<c^2<\eta<b^2<\zeta<a^2
 \end{equation}
-que corresponden a tres formas cuádricas con focos en común [ver Fig. \ref{Quadrics}]. Estas se relacionan con las coordenadas cartesianas mediante el siguiente sistema de ecuaciones escrito en forma matricial
+que corresponden a tres formas cuádricas con focos en común (ver Fig. \ref{Quadrics}). Estas se relacionan con las coordenadas cartesianas mediante el siguiente sistema de ecuaciones escrito en forma matricial
 \begin{center}
 	\resizebox{0.44\textwidth}{!}{
 	\begin{equation*}
@@ -33,13 +33,13 @@ cuya solución está dada por las expresiones
 	y^2&=\frac{(b^2+\xi)(b^2+\eta)(b^2+\zeta)}{(a^2-b^2)(c^2-b^2)},\label{y_elips}\\
 	z^2&=\frac{(c^2+\xi)(c^2+\eta)(c^2+\zeta)}{(a^2-c^2)(b^2-c^2)}. \label{z_elips}    
 \end{align}
-A partir del sistema de ecuaciones anterior, se puede observar que cuando $\xi$ es constante, se obtiene un elipsoide confocal. De esta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Mientras que si $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas [ver Fig. \ref{SystemElip}]. Cada punto ($x,y,z$) tiene una correspondencia única con ($\xi,\eta,\zeta$), pero la transformación inversa no es biyectiva, ya que cada ($\xi,\eta,\zeta$) se asocia a ocho puntos simétricos respecto a los ejes ($x,y,z$). \cite{Cambdrige} \\
+A partir del sistema de ecuaciones anterior, se puede observar que cuando $\xi$ es constante, se obtiene un elipsoide. De esta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Mientras que si $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas. Cada punto ($x,y,z$) tiene una correspondencia única con ($\xi,\eta,\zeta$), pero la transformación inversa no es biyectiva, ya que cada ($\xi,\eta,\zeta$) se asocia a ocho puntos simétricos respecto a los ejes ($x,y,z$). \cite{Cambdrige} \\
 
 \begin{figure}[H]
 	\centering
-	\sidesubfloat[][a]{\includegraphics[width=0.5\textwidth]{../../Figuras/ellipsoid}\label{SystemElip}}
-	\sidesubfloat[][b]{\includegraphics[width=0.4\textwidth]{../../Figuras/quadraticonfo}\label{Quadrics}}
-	\caption{Cuádricas confocales. \textbf{a)} Elipsoide centrado en el origen, con semiejes ($a, b, c$), $a > b > c.$ Coordenadas elipsoidales confocales. El vector $\hat{e}_{\xi}$ es tangente a la curva creada por la intersección del hiperboloide de una hoja con el elipsoide confocal. El vector  $\hat{e}_{\zeta}$ es tangente a la curva creada por la intersección del hiperboloide de dos hojas con el elipsoide confocal. El vector  $\hat{e}_{\eta}$ es tangente a la curva creada por la intersección del hiperboloide de dos hojas con el hiperboloide de una hoja.  \textbf{b)} Hiperboloide de una hoja (superficie azul) con $u=0.8$, hiperboloide de dos hojas (superficie verde) con $u=0.5$ y elipsoide (superficie naranja) con $u=0.1$. Todas las superficies poseen semiejes con valores $a=1, b=0.8$ y $c=0.6$. Ambas figuras se modificaron de \cite{BaseElip} }
+	\sidesubfloat[][a]{\includegraphics[width=0.45\textwidth]{../../Figuras/ellipsoid}\label{elipse}}
+	\sidesubfloat[][b]{\includegraphics[width=0.45\textwidth]{../../Figuras/quadraticonfo}\label{Quadrics}}
+	\caption{Sistema a estudiar. \textbf{a)} Elipsoide centrado en el origen, con semiejes $a, b, c$ tales que $a > b > c.$   \textbf{b)} Superficies confocales. Hiperboloide de una hoja (superficie azul) con $u=0.8$, hiperboloide de dos hojas (superficie verde) con $u=0.5$ y elipsoide (superficie naranja) con $u=0.1$. Todas las superficies poseen semiejes con valores $a=1, b=0.8$ y $c=0.6$. El punto rojo representa uno de los focos en común localizado en (-0.8,0,0).}
 	\label{ConfocalQuadrics}
 \end{figure}
 
@@ -50,15 +50,11 @@ En el problema de esparcimento de luz sin retardo (o límite cuasiestático) se 
 	\nabla^2\phi=\frac{1}{h_1h_2h_3}\left[\frac{\partial}{\partial q_1}\left(\frac{h_2h_3}{h_1}\frac{\partial\phi}{\partial q_1}\right)+\frac{\partial}{\partial q_2}\left(\frac{h_3h_1}{h_2}\frac{\partial\phi}{\partial q_2}\right)+\frac{\partial}{\partial q_3}\left(\frac{h_1h_2}{h_3}\frac{\partial\phi}{\partial q_3}\right)\right],
 	\label{laplaciano}    
 \end{equation}
-donde $\phi$ es una función escalar, y  $h_i$ con $i=1,2,3$ los factores de escala que, para coordenadas elipsoidales se asocian como $1\rightarrow\xi, 2\rightarrow\eta$ y $3\rightarrow\zeta,$ y se determinan al hacer un cambio de base de coordenadas cartesianas a elipsoidales. Para ello, se encuentra un vector unitario en la dirección de la i-ésima coordenada, que mide cómo es que cambia el vector posición $\vec{r}=(x,y,z)$ en una dirección dada y se define como \cite{Arfken}
-\begin{equation}
-	\uvec{i}=\frac{1}{h_i}\left(\frac{\partial \Vec{r}}{\partial q_i}\right),     
-\end{equation}
-con
+donde $\phi$ es una función escalar, y  $h_i$ con $i=1,2,3$ los factores de escala que, para coordenadas elipsoidales se asocian como $1\rightarrow\xi, 2\rightarrow\eta$ y $3\rightarrow\zeta,$ y se determinan al hacer un cambio de base de coordenadas cartesianas a elipsoidales. Estos factores de escala están dados por \cite{Arfken}
 \begin{equation}
 	h_i=\Big|\frac{\partial \Vec{r}}{\partial q_i}\Big|=\sqrt{\left(\frac{\partial x}{\partial q_i}\right)^2+\left(\frac{\partial y}{\partial q_i}\right)^2+\left(\frac{\partial z}{\partial q_i}\right)^2}.
 \end{equation} 
-En particular, para el caso de coordenadas elipsoidales, considerando la variación en la dirección $x$, empleando la Ec. (\ref{x_elips}), se tiene que \begin{align*}
+Que para coordenadas elipsoidales, considerando la variación en la dirección $x$, empleando la Ec. (\ref{x_elips}), se tiene que \begin{align*}
 	\frac{\partial x}{\partial \xi}&=\frac{1}{2}\left(\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)}\right)^{-1/2}\frac{\partial}{\partial \xi}\left(\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)}\right)\nonumber\\
 	&=\frac{1}{2}\frac{1}{a^2+\xi}\sqrt{\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)}}\nonumber\\
 	&=\frac{1}{2x}\frac{\partial x^2}{\partial\xi},
@@ -74,10 +70,10 @@ Empleando las Ecs. (\ref{y_elips}) y (\ref{z_elips}) para $y$ y $z$, respectivam
 \end{align*}
 De esta forma, el cuadrado del primer factor de escala $h_1$ es
 \begin{equation}
-	h_1^2=\frac{1}{4}\left[\frac{x^2}{(a^2+\xi)^2}+\frac{y}{(b^2+\xi)^2}+\frac{z}{(c^2+\xi)^2}\right].
+	h_1^2=\frac{1}{4}\left[\frac{x^2}{(a^2+\xi)^2}+\frac{y}{(b^2+\xi)^2}+\frac{z}{(c^2+\xi)^2}\right];
 	\label{h1}
 \end{equation}
-Por economía, se define a la función $g(u)=(u-\xi)(u-\eta)(u-\zeta)$, que permite reescribir la Ec. (\ref{elipsoide2}) como
+y por economía, se define a la función $g(u)=(u-\xi)(u-\eta)(u-\zeta)$, que permite reescribir la Ec. (\ref{elipsoide2}) como
 \begin{equation}
 	1-\frac{x^2}{a^2+u}-\frac{y^2}{b^2+u}-\frac{z^2}{c^2+u}=\frac{g(u)}{(a^2+u)(b^2+u)(c^2+u)},
 \end{equation}
@@ -98,7 +94,7 @@ Dado que $\xi$ es una raíz de $g(u)$, entonces, $g(u)=0$, por lo que el factor 
 	h_1=\frac{\sqrt{(\xi-\eta)(\xi-\zeta)}}{2f(\xi)}.
 	\label{h1}
 \end{equation}
-Mediante un proceso semejante, se tiene que
+Mediante un proceso semejante, se tiene que \cite{Arfken}
 \begin{equation}
 	h_2=\frac{\sqrt{(\eta-\xi)(\eta-\zeta)}}{2f(\eta)}\hspace{0.5cm}\mbox{y}\hspace{0.5cm}
 	h_3=\frac{\sqrt{(\zeta-\xi)(\zeta-\eta)}}{2f(\zeta)}.
@@ -117,10 +113,10 @@ Como resultado de lo anterior, la ecuación de Laplace en coordenadas elipsoidal
 	\nabla^2\phi=(\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+(\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\eta}{\partial\eta}\right)+(\xi-\eta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)=0.
 	\label{laplaceplisoidal}
 \end{equation}
-Una de las formas por la cual se puede resolver la ecuación anterior es mediante el método de reducción de orden, que consiste en proponer una solución no trivial y buscar una segunda solución. \cite{Braun}. En este contexto, $\phi$ corresponde a la solución de dicha ecuación que está determinada por la forma del campo incidente y cumple las condiciones de contorno. \\
+Una de las formas por la cual se puede resolver la ecuación anterior es mediante el método de reducción de orden, el cual proporciona una solución linealmente independiente a partir de otra conocida con anterioridad \cite{Braun}. En este contexto, $\phi$ corresponde a la solución de dicha ecuación que está determinada por la forma del campo incidente y cumple las condiciones de frontera. \\
 
 
-El potencial eléctrico solución a la Ec. (\ref{laplaceplisoidal}) hereda la simetría del sistema de interés, el cual consiste en un elipsoide homogéneo iluminado por un campo eléctrico incidente uniforme alineado a lo largo del eje $\uvec{z}$. Por tanto,  a cada punto del espacio descrito por las coordenadas elipsoidales le corresponde ocho distintos en las coordenadas cartesianas. Es decir, las propiedades de simetría del sistema en el potencial eléctrico son:
+El potencial eléctrico solución a la Ec. (\ref{laplaceplisoidal}) hereda la simetría del sistema de interés, el cual consiste en un elipsoide homogéneo iluminado por un campo eléctrico incidente uniforme alineado a lo largo del eje $\uvec{z}$. Por tanto,  a cada punto del espacio descrito por las coordenadas elipsoidales le corresponden ocho puntos en las coordenadas cartesianas. Es decir, las propiedades de simetría del sistema en el potencial eléctrico son:
 \begin{equation}
     \phi(x,y,z)=\phi(-x,y,z)=\phi(x,-y,z)=\phi(-x,-y,z),
 \end{equation}
@@ -129,11 +125,9 @@ El potencial eléctrico solución a la Ec. (\ref{laplaceplisoidal}) hereda la si
 \end{equation}
 donde $z$ es positiva. Entonces, solo se tiene que considerar el potencial en dos octantes: uno con $z$ positivo y otro con $z$ negativo. \\
 
-Dado que se quiere determinar el potencial eléctrico producido de la interacción entre el campo eléctrico externo y la distribución de cargas y corrientes confinadas en un elipsoide, se propone dividir el problema en dos regiones espaciales: al exterior y al interior de la elipse, de modo que el potencial total se puede expresar como la contribución del potencial en el exterior del elipsoide $\phi_{ext}$  y la contribución en el interior de este $\phi_{int}$
-\begin{equation}
-	\phi_{tot}(\xi,\eta,\zeta)=\phi_{ext}(\xi,\eta,\zeta)+\phi_{int}(\xi,\eta,\zeta).
-\end{equation}
-Asimismo, se propone descomponer al potencial $\phi_{ext}$ en una contribución de la onda plana incidente $\phi_0$ y en otra de perturbación $\phi_p$, la cual correspondería al campo eléctrico esparcido por la partícula
+Dado que se quiere determinar el potencial eléctrico producido de la interacción entre el campo eléctrico externo y la distribución de cargas y corrientes confinadas en un elipsoide, se propone dividir el problema en dos regiones espaciales: al exterior y al interior de la elipse, de modo que el potencial total se puede expresar como la contribución del potencial en el exterior del elipsoide $\phi_{ext}$  y la contribución en el interior de este $\phi_{int}$.\\
+
+\noindent Asimismo, se propone descomponer al potencial $\phi_{ext}$ en una contribución de la onda plana incidente $\phi_0$ y en otra de perturbación $\phi_p$, la cual correspondería al campo eléctrico esparcido por la partícula
 \begin{equation}
 	\phi_{ext}(\xi,\eta,\zeta)=\phi_0(\xi,\eta,\zeta)+\phi_p(\xi,\eta,\zeta),    
 \end{equation}
@@ -145,11 +139,11 @@ donde, de acuerdo con la expresión para $z$ en la Ec. (\ref{z_elips}),
 
 Al considerar las condiciones de frontera en el sistema en dos límites: a distancias muy lejanas del elipsoide y en la interfaz entre el medio y el elipsoide, debido al teorema de unicidad \cite{Griffiths}, el problema queda totalmente determinado. Para distancias lo suficientemente lejanas a la partícula, es decir, cuando $\xi\gg a^2$, al factorizar $\xi$ de  la Ec. (\ref{x_elips}), se obtiene
 \begin{equation*}
-    \frac{x^2}{\frac{a^2}{\xi}+1}+\frac{y^2}{\frac{b^2}{\xi}+1}+\frac{z^2}{\frac{c^2}{\xi}+1}=\xi,
+    \frac{x^2}{a^2/\xi+1}+\frac{y^2}{b^2/\xi+1}+\frac{z^2}{c^2/\xi+1}=\xi,
 \end{equation*}
 donde
 \begin{equation*}
-    \lim_{\xi\rightarrow\infty}\left(\frac{x^2}{\frac{a^2}{\xi}+1}+\frac{y^2}{\frac{b^2}{\xi}+1}+\frac{z^2}{\frac{c^2}{\xi}+1}\right)=x^2+y^2+z^2=r^2,
+    \lim_{\xi\rightarrow\infty}\left(\frac{x^2}{a^2/\xi+1}+\frac{y^2}{b^2/\xi+1}+\frac{z^2}{c^2/\xi+1}\right)=x^2+y^2+z^2=r^2,
 \end{equation*}
 entonces, $\xi \simeq r^2$ en el límite asintótico. Asimismo, en esta aproximación el potencial de perturbación es despreciable, por lo que 
 \begin{equation}
@@ -236,9 +230,9 @@ al sustituir en la Ec. (\ref{eliptic}) y haciendo uso del teorema fundamental de
 \end{align}
 donde $E(\phi|m)$ es una integral elíptica de segundo tipo definida como \cite{Abramowitz}
 \begin{equation}
-    E(x|k)=\int_{0}^x\frac{\sqrt{1-k^2t^2}}{1-t^2}\text{d}t,\hspace{1cm}0\leq m\leq 1,
+    E(x|\kappa)=\int_{0}^x\frac{\sqrt{1-\kappa^2t^2}}{1-t^2}\text{d}t,\hspace{1cm}0\leq m\leq 1,
 \end{equation}
-donde el módulo angular es $\alpha=\mbox{arcsen}\:k$ y $k$ es la excentricidad. En el primer límite de integración ($\infty$) de $F_2(\xi)$ al evaluar se obtiene que el primer sumando es cero, y en el segundo límite la función arcoseno es cero. De esta forma, la parte angular de la integral es cero, es decir, $E(0|m)=0$. En consecuencia, considerando la definición de $F_1$ en la Ec. (\ref{F1}) se tiene que $F_1$ y $F_2$ cumplen
+donde el módulo angular es $\beta=\mbox{arcsen}\:\kappa$ y $\kappa$ es la excentricidad. En el primer límite de integración ($\infty$) de $F_2(\xi)$ al evaluar se obtiene que el primer sumando es cero, y en el segundo límite la función arcoseno es cero. De esta forma, la parte angular de la integral es cero, es decir, $E(0|m)=0$. En consecuencia, considerando la definición de $F_1$ en la Ec. (\ref{F1}) se tiene que $F_1$ y $F_2$ cumplen
 
 \begin{equation}
     \lim_{\xi \to 0}F_1(\xi)=c\hspace{1cm}\mbox{y}\hspace{1cm} \lim_{\xi \to \infty}F_2(\xi)=0.
@@ -355,18 +349,15 @@ y por consiguiente, se cumple la Ec. (\ref{rel_fac_geom}).\\
     L_{\text{esfera}}=L^{(1)}=L^{(2)}=L^{(3)}=\frac{a^3}{2}\int_0^{\infty}\frac{\text{d}q}{(a^2+q)^{5/2}}=\frac{1}{3}.
 \end{equation*}
 
-Una clase especial de elipsoides son los \textit{esferoides}, los cuales tienen dos ejes de igual longitud, por lo cual, solo uno de los factores geométricos es independiente. El esferoide prolato (Fig. \ref{esf_prolato}), para el cual $b=c>a$ y $L_2=L_3$ es generado por la rotación de una elipse sobre su eje mayor; el esferoide oblato (Fig. \ref{esf_oblato}), para el cual $b=a>c$ y $L_1=L_2$ es generado al rotar una elipse sobre su eje menor. Para los esferoides, se tiene una expresión analítica para $L_1$ como función de la excentricidad $e$ \cite{Bohren}
-\begin{itemize}
-    \item Esferoide prolato:
-    \begin{equation}
-        L_1=\frac{1-e^2}{e^2}\left(-1+\frac{1}{2e}\left(\text{ln}\frac{1+e}{1-e}\right)\right)\hspace{1cm}e^2=1-\frac{b^2}{a^2}
-    \end{equation}
-    \item Esferoide oblato:
+Una clase especial de elipsoides son los \textit{esferoides}, los cuales tienen dos ejes de igual longitud, por lo cual, solo uno de los factores geométricos es independiente. El esferoide prolato (Fig. \ref{esf_prolato}), para el cual $b=c>a$ y $L_2=L_3$ es generado por la rotación de una elipse sobre su eje mayor; el esferoide oblato (Fig. \ref{esf_oblato}), para el cual $b=a>c$ y $L_1=L_2$ es generado al rotar una elipse sobre su eje menor. Para los esferoides, se tiene una expresión analítica para $L_1$ como función de la excentricidad $e$ \cite{Bohren}, en el caso de los esferoides prolatos es
+\begin{equation}
+	L_1=\frac{1-e^2}{e^2}\left(-1+\frac{1}{2e}\left(\text{ln}\frac{1+e}{1-e}\right)\right)\hspace{1cm}e^2=1-\frac{b^2}{a^2},
+\end{equation}
+mientras que para los esferoides oblatos es
     \begin{align}
         L_1&=\frac{g(e)}{2e^2}\left(\frac{\pi}{2}-\mbox{tan}^{-1}g(e)\right)-\frac{g^2(e)}{2},\\
-        g(e)&=\left(\frac{1-e^2}{e^2}\right)^{1/2},\hspace{1cm}e^2=1-\frac{c^2}{a^2}
+        g(e)&=\left(\frac{1-e^2}{e^2}\right)^{1/2},\hspace{1cm}e^2=1-\frac{c^2}{a^2}.
     \end{align}
-\end{itemize}
 
 \floatsetup[figure]{style=plain,subcapbesideposition=top}
 

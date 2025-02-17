@@ -1,6 +1,6 @@
 \subsection{Secciones transversales}
 
-En las secciones anteriores se consideró al sistema integrado por una partícula y por una distribución de cargas localizadas en un volumen finito, sometidas a un campo eléctrico homogéneo y a uno armónico, respectivamente. En esta sección, dado que la interacción luz-materia puede estudiarse mediante cantidades macroscópicas medibles \cite{Bohren}, se considera a la partícula embebida en un medio no absorbente e iluminada por una onda plana armónica en el tiempo. Teniendo en cuenta lo anterior, la energía $W_{abs}$, transportada por los campos electromagnéticos y que es absorbida por la partícula, se calcula al integrar el promedio temporal del vector de Poynting $\langle\Vec{S}\rangle_t$ \footnote{El promedio temporal del vector de Poynting es $\langle\Vec{S}\rangle_t = (1/\tau)\int_t^{t+\tau}\Vec{S}(t')dt'$, y para campos electromagnéticos del tipo ondas planas es $\langle\Vec{S}\rangle_t = (1/2) \text{Re}[\Vec{E} \times (\Vec{B}/\mu)^{*}]$, donde $*$ corresponde a la operación complejo conjugado \cite{Bohren}. } sobre una superficie cerrada $A$, que por simplificidad puede considerarse una esfera de radio $r$ mayor al de la partícula (Fig. \ref{WA}), es decir, 
+En las secciones anteriores se consideró al sistema integrado por una partícula y por una distribución de cargas localizadas en un volumen finito, sometidas a un campo eléctrico homogéneo y a uno armónico, respectivamente. En esta sección, se introducen las denominadas secciones transversales de extinción, absorción y esparcimiento, las cuales son cantidades macroscópicas medibles que proporcionan información sobre el sistema \cite{Bohren}. Para esto, se considera a la partícula embebida en un medio no absorbente e iluminada por una onda plana armónica en el tiempo. Teniendo en cuenta lo anterior, la energía $W_{abs}$, transportada por los campos electromagnéticos y que es absorbida por la partícula, se calcula al integrar el promedio temporal del vector de Poynting \footnote{El promedio temporal del vector de Poynting es $\langle\Vec{S}\rangle_t = (1/\tau)\int_t^{t+\tau}\Vec{S}(t')dt'$, y para campos electromagnéticos del tipo ondas planas es $\langle\Vec{S}\rangle_t = (1/2) \text{Re}[\Vec{E} \times (\Vec{B}/\mu)^{*}]$, donde $*$ corresponde a la operación complejo conjugado \cite{Bohren}. } $\langle\Vec{S}\rangle_t$  sobre una superficie cerrada $A$, que por simplificidad puede considerarse una esfera de radio $r$ mayor al de la partícula (Fig. \ref{WA}), es decir, 
 \begin{equation*}
 	W_{abs}=-\int_A \langle\Vec{S}\rangle_t\cdot\hat{e}_r \text{ dA},
 	\label{flujopoynting}
@@ -11,9 +11,9 @@ En las secciones anteriores se consideró al sistema integrado por una partícul
 	\caption{Esquema de la esfera imaginaria  de radio $r$ y superficie $A$ centrada en el origen y en la partícula de interés.}
 	\label{WA}
 \end{figure}
-donde debido a que $\langle\Vec{S}\rangle_t$ y $\hat{e}_r$ están orientados en la misma dirección, el signo negativo convierte a $W_{abs}$ en una cantidad positiva, de lo contrario, significaría que se genera energía dentro de la esfera. \cite{Bohren}\\
+donde debido a que $\langle\Vec{S}\rangle_t$ y $\hat{e}_r$ están orientados en la misma dirección, el signo negativo convierte a $W_{abs}$ en una cantidad positiva, de lo contrario, significaría que se genera energía dentro de la esfera \cite{Bohren}. \\
 
- Dado que el vector de Poynting en cualquier punto en el medio que rodea a la partícula se puede descomponer en trés términos \cite{Bohren}
+ En este trabajo, el vector de Poynting total se descompone en trés términos \cite{Bohren}
  \begin{equation}
  \langle\Vec{S^i}\rangle_t=  \frac{1}{2}\:\mbox{Re}\{\Vec{E}_i\times\Vec{H}_i^*\}  ,\hspace{0.5cm} \langle\Vec{S^s}\rangle_t=  \frac{1}{2}\:\mbox{Re}\{\Vec{E}_s\times\Vec{H}_s^*\},\hspace{0.5cm} 	\langle\Vec{S^{ext}}\rangle_t= \frac{1}{2}\:\mbox{Re}\{\Vec{E}_i\times\Vec{H}_s^*+\Vec{E}_s\times\Vec{H}_i^*\},
  	\label{S}
@@ -25,17 +25,17 @@ donde debido a que $\langle\Vec{S}\rangle_t$ y $\hat{e}_r$ están orientados en 
  \end{equation}
  cuyos signos están colocados de forma que sean cantidades positivas considerando las direcciones de los vectores de Poynting y de $\hat{e}_r$ .\\
  
-\noindent Para un medio no absorbente, $W_i$ es igual en todas partes, por lo que se anula, \footnote{$W_i =\int_{0}^{\pi}\int_{0}^{2\pi}|S^i(r,\theta,\phi)|\cos\theta \sin\theta \: d\theta=0$} entonces
+\noindent Para un medio no absorbente, la energía que cruza la esfera es la misma que la que entra, por lo que $W_i$ se anula, entonces
 \begin{equation}
 	W_{ext}=W_{abs}+W_s.
 \end{equation}
 
 
-Al considerar el campo incidente $\Vec{E_i}=E\hat{e}_x$ polarizado en la dirección $\hat{e}_x$ y a $\Vec{H}_i=(1/\mu \omega)\: \Vec{k} \times E \hat{e}_x$ en un medio no absorbente, $W_a$ es independiente del radio $r$ de la esfera imaginaria, por lo que se puede considerar a $r$ lo suficientemente grande para estar en la región de campo lejano donde los campos se comportan como las Ecs. (\ref{EH_s}), por lo cual, $W_{ext}$ está dado por \cite{Bohren}
+Al considerar el campo incidente $\Vec{E_i}=E\hat{e}_x$ y a $\Vec{H}_i=(1/\mu \omega)\: \Vec{k} \times E \hat{e}_x$ en un medio no absorbente, $W_a$ es independiente del radio $r$ de la superficie de integración, por lo que se puede considerar a $r$ lo suficientemente grande para estar en la región de campo lejano donde los campos se comportan como las Ecs. (\ref{EH_s}), por lo cual, $W_{ext}$ está dado por \cite{Bohren}
 \begin{equation*}
 	W_{ext}=I_i\frac{4\pi}{k^2}\:\text{Re}\{(\Vec{X}\cdot\hat{e}_x)_{\theta=0}\},
 \end{equation*}
-donde $I_i$ es la irradiancia incidente, que corresponde a la magnitud del vector de Poynting, y por consiguiente, \footnote{Debido al teorema óptico, la extinción sólo depende de la amplitud de esparcimiento en la dirección de propagación y es el efecto combinado de la absorción en la partícula y el esparcimiento por la partícula en todas las direcciones. \cite{Bohren}.}
+donde $I_i$ es la irradiancia de la onda incidente, que corresponde a la magnitud del vector de Poynting, y por consiguiente, \footnote{Debido al teorema óptico, la extinción sólo depende de la amplitud de esparcimiento en la dirección de propagación y es el efecto combinado de la absorción en la partícula y el esparcimiento por la partícula en todas las direcciones. \cite{Bohren}.}
 \begin{equation}
 	C_{ext}=\frac{W_{ext}}{I_i}=\frac{4\pi}{k^2}\:\text{Re}\{(\Vec{X}\cdot\hat{e}_x)_{\theta=0}\}, \label{C_ext}
 \end{equation}
