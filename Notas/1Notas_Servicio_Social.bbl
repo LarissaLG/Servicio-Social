@@ -69,13 +69,6 @@ G.~Dassios, {\em Ellipsoidal {Harmonics}: {Theory} and {Applications}}.
 \newblock Encyclopedia of {Mathematics} and its {Applications}, Cambridge:
   Cambridge University Press, 2012.
 
-\bibitem{BaseElip}
-T.~Soler and J.-Y. Han, ``On transformations of ellipsoidal (triaxial)
-  orthogonal curvilinear coordinates,'' {\em Survey Review}, vol.~56,
-  pp.~265--283, May 2024.
-\newblock Publisher: Taylor \& Francis \_eprint:
-  https://doi.org/10.1080/00396265.2023.2229590.
-
 \bibitem{Kellog}
 O.~D. Kellogg, {\em Foundations of potential theory}, vol.~31.
 \newblock Springer Science \& Business Media, 2012.
@@ -88,6 +81,12 @@ M.~Braun, {\em Differential {Equations} and {Their} {Applications}}.
 M.~Abramowitz and I.~A. Stegun, {\em Handbook of mathematical functions with
   formulas, graphs, and mathematical tables}, vol.~55.
 \newblock US Government printing office, 1948.
+
+\bibitem{RefracIndBlood}
+B.~N, E.~Gj, A.~Mc, v.~L. Tg, and F.~Dj, ``A literature review and novel
+  theoretical approach on the optical properties of whole blood,'' {\em Lasers
+  in medical science}, vol.~29, Mar. 2014.
+\newblock Publisher: Lasers Med Sci.
 
 \bibitem{Plasmonics}
 S.~A. Maier, ``Plasmonics: {Fundamentals} and {Applications},'' 2007.
