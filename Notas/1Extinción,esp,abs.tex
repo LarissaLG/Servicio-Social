@@ -1,4 +1,4 @@
-\subsection{Secciones transversales}
+\hypertarget{Cext}{\subsection{Secciones transversales}}
 
 En las secciones anteriores se consideró al sistema integrado por una partícula y por una distribución de cargas localizadas en un volumen finito, sometidas a un campo eléctrico homogéneo y a uno armónico, respectivamente. En esta sección, se introducen las denominadas secciones transversales de extinción, absorción y esparcimiento, las cuales son cantidades macroscópicas medibles que proporcionan información sobre el sistema \cite{Bohren}. Para esto, se considera a la partícula embebida en un medio no absorbente e iluminada por una onda plana armónica en el tiempo. Teniendo en cuenta lo anterior, la energía $W_{abs}$, transportada por los campos electromagnéticos y que es absorbida por la partícula, se calcula al integrar el promedio temporal del vector de Poynting \footnote{El promedio temporal del vector de Poynting es $\langle\Vec{S}\rangle_t = (1/\tau)\int_t^{t+\tau}\Vec{S}(t')dt'$, y para campos electromagnéticos del tipo ondas planas es $\langle\Vec{S}\rangle_t = (1/2) \text{Re}[\Vec{E} \times (\Vec{B}/\mu)^{*}]$, donde $*$ corresponde a la operación complejo conjugado \cite{Bohren}. } $\langle\Vec{S}\rangle_t$  sobre una superficie cerrada $A$, que por simplificidad puede considerarse una esfera de radio $r$ mayor al de la partícula (Fig. \ref{WA}), es decir, 
 \begin{equation*}
@@ -18,14 +18,12 @@ donde debido a que $\langle\Vec{S}\rangle_t$ y $\hat{e}_r$ están orientados en 
  \langle\Vec{S^i}\rangle_t=  \frac{1}{2}\:\mbox{Re}\{\Vec{E}_i\times\Vec{H}_i^*\}  ,\hspace{0.5cm} \langle\Vec{S^s}\rangle_t=  \frac{1}{2}\:\mbox{Re}\{\Vec{E}_s\times\Vec{H}_s^*\},\hspace{0.5cm} 	\langle\Vec{S^{ext}}\rangle_t= \frac{1}{2}\:\mbox{Re}\{\Vec{E}_i\times\Vec{H}_s^*+\Vec{E}_s\times\Vec{H}_i^*\},
  	\label{S}
  \end{equation}
- asociados al campo incidente, al campo esparcido y a la interacción entre los dos anteriores, respectivamente, se tiene que $W_{abs}=W_i-W_s+W_{ext}$, donde \cite{Bohren}
+ asociados al campo incidente, al campo esparcido y a la interacción entre los dos anteriores, respectivamente. De esta forma, se tiene que $W_{abs}=W_i-W_s+W_{ext}$, donde \cite{Bohren}
  \begin{equation}
  	W_i  = -\int_{A}\langle\Vec{S^i}\rangle_t\cdot\hat{e}_r\text{ dA},\hspace{0.5cm} W_s=\int_{A}\langle\Vec{S^s}\rangle_t\cdot\hat{e}_r\text{ dA},\hspace{0.5cm} 	W_{ext} = -\int_{A}\langle\Vec{S^{ext}}\rangle_t\cdot\hat{e}_r\text{ dA},
  	\label{Ws}
  \end{equation}
- cuyos signos están colocados de forma que sean cantidades positivas considerando las direcciones de los vectores de Poynting y de $\hat{e}_r$ .\\
- 
-\noindent Para un medio no absorbente, la energía que cruza la esfera es la misma que la que entra, por lo que $W_i$ se anula, entonces
+ cuyos signos están colocados de forma que sean cantidades positivas considerando las direcciones de los vectores de Poynting y de $\hat{e}_r$. En particular, para un medio no absorbente, la energía que cruza la esfera es la misma que la que entra, por lo que $W_i$ se anula, entonces
 \begin{equation}
 	W_{ext}=W_{abs}+W_s.
 \end{equation}

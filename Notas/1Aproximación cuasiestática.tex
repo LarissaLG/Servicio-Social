@@ -1,6 +1,6 @@
-\subsection{Aproximación cuasiestática en el problema de esparcimiento de luz por partículas elipsoidales}
+\hypertarget{primera}{\subsection{Aproximación cuasiestática en el problema de esparcimiento de luz por partículas elipsoidales}}
 
- En el caso de un elipsoide de semieje mayor $a$ caracterizado por una función dieléctrica $\epsilon_p$, inmerso en un medio caracterizado por una función dieléctrica $\epsilon_m$ e iluminado por una onda plana electromagnética con vector de onda $\Vec{k}$, se puede definir el límite cuasiestático cuando el parámetro de tamaño $x=ka$ es mucho menor que la unidad \cite{Bohren}. Esta contricción garantiza que toda la geometría del elipsoide esté sujeta a un campo eléctrico de la misma intensidad y dirección \cite{Miguel}. En esta sección se presenta el caso de una esfera en el límite cuasiestático para estudiarlo como un dipolo eléctrico puntual, lo que permite introducir el concepto de polarizabilidad, y más adelante, se desarrolla el dipolo eléctrico para esparcidores arbitrarios en donde se analizan las regiones de campo cercano, la intermedia y la de radiación.
+ En el caso de un elipsoide de semieje mayor $a$ caracterizado por una función dieléctrica $\epsilon_p$, inmerso en un medio con una función dieléctrica $\epsilon_m$, e iluminado por una onda plana electromagnética con vector de onda $\Vec{k}$, se puede definir el límite cuasiestático cuando el parámetro de tamaño $x=ka$ es mucho menor que la unidad \cite{Bohren}. Esta contricción garantiza que toda la geometría del elipsoide esté sujeta a un campo eléctrico de la misma intensidad y dirección \cite{Miguel}. En esta sección se presenta el caso de una esfera, como caso particular de un elipsoide, en el límite cuasiestático para estudiarlo como un dipolo eléctrico puntual, lo que permite introducir el concepto de polarizabilidad, y más adelante, se desarrolla el dipolo eléctrico para esparcidores arbitrarios en donde se analizan las regiones de campo cercano, la intermedia y la de radiación.
 
 
 \subsubsection{Dipolo eléctrico (caso estático)}
@@ -15,7 +15,7 @@ donde $\Vec{p}$ representa el momento dipolar eléctrico dado por \cite{Bohren}
 	\vec{p}= \epsilon_m\alpha\Vec{E}_0=4\pi\epsilon_m a^3\left(\frac{\epsilon_1-\epsilon_m}{\epsilon_1+2\epsilon_m}\right)\Vec{E}_0, \;\:\:\:\:\: \text{con}\; \alpha=4\pi a^3\left(\frac{\epsilon_1-\epsilon_m}{\epsilon_1+2\epsilon_m}\right) 
 	\label{momentdipol}
 \end{equation*}
-donde $\alpha$ es la polarizabilidad eléctrica, que representa la facilidad con la que se polariza la esfera. Es decir, el campo eléctrico induce un dipolo eléctrico en la esfera, cuyo campo eléctrico asociado es 
+donde $\alpha$ es la polarizabilidad eléctrica, que representa la facilidad con la que se polariza la esfera. Es decir, el campo eléctrico induce un dipolo eléctrico puntual en la esfera, cuyo campo eléctrico asociado fuera de la esfera es 
 \begin{equation*}
 	\Vec{E}_p(\vec{r})=-\nabla \phi_p =\frac{p}{4\pi \epsilon_m r^3 }\left(2\cos\theta\hat{e}_r+\sen\theta\hat{e}_{\theta}\right).
 \end{equation*}
@@ -24,8 +24,8 @@ En consecuencia, el campo eléctrico fuera de la esfera está dado por la superp
 
 \begin{figure}[H]
 	\centering
-		\sidesubfloat[][a]{\includegraphics[width=0.3\textwidth]{../../Figuras/shereE0}\label{system}}
-		\sidesubfloat[][b]{\includegraphics[width=0.25\textwidth]{../../Figuras/electricfield_sphere.png}\label{electricfieldsphere}}
+		\sidesubfloat[First image]{\includegraphics[width=0.3\textwidth]{../../Figuras/shereE0}\label{system}}
+		\sidesubfloat[Second image]{\includegraphics[width=0.25\textwidth]{../../Figuras/electricfield_sphere.png}\label{electricfieldsphere}}
 	\caption{Problema de una esfera inmersa en un campo eléctrico homogéneo. \textbf{a)} Esfera de radio $a$ caracterizada por su función dieléctrica $\epsilon_p$ y embebida en un medio caracterizado por su función dieléctrica $\epsilon_m$ en la cual incide un campo eléctrico uniforme $\Vec{E}_0$. \textbf{b)} Campo eléctrico fuera de la esfera generado por la superposición del campo eléctrico aplicado y del campo eléctrico producido por un dipolo eléctrico puntual localizado en el origen con momento dipolar $\vec{p}= \epsilon_m\alpha\Vec{E}_0$.}
 	\label{steady_state}
 \end{figure}
@@ -59,8 +59,8 @@ mientras que en la región de campo lejano ($kr\gg 1$) dado que la exponencial o
 \begin{equation}
 	|\Vec{r}-\Vec{r'}|\simeq r-\hat{e}_r\cdot\Vec{r'},    
 \end{equation}
- que se obtiene al aplicar la ley de cosenos a la Fig.~\ref{vectposi}, donde $\hat{e}_r$ un vector unitario en la dirección de $\Vec{r}$. \footnote{Empleando la ley de cosenos y haciendo una expansión binomial $
-	|\Vec{r}-\Vec{r'}|=\sqrt{r^2+(r')^2-2rr'\cos\theta}=r\sqrt{1+\left(r'/r\right)^2-2\left((r'/r)\cos\theta\right)}\simeq r\left\{1-(\hat{e}_r\cdot\Vec{r'}/r)+1/2\left(r'/r\right)^2\right\}\simeq r-\hat{e}_r\cdot\Vec{r'}.$} 	
+ que se obtiene al aplicar la ley de cosenos\footnote{Empleando la ley de cosenos y haciendo una expansión binomial $
+ 	|\Vec{r}-\Vec{r'}|=\sqrt{r^2+(r')^2-2rr'\cos\theta}=r\sqrt{1+\left(r'/r\right)^2-2\left((r'/r)\cos\theta\right)}\simeq r\left\{1-(\hat{e}_r\cdot\Vec{r'}/r)+1/2\left(r'/r\right)^2\right\}\simeq r-\hat{e}_r\cdot\Vec{r'}.$} en el triángulo mostrado en la Fig.~\ref{vectposi}, donde $\hat{e}_r$ un vector unitario en la dirección de $\Vec{r}$. 	
 	Si sólo se consideran los términos que decaen como $r^{-1}$, el inverso de la distancia en la Ec. (\ref{pot_vectorial}) puede ser reemplazado por $r$. Entonces, el potencial vectorial es
 	\begin{equation*}
 	\lim_{kr\rightarrow\infty}\Vec{A}(\Vec{r})=\frac{\mu_0}{4\pi}\frac{e^{ikr}}{r}\int \Vec{J}(\Vec{r'})e^{-ik\hat{e}_r\cdot\Vec{r'}}\text{d}^3r',    
@@ -104,7 +104,7 @@ Al calcular el campo $\Vec{H}$ como función del potencial vectorial, y empleand
 \end{align}
 A partir de las Ecs. (\ref{E})  y (\ref{H}) se puede observar que el campo $\Vec{H}$ es transversal al vector radial en el campo lejano, mientras el campo eléctrico tiene componentes paralelas y perpendiculares a $\hat{e}_r$.\\ 
 
- De forma análoga al desarrollo de la Ec. (\ref{A_dip}) y empleando la Ley de Faraday-Lenz, en la zona de radiación cuando $kr\gg 1$, se tiene que al excitar a las fuentes en el sistema mediante una onda electromagnética de frecuencia angular $\omega$, lo que sería equivalente a iluminar al sistema con una onda plana armónica en el tiempo, se induce un dipolo eléctrico $\Vec{p}$ que genera campos electromagnéticos $\Vec{E}_p$ y $\Vec{H}_p$ y  que oscilan a la misma frecuencia $\omega$ 
+ De forma análoga al desarrollo de la Ec. (\ref{A_dip}) y empleando la Ley de Faraday-Lenz, en la zona de radiación cuando $kr\gg 1$, se tiene que al excitar a las fuentes en el sistema con una onda electromagnética de frecuencia angular $\omega$, lo que sería equivalente a iluminar al sistema con una onda plana armónica en el tiempo, se induce un dipolo eléctrico $\Vec{p}$ que genera campos electromagnéticos $\Vec{E}_p$ y $\Vec{H}_p$ y  que oscilan a la misma frecuencia $\omega$ 
 \begin{align}
     \Vec{E}_p&=\frac{e^{ikr}}{-ikr}\frac{ik^3}{4\pi\epsilon_m}\hat{e}_r\times(\hat{e}_r\times \Vec{p}) e^{i\omega t}, \hspace{1cm}
     \Vec{H}_p=\frac{ck^2}{4\pi}(\hat{e}_r\times\Vec{p})\frac{e^{ikr}}{r}e^{i\omega t}.

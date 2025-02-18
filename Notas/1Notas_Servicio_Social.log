@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.3)  17 FEB 2025 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.3)  18 FEB 2025 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,7 +472,7 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \mc@col@check@num=\count338
 )
 Package caption Info: Option `figurename' requires the `newfloat' package on in
-put line 26.
+put line 28.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/newfloat\newfloat.sty
 Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
@@ -727,7 +727,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen284
 \titlewidthfirst=\dimen285
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 58.
+Package hyperref Info: Option `colorlinks' set `true' on input line 60.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/01/07 v5.1.1 Extensive control of page headers and foote
@@ -752,19 +752,19 @@ rs
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 66.
+ine 68.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 69.
+ine 71.
 
 
 Package fancyhdr Warning: \fancyheadoffset's `E' option without twoside option 
 is useless.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 70.
+ine 72.
 
 
 LaTeX Warning: Unused global option(s):
@@ -783,26 +783,26 @@ LaTeX Warning: Label `fig:test' multiply defined.
 )
 \openout1 = `1Notas_Servicio_Social.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -836,20 +836,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 83.
-Package microtype Info: Applying patch `item' on input line 83.
-Package microtype Info: Applying patch `toc' on input line 83.
-Package microtype Info: Applying patch `eqnum' on input line 83.
-Package microtype Info: Applying patch `footnote' on input line 83.
-Package microtype Info: Applying patch `verbatim' on input line 83.
-LaTeX Info: Redefining \microtypesetup on input line 83.
+LaTeX Info: Redefining \microtypecontext on input line 85.
+Package microtype Info: Applying patch `item' on input line 85.
+Package microtype Info: Applying patch `toc' on input line 85.
+Package microtype Info: Applying patch `eqnum' on input line 85.
+Package microtype Info: Applying patch `footnote' on input line 85.
+Package microtype Info: Applying patch `verbatim' on input line 85.
+LaTeX Info: Redefining \microtypesetup on input line 85.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 83.
+LaTeX Info: Redefining \showhyphens on input line 85.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -894,7 +894,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 Package newfloat Info: `float' package detected.
 Package newfloat Info: `wrapfig' package detected.
-Package hyperref Info: Link coloring ON on input line 83.
+Package hyperref Info: Link coloring ON on input line 85.
 (1Notas_Servicio_Social.out) (1Notas_Servicio_Social.out)
 \@outlinefile=\write3
 \openout3 = `1Notas_Servicio_Social.out'.
@@ -903,7 +903,7 @@ Package hyperref Info: Link coloring ON on input line 83.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.85 \thispagestyle
+l.87 \thispagestyle
                    {fancy} % All pages have headers and footers
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -912,7 +912,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.85 \thispagestyle
+l.87 \thispagestyle
                    {fancy} % All pages have headers and footers
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -922,35 +922,35 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
-5.
+7.
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-5.
+7.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-85.
+87.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-85.
+87.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 85.
+(Font)              <12> on input line 87.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 85.
+(Font)              <8> on input line 87.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 85.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+(Font)              <6> on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
 
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -959,7 +959,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
 
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -972,7 +972,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
@@ -990,13 +990,13 @@ AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
 {C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
 :/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-<Figuras/../../Figuras/shereE0.png, id=74, 376.40625pt x 402.00188pt>
+<Figuras/../../Figuras/shereE0.png, id=78, 376.40625pt x 402.00188pt>
 File: Figuras/../../Figuras/shereE0.png Graphic file (type png)
 <use Figuras/../../Figuras/shereE0.png>
 Package pdftex.def Info: Figuras/../../Figuras/shereE0.png  used on input line 
 27.
 (pdftex.def)             Requested size: 145.11052pt x 154.98282pt.
-<Figuras/../../Figuras/electricfield_sphere.png, id=76, 280.55214pt x 344.07747
+<Figuras/../../Figuras/electricfield_sphere.png, id=80, 280.55214pt x 344.07747
 pt>
 File: Figuras/../../Figuras/electricfield_sphere.png Graphic file (type png)
 <use Figuras/../../Figuras/electricfield_sphere.png>
@@ -1026,7 +1026,7 @@ Underfull \hbox (badness 4913) in paragraph at lines 63--63
 -sión bi-no-mial $\OMS/lmsy/m/n/8 j[] ^^@ []j \OT1/lmr/m/n/8 (+20) = [] =
  []
 
-<Figuras/../../Figuras/aprox.jpg, id=108, 282.72025pt x 218.2554pt>
+<Figuras/../../Figuras/aprox.jpg, id=112, 282.72025pt x 218.2554pt>
 File: Figuras/../../Figuras/aprox.jpg Graphic file (type jpg)
 <use Figuras/../../Figuras/aprox.jpg>
 Package pdftex.def Info: Figuras/../../Figuras/aprox.jpg  used on input line 73
@@ -1042,7 +1042,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--106
 ) (1ExtinciÃ³n,esp,abs.tex
 
 [4]
-<Figuras/../../Figuras/WA.pdf, id=148, 347.16005pt x 293.14487pt>
+<Figuras/../../Figuras/WA.pdf, id=153, 347.16005pt x 293.14487pt>
 File: Figuras/../../Figuras/WA.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/WA.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/WA.pdf  used on input line 10.
@@ -1053,14 +1053,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--15
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
-
- []
-
-
 
 [5 <./Figuras/../../Figuras/WA.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
@@ -1142,13 +1137,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<Figuras/../../Figuras/ellipsoid.pdf, id=209, 342.27875pt x 427.5975pt>
+<Figuras/../../Figuras/ellipsoid.pdf, id=215, 342.27875pt x 427.5975pt>
 File: Figuras/../../Figuras/ellipsoid.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/ellipsoid.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/ellipsoid.pdf  used on input lin
 e 40.
 (pdftex.def)             Requested size: 217.6621pt x 271.92592pt.
-<Figuras/../../Figuras/quadraticonfo.pdf, id=210, 372.39125pt x 432.61626pt>
+<Figuras/../../Figuras/quadraticonfo.pdf, id=216, 372.39125pt x 432.61626pt>
 File: Figuras/../../Figuras/quadraticonfo.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/quadraticonfo.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/quadraticonfo.pdf  used on input
@@ -1174,14 +1169,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 160--163
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
 
  []
 
@@ -1190,103 +1180,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--163
 [10]
 
 [11]
-Overfull \hbox (20.13004pt too wide) detected at line 267
+Overfull \hbox (20.13004pt too wide) detected at line 265
 []
  []
 
 
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 292--294
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
 
  []
 
 
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
-<Figuras/../../Figuras/prolato.png, id=349, 813.79031pt x 983.17313pt>
+<Figuras/../../Figuras/prolato.png, id=355, 813.79031pt x 983.17313pt>
 File: Figuras/../../Figuras/prolato.png Graphic file (type png)
 <use Figuras/../../Figuras/prolato.png>
 Package pdftex.def Info: Figuras/../../Figuras/prolato.png  used on input line 
-365.
+363.
 (pdftex.def)             Requested size: 85.35826pt x 103.1237pt.
-<Figuras/../../Figuras/oblato.png, id=350, 326.967pt x 222.504pt>
+<Figuras/../../Figuras/oblato.png, id=356, 326.967pt x 222.504pt>
 File: Figuras/../../Figuras/oblato.png Graphic file (type png)
 <use Figuras/../../Figuras/oblato.png>
 Package pdftex.def Info: Figuras/../../Figuras/oblato.png  used on input line 3
-66.
+64.
 (pdftex.def)             Requested size: 145.11052pt x 98.75084pt.
 ) (1Resultados.tex
 
 [14 <./Figuras/../../Figuras/prolato.png> <./Figuras/../../Figuras/oblato.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
-
- []
-
-<Figuras/../../Figuras/AlContribuciones3.pdf, id=373, 361.35pt x 282.05376pt>
+<Figuras/../../Figuras/AlContribuciones3.pdf, id=375, 361.35pt x 282.05376pt>
 File: Figuras/../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlContribuciones3.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AlContribuciones3.pdf  used on i
-nput line 20.
+nput line 14.
 (pdftex.def)             Requested size: 215.24863pt x 168.01558pt.
-<Figuras/../../Figuras/CextAlbueno.pdf, id=374, 361.35pt x 292.09125pt>
+<Figuras/../../Figuras/CextAlbueno.pdf, id=376, 361.35pt x 292.09125pt>
 File: Figuras/../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/CextAlbueno.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/CextAlbueno.pdf  used on input l
-ine 21.
+ine 15.
 (pdftex.def)             Requested size: 212.82779pt x 172.03816pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
 
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-<Figuras/../../Figuras/AlAR.pdf, id=400, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/AlAR.pdf, id=403, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/AlAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/AlAR.pdf  used on input line 39.
+Package pdftex.def Info: Figuras/../../Figuras/AlAR.pdf  used on input line 32.
 
 (pdftex.def)             Requested size: 215.24863pt x 171.60309pt.
-<Figuras/../../Figuras/AgAR.pdf, id=401, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/AgAR.pdf, id=404, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/AgAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AgAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/AgAR.pdf  used on input line 40.
+Package pdftex.def Info: Figuras/../../Figuras/AgAR.pdf  used on input line 33.
 
 (pdftex.def)             Requested size: 212.82779pt x 169.67339pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
@@ -1297,46 +1275,56 @@ xtAlbueno.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/CextAlbueno.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
->]
-<Figuras/../../Figuras/Alc.pdf, id=462, 361.35pt x 285.065pt>
-File: Figuras/../../Figuras/Alc.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Alc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Alc.pdf  used on input line 49.
-(pdftex.def)             Requested size: 215.24863pt x 169.80934pt.
-<Figuras/../../Figuras/Agc.pdf, id=463, 361.35pt x 288.07625pt>
-File: Figuras/../../Figuras/Agc.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Agc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Agc.pdf  used on input line 50.
-(pdftex.def)             Requested size: 212.82779pt x 169.67339pt.
-<Figuras/../../Figuras/Au2.pdf, id=473, 379.4175pt x 359.3425pt>
-File: Figuras/../../Figuras/Au2.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Au2.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 61.
-(pdftex.def)             Requested size: 215.24863pt x 203.86232pt.
-<Figuras/../../Figuras/Au.pdf, id=474, 379.4175pt x 359.3425pt>
-File: Figuras/../../Figuras/Au.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Au.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 62.
-(pdftex.def)             Requested size: 212.82779pt x 201.57037pt.
+> <./Figuras/../../Figuras/AlAR.pdf
 
-
-[17 <./Figuras/../../Figuras/AlAR.pdf> <./Figuras/../../Figuras/AgAR.pdf
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/AlAR.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./Figuras/../../Figuras/AgAR.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/AgAR.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
-> <./Figuras/../../Figuras/Alc.pdf
+>]
+<Figuras/../../Figuras/Alc.pdf, id=551, 361.35pt x 285.065pt>
+File: Figuras/../../Figuras/Alc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Alc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Alc.pdf  used on input line 42.
+(pdftex.def)             Requested size: 215.24863pt x 169.80934pt.
+<Figuras/../../Figuras/Agc.pdf, id=552, 361.35pt x 288.07625pt>
+File: Figuras/../../Figuras/Agc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Agc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Agc.pdf  used on input line 43.
+(pdftex.def)             Requested size: 212.82779pt x 169.67339pt.
+<Figuras/../../Figuras/Au2.pdf, id=564, 379.4175pt x 359.3425pt>
+File: Figuras/../../Figuras/Au2.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Au2.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 54.
+(pdftex.def)             Requested size: 215.24863pt x 203.86232pt.
+<Figuras/../../Figuras/Au.pdf, id=565, 379.4175pt x 359.3425pt>
+File: Figuras/../../Figuras/Au.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Au.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 55.
+(pdftex.def)             Requested size: 212.82779pt x 201.57037pt.
 
-pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Alc.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
-> <./Figuras/../../Figuras/Agc.pdf
+
+[17 <./Figuras/../../Figuras/Alc.pdf> <./Figuras/../../Figuras/Agc.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Agc.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
+<Figuras/../../Figuras/Bi2.pdf, id=680, 370.38374pt x 370.38374pt>
+File: Figuras/../../Figuras/Bi2.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Bi2.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 64.
+(pdftex.def)             Requested size: 215.24863pt x 215.25223pt.
+<Figuras/../../Figuras/Bi.pdf, id=681, 379.4175pt x 370.38374pt>
+File: Figuras/../../Figuras/Bi.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Bi.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 65.
+(pdftex.def)             Requested size: 212.82779pt x 207.76387pt.
 
 
 [18 <./Figuras/../../Figuras/Au2.pdf> <./Figuras/../../Figuras/Au.pdf
@@ -1344,26 +1332,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Au.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/Bi2.pdf, id=787, 370.38374pt x 370.38374pt>
-File: Figuras/../../Figuras/Bi2.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Bi2.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 71.
-(pdftex.def)             Requested size: 215.24863pt x 215.25223pt.
-<Figuras/../../Figuras/Bi.pdf, id=788, 379.4175pt x 370.38374pt>
-File: Figuras/../../Figuras/Bi.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Bi.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 72.
-(pdftex.def)             Requested size: 212.82779pt x 207.76387pt.
-<Figuras/../../Figuras/MgOc.pdf, id=796, 361.35pt x 271.0125pt>
+<Figuras/../../Figuras/MgOc.pdf, id=801, 361.35pt x 271.0125pt>
 File: Figuras/../../Figuras/MgOc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 84.
+Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 77.
 
 (pdftex.def)             Requested size: 215.24863pt x 161.43845pt.
-<Figuras/../../Figuras/MgOAR.pdf, id=797, 361.35pt x 279.0425pt>
+<Figuras/../../Figuras/MgOAR.pdf, id=802, 361.35pt x 279.0425pt>
 File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 85
+Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 78
 .
 (pdftex.def)             Requested size: 212.82779pt x 164.35262pt.
 
@@ -1397,13 +1375,13 @@ Package rerunfilecheck Info: File `1Notas_Servicio_Social.out' has not changed.
 (rerunfilecheck)             Checksum: A45C8E433D63C8698549D94379398FD5;1822.
  ) 
 Here is how much of TeX's memory you used:
- 19048 strings out of 473529
- 320134 string characters out of 5715742
- 885530 words of memory out of 5000000
- 41572 multiletter control sequences out of 15000+600000
- 630379 words of font info for 196 fonts, out of 8000000 for 9000
+ 19071 strings out of 473529
+ 320321 string characters out of 5715742
+ 885668 words of memory out of 5000000
+ 41570 multiletter control sequences out of 15000+600000
+ 631384 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,13n,93p,1694b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,13n,93p,1808b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C
 :/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/U
@@ -1427,9 +1405,9 @@ ype1/public/lm/lmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/lm/lmsy7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (21 pages, 5211942 bytes).
+Output written on 1Notas_Servicio_Social.pdf (21 pages, 5212428 bytes).
 PDF statistics:
- 1151 PDF objects out of 1200 (max. 8388607)
- 165 named destinations out of 1000 (max. 500000)
+ 1154 PDF objects out of 1200 (max. 8388607)
+ 166 named destinations out of 1000 (max. 500000)
  37029 words of extra memory for PDF output out of 42996 (max. 10000000)
 
