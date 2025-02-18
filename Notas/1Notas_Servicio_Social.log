@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.4)  16 FEB 2025 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.4)  17 FEB 2025 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1301,16 +1301,26 @@ xtAlbueno.pdf
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/CextAlbueno.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/Alc.pdf, id=464, 361.35pt x 285.065pt>
+<Figuras/../../Figuras/Alc.pdf, id=460, 361.35pt x 285.065pt>
 File: Figuras/../../Figuras/Alc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Alc.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Alc.pdf  used on input line 49.
 (pdftex.def)             Requested size: 215.24863pt x 169.80934pt.
-<Figuras/../../Figuras/Agc.pdf, id=465, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/Agc.pdf, id=461, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/Agc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Agc.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Agc.pdf  used on input line 50.
 (pdftex.def)             Requested size: 212.82779pt x 169.67339pt.
+<Figuras/../../Figuras/Au2.pdf, id=471, 379.4175pt x 359.3425pt>
+File: Figuras/../../Figuras/Au2.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Au2.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 61.
+(pdftex.def)             Requested size: 215.24863pt x 203.86232pt.
+<Figuras/../../Figuras/Au.pdf, id=472, 379.4175pt x 359.3425pt>
+File: Figuras/../../Figuras/Au.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Au.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 62.
+(pdftex.def)             Requested size: 212.82779pt x 201.57037pt.
 
 
 [17 <./Figuras/../../Figuras/AlAR.pdf> <./Figuras/../../Figuras/AgAR.pdf
@@ -1326,26 +1336,10 @@ ion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Agc.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/Au2.pdf, id=663, 379.4175pt x 359.3425pt>
-File: Figuras/../../Figuras/Au2.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Au2.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 61.
-(pdftex.def)             Requested size: 215.24863pt x 203.86232pt.
-<Figuras/../../Figuras/Au.pdf, id=664, 379.4175pt x 359.3425pt>
-File: Figuras/../../Figuras/Au.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Au.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 62.
-(pdftex.def)             Requested size: 212.82779pt x 201.57037pt.
-<Figuras/../../Figuras/Bi2.pdf, id=669, 370.38374pt x 370.38374pt>
-File: Figuras/../../Figuras/Bi2.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Bi2.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 73.
-(pdftex.def)             Requested size: 215.24863pt x 215.25223pt.
-<Figuras/../../Figuras/Bi.pdf, id=670, 379.4175pt x 370.38374pt>
-File: Figuras/../../Figuras/Bi.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Bi.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 74.
-(pdftex.def)             Requested size: 212.82779pt x 207.76387pt.
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
 
 
 [18 <./Figuras/../../Figuras/Au2.pdf> <./Figuras/../../Figuras/Au.pdf
@@ -1353,16 +1347,26 @@ Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 74.
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Au.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/MgOc.pdf, id=786, 361.35pt x 271.0125pt>
+<Figuras/../../Figuras/Bi2.pdf, id=785, 370.38374pt x 370.38374pt>
+File: Figuras/../../Figuras/Bi2.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Bi2.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 71.
+(pdftex.def)             Requested size: 215.24863pt x 215.25223pt.
+<Figuras/../../Figuras/Bi.pdf, id=786, 379.4175pt x 370.38374pt>
+File: Figuras/../../Figuras/Bi.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Bi.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 72.
+(pdftex.def)             Requested size: 212.82779pt x 207.76387pt.
+<Figuras/../../Figuras/MgOc.pdf, id=794, 361.35pt x 271.0125pt>
 File: Figuras/../../Figuras/MgOc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 83.
+Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 84.
 
 (pdftex.def)             Requested size: 215.24863pt x 161.43845pt.
-<Figuras/../../Figuras/MgOAR.pdf, id=787, 361.35pt x 279.0425pt>
+<Figuras/../../Figuras/MgOAR.pdf, id=795, 361.35pt x 279.0425pt>
 File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 84
+Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 85
 .
 (pdftex.def)             Requested size: 212.82779pt x 164.35262pt.
 
@@ -1371,17 +1375,13 @@ Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 84
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Bi.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
-> <./Figuras/../../Figuras/MgOc.pdf
+>]) (1Conclusiones.tex) (1Notas_Servicio_Social.bbl
 
-pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/MgOc.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
-> <./Figuras/../../Figuras/MgOAR.pdf
+[20 <./Figuras/../../Figuras/MgOc.pdf> <./Figuras/../../Figuras/MgOAR.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/MgOAR.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->]) (1Conclusiones.tex) (1Notas_Servicio_Social.bbl
-
-[20])
+>])
 
 [21] (1Notas_Servicio_Social.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -1400,13 +1400,13 @@ Package rerunfilecheck Info: File `1Notas_Servicio_Social.out' has not changed.
 (rerunfilecheck)             Checksum: A45C8E433D63C8698549D94379398FD5;1822.
  ) 
 Here is how much of TeX's memory you used:
- 18877 strings out of 473898
- 316634 string characters out of 5726008
+ 18837 strings out of 473898
+ 316232 string characters out of 5726008
  1952960 words of memory out of 5000000
- 41009 multiletter control sequences out of 15000+600000
- 631312 words of font info for 216 fonts, out of 8000000 for 9000
+ 41008 multiletter control sequences out of 15000+600000
+ 629611 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,13n,93p,1694b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,13n,93p,1694b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lunita/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.p
 fb><C:/Users/Lunita/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.
 pfb><C:/Users/Lunita/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.
@@ -1431,9 +1431,9 @@ pfb><C:/Users/Lunita/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10
 7.pfb><C:/Users/Lunita/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy
 8.pfb><C:/Users/Lunita/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (21 pages, 5209755 bytes).
+Output written on 1Notas_Servicio_Social.pdf (21 pages, 5212284 bytes).
 PDF statistics:
- 1139 PDF objects out of 1200 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
+ 1150 PDF objects out of 1200 (max. 8388607)
+ 165 named destinations out of 1000 (max. 500000)
  37029 words of extra memory for PDF output out of 42996 (max. 10000000)
 
