@@ -1,5 +1,7 @@
 \documentclass[9pt,letterpaper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} 
+\decimalpoint
 
 %----- Configuración del estilo del documento------%
 \usepackage{epsfig,graphicx}
@@ -7,10 +9,13 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
+\fancyfoot{}
 \graphicspath{{Figuras/}}
 \usepackage{hyperref}
 \hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=magenta,}
 
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+\fancyheadoffset[RO,LE]{0.01\textwidth}
 
 %------ Paquetes matemáticos básicos --------%
 \usepackage{amsmath}
@@ -54,8 +59,10 @@
 	
 	\parbox{\textwidth}{\raggedleft Ciudad Universitaria, 23 de febrero de 2025.}
 	
-		\hspace{0.5cm}
+		\hspace{1cm}
 	
+		\vspace{0.5cm}
+	 
 	Comisión de Servicio Social
 	
 	Coordinación de Física Biomédica
@@ -75,29 +82,31 @@
 	
 Por medio de la presente, reporto las actividades realizadas durante mi servicio social en el programa Apoyo a la Investigación, con el título ``Cálculo de las secciones transversales de extinción, absorción y esparcimiento de elipsoides en la aproximación cuasi-estática como primera aproximación de eritrocitos'' con clave 2024-12/12-837. El proyecto lo realicé bajo la supervisión del Dr. Alejandro Reyes Coronado, en el Departamento de Física, cubículo 407 en la Facultad de Ciencias de la UNAM. Realicé las actividades en el periodo comprendido entre el 23 de febrero de 2024 al 23 de septiembre del 2024. \\
 
-El estudio de las propiedades ópticas de las células biológicas como los osteoblastos \cite{Osteoblastos}, los linfocitos \cite{Linfocitos}, y los eritrocitos \cite{Blood}, es de importancia para el área médica. A partir de las propiedades ópticas de las células, se obtiene información de su composición y estado morfológico, lo cual tiene potenciales aplicaciones en el diagnóstico y la detección temprana de diversas enfermedades, incluidos cánceres e infecciones virales \cite{Linfocitos}. En particular, el estudio de los eritrocitos tiene un papel importante en el diagnóstico de la anemia en sus diferentes tipos y el diseño de nuevas terapias ópticas, como el tratamiento de las venas varicosas \cite{Blood}.\\
+El estudio de las propiedades ópticas de células biológicas, como los osteoblastos \cite{Osteoblastos}, los linfocitos \cite{Linfocitos}, y los eritrocitos \cite{Blood}, es fundamental para aplicaciones médicas, incluyendo el diagnóstico de enfermedades y el desarrollo de terapias ópticas. En particular, los eritrocitos, debido a su forma discoide cóncava y la ausencia de núcleo, pueden modelarse como estructuras homogéneas \cite{Cassini}. Para su análisis, se han utilizado modelos como óvalos de Cassini \cite{Cassini} o funciones en coordenadas esféricas \cite{Esferico}, aunque un enfoque simplificado es representarlos como elipsoides oblatos.\\
 
-Los eritrocitos sanos presentan forma de discoides cóncavos con longitudes de entre 4 a 9 mm de diámetro. Estos no poseen núcleo, por lo que pueden modelarse como un objeto homogéneo \cite{Cassini}. Debido a su forma, para simplificar el proceso de modelado, se han empleado diferentes opciones como los óvalos de Cassini \cite{Cassini} o funciones en términos de coordenadas esféricas \cite{Esferico}. Sin embargo, un modelo simple a estudiar como una primera aproximación es un elipsoide. Durante mi servicio social, analicé la convergencia y propiedades físicas de la respuesta óptica de elipsoides de diferentes materiales (oro, plata, aluminio, bismuto y óxido de magnesio) y tamaños dentro de la nanoescala, por medio de las secciones transversales de esparcimiento, absorción y extinción, bajo la aproximación cuasi-estática como un modelo simplificado de eritrocitos sanos. Para ello, comencé estudiando la solución a las ecuaciones de Maxwell con condiciones de contorno esféricas, conocida como teoría de Mie \cite{Bohren}. Posteriormente, para estudiar a los eritrocitos sanos, que presentan forma de discoides cóncavos con longitudes de entre 4 a 9 mm de diámetro, empleé como modelo elipsoides oblatos como primera aproximación. Sin embargo, también se han utilizado otros modelos geométricos como los óvalos de Cassini \cite{Cassini} o funciones en términos de coordenadas esféricas \cite{Esferico}. Además, analicé la solución analítica del problema de esparcimiento de luz por partículas elipsoidales arbitrarias en la aproximación cuasiestática, evaluando las secciones transversales de extinción, absorción y esparcimiento. Finalmente, estudié el comportamiento del esparcimiento de luz por un elipsoide centrado en el origen dentro de este mismo régimen.\\
+ Durante mi servicio social, analicé la convergencia y propiedades físicas de la respuesta óptica de elipsoides de diferentes materiales (oro, plata, aluminio, bismuto y óxido de magnesio) y tamaños dentro de la nanoescala, por medio de las secciones transversales de esparcimiento, absorción y extinción, bajo la aproximación cuasi-estática como un modelo simplificado de eritrocitos sanos. Para ello, comencé estudiando la solución a las ecuaciones de Maxwell con condiciones de contorno esféricas, conocida como teoría de Mie \cite{Bohren}. Posteriormente, analicé la solución analítica del problema de esparcimiento de luz por partículas elipsoidales arbitrarias en la aproximación cuasiestática, estudiando las secciones transversales de extinción, absorción y esparcimiento. Finalmente, estudié el comportamiento del esparcimiento de luz por un elipsoide centrado en el origen dentro de este mismo régimen.\\
 
-Como resultados, calculé las secciones transversales de absorción, esparcimiento y extinción, bajo la aproximación cuasiestática, para partículas elipsoidales oblatas, empleando el modelo de Drude para el aluminio \cite{Plata} y datos experimentales para la plata \cite{Plata}, oro \cite{Plata}, bismuto \cite{Bismuto} y óxido de magnesio \cite{MgO}. Encontré que en el límite cuasiestático, la absorción es la contribución predominante en la extinción, mientras que el esparcimiento resulta despreciable. En el rango donde los materiales presentan un comportamiento acorde con el modelo de Drude, identifiqué dos resonancias plasmónicas correspondientes a la iluminación de los elipsoides en las direcciones $\hat{e}_x$ y $\hat{e}_z$, ubicadas hacia el rojo y el azul, respectivamente, de la frecuencia resonancia observada para una nanopartícula esférica. Por otro lado, encontré que en los rangos en los que la función dieléctrica de los materiales no se ajusta al modelo de Drude, el incremento en la sección transversal de extinción promedio se asocia con contribuciones descritas por el modelo de Lorentz. Finalmente, para las partículas de óxido de magnesio, observé que la sección transversal de extinción aumenta con la energía, lo que se atribuye a su naturaleza dieléctrica. \\
+Como resultados, calculé las secciones transversales de absorción, esparcimiento y extinción, bajo la aproximación cuasiestática, para partículas elipsoidales oblatas, empleando el modelo de Drude para el aluminio \cite{Plasmonics} y datos experimentales para la plata \cite{Plata}, el oro \cite{Plata}, el bismuto \cite{Bismuto} y el óxido de magnesio \cite{MgO}. Encontré que en el límite cuasiestático, la absorción es la contribución predominante en la extinción, mientras que el esparcimiento resulta despreciable. Para materiales que siguen el modelo de Drude, identifiqué dos resonancias plasmónicas asociadas a la iluminación en distintas direcciones del elipsoide. En contraste, en materiales que no se ajustan al modelo de Drude, el aumento en la extinción se explica mediante el modelo de Lorentz. Finalmente, para las partículas de óxido de magnesio, observé que la sección transversal de extinción aumenta con la energía, lo que se atribuye a su naturaleza dieléctrica. \\
 
-Finalmente, adjunto un reporte en extenso del estudio realizado durante mi servicio social que aborda de manera detallada el problema mencionado en este informe.	
-	
-	{\vspace{3cm}\begin{tabular} { c}
+En las siguientes páginas adjunto un reporte en extenso del estudio realizado durante mi servicio social que aborda de manera detallada el problema mencionado en este informe.	\\
+
+\bigskip
+
+	{\vspace{2.55cm}\begin{tabular} { c}
 			\setlength{\tabcolsep}{15pt}
 			\renewcommand{\arraystretch}{1}
 			\noindent\rule{5.5cm}{0.4pt}\qquad \\
 			
 			\qquad  \textbf{Dana Larissa Luna González} \qquad \\
 			\qquad Estudiante de Física Biomédica  \qquad \\ \qquad 
-			No. de cuenta: 316044107\qquad \\  
+			No. de cuenta: 421122680\qquad \\  
 			\qquad  Tel.: 776 101 4262 \qquad \\
 			\qquad dana.larissalg@ciencias.unam.mx \qquad \\
 			
 		\end{tabular}
 	}
 	
-	{\vspace{-2.9cm}\hspace{7cm}\begin{tabular} { c}
+	{\vspace{-2.53cm}\hspace{7cm}\begin{tabular} { c}
 			\setlength{\tabcolsep}{15pt}
 			\renewcommand{\arraystretch}{1}
 			\noindent\rule{5.5cm}{0.4pt}\qquad \\

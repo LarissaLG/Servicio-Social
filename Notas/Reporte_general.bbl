@@ -19,11 +19,6 @@ N.~Bosschaart, G.~J. Edelman, M.~C.~G. Aalders, T.~G. Van~Leeuwen, and D.~J.
   properties of whole blood,'' {\em Lasers in Medical Science}, vol.~29,
   pp.~453--479, Mar. 2014.
 
-\bibitem{Bohren}
-C.~F. Bohren and D.~R. Huffman, {\em Absorption and scattering of light by
-  small particles}.
-\newblock John Wiley \& Sons, 2008.
-
 \bibitem{Cassini}
 E.~Eremina, J.~Hellmers, Y.~Eremin, and T.~Wriedt, ``Different shape models for
   erythrocyte: {Light} scattering analysis based on the discrete sources
@@ -37,11 +32,13 @@ A.~G. Borovoi, E.~I. Naats, and U.~G. Oppel, ``Scattering of light by a red
   pp.~364--372, 1998.
 \newblock Publisher: SPIE.
 
-\bibitem{Aluminio}
-A.~D. Rakić, ``Algorithm for the determination of intrinsic optical constants
-  of metal films: application to aluminum,'' {\em Applied optics}, vol.~34,
-  no.~22, pp.~4755--4767, 1995.
-\newblock Publisher: Optica Publishing Group.
+\bibitem{Bohren}
+C.~F. Bohren and D.~R. Huffman, {\em Absorption and scattering of light by
+  small particles}.
+\newblock John Wiley \& Sons, 2008.
+
+\bibitem{Plasmonics}
+S.~A. Maier, ``Plasmonics: {Fundamentals} and {Applications},'' 2007.
 
 \bibitem{Plata}
 P.~B. Johnson and R.~W. Christy, ``Optical {Constants} of the {Noble}
