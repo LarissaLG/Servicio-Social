@@ -1,0 +1,62 @@
+\begin{thebibliography}{10}
+
+\bibitem{Osteoblastos}
+A.~Antunes, J.~H. Pontes, A.~F. Monte, A.~Barbosa, and N.~M. Ferreira,
+  ``Optical properties on bone analysis: an approach to biomaterials,'' in {\em
+  Proceedings}, vol.~27, p.~36, MDPI, 2019.
+\newblock Issue: 1.
+
+\bibitem{Linfocitos}
+J.~Yoon, Y.~Jo, M.-h. Kim, K.~Kim, S.~Lee, S.-J. Kang, and Y.~Park,
+  ``Identification of non-activated lymphocytes using three-dimensional
+  refractive index tomography and machine learning,'' {\em Scientific reports},
+  vol.~7, no.~1, p.~6654, 2017.
+\newblock Publisher: Nature Publishing Group UK London.
+
+\bibitem{Blood}
+N.~Bosschaart, G.~J. Edelman, M.~C.~G. Aalders, T.~G. Van~Leeuwen, and D.~J.
+  Faber, ``A literature review and novel theoretical approach on the optical
+  properties of whole blood,'' {\em Lasers in Medical Science}, vol.~29,
+  pp.~453--479, Mar. 2014.
+
+\bibitem{Bohren}
+C.~F. Bohren and D.~R. Huffman, {\em Absorption and scattering of light by
+  small particles}.
+\newblock John Wiley \& Sons, 2008.
+
+\bibitem{Cassini}
+E.~Eremina, J.~Hellmers, Y.~Eremin, and T.~Wriedt, ``Different shape models for
+  erythrocyte: {Light} scattering analysis based on the discrete sources
+  method,'' {\em Journal of Quantitative Spectroscopy and Radiative Transfer},
+  vol.~102, no.~1, pp.~3--10, 2006.
+\newblock Publisher: Elsevier.
+
+\bibitem{Esferico}
+A.~G. Borovoi, E.~I. Naats, and U.~G. Oppel, ``Scattering of light by a red
+  blood cell,'' {\em Journal of biomedical optics}, vol.~3, no.~3,
+  pp.~364--372, 1998.
+\newblock Publisher: SPIE.
+
+\bibitem{Aluminio}
+A.~D. Rakić, ``Algorithm for the determination of intrinsic optical constants
+  of metal films: application to aluminum,'' {\em Applied optics}, vol.~34,
+  no.~22, pp.~4755--4767, 1995.
+\newblock Publisher: Optica Publishing Group.
+
+\bibitem{Plata}
+P.~B. Johnson and R.~W. Christy, ``Optical {Constants} of the {Noble}
+  {Metals},'' {\em Physical Review B}, vol.~6, pp.~4370--4379, Dec. 1972.
+
+\bibitem{Bismuto}
+H.-J. Hagemann, W.~Gudat, and C.~Kunz, ``Optical constants from the far
+  infrared to the x-ray region: {Mg}, {Al}, {Cu}, {Ag}, {Au}, {Bi}, {C}, and
+  {Al} 2 {O} 3,'' {\em JOSA}, vol.~65, no.~6, pp.~742--744, 1975.
+\newblock Publisher: Optica Publishing Group.
+
+\bibitem{MgO}
+R.~E. Stephens and I.~H. Malitson, ``Index of refraction of magnesium oxide,''
+  {\em Journal of Research of the National Bureau of Standards}, vol.~49,
+  no.~4, pp.~249--252, 1952.
+\newblock Publisher: National Institute of Standards and Technology (NIST).
+
+\end{thebibliography}
