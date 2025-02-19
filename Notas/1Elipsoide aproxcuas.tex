@@ -1,5 +1,5 @@
 \hypertarget{elipsoide}{\subsection{Elipsoide en la aproximación cuasiestática}}
-Las secciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En esta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes iluminadas por una onda plana electromagnética y confinadas en un elipsoide centrado en el origen, con semiejes $a,b,c$ alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$, a distancias alejadas del origen (ver Fig. \ref{elipse}), donde $\lambda$ es la longitud de onda que se relaciona con el vector de onda como $k=2\pi\sqrt{\epsilon_m/\lambda}$. A diferencia de la sección anterior, no se cuenta con simetría esférica, sin embargo es posible calcular una solución analítica, aproximada, al emplear las coordenadas elipsoidales confocales. \footnote{Existen diversas definiciones que pueden revisarse en \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en \cite{Arfken}. } Estas describen la superficie del elipsoide como \cite{ConfocalEllip}
+Las secciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En esta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes iluminadas por una onda plana electromagnética y confinadas en un elipsoide centrado en el origen, con semiejes $a,b,c$ alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$, a distancias alejadas del origen [ver Fig. \ref{elipse}], donde $\lambda$ es la longitud de onda que se relaciona con el vector de onda como $k=2\pi\sqrt{\epsilon_m/\lambda}$. A diferencia de la sección anterior, no se cuenta con simetría esférica, sin embargo es posible calcular una solución analítica, aproximada, al emplear las coordenadas elipsoidales confocales. \footnote{Existen diversas definiciones que pueden revisarse en \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en \cite{Arfken}. } Estas describen la superficie del elipsoide como \cite{ConfocalEllip}
 \begin{equation}
 	\frac{x^2}{a^2-u}+\frac{y^2}{b^2-u}+\frac{z^2}{c^2-u}=1,
 	\label{elipsoide2}
@@ -8,9 +8,8 @@ Las secciones transversales de extinción, absorción y esparcimiento para distr
 \begin{equation}
 	-\infty<\xi<c^2<\eta<b^2<\zeta<a^2
 \end{equation}
-que corresponden a tres formas cuádricas con focos en común (ver Fig. \ref{Quadrics}). Estas se relacionan con las coordenadas cartesianas mediante el siguiente sistema de ecuaciones escrito en forma matricial
-\begin{center}
-	\resizebox{0.44\textwidth}{!}{
+que corresponden a tres formas cuádricas con focos en común [ver Fig. \ref{Quadrics}]. Estas se relacionan con las coordenadas cartesianas mediante el siguiente sistema de ecuaciones escrito en forma matricial
+%
 	\begin{equation*}
 		\begin{pmatrix}
 			\frac{1}{a^2+\xi} & \frac{1}{b^2+\xi} & \frac{1}{c^2+\xi}\\
@@ -22,11 +21,10 @@ que corresponden a tres formas cuádricas con focos en común (ver Fig. \ref{Qua
 		\end{pmatrix}=\begin{pmatrix}
 			1\\
 			1\\
-			1\\
+			1
 		\end{pmatrix},
 	\end{equation*}
-}
-\end{center}
+%	
 cuya solución está dada por las expresiones
 \begin{align}
 	x^2&=\frac{(a^2+\xi)(a^2+\eta)(a^2+\zeta)}{(b^2-a^2)(c^2-a^2)},\label{x_elips}\\
@@ -347,7 +345,7 @@ y por consiguiente, se cumple la Ec. (\ref{rel_fac_geom}).\\
     L_{\text{esfera}}=L^{(1)}=L^{(2)}=L^{(3)}=\frac{a^3}{2}\int_0^{\infty}\frac{\text{d}q}{(a^2+q)^{5/2}}=\frac{1}{3}.
 \end{equation*}
 
-Una clase especial de elipsoides son los \textit{esferoides}, los cuales tienen dos ejes de igual longitud, por lo cual, solo uno de los factores geométricos es independiente. El esferoide prolato (Fig. \ref{esf_prolato}), para el cual $b=c>a$ y $L_2=L_3$ es generado por la rotación de una elipse sobre su eje mayor; el esferoide oblato (Fig. \ref{esf_oblato}), para el cual $b=a>c$ y $L_1=L_2$ es generado al rotar una elipse sobre su eje menor. Para los esferoides, se tiene una expresión analítica para $L_1$ como función de la excentricidad $e$ \cite{Bohren}. En el caso de los esferoides prolatos es
+Una clase especial de elipsoides son los \textit{esferoides}, los cuales tienen dos ejes de igual longitud, por lo cual, solo uno de los factores geométricos es independiente. El esferoide prolato [Fig. \ref{esf_prolato}], para el cual $b=c>a$ y $L_2=L_3$ es generado por la rotación de una elipse sobre su eje mayor; el esferoide oblato [Fig. \ref{esf_oblato}], para el cual $b=a>c$ y $L_1=L_2$ es generado al rotar una elipse sobre su eje menor. Para los esferoides, se tiene una expresión analítica para $L_1$ como función de la excentricidad $e$ \cite{Bohren}. En el caso de los esferoides prolatos es
 \begin{equation}
 	L_1=\frac{1-e^2}{e^2}\left(-1+\frac{1}{2e}\left(\text{ln}\frac{1+e}{1-e}\right)\right)\hspace{1cm}e^2=1-\frac{b^2}{a^2},
 \end{equation}

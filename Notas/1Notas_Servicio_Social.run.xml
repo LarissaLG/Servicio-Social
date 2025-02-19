@@ -41,10 +41,11 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>1Notas_Servicio_Social.bcf</file>
+      <file>1Notas_Servicio_Social.aux</file>
+      <file>1Notas_Servicio_Social-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>1Notas_Servicio_Social.bbl</file>
@@ -52,22 +53,25 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
+      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
-      <file>authoryear.bbx</file>
-      <file>authoryear.cbx</file>
+      <file>trad-standard.bbx</file>
+      <file>trad-abbrv.bbx</file>
+      <file>numeric-comp.cbx</file>
       <file>biblatex.cfg</file>
       <file>spanish.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
-    <generic>biber</generic>
+  <external package="biblatex" priority="5" active="1">
+    <generic>bibtex</generic>
     <cmdline>
-      <binary>biber</binary>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
       <infile>1Notas_Servicio_Social</infile>
     </cmdline>
     <input>
-      <file>1Notas_Servicio_Social.bcf</file>
+      <file>1Notas_Servicio_Social.aux</file>
     </input>
     <output>
       <file>1Notas_Servicio_Social.bbl</file>
@@ -76,10 +80,14 @@
       <file>1Notas_Servicio_Social.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>1Notas_Servicio_Social.bcf</file>
+      <file>1Notas_Servicio_Social.aux</file>
+      <file>1Notas_Servicio_Social-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>Referencias.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>
