@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.28)  19 FEB 2025 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.28)  21 FEB 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1483,18 +1483,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-<Figuras/../../Figuras/AlContribuciones3.pdf, id=375, 361.35pt x 282.05376pt>
+<Figuras/../../Figuras/AlContribuciones3.pdf, id=375, 360.04826pt x 275.99203pt
+>
 File: Figuras/../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlContribuciones3.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AlContribuciones3.pdf  used on i
-nput line 16.
-(pdftex.def)             Requested size: 215.24863pt x 168.01558pt.
-<Figuras/../../Figuras/CextAlbueno.pdf, id=376, 361.35pt x 292.09125pt>
+nput line 17.
+(pdftex.def)             Requested size: 215.24863pt x 164.99428pt.
+<Figuras/../../Figuras/CextAlbueno.pdf, id=376, 360.04826pt x 286.30008pt>
 File: Figuras/../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/CextAlbueno.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/CextAlbueno.pdf  used on input l
-ine 17.
-(pdftex.def)             Requested size: 212.82779pt x 172.03816pt.
+ine 18.
+(pdftex.def)             Requested size: 212.82779pt x 169.23448pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1505,12 +1506,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16 <./Figuras/../../Figuras/prolato.png> <./Figuras/../../Figuras/oblato.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
 
  []
 
@@ -1528,39 +1529,26 @@ xtAlbueno.pdf
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/CextAlbueno.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-<Figuras/../../Figuras/AlAR.pdf, id=453, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/AlAR.pdf, id=483, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/AlAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/AlAR.pdf  used on input line 34.
+Package pdftex.def Info: Figuras/../../Figuras/AlAR.pdf  used on input line 35.
 
 (pdftex.def)             Requested size: 215.24863pt x 171.60309pt.
-<Figuras/../../Figuras/AgAR.pdf, id=454, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/AgAR.pdf, id=484, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/AgAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AgAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/AgAR.pdf  used on input line 35.
+Package pdftex.def Info: Figuras/../../Figuras/AgAR.pdf  used on input line 36.
 
 (pdftex.def)             Requested size: 212.82779pt x 169.67339pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
-
-<Figuras/../../Figuras/Alc.pdf, id=459, 361.35pt x 285.065pt>
-File: Figuras/../../Figuras/Alc.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Alc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Alc.pdf  used on input line 44.
-(pdftex.def)             Requested size: 215.24863pt x 169.80934pt.
-<Figuras/../../Figuras/Agc.pdf, id=460, 361.35pt x 288.07625pt>
-File: Figuras/../../Figuras/Agc.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Agc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Agc.pdf  used on input line 45.
-(pdftex.def)             Requested size: 212.82779pt x 169.67339pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1575,15 +1563,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/AgAR.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/Au2.pdf, id=576, 379.4175pt x 359.3425pt>
+<Figuras/../../Figuras/Alc.pdf, id=594, 361.35pt x 285.065pt>
+File: Figuras/../../Figuras/Alc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Alc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Alc.pdf  used on input line 45.
+(pdftex.def)             Requested size: 215.24863pt x 169.80934pt.
+<Figuras/../../Figuras/Agc.pdf, id=595, 361.35pt x 288.07625pt>
+File: Figuras/../../Figuras/Agc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Agc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Agc.pdf  used on input line 46.
+(pdftex.def)             Requested size: 212.82779pt x 169.67339pt.
+<Figuras/../../Figuras/Au2.pdf, id=607, 379.4175pt x 359.3425pt>
 File: Figuras/../../Figuras/Au2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Au2.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 56.
+Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 57.
 (pdftex.def)             Requested size: 215.24863pt x 203.86232pt.
-<Figuras/../../Figuras/Au.pdf, id=577, 379.4175pt x 359.3425pt>
+<Figuras/../../Figuras/Au.pdf, id=608, 379.4175pt x 359.3425pt>
 File: Figuras/../../Figuras/Au.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Au.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 57.
+Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 58.
 (pdftex.def)             Requested size: 212.82779pt x 201.57037pt.
 
 
@@ -1599,20 +1597,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Agc.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-<Figuras/../../Figuras/Bi2.pdf, id=693, 370.38374pt x 370.38374pt>
-File: Figuras/../../Figuras/Bi2.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Bi2.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 66.
-(pdftex.def)             Requested size: 215.24863pt x 215.25223pt.
-<Figuras/../../Figuras/Bi.pdf, id=694, 379.4175pt x 370.38374pt>
-File: Figuras/../../Figuras/Bi.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/Bi.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 67.
-(pdftex.def)             Requested size: 212.82779pt x 207.76387pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1626,16 +1614,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Au.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/MgOc.pdf, id=814, 361.35pt x 271.0125pt>
+<Figuras/../../Figuras/Bi2.pdf, id=834, 370.38374pt x 370.38374pt>
+File: Figuras/../../Figuras/Bi2.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Bi2.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 67.
+(pdftex.def)             Requested size: 215.24863pt x 215.25223pt.
+<Figuras/../../Figuras/Bi.pdf, id=835, 379.4175pt x 370.38374pt>
+File: Figuras/../../Figuras/Bi.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Bi.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 68.
+(pdftex.def)             Requested size: 212.82779pt x 207.76387pt.
+<Figuras/../../Figuras/MgOc.pdf, id=844, 361.35pt x 271.0125pt>
 File: Figuras/../../Figuras/MgOc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOc.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 79.
+Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 80.
 
 (pdftex.def)             Requested size: 215.24863pt x 161.43845pt.
-<Figuras/../../Figuras/MgOAR.pdf, id=815, 361.35pt x 279.0425pt>
+<Figuras/../../Figuras/MgOAR.pdf, id=845, 361.35pt x 279.0425pt>
 File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 80
+Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 81
 .
 (pdftex.def)             Requested size: 212.82779pt x 164.35262pt.
 
@@ -1724,11 +1722,11 @@ Package logreq Info: Writing requests to '1Notas_Servicio_Social.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26252 strings out of 474927
- 460943 string characters out of 5763535
+ 26249 strings out of 474927
+ 460914 string characters out of 5763535
  1943785 words of memory out of 5000000
- 46987 multiletter control sequences out of 15000+600000
- 641414 words of font info for 225 fonts, out of 8000000 for 9000
+ 46988 multiletter control sequences out of 15000+600000
+ 641245 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,13n,93p,1905b,1881s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2023
@@ -1747,10 +1745,10 @@ ublic/lm/lmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
 <c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/texlive/2023/te
 xmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (24 pages, 5086987 bytes).
+Output written on 1Notas_Servicio_Social.pdf (24 pages, 4334062 bytes).
 PDF statistics:
- 1208 PDF objects out of 1440 (max. 8388607)
- 924 compressed objects within 10 object streams
+ 1240 PDF objects out of 1440 (max. 8388607)
+ 945 compressed objects within 10 object streams
  169 named destinations out of 1000 (max. 500000)
  43685 words of extra memory for PDF output out of 51595 (max. 10000000)
 
