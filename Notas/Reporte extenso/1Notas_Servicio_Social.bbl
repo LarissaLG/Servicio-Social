@@ -1,0 +1,799 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global/global}
+  \entry{Osteoblastos}{inproceedings}{}{}
+    \name{author}{5}{}{%
+      {{hash=AA}{%
+         family={Antunes},
+         familyi={A\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PJH}{%
+         family={Pontes},
+         familyi={P\bibinitperiod},
+         given={José\bibnamedelima HL},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=MAF}{%
+         family={Monte},
+         familyi={M\bibinitperiod},
+         given={Adamo\bibnamedelima FG},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Barbosa},
+         familyi={B\bibinitperiod},
+         given={Alcimar},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FNM}{%
+         family={Ferreira},
+         familyi={F\bibinitperiod},
+         given={Nuno\bibnamedelima MF},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{AAPJHMAFBAFNM1}
+    \strng{fullhash}{AAPJHMAFBAFNM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{booktitle}{Proceedings}
+    \field{note}{Issue: 1}
+    \field{pages}{36}
+    \field{shorttitle}{Optical properties on bone analysis}
+    \field{title}{Optical properties on bone analysis: an approach to
+  biomaterials}
+    \verb{url}
+    \verb https://pdfs.semanticscholar.org/a7b5/68be4f6c5f35cb12740ceaea5219dbe
+    \verb 0ebfd.pdf
+    \endverb
+    \field{volume}{27}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\T2P569H5\\Antunes et al. - 2019 - Optical properties on bone anal
+    \verb ysis an approach to biomaterials.pdf:application/pdf
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{Linfocitos}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=YJ}{%
+         family={Yoon},
+         familyi={Y\bibinitperiod},
+         given={Jonghee},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Jo},
+         familyi={J\bibinitperiod},
+         given={YoungJu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KMh}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Min-hyeok},
+         giveni={M\bibinithyphendelim h\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Kyoohyun},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={SangYun},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KSJ}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={Suk-Jo},
+         giveni={S\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=PY}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={YongKeun},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YJJYKMhKKLSKSJPY1}
+    \strng{fullhash}{YJJYKMhKKLSKSJPY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Publisher: Nature Publishing Group UK London}
+    \field{number}{1}
+    \field{pages}{6654}
+    \field{title}{Identification of non-activated lymphocytes using
+  three-dimensional refractive index tomography and machine learning}
+    \verb{url}
+    \verb https://www.nature.com/articles/s41598-017-06311-y
+    \endverb
+    \field{volume}{7}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\9NZFLYXJ\\Yoon et al. - 2017 - Identification of non-activated ly
+    \verb mphocytes using three-dimensional refractive index tomography and.pdf
+    \verb :application/pdf
+    \endverb
+    \field{journaltitle}{Scientific reports}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Blood}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=BN}{%
+         family={Bosschaart},
+         familyi={B\bibinitperiod},
+         given={Nienke},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=EGJ}{%
+         family={Edelman},
+         familyi={E\bibinitperiod},
+         given={Gerda\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=AMCG}{%
+         family={Aalders},
+         familyi={A\bibinitperiod},
+         given={Maurice C.\bibnamedelima G.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+      }}%
+      {{hash=VLTG}{%
+         family={Van\bibnamedelima Leeuwen},
+         familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Ton\bibnamedelima G.},
+         giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=FDJ}{%
+         family={Faber},
+         familyi={F\bibinitperiod},
+         given={Dirk\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{BNEGJAMCGVLTGFDJ1}
+    \strng{fullhash}{BNEGJAMCGVLTGFDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10103-013-1446-7
+    \endverb
+    \field{issn}{0268-8921, 1435-604X}
+    \field{number}{2}
+    \field{pages}{453\bibrangedash 479}
+    \field{title}{A literature review and novel theoretical approach on the
+  optical properties of whole blood}
+    \verb{url}
+    \verb https://link.springer.com/10.1007/s10103-013-1446-7
+    \endverb
+    \field{volume}{29}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\A6JRQL6M\\Bosschaart et al. - 2014 - A literature review and nove
+    \verb l theoretical approach on the optical properties of whole blood.pdf:a
+    \verb pplication/pdf
+    \endverb
+    \field{journaltitle}{Lasers in Medical Science}
+    \field{month}{03}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Cassini}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=EE}{%
+         family={Eremina},
+         familyi={E\bibinitperiod},
+         given={Elena},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hellmers},
+         familyi={H\bibinitperiod},
+         given={Jens},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EY}{%
+         family={Eremin},
+         familyi={E\bibinitperiod},
+         given={Yuri},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Wriedt},
+         familyi={W\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EEHJEYWT1}
+    \strng{fullhash}{EEHJEYWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{note}{Publisher: Elsevier}
+    \field{number}{1}
+    \field{shorttitle}{Different shape models for erythrocyte}
+    \field{title}{Different shape models for erythrocyte: {Light} scattering
+  analysis based on the discrete sources method}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0022407306000719?c
+    \verb asa_token=ac-ghaSEULsAAAAA:S25KH6sHY_fTWNhfkqAathYc33vpiijE6jlZZzclu4
+    \verb 6-ZXd_PurcKcpeKlVYGHySrLXMU23C8gwW
+    \endverb
+    \field{volume}{102}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\CB9ZM2Q5\\S0022407306000719.html:text/html
+    \endverb
+    \field{journaltitle}{Journal of Quantitative Spectroscopy and Radiative
+  Transfer}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Esferico}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=BAG}{%
+         family={Borovoi},
+         familyi={B\bibinitperiod},
+         given={Anatoli\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=NEI}{%
+         family={Naats},
+         familyi={N\bibinitperiod},
+         given={Edward\bibnamedelima I.},
+         giveni={E\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=OUG}{%
+         family={Oppel},
+         familyi={O\bibinitperiod},
+         given={Ulrich\bibnamedelima G.},
+         giveni={U\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BAGNEIOUG1}
+    \strng{fullhash}{BAGNEIOUG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Publisher: SPIE}
+    \field{number}{3}
+    \field{title}{Scattering of light by a red blood cell}
+    \verb{url}
+    \verb https://www.spiedigitallibrary.org/journals/Journal-of-Biomedical-Opt
+    \verb ics/volume-3/issue-3/0000/Scattering-of-light-by-a-red-blood-cell/10.
+    \verb 1117/1.429883.short
+    \endverb
+    \field{volume}{3}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\4TC4F68J\\Borovoi et al. - 1998 - Scattering of light by a red bl
+    \verb ood cell.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Journal of biomedical optics}
+    \field{year}{1998}
+  \endentry
+
+  \entry{Bohren}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=BCF}{%
+         family={Bohren},
+         familyi={B\bibinitperiod},
+         given={Craig\bibnamedelima F.},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=HDR}{%
+         family={Huffman},
+         familyi={H\bibinitperiod},
+         given={Donald\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{BCFHDR1}
+    \strng{fullhash}{BCFHDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Absorption and scattering of light by small particles}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Cuasiestatico}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=LJ}{%
+         family={Larsson},
+         familyi={L\bibinitperiod},
+         given={Jonas},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJ1}
+    \strng{fullhash}{LJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Publisher: American Association of Physics Teachers}
+    \field{number}{3}
+    \field{title}{Electromagnetics from a quasistatic perspective}
+    \verb{url}
+    \verb https://pubs.aip.org/aapt/ajp/article-abstract/75/3/230/1056316
+    \endverb
+    \field{volume}{75}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\PSJLD26Z\\Larsson - 2007 - Electromagnetics from a quasistatic pe
+    \verb rspective.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{American Journal of Physics}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Griffiths}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=GDJ}{%
+         family={Griffiths},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{GDJ1}
+    \strng{fullhash}{GDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Introduction to electrodynamics}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\86E5XEPF\\Griffiths - 2023 - Introduction to electrodynamics.pdf:
+    \verb application/pdf
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{Jackson}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=JJD}{%
+         family={Jackson},
+         familyi={J\bibinitperiod},
+         given={John\bibnamedelima David},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{JJD1}
+    \strng{fullhash}{JJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Classical electrodynamics}
+    \verb{url}
+    \verb https://books.google.com/books?hl=es&lr=&id=6VV-EAAAQBAJ&oi=fnd&pg=PP
+    \verb 1&dq=Classical+electrodynamics&ots=7xA9oFYTb7&sig=v9A9PW5jhLccaP_f0W_
+    \verb GggqTfVs
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{ConfocalEllip}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=WEW}{%
+         family={Weisstein},
+         familyi={W\bibinitperiod},
+         given={Eric\bibnamedelima W.},
+         giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{WEW1}
+    \strng{fullhash}{WEW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Publisher: Wolfram Research, Inc.}
+    \field{title}{Confocal {Ellipsoidal} {Coordinates}}
+    \verb{url}
+    \verb https://mathworld.wolfram.com/ConfocalEllipsoidalCoordinates.html
+    \endverb
+    \verb{file}
+    \verb Snapshot:C\:\\Users\\Poh\\Zotero\\storage\\2HKH9VVF\\ConfocalEllipsoi
+    \verb dalCoordinates.html:text/html
+    \endverb
+    \field{type}{Text}
+  \endentry
+
+  \entry{Arfken}{book}{}{}
+    \name{author}{3}{}{%
+      {{hash=AGB}{%
+         family={Arfken},
+         familyi={A\bibinitperiod},
+         given={George\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=WHJ}{%
+         family={Weber},
+         familyi={W\bibinitperiod},
+         given={Hans\bibnamedelima J.},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HFE}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Frank\bibnamedelima E.},
+         giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic press}%
+    }
+    \strng{namehash}{AGBWHJHFE1}
+    \strng{fullhash}{AGBWHJHFE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{shorttitle}{Mathematical methods for physicists}
+    \field{title}{Mathematical methods for physicists: a comprehensive guide}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\MM95IQGN\\Arfken et al. - 2011 - Mathematical methods for physici
+    \verb sts a comprehensive guide.pdf:application/pdf
+    \endverb
+    \field{year}{2011}
+  \endentry
+
+  \entry{Cambdrige}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=DG}{%
+         family={Dassios},
+         familyi={D\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{DG1}
+    \strng{fullhash}{DG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The sphere is what might be called a perfect shape. Unfortunately nature is
+  imperfect and many bodies are better represented by an ellipsoid. The theory
+  of ellipsoidal harmonics, originated in the nineteenth century, could only be
+  seriously applied with the kind of computational power available in recent
+  years. This, therefore, is the first book devoted to ellipsoidal harmonics.
+  Topics are drawn from geometry, physics, biosciences and inverse problems. It
+  contains classical results as well as new material, including ellipsoidal
+  bi-harmonic functions, the theory of images in ellipsoidal geometry and
+  vector surface ellipsoidal harmonics, which exhibit an interesting analytical
+  structure. Extended appendices provide everything one needs to solve formally
+  boundary value problems. End-of-chapter problems complement the theory and
+  test the reader's understanding. The book serves as a comprehensive reference
+  for applied mathematicians, physicists, engineers and for anyone who needs to
+  know the current state of the art in this fascinating subject.%
+    }
+    \verb{doi}
+    \verb 10.1017/CBO9781139017749
+    \endverb
+    \field{series}{Encyclopedia of {Mathematics} and its {Applications}}
+    \field{shorttitle}{Ellipsoidal {Harmonics}}
+    \field{title}{Ellipsoidal {Harmonics}: {Theory} and {Applications}}
+    \verb{url}
+    \verb https://www.cambridge.org/core/books/ellipsoidal-harmonics/803CBC9F98
+    \verb DF279CC52F6AC53923ECD1
+    \endverb
+    \list{location}{1}{%
+      {Cambridge}%
+    }
+    \verb{file}
+    \verb Snapshot:C\:\\Users\\Poh\\Zotero\\storage\\UKCZXJPW\\803CBC9F98DF279C
+    \verb C52F6AC53923ECD1.html:text/html
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{Kellog}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=KOD}{%
+         family={Kellogg},
+         familyi={K\bibinitperiod},
+         given={Oliver\bibnamedelima Dimon},
+         giveni={O\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Science \& Business Media}%
+    }
+    \strng{namehash}{KOD1}
+    \strng{fullhash}{KOD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Foundations of potential theory}
+    \verb{url}
+    \verb https://books.google.com/books?hl=es&lr=&id=BGTyCAAAQBAJ&oi=fnd&pg=PA
+    \verb 1&dq=Foundations+of+potential+theory&ots=8WsV5WKFEK&sig=bCHbSblhSjfM7
+    \verb Mo7ozdDhodbLlo
+    \endverb
+    \field{volume}{31}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Braun}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=BM}{%
+         family={Braun},
+         familyi={B\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Springer US}%
+    }
+    \strng{namehash}{BM1}
+    \strng{fullhash}{BM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/978-1-4684-0053-3
+    \endverb
+    \field{isbn}{978-1-4684-0055-7 978-1-4684-0053-3}
+    \field{title}{Differential {Equations} and {Their} {Applications}}
+    \verb{url}
+    \verb http://link.springer.com/10.1007/978-1-4684-0053-3
+    \endverb
+    \list{location}{1}{%
+      {New York, NY}%
+    }
+    \field{year}{1978}
+  \endentry
+
+  \entry{Abramowitz}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=AM}{%
+         family={Abramowitz},
+         familyi={A\bibinitperiod},
+         given={Milton},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SIA}{%
+         family={Stegun},
+         familyi={S\bibinitperiod},
+         given={Irene\bibnamedelima A.},
+         giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {US Government printing office}%
+    }
+    \strng{namehash}{AMSIA1}
+    \strng{fullhash}{AMSIA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Handbook of mathematical functions with formulas, graphs, and
+  mathematical tables}
+    \field{volume}{55}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\Y9KN4HZ3\\books.html:text/html
+    \endverb
+    \field{year}{1948}
+  \endentry
+
+  \entry{Plasmonics}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=MSA}{%
+         family={Maier},
+         familyi={M\bibinitperiod},
+         given={S.\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MSA1}
+    \strng{fullhash}{MSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{shorttitle}{Plasmonics}
+    \field{title}{Plasmonics: {Fundamentals} and {Applications}}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Aluminio}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=MMI}{%
+         family={Marković},
+         familyi={M\bibinitperiod},
+         given={M.\bibnamedelima I.},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=RAD}{%
+         family={Rakić},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \keyw{aluminium, Lorentz-Drude model, optical properties, reradiation}
+    \strng{namehash}{MMIRAD1}
+    \strng{fullhash}{MMIRAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/0030-3992(90)90093-J
+    \endverb
+    \field{issn}{0030-3992}
+    \field{number}{6}
+    \field{title}{Determination of optical properties of aluminium including
+  electron reradiation in the {Lorentz}-{Drude} model}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/003039929090093J
+    \endverb
+    \field{volume}{22}
+    \verb{file}
+    \verb ScienceDirect Snapshot:C\:\\Users\\Poh\\Zotero\\storage\\VL2DLPZQ\\00
+    \verb 3039929090093J.html:text/html
+    \endverb
+    \field{journaltitle}{Optics \& Laser Technology}
+    \field{month}{12}
+    \field{year}{1990}
+  \endentry
+
+  \entry{Plata}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=JPB}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={P.\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CRW}{%
+         family={Christy},
+         familyi={C\bibinitperiod},
+         given={R.\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{JPBCRW1}
+    \strng{fullhash}{JPBCRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.6.4370
+    \endverb
+    \field{issn}{0556-2805}
+    \field{number}{12}
+    \field{pages}{4370\bibrangedash 4379}
+    \field{title}{Optical {Constants} of the {Noble} {Metals}}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.6.4370
+    \endverb
+    \field{volume}{6}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\424DXFB7\\Johnson y Christy - 1972 - Optical Constants of the Nob
+    \verb le Metals.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Physical Review B}
+    \field{month}{12}
+    \field{year}{1972}
+  \endentry
+
+  \entry{Bismuto}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=HHJ}{%
+         family={Hagemann},
+         familyi={H\bibinitperiod},
+         given={H.-J.},
+         giveni={H\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Gudat},
+         familyi={G\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Kunz},
+         familyi={K\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HHJGWKC1}
+    \strng{fullhash}{HHJGWKC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{note}{Publisher: Optica Publishing Group}
+    \field{number}{6}
+    \field{shorttitle}{Optical constants from the far infrared to the x-ray
+  region}
+    \field{title}{Optical constants from the far infrared to the x-ray region:
+  {Mg}, {Al}, {Cu}, {Ag}, {Au}, {Bi}, {C}, and {Al} 2 {O} 3}
+    \verb{url}
+    \verb https://opg.optica.org/abstract.cfm?uri=josa-65-6-742
+    \endverb
+    \field{volume}{65}
+    \field{journaltitle}{JOSA}
+    \field{year}{1975}
+  \endentry
+
+  \entry{MgO}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=SRE}{%
+         family={Stephens},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MIH}{%
+         family={Malitson},
+         familyi={M\bibinitperiod},
+         given={Irving\bibnamedelima H.},
+         giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SREMIH1}
+    \strng{fullhash}{SREMIH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Publisher: National Institute of Standards and Technology
+  (NIST)}
+    \field{number}{4}
+    \field{title}{Index of refraction of magnesium oxide}
+    \verb{url}
+    \verb https://nvlpubs.nist.gov/nistpubs/jres/049/4/v49.n04.a03.pdf
+    \endverb
+    \field{volume}{49}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\Z6ZHAMNV\\Stephens y Malitson - 1952 - Index of refraction of mag
+    \verb nesium oxide.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Journal of Research of the National Bureau of
+  Standards}
+    \field{year}{1952}
+  \endentry
+\enddatalist
+\endinput

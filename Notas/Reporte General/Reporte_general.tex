@@ -1,0 +1,158 @@
+\documentclass[9pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} 
+\decimalpoint
+
+%----- Configuración del estilo del documento------%
+\usepackage{epsfig,graphicx}
+\usepackage[left=2cm,right=2cm,top=1.8cm,bottom=2.3cm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\graphicspath{{Figuras/}}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=magenta,}
+
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+\fancyheadoffset[RO,LE]{0.01\textwidth}
+
+%------ Paquetes matemáticos básicos --------%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+%------ Texto aleatorio ----- %
+
+\usepackage{lipsum}
+
+
+
+\begin{document}
+	
+	%------ Encabezado -------- %
+	
+	\begin{center}
+		\begin{minipage}{3cm}
+			\begin{center}
+				\includegraphics[height=3.4cm]{../Figuras/Logo_UNAM (1)}
+			\end{center}
+		\end{minipage}\hfill
+		\begin{minipage}{10cm}
+			\begin{center}
+				{\scshape\LARGE \textbf{Universidad Nacional Autónoma de México} \par}
+				{\scshape\Large Facultad de Ciencias\par}
+				{\scshape\Large Coordinación de Física Biomédica\par}
+			\end{center}
+		\end{minipage}\hfill
+		\begin{minipage}{3cm}
+			\begin{center}
+				\includegraphics[height=3.4cm]{../Figuras/Logo_FC (1)}
+			\end{center}
+		\end{minipage}
+	\end{center}
+	
+	\rule{17cm}{0.1mm}
+	
+	%------ Fin de encabezado -------- %
+	\hspace{0.5cm}
+	
+	\parbox{\textwidth}{\raggedleft Ciudad Universitaria,  de  de 2025.}
+	
+		\hspace{1cm}
+	
+		\vspace{0.5cm}
+	 
+	Comisión de Servicio Social
+	
+	Coordinación de Física Biomédica
+	
+	Facultad de Ciencias
+	
+	Universidad Nacional Autónoma de México
+	
+	P R E S E N T E
+	
+	\vspace{1cm}
+	
+	\begin{center}
+		\textbf{INFORME DE ACTIVIDADES DEL SERVICIO SOCIAL}\\
+		\textbf{de la estudiante Dana Larissa Luna González}
+	\end{center}
+	
+Por medio de la presente, reporto las actividades realizadas durante mi servicio social en el programa Apoyo a la Investigación, con el título ``Cálculo de las secciones transversales de extinción, absorción y esparcimiento de elipsoides en la aproximación cuasi-estática como primera aproximación de eritrocitos'' con clave 2024-12/12-837. El proyecto lo realicé bajo la supervisión del Dr. Alejandro Reyes Coronado, en el Departamento de Física, cubículo 407 en la Facultad de Ciencias de la UNAM. Realicé las actividades en el periodo comprendido entre el 23 de febrero de 2024 al 23 de septiembre del 2024. \\
+
+El estudio de las propiedades ópticas de células biológicas, como los osteoblastos \cite{Osteoblastos}, los linfocitos \cite{Linfocitos}, y los eritrocitos \cite{Blood}, es fundamental para aplicaciones médicas, incluyendo el diagnóstico de enfermedades y el desarrollo de terapias ópticas. En particular, los eritrocitos, debido a su forma discoide cóncava y la ausencia de núcleo, pueden modelarse como estructuras homogéneas \cite{Cassini}. Para su análisis, se han utilizado modelos como óvalos de Cassini \cite{Cassini} o funciones en coordenadas esféricas \cite{Esferico}, aunque un enfoque simplificado es representarlos como elipsoides oblatos.\\
+
+ Durante mi servicio social, analicé la convergencia y propiedades físicas de la respuesta óptica de elipsoides, por medio de las secciones transversales de esparcimiento, absorción y extinción, bajo la aproximación cuasiestática como un modelo simplificado de eritrocitos sanos. Para ello, comencé estudiando la solución al probelma de una esfera arbitraria iluminada por una onda plana, conocida como teoría de Mie \cite{Bohren}. Posteriormente, analicé la solución analítica del problema de esparcimiento de luz por partículas elipsoidales arbitrarias en la aproximación cuasiestática, estudiando las secciones transversales de extinción, absorción y esparcimiento. Finalmente, estudié el comportamiento del esparcimiento y absorción de luz por un elipsoide centrado en el origen en este mismo régimen, donde se compararon los resultados con la respuesta de esferas, calculados igualmente en el límite cuasiestático.\\
+ 
+Como resultados, calculé las secciones transversales de absorción, esparcimiento y extinción, bajo la aproximación cuasiestática, para partículas elipsoidales oblatas, empleando el modelo de Drude para el aluminio \cite{Plasmonics} y datos experimentales para la plata \cite{Plata}, el oro \cite{Plata}, el bismuto \cite{Bismuto} y el óxido de magnesio \cite{MgO}. Encontré que en el límite cuasiestático, para partículas elipsoidales de aluminio, la absorción es la contribución predominante en la extinción, mientras que el esparcimiento resulta despreciable. En el rango en el que el modelo de Drude se adapta al comportamiento de los materiales, identifiqué dos resonancias plasmónicas asociadas a
+la iluminación en distintas direcciones del elipsoide. Para materiales más realistas, se determinó que es necesario incluir contribuciones adicionales a las plasmónicas, como las descritas por el modelo de Lorentz. \\
+
+En las siguientes páginas adjunto un reporte en extenso del estudio realizado durante mi servicio social que aborda de manera detallada el problema mencionado en este informe.	\\
+
+\bigskip
+
+	{\vspace{2.55cm}\begin{tabular} { c}
+			\setlength{\tabcolsep}{15pt}
+			\renewcommand{\arraystretch}{1}
+			\noindent\rule{5.5cm}{0.4pt}\qquad \\
+			
+			\qquad  \textbf{Dana Larissa Luna González} \qquad \\
+			\qquad Estudiante de Física Biomédica  \qquad \\ \qquad 
+			No. de cuenta: 421122680\qquad \\  
+			\qquad  Tel.: 776 101 4262 \qquad \\
+			\qquad dana.larissalg@ciencias.unam.mx \qquad \\
+			
+		\end{tabular}
+	}
+	
+	{\vspace{-2.53cm}\hspace{7cm}\begin{tabular} { c}
+			\setlength{\tabcolsep}{15pt}
+			\renewcommand{\arraystretch}{1}
+			\noindent\rule{5.5cm}{0.4pt}\qquad \\
+			
+			\qquad  \textbf{Alejandro Reyes Coronado} \qquad \\
+			\qquad Profesor Titular C de tiempo completo  \qquad \\  
+			\qquad Departamento de Física, Facultad de Ciencias, UNAM\qquad \\ 
+			\qquad  Tel.: (55) 5622 4968 \qquad \\
+			\qquad coronado@ciencias.unam.mx \qquad \\
+			
+		\end{tabular}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	%%----------------------------------------
+	\bibliographystyle{ieeetr}
+	\bibliography{Referencias}
+	
+\end{document}
+
+
+

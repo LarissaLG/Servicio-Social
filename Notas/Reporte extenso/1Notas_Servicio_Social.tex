@@ -1,0 +1,126 @@
+%            PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[paper=letter,11pt]{article}
+\usepackage[spanish]{babel} 
+\decimalpoint
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{floatrow}
+\usepackage{subfig}
+\captionsetup[subfigure]{labelformat=simple, labelsep=none}
+\renewcommand{\thesubfigure}{\alph{subfigure})}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+\usepackage{blindtext}
+\usepackage{graphicx} 
+\graphicspath{{Figuras/}} % Directory in which figures are stoorange
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage{subcaption}
+%\usepackage{cmr} % Use the Palatino font
+\usepackage{lmodern}
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+%\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage[figurename=Fig.]{caption}
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+\usepackage{titlesec} % Allows customization of titles
+
+
+
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+\newcommand{\uvec}[1]{\hat{e}_{#1}}
+
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large\bf}{\thesubsection.}{1em}{} % Change the look of the section titles
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+
+\usepackage[bibstyle = trad-abbrv,
+citestyle = numeric-comp,
+backend = bibtex, 
+sorting = none, % Sort as they appear
+backref=false]{biblatex} %style = trad-abbrv 
+\AtEveryBibitem{\clearfield{urldate}}
+\AtEveryBibitem{\clearfield{url}}
+\AtEveryBibitem{\clearfield{isbn}}
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryBibitem{\clearfield{day}}
+\AtEveryBibitem{\clearfield{issn}}
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\addbibresource{Referencias.bib}
+%cambiar a negrita los numeros de las ecuaciones
+%\makeatletter
+%\def\tagform@#1{\maketag@@@{(\ignorespaces\textbf{#1}\unskip\@@italiccorr)}}
+%\renewcommand{\eqref}[1]{\textup{{\normalfont(\ref{#1}}\normalfont)}}
+%\makeatother
+
+%---------------------------------------------------------------------------------------
+%IMÁGENES INCLUIDAS
+
+
+%----------------------------------------------------------------------------------
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=magenta}
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+
+
+\fancyhead[RO,LE]{Universidad Nacional Autónoma de México | Facultad de Ciencias | Servicio Social } % Custom header text
+\renewcommand{\headrulewidth}{0.4pt}
+
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+\fancyheadoffset[RO,LE]{0.01\textwidth}
+
+
+%----------------------------------------------------------------------------------------
+%       TITLE SECTION
+%----------------------------------------------------------------------------------------
+\title{\vspace{-15mm}\fontsize{17pt}{1.25em}\selectfont\textbf{Cálculo de las secciones transversales de extinción, absorción y esparcimiento de elipsoides en la aproximación cuasiestática como primera aproximación de eritrocitos }} % Article title
+\author{
+\large
+{\textsc{ Dana Larissa Luna González}}\\[2mm]}
+\date{}
+\geometry{total={170mm,230mm}, left=20mm, top=25mm}
+
+ 
+ 
+\begin{document}
+\maketitle % Insert title
+\thispagestyle{fancy} % All pages have headers and footers
+\floatsetup[figure]{style=plain,subcapbesideposition=top}
+
+
+\section{Introducción}
+El estudio de las propiedades ópticas de las células biológicas como los osteoblastos \cite{Osteoblastos}, los linfocitos \cite{Linfocitos}, y los eritrocitos \cite{Blood}, es de importancia para el área médica. A partir de las propiedades ópticas de las células, se obtiene información de su composición y estado morfológico, lo cual tiene potenciales aplicaciones en el diagnóstico y la detección temprana de diversas enfermedades, incluidos cánceres e infecciones virales \cite{Linfocitos}. En particular, el estudio de los eritrocitos tiene un papel importante en el diagnóstico de la anemia en sus diferentes tipos y el diseño de nuevas terapias ópticas, como el tratamiento de las venas varicosas \cite{Blood}. \\
+
+Los eritrocitos sanos presentan forma de discoides cóncavos con longitudes de entre 4 a 9 mm de diámetro. Estos no poseen núcleo, por lo que pueden modelarse como un objeto homogéneo \cite{Cassini}. Debido a su forma, para simplificar el proceso de modelado, se han empleado diferentes opciones como los óvalos de Cassini \cite{Cassini} o funciones en términos de coordenadas esféricas \cite{Esferico}. Sin embargo, un modelo simple a estudiar como una primera aproximación es un elipsoide. El objetivo este trabajo es el de analizar la convergencia y propiedades físicas de la respuesta óptica de elipsoides de diferentes materiales (oro, plata, aluminio, bismuto y óxido de magnesio) y tamaños dentro de la nanoescala, por medio de las secciones transversales de esparcimiento, absorción y extinción, bajo la aproximación cuasi-estática para, posteriormente, orientarlo a eritrocitos. En la \hyperlink{primera}{Sección 1} de este trabajo, se resuelve de forma analítica el problema de esparcimiento de luz por una partícula elipsoidal arbitraria en la aproximación cuasiestática, donde se presentan, además, las secciones tranversales de extinción, absorción y esparcimiento. Finalmente, se estudia el esparcimiento de luz por un elipsoide centrado en el origen en la aproximación cuasi-estática. En la sección \hyperlink{resultados}{Resultados}, se expone lo obtenido de las secciones transversales de extinción para partículas elipsoidales oblatas de materiales tanto plasmónicos como dieléctricos. 
+
+
+\input{1Aproximación cuasiestática}
+\input{1Extinción,esp,abs}
+\input{1Elipsoide aproxcuas}
+\input{1Resultados}
+\input{1Conclusiones}
+
+
+\printbibliography
+
+
+
+%----------------------------------------------------------------------------------------
+\end{document}
