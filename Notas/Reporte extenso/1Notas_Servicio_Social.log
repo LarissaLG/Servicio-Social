@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.23)  25 FEB 2025 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.23)  26 FEB 2025 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1518,14 +1518,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-<Figuras/../../Figuras/AlContribuciones3.pdf, id=374, 360.04826pt x 275.99203pt
+<Figuras/../../Figuras/AlContribuciones3.pdf, id=375, 360.04826pt x 275.99203pt
 >
 File: Figuras/../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlContribuciones3.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AlContribuciones3.pdf  used on i
 nput line 17.
 (pdftex.def)             Requested size: 215.24863pt x 164.99428pt.
-<Figuras/../../Figuras/CextAlbueno.pdf, id=375, 360.04826pt x 286.30008pt>
+<Figuras/../../Figuras/CextAlbueno.pdf, id=376, 360.04826pt x 286.30008pt>
 File: Figuras/../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/CextAlbueno.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/CextAlbueno.pdf  used on input l
@@ -1570,13 +1570,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<Figuras/../../Figuras/AlAR.pdf, id=482, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/AlAR.pdf, id=484, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/AlAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AlAR.pdf  used on input line 34.
 
 (pdftex.def)             Requested size: 215.24863pt x 171.60309pt.
-<Figuras/../../Figuras/AgAR.pdf, id=483, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/AgAR.pdf, id=485, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/AgAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AgAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AgAR.pdf  used on input line 35.
@@ -1601,22 +1601,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/AgAR.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/Alc.pdf, id=591, 361.35pt x 285.065pt>
+<Figuras/../../Figuras/Alc.pdf, id=593, 361.35pt x 285.065pt>
 File: Figuras/../../Figuras/Alc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Alc.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Alc.pdf  used on input line 44.
 (pdftex.def)             Requested size: 215.24863pt x 169.80934pt.
-<Figuras/../../Figuras/Agc.pdf, id=592, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/Agc.pdf, id=594, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/Agc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Agc.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Agc.pdf  used on input line 45.
 (pdftex.def)             Requested size: 212.82779pt x 169.67339pt.
-<Figuras/../../Figuras/Au2.pdf, id=604, 379.4175pt x 359.3425pt>
+<Figuras/../../Figuras/Au2.pdf, id=606, 379.4175pt x 359.3425pt>
 File: Figuras/../../Figuras/Au2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Au2.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 56.
 (pdftex.def)             Requested size: 215.24863pt x 203.86232pt.
-<Figuras/../../Figuras/Au.pdf, id=605, 379.4175pt x 359.3425pt>
+<Figuras/../../Figuras/Au.pdf, id=607, 379.4175pt x 359.3425pt>
 File: Figuras/../../Figuras/Au.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Au.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 57.
@@ -1653,12 +1653,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Au.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/Bi2.pdf, id=830, 370.38374pt x 370.38374pt>
+<Figuras/../../Figuras/Bi2.pdf, id=832, 370.38374pt x 370.38374pt>
 File: Figuras/../../Figuras/Bi2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Bi2.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 66.
 (pdftex.def)             Requested size: 215.24863pt x 215.25223pt.
-<Figuras/../../Figuras/Bi.pdf, id=831, 379.4175pt x 370.38374pt>
+<Figuras/../../Figuras/Bi.pdf, id=833, 379.4175pt x 370.38374pt>
 File: Figuras/../../Figuras/Bi.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Bi.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 67.
@@ -1677,13 +1677,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Bi.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/MgOc.pdf, id=946, 361.35pt x 271.0125pt>
+<Figuras/../../Figuras/MgOc.pdf, id=948, 361.35pt x 271.0125pt>
 File: Figuras/../../Figuras/MgOc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOc.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 81.
 
 (pdftex.def)             Requested size: 215.24863pt x 161.43845pt.
-<Figuras/../../Figuras/MgOAR.pdf, id=947, 361.35pt x 279.0425pt>
+<Figuras/../../Figuras/MgOAR.pdf, id=949, 361.35pt x 279.0425pt>
 File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 82
@@ -1764,11 +1764,11 @@ Package logreq Info: Writing requests to '1Notas_Servicio_Social.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26515 strings out of 473529
- 473585 string characters out of 5715741
+ 26514 strings out of 473529
+ 473575 string characters out of 5715741
  1237434 words of memory out of 5000000
  48930 multiletter control sequences out of 15000+600000
- 642273 words of font info for 225 fonts, out of 8000000 for 9000
+ 642190 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,13n,93p,1907b,1895s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1795,9 +1795,9 @@ TeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX
 nts/type1/public/lm/lmsy9.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/lm/lmtt10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (23 pages, 4439906 bytes).
+Output written on 1Notas_Servicio_Social.pdf (23 pages, 4440710 bytes).
 PDF statistics:
- 1188 PDF objects out of 1200 (max. 8388607)
- 168 named destinations out of 1000 (max. 500000)
+ 1191 PDF objects out of 1200 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
  43685 words of extra memory for PDF output out of 51595 (max. 10000000)
 
