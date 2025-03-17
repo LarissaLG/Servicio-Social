@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  13 MAR 2025 23:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  17 MAR 2025 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,9 +1040,6 @@ LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
 
 
-LaTeX Warning: Label `h1' multiply defined.
-
-
 LaTeX Warning: Label `fig:test' multiply defined.
 
 )
@@ -1378,18 +1375,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-<Figuras/../../Figuras/ellipsoid.pdf, id=221, 342.27875pt x 427.5975pt>
+<Figuras/../../Figuras/ellipsoid.pdf, id=224, 330.8059pt x 258.92421pt>
 File: Figuras/../../Figuras/ellipsoid.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/ellipsoid.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/ellipsoid.pdf  used on input lin
 e 38.
-(pdftex.def)             Requested size: 217.6621pt x 271.92592pt.
-<Figuras/../../Figuras/quadraticonfo.pdf, id=222, 372.39125pt x 432.61626pt>
+(pdftex.def)             Requested size: 217.6621pt x 170.36899pt.
+<Figuras/../../Figuras/quadraticonfo.pdf, id=225, 376.44481pt x 426.52786pt>
 File: Figuras/../../Figuras/quadraticonfo.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/quadraticonfo.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/quadraticonfo.pdf  used on input
  line 39.
-(pdftex.def)             Requested size: 217.6621pt x 252.87155pt.
+(pdftex.def)             Requested size: 193.47577pt x 219.21848pt.
 
 
 
@@ -1461,11 +1458,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12]
-Overfull \hbox (60.96698pt too wide) detected at line 263
-[]
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1475,7 +1467,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 288--290
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
@@ -1489,7 +1481,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 340--342
+Underfull \hbox (badness 10000) in paragraph at lines 347--349
 
  []
 
@@ -1503,18 +1495,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-<Figuras/../../Figuras/prolato.png, id=364, 813.79031pt x 983.17313pt>
-File: Figuras/../../Figuras/prolato.png Graphic file (type png)
-<use Figuras/../../Figuras/prolato.png>
-Package pdftex.def Info: Figuras/../../Figuras/prolato.png  used on input line 
-361.
-(pdftex.def)             Requested size: 85.35826pt x 103.1237pt.
-<Figuras/../../Figuras/oblato.png, id=365, 326.967pt x 222.504pt>
-File: Figuras/../../Figuras/oblato.png Graphic file (type png)
-<use Figuras/../../Figuras/oblato.png>
-Package pdftex.def Info: Figuras/../../Figuras/oblato.png  used on input line 3
-62.
-(pdftex.def)             Requested size: 145.11052pt x 98.75084pt.
+<Figuras/../../Figuras/prolato.pdf, id=373, 258.76343pt x 284.01071pt>
+File: Figuras/../../Figuras/prolato.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/prolato.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/prolato.pdf  used on input line 
+368.
+(pdftex.def)             Requested size: 111.2482pt x 122.10489pt.
+<Figuras/../../Figuras/oblato.pdf, id=374, 339.64568pt x 282.6167pt>
+File: Figuras/../../Figuras/oblato.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/oblato.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/oblato.pdf  used on input line 3
+69.
+(pdftex.def)             Requested size: 145.11052pt x 120.74657pt.
 ) (1Resultados.tex
 
 
@@ -1524,25 +1516,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16 <./Figuras/../../Figuras/prolato.png> <./Figuras/../../Figuras/oblato.png>]
+[16 <./Figuras/../../Figuras/prolato.pdf> <./Figuras/../../Figuras/oblato.pdf
 
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/oblato.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>]
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-<Figuras/../../Figuras/AlContribuciones3.pdf, id=386, 360.04826pt x 275.99203pt
->
+<Figuras/../../Figuras/AlContribuciones3.pdf, id=400, 361.35pt x 282.05376pt>
 File: Figuras/../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlContribuciones3.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AlContribuciones3.pdf  used on i
 nput line 17.
-(pdftex.def)             Requested size: 215.24863pt x 164.99428pt.
-<Figuras/../../Figuras/CextAlbueno.pdf, id=387, 360.04826pt x 286.30008pt>
+(pdftex.def)             Requested size: 215.24863pt x 168.01558pt.
+<Figuras/../../Figuras/CextAlbueno.pdf, id=401, 361.35pt x 292.09125pt>
 File: Figuras/../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/CextAlbueno.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/CextAlbueno.pdf  used on input l
 ine 18.
-(pdftex.def)             Requested size: 212.82779pt x 169.23448pt.
+(pdftex.def)             Requested size: 212.82779pt x 172.03816pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
@@ -1572,13 +1566,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<Figuras/../../Figuras/AlAR.pdf, id=487, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/AlAR.pdf, id=528, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/AlAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AlAR.pdf  used on input line 34.
 
 (pdftex.def)             Requested size: 215.24863pt x 171.60309pt.
-<Figuras/../../Figuras/AgAR.pdf, id=488, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/AgAR.pdf, id=529, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/AgAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AgAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AgAR.pdf  used on input line 35.
@@ -1602,12 +1596,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
-<Figuras/../../Figuras/Alc.pdf, id=503, 361.35pt x 285.065pt>
+<Figuras/../../Figuras/Alc.pdf, id=544, 361.35pt x 285.065pt>
 File: Figuras/../../Figuras/Alc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Alc.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Alc.pdf  used on input line 44.
 (pdftex.def)             Requested size: 215.24863pt x 169.80934pt.
-<Figuras/../../Figuras/Agc.pdf, id=504, 361.35pt x 288.07625pt>
+<Figuras/../../Figuras/Agc.pdf, id=545, 361.35pt x 288.07625pt>
 File: Figuras/../../Figuras/Agc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Agc.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Agc.pdf  used on input line 45.
@@ -1634,12 +1628,12 @@ ion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Agc.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/Au2.pdf, id=709, 379.4175pt x 359.3425pt>
+<Figuras/../../Figuras/Au2.pdf, id=775, 379.4175pt x 359.3425pt>
 File: Figuras/../../Figuras/Au2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Au2.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Au2.pdf  used on input line 56.
 (pdftex.def)             Requested size: 215.24863pt x 203.86232pt.
-<Figuras/../../Figuras/Au.pdf, id=710, 379.4175pt x 359.3425pt>
+<Figuras/../../Figuras/Au.pdf, id=776, 379.4175pt x 359.3425pt>
 File: Figuras/../../Figuras/Au.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Au.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Au.pdf  used on input line 57.
@@ -1663,12 +1657,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Au.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/Bi2.pdf, id=832, 370.38374pt x 370.38374pt>
+<Figuras/../../Figuras/Bi2.pdf, id=898, 370.38374pt x 370.38374pt>
 File: Figuras/../../Figuras/Bi2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Bi2.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Bi2.pdf  used on input line 66.
 (pdftex.def)             Requested size: 215.24863pt x 215.25223pt.
-<Figuras/../../Figuras/Bi.pdf, id=833, 379.4175pt x 370.38374pt>
+<Figuras/../../Figuras/Bi.pdf, id=899, 379.4175pt x 370.38374pt>
 File: Figuras/../../Figuras/Bi.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Bi.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Bi.pdf  used on input line 67.
@@ -1687,13 +1681,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Bi.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/MgOc.pdf, id=949, 361.35pt x 271.0125pt>
+<Figuras/../../Figuras/MgOc.pdf, id=1015, 361.35pt x 271.0125pt>
 File: Figuras/../../Figuras/MgOc.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOc.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 81.
 
 (pdftex.def)             Requested size: 215.24863pt x 161.43845pt.
-<Figuras/../../Figuras/MgOAR.pdf, id=950, 361.35pt x 279.0425pt>
+<Figuras/../../Figuras/MgOAR.pdf, id=1016, 361.35pt x 279.0425pt>
 File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 82
@@ -1777,11 +1771,11 @@ Package logreq Info: Writing requests to '1Notas_Servicio_Social.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26523 strings out of 473522
- 473656 string characters out of 5715578
- 1238467 words of memory out of 5000000
- 48932 multiletter control sequences out of 15000+600000
- 642546 words of font info for 228 fonts, out of 8000000 for 9000
+ 26527 strings out of 473522
+ 473693 string characters out of 5715578
+ 1237802 words of memory out of 5000000
+ 48934 multiletter control sequences out of 15000+600000
+ 642555 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,13n,93p,1907b,1895s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
@@ -1804,9 +1798,9 @@ eX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/lm/lmsy9.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/lm/lmtt10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (24 pages, 4401800 bytes).
+Output written on 1Notas_Servicio_Social.pdf (24 pages, 6793083 bytes).
 PDF statistics:
- 1197 PDF objects out of 1200 (max. 8388607)
- 170 named destinations out of 1000 (max. 500000)
+ 1263 PDF objects out of 1440 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
  43685 words of extra memory for PDF output out of 51595 (max. 10000000)
 
