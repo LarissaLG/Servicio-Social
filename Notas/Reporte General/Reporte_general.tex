@@ -27,6 +27,20 @@
 \usepackage{lipsum}
 
 
+\usepackage[bibstyle = trad-abbrv,
+citestyle = numeric-comp,
+backend = bibtex, 
+sorting = none, % Sort as they appear
+backref=true]{biblatex} %style = trad-abbrv 
+\AtEveryBibitem{\clearfield{urldate}}
+\AtEveryBibitem{\clearfield{url}}
+\AtEveryBibitem{\clearfield{isbn}}
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryBibitem{\clearfield{day}}
+\AtEveryBibitem{\clearfield{issn}}
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\addbibresource{Referencias.bib}
+
 
 \begin{document}
 	
@@ -149,8 +163,7 @@ Adjunto a este documento un reporte en extenso del estudio realizado durante mi 
 	
 	
 	%%----------------------------------------
-	\bibliographystyle{ieeetr}
-	\bibliography{Referencias}
+	\printbibliography
 	
 \end{document}
 

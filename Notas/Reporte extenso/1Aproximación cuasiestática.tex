@@ -5,12 +5,12 @@
 
 \subsubsection{Dipolo eléctrico (caso estático)}
 
-En electrodinámica clásica, se entiende como \textit{límite cuasiestático} el considerar una partícula de tamaño mucho menor que la longitud de onda de la luz incidente \cite{Cuasiestatico}. Para el caso de una partícula esférica de radio $a$, se puede emplear la aproximación cuasiestática al resolver la ecuación de Laplace para el potencial eléctrico $\phi$. Si se considera una esfera con permitividad eléctrica $\epsilon_p$, embebida en un medio caracterizado por su función dieléctrica $\epsilon_m$ en el cual existe un campo eléctrico externo $\Vec{E}_0=E_0\hat{e}_z$ [Fig. \ref{system}], al resolver la ecuación de Laplace considerando las condiciones de frontera entre la esfera y el medio, se obtiene que el potencial eléctrico fuera de la esfera es la superposición del campo eléctrico aplicado y del campo eléctrico producido por un dipolo eléctrico puntual $p$ localizado en el origen \cite{Griffiths}
+En electrodinámica clásica, se entiende como \textit{límite cuasiestático} el considerar una partícula de tamaño mucho menor que la longitud de onda de la luz incidente \cite{Cuasiestatico}. Para el caso de una partícula esférica de radio $a$, se puede emplear la aproximación cuasiestática al resolver la ecuación de Laplace para el potencial eléctrico $\phi$. Si se considera una esfera con permitividad eléctrica $\epsilon_p$, embebida en un medio caracterizado por su función dieléctrica $\epsilon_m$ en el cual existe un campo eléctrico externo $\Vec{E}_0=E_0\hat{e}_z$ [Fig. \ref{system}], al resolver la ecuación de Laplace considerando las condiciones de frontera entre la esfera y el medio, se obtiene que el potencial eléctrico fuera de la esfera es la superposición del campo eléctrico aplicado y del campo eléctrico producido por un dipolo eléctrico puntual $p$ localizado en el origen. El potencial eléctrico correspondiente al campo eléctrico producido por el dipolo eléctrico puntual está dado por \cite{Griffiths}
 \begin{equation}
 	\phi_p(\vec{r}\,)=\frac{p}{4\pi\epsilon_m}\left(\frac{\Vec{r}\cdot\hat{e}_z}{r^3}\right)=\frac{\Vec{p}\cdot\Vec{r}}{4\pi\epsilon_m r^3}=\frac{p\cos\theta}{4\pi\epsilon_m r^2},
 	\label{pot_dipolo}
 \end{equation}
-donde $\Vec{p}$ representa el momento dipolar eléctrico dado por \cite{Bohren}
+donde $\Vec{p}$ representa el momento dipolar eléctrico expresado como \cite{Bohren}
 \begin{equation*}
 	\vec{p}= \epsilon_m\alpha\Vec{E}_0=4\pi\epsilon_m a^3\left(\frac{\epsilon_p-\epsilon_m}{\epsilon_p+2\epsilon_m}\right)\Vec{E}_0, \;\:\:\:\:\: \text{con}\; \alpha=4\pi a^3\left(\frac{\epsilon_p-\epsilon_m}{\epsilon_p+2\epsilon_m}\right), 
 	\label{momentdipol}
@@ -19,7 +19,7 @@ donde $\alpha$ es la polarizabilidad eléctrica, que representa la facilidad con
 \begin{equation*}
 	\Vec{E}_p(\vec{r}\,)=-\nabla \phi_p =\frac{p}{4\pi \epsilon_m r^3 }\left(2\cos\theta\hat{e}_r+\sen\theta\hat{e}_{\theta}\right).
 \end{equation*}
-En consecuencia, el campo eléctrico fuera de la esfera está dado por la superposición del campo eléctrico aplicado y del campo eléctrico externo producido por el dipolo eléctrico [ver Fig. \ref{electricfieldsphere}].
+En consecuencia, el campo eléctrico fuera de la esfera está dado por la superposición del campo eléctrico externo aplicado y del campo eléctrico externo producido por el dipolo eléctrico [ver Fig. \ref{electricfieldsphere}].
 
 
 \begin{figure}[H]
@@ -33,7 +33,7 @@ En consecuencia, el campo eléctrico fuera de la esfera está dado por la superp
 
 \subsubsection{Dipolo eléctrico (caso dinámico)}
 
-En la sección anterior se abordó una solución que asume que el campo eléctrico externo, y por tanto también el dipolo inducido, son estáticos. Para resolver el caso dinámico en el régimen cuasiestático, se considera que, al iluminar cargas confinadas en un volumen finito con una onda plana electromagnética, éstas experimentan movimiento al ser sometidas a una fuerza. Ésto equivale a realizar un análisis en términos de componentes de Fourier de los potenciales y campos generados por un sistema de cargas y corrientes localizadas en el espacio vacío, con una dependencia armónica $e^{-i\omega t}$, tal que varían en el tiempo y oscilan a la frecuencia $\omega$ del campo electromagnético externo aplicado. De ésta forma, la densidad de carga volumétrica total $\rho(\Vec{r},t)$ y la densidad de corriente volumétrica total $\Vec{J}(\Vec{r},t)$  en la posición $\Vec{r}$ se expresan como \cite{Jackson}
+En la sección anterior se abordó una solución que asume que el campo eléctrico externo, y por tanto también el dipolo inducido, son estáticos. Para resolver el caso dinámico en el régimen cuasiestático, se considera que, al iluminar cargas confinadas en un volumen finito con una onda plana electromagnética, éstas experimentan movimiento al ser sometidas a una fuerza. Esto equivale a realizar un análisis en términos de componentes de Fourier de los potenciales y campos generados por un sistema de cargas y corrientes localizadas en el espacio vacío, con una dependencia armónica $e^{-i\omega t}$, tal que varían en el tiempo y oscilan a la frecuencia $\omega$ del campo electromagnético externo aplicado. De ésta forma, la densidad de carga volumétrica total $\rho(\Vec{r},t)$ y la densidad de corriente volumétrica total $\Vec{J}(\Vec{r},t)$  en la posición $\Vec{r}$ se expresan como \cite{Jackson}
 \begin{align}
     \rho(\Vec{r},t)&=\rho(\Vec{r}\,)e^{-i\omega t},\nonumber\\
     \Vec{J}(\Vec{r},t)&=\Vec{J}(\Vec{r}\,)e^{-i\omega t},
@@ -46,7 +46,7 @@ considerando que el significado físico lo posee la parte real. Entonces, es pos
 \end{align}
 en donde se emplea la norma de Lorentz \cite{Griffiths} y la densidad de corriente se evalúa en el tiempo de retardo $t_r=t-|\Vec{r}-\Vec{r'}|/c$. \\
 
-Al considerar la naturaleza de la onda plana, caracterizada por $\omega$, se pueden definir diferentes regiones de interés. Para estudiarlas, se delimitan en términos de $k=\omega/c$ (o equivalentemente, mediante la longitud de onda $\lambda=2\pi/k$). Por ejemplo, en la región de campo cercano, donde $r\ll\lambda$ (o $kr\ll 1$), tal que exp($ik|\Vec{r}-\Vec{r'}|)\to 1$, se tiene que al obviar la dependencia temporal, la Ec. (\ref{Achafa}), se reescribe como \cite{Jackson}
+Al considerar la naturaleza de la onda plana, caracterizada por $\omega$, se pueden definir diferentes regiones de interés. Para estudiarlas, se delimitan en términos de $k=\omega/c$ (o equivalentemente, mediante la longitud de onda $\lambda=2\pi/k$). Por ejemplo, en la región de campo cercano, donde $r\ll\lambda$ (o $kr\ll 1$), tal que exp($ik|\Vec{r}-\Vec{r'}|)\to 1$, se tiene que, al obviar la dependencia temporal, la Ec. (\ref{Achafa}), se reescribe como \cite{Jackson}
 \begin{equation*}
 	\Vec{A}(\Vec{r}\,)=\frac{\mu_0}{4\pi}\int \frac{\Vec{J}(\Vec{r}\,')}{|\Vec{r}-\Vec{r}\,'|} \text{d}^3r',
 \end{equation*} 
@@ -55,7 +55,7 @@ mientras que en la región de campo lejano ($kr\gg 1$), dado que la exponencial 
 	|\Vec{r}-\Vec{r}\,'|\simeq r-\hat{e}_r\cdot\Vec{r}\,',    
 \end{equation}
  que se obtiene al aplicar la ley de cosenos\footnote{Empleando la ley de cosenos y haciendo una expansión binomial $
- 	|\Vec{r}-\Vec{r}\,'|=\sqrt{r^2+r'\,^2-2rr'\cos\theta}=r\sqrt{1+\left(r'/r\right)^2-2\left((r'/r)\cos\theta\right)}\simeq r\left\{1-(\hat{e}_r\cdot\Vec{r}\,'/r)+1/2\left(r'/r\right)^2\right\}\simeq r-\hat{e}_r\cdot\Vec{r}\,'.$} en el triángulo mostrado en la Fig.~\ref{vectposi}, donde $\hat{e}_r$ un vector unitario en la dirección de $\Vec{r}$. 	
+ 	|\Vec{r}-\Vec{r}\,'|=\sqrt{r^2+r'\,^2-2rr'\cos\theta}=r\sqrt{1+\left(r'/r\right)^2-2\left[(r'/r)\cos\theta\right]}\simeq r\left\{1-(\hat{e}_r\cdot\Vec{r}\,'/r)+1/2\left(r'/r\right)^2\right\}\simeq r-\hat{e}_r\cdot\Vec{r}\,'.$} en el triángulo mostrado en la Fig.~\ref{vectposi}, donde $\hat{e}_r$ un vector unitario en la dirección de $\Vec{r}$. 	
 	Si sólo se consideran los términos que decaen como $r^{-1}$, el inverso de la distancia en la Ec. (\ref{Achafa}) puede ser reemplazado por $r$. Entonces, al obviar nuevamente la dependencia temporal, el potencial vectorial es
 	\begin{equation*}
 	\lim_{kr\rightarrow\infty}\Vec{A}(\Vec{r}\,)=\frac{\mu_0}{4\pi}\frac{e^{ikr}}{r}\int \Vec{J}(\Vec{r}\,')e^{-ik\hat{e}_r\cdot\Vec{r}\,'}\text{d}^3r',    
@@ -66,7 +66,7 @@ mientras que en la región de campo lejano ($kr\gg 1$), dado que la exponencial 
 	\end{equation*}
 \begin{figure}[h!]
 	\includegraphics[width=6cm]{../../Figuras/aprox.png}
-	\caption{Vector de posición $\Vec{r}\,'$ del elemento de volumen d$^3r'$ y vector de posición $\Vec{r}$. Se muestrael vector que apunta desde $\Vec{r}\,'$ a $\Vec{r}$,  $\Vec{r}-\Vec{r}\,'$ .}
+	\caption{Vector de posición $\Vec{r}\,'$ del elemento de volumen d$^3r'$ y vector de posición $\Vec{r}$. Se muestra el vector que apunta desde $\Vec{r}\,'$ a $\Vec{r}$,  $\Vec{r}-\Vec{r}\,'$ .}
 	\label{vectposi}
 \end{figure}
 Al considerar únicamente el primer término de la expansión, se concluye que 
@@ -74,9 +74,9 @@ Al considerar únicamente el primer término de la expansión, se concluye que
     \Vec{A}(\Vec{r})\approx\frac{\mu_0}{4\pi}\frac{e^{ikr}}{r}\int \Vec{J}(\Vec{r}\,') \text{d}^3r',    
     \label{aprox_pot_vec}
 \end{equation}
-que al realizar una integración por partes\footnote{Al considerar $\int_V \Vec{r}\,'(\nabla'\cdot\Vec{J}(\Vec{r}\,'))\text{d}^3r'=\int_{\partial V} \Vec{r}\,'(\Vec{J}(\Vec{r}\,')\cdot \text{d}\Vec{S})-\int_V \Vec{J}(\Vec{r}\,')\text{d}^3r'$ y asumiendo que $\Vec{J}$ se desvanece en los límites del volumen $V$, es decir, en la superficie $\partial V$. }, se obtiene que
+que al realizar una integración por partes\footnote{Al considerar $\int_V \Vec{r}\,'[\nabla'\cdot\Vec{J}(\Vec{r}\,')]\text{d}^3r'=\int_{\partial V} \Vec{r}\,'[\Vec{J}(\Vec{r}\,')\cdot \text{d}\Vec{S}]\int_V \Vec{J}(\Vec{r}\,')\text{d}^3r'$ y asumiendo que $\Vec{J}$ se desvanece en los límites del volumen $V$, es decir, en la superficie $\partial V$. }, se obtiene que
 \begin{equation}
-	\int\Vec{J}(\vec{r}\,')d^3r'=-\int \Vec{r}\,'(\nabla'\cdot\Vec{J}(\vec{r}\,'))\text{d}^3r'=-i\omega\int \Vec{r}\,'\rho(\Vec{r}\,')\text{d}^3r',
+	\int\Vec{J}(\vec{r}\,')d^3r'=-\int \Vec{r}\,'[\nabla'\cdot\Vec{J}(\vec{r}\,')]\text{d}^3r'=-i\omega\int \Vec{r}\,'\rho(\Vec{r}\,')\text{d}^3r',
 	\label{Jrho}
 \end{equation}
 donde se empleó la ecuación de continuidad

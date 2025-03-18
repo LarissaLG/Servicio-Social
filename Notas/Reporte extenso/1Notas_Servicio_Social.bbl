@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global/global}
-  \entry{Osteoblastos}{inproceedings}{}{}
+  \entry{Osteoblastos}{article}{}{}
     \name{author}{5}{}{%
       {{hash=AA}{%
          family={Antunes},
@@ -50,15 +50,14 @@
          giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {MDPI}%
-    }
     \strng{namehash}{AAPJHMAFBAFNM1}
     \strng{fullhash}{AAPJHMAFBAFNM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \field{booktitle}{Proceedings}
-    \field{note}{Issue: 1}
+    \verb{doi}
+    \verb 10.3390/proceedings2019027036
+    \endverb
+    \field{number}{1}
     \field{pages}{36}
     \field{shorttitle}{Optical properties on bone analysis}
     \field{title}{Optical properties on bone analysis: an approach to
@@ -73,6 +72,7 @@
     \verb ge\\T2P569H5\\Antunes et al. - 2019 - Optical properties on bone anal
     \verb ysis an approach to biomaterials.pdf:application/pdf
     \endverb
+    \field{journaltitle}{Proceedings}
     \field{year}{2019}
   \endentry
 
@@ -416,9 +416,6 @@
          giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
     }
-    \list{language}{1}{%
-      {en}%
-    }
     \strng{namehash}{WEW1}
     \strng{fullhash}{WEW1}
     \field{labelnamesource}{author}
@@ -432,7 +429,6 @@
     \verb Snapshot:C\:\\Users\\Poh\\Zotero\\storage\\2HKH9VVF\\ConfocalEllipsoi
     \verb dalCoordinates.html:text/html
     \endverb
-    \field{type}{Text}
   \endentry
 
   \entry{Arfken}{book}{}{}
@@ -547,7 +543,6 @@
     \verb 1&dq=Foundations+of+potential+theory&ots=8WsV5WKFEK&sig=bCHbSblhSjfM7
     \verb Mo7ozdDhodbLlo
     \endverb
-    \field{volume}{31}
     \field{year}{2012}
   \endentry
 
@@ -559,9 +554,6 @@
          given={Martin},
          giveni={M\bibinitperiod},
       }}%
-    }
-    \list{language}{1}{%
-      {en}%
     }
     \list{publisher}{1}{%
       {Springer US}%
@@ -578,9 +570,6 @@
     \verb{url}
     \verb http://link.springer.com/10.1007/978-1-4684-0053-3
     \endverb
-    \list{location}{1}{%
-      {New York, NY}%
-    }
     \field{year}{1978}
   \endentry
 
