@@ -1,5 +1,5 @@
 \hypertarget{elipsoide}{\subsection{Elipsoide en la aproximación cuasiestática}}
-Las secciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En esta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes iluminadas por una onda plana electromagnética y confinadas en un elipsoide centrado en el origen, con semiejes $a,b,c$ alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$ [ver Fig. \ref{elipse}], donde $\lambda$ se relaciona con el vector de onda como $k=2\pi\sqrt{\epsilon_m}/\lambda$. A diferencia de la sección anterior, no se cuenta con simetría esférica, sin embargo es posible calcular una solución analítica, aproximada, al emplear las coordenadas elipsoidales confocales\footnote{Existen diversas definiciones que pueden revisarse en la Ref. \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en la Ref.~\cite{Arfken}. }, que describen la superficie del elipsoide como \cite{ConfocalEllip}
+Las secciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En ésta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes iluminadas por una onda plana electromagnética y confinadas en un elipsoide centrado en el origen, con semiejes $a,b,c$ alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$ [ver Fig. \ref{elipse}], donde $\lambda$ se relaciona con el vector de onda como $k=2\pi\sqrt{\epsilon_m}/\lambda$. A diferencia de la sección anterior, no se cuenta con simetría esférica, sin embargo es posible calcular una solución analítica, aproximada, al emplear las coordenadas elipsoidales confocales\footnote{Existen diversas definiciones que pueden revisarse en la Ref. \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en la Ref.~\cite{Arfken}. }, que describen la superficie del elipsoide como \cite{ConfocalEllip}
 \begin{equation}
 	\frac{x^2}{a^2-u}+\frac{y^2}{b^2-u}+\frac{z^2}{c^2-u}=1,
 	\label{elipsoide2}
@@ -31,7 +31,7 @@ cuya solución está dada por las expresiones
 	y^2&=\frac{(b^2+\xi)(b^2+\eta)(b^2+\zeta)}{(a^2-b^2)(c^2-b^2)},\label{y_elips}\\
 	z^2&=\frac{(c^2+\xi)(c^2+\eta)(c^2+\zeta)}{(a^2-c^2)(b^2-c^2)}. \label{z_elips}    
 \end{align}
-A partir del sistema de ecuaciones dado por las Ecs. (\ref{x_elips}), (\ref{y_elips}) y (\ref{z_elips}), se observa que cuando $\xi$ es constante, se obtiene un elipsoide. De esta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Mientras que si $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas. Cada punto ($x,y,z$) tiene una correspondencia única con ($\xi,\eta,\zeta$), pero la transformación inversa no es biyectiva, ya que cada ($\xi,\eta,\zeta$) se asocia a ocho puntos simétricos respecto a los ejes ($x,y,z$) \cite{Cambdrige}. \\
+A partir del sistema de ecuaciones dado por las Ecs. (\ref{x_elips}), (\ref{y_elips}) y (\ref{z_elips}), se observa que cuando $\xi$ es constante, se obtiene un elipsoide. De ésta forma, la superficie de la partícula a estudiar se tiene cuando $\xi=0$. Mientras que si $\eta$ es constante, se obtiene un hiperboloide de una hoja y cuando $\zeta$ es constante se tiene un hiperboloide de dos hojas. Cada punto ($x,y,z$) tiene una correspondencia única con ($\xi,\eta,\zeta$), pero la transformación inversa no es biyectiva, ya que cada ($\xi,\eta,\zeta$) se asocia a ocho puntos simétricos respecto a los ejes ($x,y,z$) \cite{Cambdrige}. \\
 
 \begin{figure}[H]
 	\centering
@@ -66,7 +66,7 @@ Empleando las Ecs. (\ref{y_elips}) y (\ref{z_elips}) para $y$ y $z$, respectivam
 	\frac{\partial y}{\partial \xi}&=\frac{1}{2y}\frac{\partial y^2}{\partial\xi}=\frac{1}{2}\frac{y}{(b^2+\xi)},\\
 	\frac{\partial z}{\partial \xi}&=\frac{1}{2z}\frac{\partial z^2}{\partial\xi}=\frac{1}{2}\frac{z}{(c^2+\xi)}.
 \end{align*}
-De esta forma, el cuadrado del primer factor de escala $h_1$ es
+De ésta forma, el cuadrado del primer factor de escala $h_1$ es
 \begin{equation}
 	h_1^2=\frac{1}{4}\left[\frac{x^2}{(a^2+\xi)^2}+\frac{y}{(b^2+\xi)^2}+\frac{z}{(c^2+\xi)^2}\right];
 	\label{h1}
@@ -111,7 +111,7 @@ Como resultado de lo anterior, la ecuación de Laplace en coordenadas elipsoidal
 	\nabla^2\phi=(\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+(\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\eta}{\partial\eta}\right)+(\xi-\eta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)=0.
 	\label{laplaceplisoidal}
 \end{equation}
-Una de las formas por la cual se puede resolver la ecuación anterior es mediante el método de reducción de orden, el cual proporciona una solución linealmente independiente a partir de otra conocida con anterioridad \cite{Braun}. En este contexto, $\phi$ corresponde a la solución de dicha ecuación que está determinada por la forma del campo incidente y cumple las condiciones de frontera. \\
+Una de las formas por la cual se puede resolver la ecuación anterior es mediante el método de reducción de orden, el cual proporciona una solución linealmente independiente a partir de otra conocida con anterioridad \cite{Braun}. En éste contexto, $\phi$ corresponde a la solución de dicha ecuación que está determinada por la forma del campo incidente y cumple las condiciones de frontera. \\
 
 
 El potencial eléctrico solución a la Ec. (\ref{laplaceplisoidal}) hereda la simetría del sistema de interés, el cual consiste en un elipsoide homogéneo iluminado por un campo eléctrico incidente uniforme alineado a lo largo del eje $\uvec{z}$. Por tanto,  a cada punto del espacio descrito por las coordenadas elipsoidales le corresponden ocho puntos en las coordenadas cartesianas. Es decir, las propiedades de simetría del sistema en el potencial eléctrico son:
@@ -141,7 +141,7 @@ donde
 \begin{equation*}
     \lim_{\xi\rightarrow\infty}\left(\frac{x^2}{a^2/\xi+1}+\frac{y^2}{b^2/\xi+1}+\frac{z^2}{c^2/\xi+1}\right)=x^2+y^2+z^2=r^2,
 \end{equation*}
-entonces, $\xi \simeq r^2$ en el límite asintótico. Asimismo, en esta aproximación el potencial de perturbación es despreciable, por lo que 
+entonces, $\xi \simeq r^2$ en el límite asintótico. Asimismo, en ésta aproximación el potencial de perturbación es despreciable, por lo que 
 \begin{equation}
 \lim_{\xi\rightarrow\infty}\phi_f=0
 \label{limitephi_p}.
@@ -235,7 +235,7 @@ donde el módulo angular es $\beta=\mbox{arcsen}\:\kappa$ y $\kappa$ es la excen
 \begin{equation}
     \lim_{\xi \to 0}F_1(\xi)=c\hspace{1cm}\mbox{y}\hspace{1cm} \lim_{\xi \to \infty}F_2(\xi)=0.
 \end{equation}
-De esta forma, considerando que $F_1$ no satisface la condición impuesta sobre $\phi_f$ en la Ec. (\ref{limitephi_p}) y que necesariamente el potencial dentro de la partícula debe de ser finito, lo cual $F_2$ no satisface, los potenciales $\phi_{int}$ y $\phi_f$, propuestos como en la Ec. (\ref{phi0 con F}), están dados por
+De éste modo, considerando que $F_1$ no satisface la condición impuesta sobre $\phi_f$ en la Ec. (\ref{limitephi_p}) y que necesariamente el potencial dentro de la partícula debe de ser finito, lo cual $F_2$ no satisface, los potenciales $\phi_{int}$ y $\phi_f$, propuestos como en la Ec. (\ref{phi0 con F}), están dados por
 \begin{align}
     \phi_{int}&=C_1F_1(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}\label{phi_int},\\
     \phi_f&=C_2F_2(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}\label{phi_p},
@@ -285,7 +285,7 @@ por lo tanto, al sustituir $C_2$ en la Ec. (\ref{ec1 de cf}) se obtiene una expr
 \begin{equation*}
     C_1=\frac{E_0}{[(a^2-c^2)(b^2-c^2)]^{1/2}}\Bigg\{ \left[1+\frac{\epsilon_{ext}}{L^{(3)}(\epsilon_{int}-\epsilon_{ext})}\right]^{-1}-1\Bigg\}.
 \end{equation*}
-De esta forma, ya se puede determinar el potencial dentro de la partícula sustituyendo $F_1$ y $C_1$ en la Ec. (\ref{phi_int}), por lo que
+De ésta forma, ya se puede determinar el potencial dentro de la partícula sustituyendo $F_1$ y $C_1$ en la Ec. (\ref{phi_int}), por lo que
 \begin{equation}
 	\phi_{int}=\frac{1}{1+\dfrac{L^{(3)}(\epsilon_{int}-\epsilon_{ext})}{\epsilon_{ext}}}\phi_0,
 \end{equation}
@@ -305,7 +305,7 @@ y entonces el potencial $\phi_p$ está dado por
 \end{equation}
 cuya expresión es equivalente a la de un dipolo puntual dado por
 \begin{equation}
-    \Vec{p}=4\pi\epsilon_{ext} abc\frac{\epsilon_{int}-\epsilon_{ext}}{3\epsilon_{ext}+3L^{(3)}(\epsilon_{int}-\epsilon_{ext})}\Vec{E}_0
+    \Vec{p}=4\pi\epsilon_{ext} (abc)\frac{\epsilon_{int}-\epsilon_{ext}}{3\epsilon_{ext}+3L^{(3)}(\epsilon_{int}-\epsilon_{ext})}\Vec{E}_0
     \label{momento_dip}.
 \end{equation}
 Entonces, la polarizabilidad $\alpha^{(3)}$ de un elipsoide en un campo paralelo al eje $z$ es
@@ -314,8 +314,8 @@ Entonces, la polarizabilidad $\alpha^{(3)}$ de un elipsoide en un campo paralelo
 \end{equation}
 donde $V=4\pi abc/3$ es el volumen del elipsoide. De manera análoga, las polarizabilidades $ \alpha^{(1)}$ y $ \alpha^{(2)}$ cuando el campo es aplicado en los ejes $\hat{e}_x$ y $\hat{e}_y$ son
 \begin{align*}
-    \alpha^{(1)}=4\pi abc \frac{\epsilon_{int}-\epsilon_{ext}}{3\epsilon_{ext}+3L^{(1)}(\epsilon_{int}-\epsilon_{ext})}\qquad\text{y}\qquad
-    \alpha^{(2)}=4\pi abc \frac{\epsilon_{int}-\epsilon_{ext}}{3\epsilon_{ext}+3L^{(2)}(\epsilon_{int}-\epsilon_{ext})},
+    \alpha^{(1)}=4\pi abc\left[ \frac{\epsilon_{int}-\epsilon_{ext}}{3\epsilon_{ext}+3L^{(1)}(\epsilon_{int}-\epsilon_{ext})}\right]\qquad\text{y}\qquad
+    \alpha^{(2)}=4\pi abc\left[ \frac{\epsilon_{int}-\epsilon_{ext}}{3\epsilon_{ext}+3L^{(2)}(\epsilon_{int}-\epsilon_{ext})}\right],
 \end{align*}
 donde 
 \begin{align*}

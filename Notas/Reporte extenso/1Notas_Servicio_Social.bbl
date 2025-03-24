@@ -125,7 +125,6 @@
     \strng{fullhash}{YJJYKMhKKLSKSJPY1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{Publisher: Nature Publishing Group UK London}
     \field{number}{1}
     \field{pages}{6654}
     \field{title}{Identification of non-activated lymphocytes using
@@ -178,9 +177,6 @@
          giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
-    \list{language}{1}{%
-      {en}%
-    }
     \strng{namehash}{BNEGJAMCGVLTGFDJ1}
     \strng{fullhash}{BNEGJAMCGVLTGFDJ1}
     \field{labelnamesource}{author}
@@ -204,7 +200,6 @@
     \verb pplication/pdf
     \endverb
     \field{journaltitle}{Lasers in Medical Science}
-    \field{month}{03}
     \field{year}{2014}
   \endentry
 
@@ -239,7 +234,6 @@
     \strng{fullhash}{EEHJEYWT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \field{note}{Publisher: Elsevier}
     \field{number}{1}
     \field{shorttitle}{Different shape models for erythrocyte}
     \field{title}{Different shape models for erythrocyte: {Light} scattering
@@ -284,7 +278,6 @@
     \strng{fullhash}{BAGNEIOUG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{Publisher: SPIE}
     \field{number}{3}
     \field{title}{Scattering of light by a red blood cell}
     \verb{url}
@@ -341,7 +334,6 @@
     \strng{fullhash}{LJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{Publisher: American Association of Physics Teachers}
     \field{number}{3}
     \field{title}{Electromagnetics from a quasistatic perspective}
     \verb{url}
@@ -420,7 +412,6 @@
     \strng{fullhash}{WEW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{Publisher: Wolfram Research, Inc.}
     \field{title}{Confocal {Ellipsoidal} {Coordinates}}
     \verb{url}
     \verb https://mathworld.wolfram.com/ConfocalEllipsoidalCoordinates.html
@@ -478,29 +469,10 @@
          giveni={G\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Cambridge University Press}%
-    }
     \strng{namehash}{DG1}
     \strng{fullhash}{DG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \field{abstract}{%
-    The sphere is what might be called a perfect shape. Unfortunately nature is
-  imperfect and many bodies are better represented by an ellipsoid. The theory
-  of ellipsoidal harmonics, originated in the nineteenth century, could only be
-  seriously applied with the kind of computational power available in recent
-  years. This, therefore, is the first book devoted to ellipsoidal harmonics.
-  Topics are drawn from geometry, physics, biosciences and inverse problems. It
-  contains classical results as well as new material, including ellipsoidal
-  bi-harmonic functions, the theory of images in ellipsoidal geometry and
-  vector surface ellipsoidal harmonics, which exhibit an interesting analytical
-  structure. Extended appendices provide everything one needs to solve formally
-  boundary value problems. End-of-chapter problems complement the theory and
-  test the reader's understanding. The book serves as a comprehensive reference
-  for applied mathematicians, physicists, engineers and for anyone who needs to
-  know the current state of the art in this fascinating subject.%
-    }
     \verb{doi}
     \verb 10.1017/CBO9781139017749
     \endverb
@@ -597,7 +569,6 @@
     \field{labeltitlesource}{title}
     \field{title}{Handbook of mathematical functions with formulas, graphs, and
   mathematical tables}
-    \field{volume}{55}
     \verb{file}
     \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
     \verb ge\\Y9KN4HZ3\\books.html:text/html
@@ -657,10 +628,6 @@
     \verb https://www.sciencedirect.com/science/article/pii/003039929090093J
     \endverb
     \field{volume}{22}
-    \verb{file}
-    \verb ScienceDirect Snapshot:C\:\\Users\\Poh\\Zotero\\storage\\VL2DLPZQ\\00
-    \verb 3039929090093J.html:text/html
-    \endverb
     \field{journaltitle}{Optics \& Laser Technology}
     \field{month}{12}
     \field{year}{1990}
@@ -681,9 +648,6 @@
          giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
     }
-    \list{language}{1}{%
-      {en}%
-    }
     \strng{namehash}{JPBCRW1}
     \strng{fullhash}{JPBCRW1}
     \field{labelnamesource}{author}
@@ -699,11 +663,6 @@
     \verb https://link.aps.org/doi/10.1103/PhysRevB.6.4370
     \endverb
     \field{volume}{6}
-    \verb{file}
-    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
-    \verb ge\\424DXFB7\\Johnson y Christy - 1972 - Optical Constants of the Nob
-    \verb le Metals.pdf:application/pdf
-    \endverb
     \field{journaltitle}{Physical Review B}
     \field{month}{12}
     \field{year}{1972}
@@ -734,7 +693,6 @@
     \strng{fullhash}{HHJGWKC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \field{note}{Publisher: Optica Publishing Group}
     \field{number}{6}
     \field{shorttitle}{Optical constants from the far infrared to the x-ray
   region}
@@ -767,8 +725,6 @@
     \strng{fullhash}{SREMIH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{Publisher: National Institute of Standards and Technology
-  (NIST)}
     \field{number}{4}
     \field{title}{Index of refraction of magnesium oxide}
     \verb{url}
