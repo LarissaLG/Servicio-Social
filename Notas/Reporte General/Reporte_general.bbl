@@ -125,7 +125,6 @@
     \strng{fullhash}{YJJYKMhKKLSKSJPY1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{Publisher: Nature Publishing Group UK London}
     \field{number}{1}
     \field{pages}{6654}
     \field{title}{Identification of non-activated lymphocytes using
@@ -140,7 +139,7 @@
     \verb mphocytes using three-dimensional refractive index tomography and.pdf
     \verb :application/pdf
     \endverb
-    \field{journaltitle}{Scientific reports}
+    \field{journaltitle}{Scientific Reports}
     \field{year}{2017}
   \endentry
 
@@ -177,9 +176,6 @@
          given={Dirk\bibnamedelima J.},
          giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
-    }
-    \list{language}{1}{%
-      {en}%
     }
     \strng{namehash}{BNEGJAMCGVLTGFDJ1}
     \strng{fullhash}{BNEGJAMCGVLTGFDJ1}
@@ -239,7 +235,6 @@
     \strng{fullhash}{EEHJEYWT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \field{note}{Publisher: Elsevier}
     \field{number}{1}
     \field{shorttitle}{Different shape models for erythrocyte}
     \field{title}{Different shape models for erythrocyte: {Light} scattering
@@ -284,7 +279,6 @@
     \strng{fullhash}{BAGNEIOUG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{Publisher: SPIE}
     \field{number}{3}
     \field{title}{Scattering of light by a red blood cell}
     \verb{url}
@@ -317,9 +311,6 @@
          giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {John Wiley \& Sons}%
-    }
     \strng{namehash}{BCFHDR1}
     \strng{fullhash}{BCFHDR1}
     \field{labelnamesource}{author}
@@ -336,9 +327,6 @@
          given={S.\bibnamedelima A.},
          giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
     }
     \strng{namehash}{MSA1}
     \strng{fullhash}{MSA1}
@@ -363,9 +351,6 @@
          given={R.\bibnamedelima W.},
          giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
-    }
-    \list{language}{1}{%
-      {en}%
     }
     \strng{namehash}{JPBCRW1}
     \strng{fullhash}{JPBCRW1}
@@ -417,7 +402,6 @@
     \strng{fullhash}{HHJGWKC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \field{note}{Publisher: Optica Publishing Group}
     \field{number}{6}
     \field{shorttitle}{Optical constants from the far infrared to the x-ray
   region}
@@ -450,8 +434,6 @@
     \strng{fullhash}{SREMIH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{Publisher: National Institute of Standards and Technology
-  (NIST)}
     \field{number}{4}
     \field{title}{Index of refraction of magnesium oxide}
     \verb{url}

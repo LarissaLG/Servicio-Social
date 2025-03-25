@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  23 MAR 2025 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  25 MAR 2025 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1252,13 +1252,13 @@ AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
 {C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
 :/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-<Figuras/../../Figuras/shereE0.png, id=74, 376.40625pt x 402.00188pt>
+<Figuras/../../Figuras/shereE0.png, id=75, 376.40625pt x 402.00188pt>
 File: Figuras/../../Figuras/shereE0.png Graphic file (type png)
 <use Figuras/../../Figuras/shereE0.png>
 Package pdftex.def Info: Figuras/../../Figuras/shereE0.png  used on input line 
 27.
 (pdftex.def)             Requested size: 145.11052pt x 154.98282pt.
-<Figuras/../../Figuras/electricfield_sphere.png, id=76, 280.55214pt x 344.07747
+<Figuras/../../Figuras/electricfield_sphere.png, id=77, 280.55214pt x 344.07747
 pt>
 File: Figuras/../../Figuras/electricfield_sphere.png Graphic file (type png)
 <use Figuras/../../Figuras/electricfield_sphere.png>
@@ -1292,7 +1292,7 @@ Underfull \hbox (badness 1237) in paragraph at lines 58--58
 -sión bi-no-mial $\OMS/lmsy/m/n/9 j[] ^^@ [] []j \OT1/lmr/m/n/9 (+20) = [] =
  []
 
-<Figuras/../../Figuras/aprox.png, id=106, 282.72025pt x 218.2554pt>
+<Figuras/../../Figuras/aprox.png, id=107, 282.72025pt x 218.2554pt>
 File: Figuras/../../Figuras/aprox.png Graphic file (type png)
 <use Figuras/../../Figuras/aprox.png>
 Package pdftex.def Info: Figuras/../../Figuras/aprox.png  used on input line 68
@@ -1325,11 +1325,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4 <./Figuras/../../Figuras/aprox.png>]) (1ExtinciÃ³n,esp,abs.tex
-<Figuras/../../Figuras/WA.pdf, id=149, 346.74734pt x 293.14487pt>
+<Figuras/../../Figuras/WA.pdf, id=150, 348.6672pt x 293.94261pt>
 File: Figuras/../../Figuras/WA.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/WA.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/WA.pdf  used on input line 11.
-(pdftex.def)             Requested size: 170.71652pt x 144.3266pt.
+(pdftex.def)             Requested size: 170.71652pt x 143.92549pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--16
 
@@ -1375,13 +1375,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-<Figuras/../../Figuras/ellipsoid.pdf, id=226, 330.8059pt x 258.92421pt>
+<Figuras/../../Figuras/ellipsoid.pdf, id=225, 330.8059pt x 258.92421pt>
 File: Figuras/../../Figuras/ellipsoid.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/ellipsoid.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/ellipsoid.pdf  used on input lin
 e 38.
 (pdftex.def)             Requested size: 217.6621pt x 170.36899pt.
-<Figuras/../../Figuras/quadraticonfo.pdf, id=227, 376.44481pt x 426.52786pt>
+<Figuras/../../Figuras/quadraticonfo.pdf, id=226, 376.44481pt x 426.52786pt>
 File: Figuras/../../Figuras/quadraticonfo.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/quadraticonfo.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/quadraticonfo.pdf  used on input
@@ -1402,9 +1402,41 @@ fo.pdf
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/quadraticonfo.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (5.11176pt too wide) detected at line 81
-[]
- []
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.82 \end{multline}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \right.
+<argument> ...+u}+\frac {1}{c^2+u}\right )\right ]
+                                                  , 
+l.82 \end{multline}
+                   
+I'm ignoring a \right that had no matching \left.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.82 \end{multline}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \right.
+<argument> ...+u}+\frac {1}{c^2+u}\right )\right ]
+                                                  , 
+l.82 \end{multline}
+                   
+I'm ignoring a \right that had no matching \left.
 
 
 
@@ -1416,12 +1448,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
@@ -1435,7 +1467,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
 
  []
 
@@ -1467,7 +1499,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+Underfull \hbox (badness 10000) in paragraph at lines 296--298
 
  []
 
@@ -1481,7 +1513,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 347--349
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
 
  []
 
@@ -1495,17 +1527,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-<Figuras/../../Figuras/prolato.pdf, id=374, 256.38748pt x 284.01071pt>
+<Figuras/../../Figuras/prolato.pdf, id=373, 256.38748pt x 285.85751pt>
 File: Figuras/../../Figuras/prolato.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/prolato.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/prolato.pdf  used on input line 
-368.
-(pdftex.def)             Requested size: 111.2482pt x 123.23596pt.
-<Figuras/../../Figuras/oblato.pdf, id=375, 335.01727pt x 283.75606pt>
+369.
+(pdftex.def)             Requested size: 111.2482pt x 124.03731pt.
+<Figuras/../../Figuras/oblato.pdf, id=374, 335.01727pt x 283.75606pt>
 File: Figuras/../../Figuras/oblato.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/oblato.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/oblato.pdf  used on input line 3
-69.
+70.
 (pdftex.def)             Requested size: 145.11052pt x 122.90465pt.
 ) (1Resultados.tex
 
@@ -1525,14 +1557,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-<Figuras/../../Figuras/AlContribuciones3.pdf, id=402, 360.04826pt x 275.99203pt
+<Figuras/../../Figuras/AlContribuciones3.pdf, id=401, 360.04826pt x 275.99203pt
 >
 File: Figuras/../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlContribuciones3.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AlContribuciones3.pdf  used on i
 nput line 17.
 (pdftex.def)             Requested size: 215.24863pt x 164.99428pt.
-<Figuras/../../Figuras/CextAlbueno.pdf, id=403, 361.35pt x 292.09125pt>
+<Figuras/../../Figuras/CextAlbueno.pdf, id=402, 361.35pt x 292.09125pt>
 File: Figuras/../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/CextAlbueno.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/CextAlbueno.pdf  used on input l
@@ -1565,12 +1597,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-<Figuras/../../Figuras/Al1.pdf, id=430, 376.16454pt x 377.8315pt>
+<Figuras/../../Figuras/Al1.pdf, id=429, 376.16454pt x 377.8315pt>
 File: Figuras/../../Figuras/Al1.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Al1.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Al1.pdf  used on input line 35.
 (pdftex.def)             Requested size: 212.82779pt x 213.77498pt.
-<Figuras/../../Figuras/Ag1.pdf, id=431, 372.38544pt x 378.8207pt>
+<Figuras/../../Figuras/Ag1.pdf, id=430, 372.38544pt x 378.8207pt>
 File: Figuras/../../Figuras/Ag1.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Ag1.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Ag1.pdf  used on input line 36.
@@ -1599,12 +1631,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-<Figuras/../../Figuras/Al2.pdf, id=564, 368.04163pt x 374.04459pt>
+<Figuras/../../Figuras/Al2.pdf, id=563, 368.04163pt x 374.04459pt>
 File: Figuras/../../Figuras/Al2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Al2.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Al2.pdf  used on input line 45.
 (pdftex.def)             Requested size: 212.82779pt x 216.30107pt.
-<Figuras/../../Figuras/Ag2.pdf, id=565, 371.39923pt x 379.50107pt>
+<Figuras/../../Figuras/Ag2.pdf, id=564, 371.39923pt x 379.50107pt>
 File: Figuras/../../Figuras/Ag2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Ag2.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Ag2.pdf  used on input line 46.
@@ -1644,7 +1676,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Ag2.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/AuAR.pdf, id=898, 359.5694pt x 275.99203pt>
+<Figuras/../../Figuras/AuAR.pdf, id=897, 359.5694pt x 275.99203pt>
 File: Figuras/../../Figuras/AuAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AuAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AuAR.pdf  used on input line 59.
@@ -1655,7 +1687,7 @@ File: Figuras/../../Figuras/AuAR.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figuras/../../Figuras/AuAR.pdf  used on input line 60.
 
 (pdftex.def)             Requested size: 212.82779pt x 163.36029pt.
-<Figuras/../../Figuras/drudeAu.pdf, id=899, 375.4025pt x 167.25769pt>
+<Figuras/../../Figuras/drudeAu.pdf, id=898, 375.4025pt x 167.25769pt>
 File: Figuras/../../Figuras/drudeAu.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/drudeAu.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/drudeAu.pdf  used on input line 
@@ -1685,7 +1717,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/drudeAu.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/BiAR.pdf, id=1173, 360.04826pt x 275.99203pt>
+<Figuras/../../Figuras/BiAR.pdf, id=1172, 360.04826pt x 275.99203pt>
 File: Figuras/../../Figuras/BiAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/BiAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/BiAR.pdf  used on input line 73.
@@ -1696,7 +1728,7 @@ File: Figuras/../../Figuras/BiAR.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figuras/../../Figuras/BiAR.pdf  used on input line 74.
 
 (pdftex.def)             Requested size: 212.82779pt x 163.1413pt.
-<Figuras/../../Figuras/drudeBi.pdf, id=1174, 372.39125pt x 124.67595pt>
+<Figuras/../../Figuras/drudeBi.pdf, id=1173, 372.39125pt x 124.67595pt>
 File: Figuras/../../Figuras/drudeBi.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/drudeBi.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/drudeBi.pdf  used on input line 
@@ -1716,7 +1748,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/drudeBi.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/MgOAR.pdf, id=1268, 360.04826pt x 267.93068pt>
+<Figuras/../../Figuras/MgOAR.pdf, id=1267, 360.04826pt x 267.93068pt>
 File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 87
@@ -1806,11 +1838,11 @@ Package logreq Info: Writing requests to '1Notas_Servicio_Social.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26542 strings out of 473522
- 473778 string characters out of 5715578
- 1239452 words of memory out of 5000000
- 48947 multiletter control sequences out of 15000+600000
- 642320 words of font info for 226 fonts, out of 8000000 for 9000
+ 26544 strings out of 473522
+ 473832 string characters out of 5715578
+ 1239456 words of memory out of 5000000
+ 48949 multiletter control sequences out of 15000+600000
+ 642226 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,13n,93p,1907b,1895s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
@@ -1833,9 +1865,9 @@ eX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/lm/lmsy9.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/lm/lmtt10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (25 pages, 9241575 bytes).
+Output written on 1Notas_Servicio_Social.pdf (25 pages, 9241810 bytes).
 PDF statistics:
- 1529 PDF objects out of 1728 (max. 8388607)
+ 1527 PDF objects out of 1728 (max. 8388607)
  178 named destinations out of 1000 (max. 500000)
  43680 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -1,6 +1,6 @@
 \hypertarget{primera}{\subsection{Aproximación cuasiestática en el problema de esparcimiento de luz por partículas elipsoidales}}
 
- En el caso de un elipsoide de semieje mayor $a$ caracterizado por una función dieléctrica $\epsilon_p$, inmerso en un medio con una función dieléctrica $\epsilon_m$, e iluminado por una onda plana electromagnética con vector de onda $\Vec{k}$, se puede definir el límite cuasiestático cuando el parámetro de tamaño $x=ka$ es mucho menor que la unidad \cite{Bohren}. Ésta constricción garantiza que toda la geometría del elipsoide esté sujeta a un campo eléctrico de la misma intensidad y dirección \cite{Cuasiestatico}. En ésta sección se presenta el caso de una esfera, como caso particular de un elipsoide, en el límite cuasiestático para estudiarlo como un dipolo eléctrico puntual, lo que permite introducir el concepto de polarizabilidad, y más adelante, se desarrolla el dipolo eléctrico para esparcidores arbitrarios en donde se analizan las regiones de campo cercano, intermedia y de radiación.
+ En el caso de un elipsoide de semieje mayor $a$ caracterizado por una función dieléctrica $\epsilon_p$, inmerso en un medio con una función dieléctrica $\epsilon_m$, e iluminado por una onda plana electromagnética con vector de onda $\Vec{k}$, se puede definir el límite cuasiestático cuando el parámetro de tamaño $x=ka$ es mucho menor que la unidad \cite{Bohren}. Esta constricción garantiza que toda la geometría del elipsoide esté sujeta a un campo eléctrico de la misma intensidad y dirección \cite{Cuasiestatico}. En esta sección se presenta el caso de una esfera, como caso particular de un elipsoide, en el límite cuasiestático para estudiarlo como un dipolo eléctrico puntual, lo que permite introducir el concepto de polarizabilidad, y más adelante, se desarrolla el dipolo eléctrico para esparcidores arbitrarios en donde se analizan las regiones de campo cercano, intermedia y de radiación.
 
 
 \subsubsection{Dipolo eléctrico (caso estático)}
@@ -15,11 +15,11 @@ donde $\Vec{p}$ representa el momento dipolar eléctrico expresado como \cite{Bo
 	\vec{p}= \epsilon_m\alpha\Vec{E}_0=4\pi\epsilon_m a^3\left(\frac{\epsilon_p-\epsilon_m}{\epsilon_p+2\epsilon_m}\right)\Vec{E}_0, \;\:\:\:\:\: \text{con}\; \alpha=4\pi a^3\left(\frac{\epsilon_p-\epsilon_m}{\epsilon_p+2\epsilon_m}\right), 
 	\label{momentdipol}
 \end{equation*}
-donde $\alpha$ es la polarizabilidad eléctrica, que representa la facilidad con la que se polariza la esfera, es decir, el campo eléctrico externo induce un dipolo eléctrico puntual en la esfera, cuyo campo eléctrico asociado fuera de la esfera es 
+donde $\alpha$ es la polarizabilidad eléctrica, que representa la facilidad con la que se polariza la esfera \cite{Griffiths}, es decir, el campo eléctrico externo induce un dipolo eléctrico puntual en la esfera, cuyo campo eléctrico asociado fuera de la esfera es 
 \begin{equation*}
 	\Vec{E}_p(\vec{r}\,)=-\nabla \phi_p =\frac{p}{4\pi \epsilon_m r^3 }\left(2\cos\theta\hat{e}_r+\sen\theta\hat{e}_{\theta}\right).
 \end{equation*}
-En consecuencia, el campo eléctrico fuera de la esfera está dado por la superposición del campo eléctrico externo aplicado y del campo eléctrico externo producido por el dipolo eléctrico [ver Fig. \ref{electricfieldsphere}].
+En consecuencia, el campo eléctrico fuera de la esfera, es decir para $r>a$, está dado por la superposición del campo eléctrico externo y del campo eléctrico producido por el dipolo eléctrico [ver Fig. \ref{electricfieldsphere}].
 
 
 \begin{figure}[H]
@@ -33,7 +33,7 @@ En consecuencia, el campo eléctrico fuera de la esfera está dado por la superp
 
 \subsubsection{Dipolo eléctrico (caso dinámico)}
 
-En la sección anterior se abordó una solución que asume que el campo eléctrico externo, y por tanto también el dipolo inducido, son estáticos. Para resolver el caso dinámico en el régimen cuasiestático, se considera que, al iluminar cargas confinadas en un volumen finito con una onda plana electromagnética, éstas experimentan movimiento al ser sometidas a una fuerza. Esto equivale a realizar un análisis en términos de componentes de Fourier de los potenciales y campos generados por un sistema de cargas y corrientes localizadas en el espacio vacío, con una dependencia armónica $e^{-i\omega t}$, tal que varían en el tiempo y oscilan a la frecuencia $\omega$ del campo electromagnético externo aplicado. De ésta forma, la densidad de carga volumétrica total $\rho(\Vec{r},t)$ y la densidad de corriente volumétrica total $\Vec{J}(\Vec{r},t)$  en la posición $\Vec{r}$ se expresan como \cite{Jackson}
+En la sección anterior se abordó una solución que asume que el campo eléctrico externo, y por tanto también el dipolo inducido, son estáticos. Para resolver el caso dinámico en el régimen cuasiestático, se considera que, al iluminar cargas confinadas en un volumen finito con una onda plana electromagnética, éstas experimentan movimiento al ser sometidas a una fuerza. Esto equivale a realizar un análisis en términos de componentes de Fourier de los potenciales y campos generados por un sistema de cargas y corrientes localizadas en el espacio vacío, con una dependencia armónica $e^{-i\omega t}$, tal que varían en el tiempo y oscilan a la frecuencia $\omega$ del campo electromagnético externo aplicado. De esta forma, la densidad de carga volumétrica total $\rho(\Vec{r},t)$ y la densidad de corriente volumétrica total $\Vec{J}(\Vec{r},t)$  en la posición $\Vec{r}$ se expresan como \cite{Jackson}
 \begin{align}
     \rho(\Vec{r},t)&=\rho(\Vec{r}\,)e^{-i\omega t},\nonumber\\
     \Vec{J}(\Vec{r},t)&=\Vec{J}(\Vec{r}\,)e^{-i\omega t},
@@ -46,7 +46,7 @@ considerando que el significado físico lo posee la parte real. Entonces, es pos
 \end{align}
 en donde se emplea la norma de Lorentz \cite{Griffiths} y la densidad de corriente se evalúa en el tiempo de retardo $t_r=t-|\Vec{r}-\Vec{r'}|/c$. \\
 
-Al considerar la naturaleza de la onda plana, caracterizada por $\omega$, se pueden definir diferentes regiones de interés. Para estudiarlas, se delimitan en términos de $k=\omega/c$ (o equivalentemente, mediante la longitud de onda $\lambda=2\pi/k$). Por ejemplo, en la región de campo cercano, donde $r\ll\lambda$ (o $kr\ll 1$), tal que exp($ik|\Vec{r}-\Vec{r'}|)\to 1$, se tiene que, al obviar la dependencia temporal, la Ec. (\ref{Achafa}), se reescribe como \cite{Jackson}
+Las ondas planas son ondas de frecuencia constante $\omega$ que se propagan con velocidad $c$. Su número de onda está dado por $k=\omega/c$, y a partir de él se pueden caracterizar regiones espaciales en función del parámetro adimensional $kr$. Alternativamente, esta relación puede expresarse en términos de la longitud de onda $\lambda=2\pi/k$. En particular, en la región de campo cercano, donde $r\ll\lambda$ (o $kr\ll 1$), tal que exp($ik|\Vec{r}-\Vec{r'}|)\to 1$, se tiene que, al obviar la dependencia temporal, la Ec. (\ref{Achafa}), se reescribe como \cite{Jackson}
 \begin{equation*}
 	\Vec{A}(\Vec{r}\,)=\frac{\mu_0}{4\pi}\int \frac{\Vec{J}(\Vec{r}\,')}{|\Vec{r}-\Vec{r}\,'|} \text{d}^3r',
 \end{equation*} 

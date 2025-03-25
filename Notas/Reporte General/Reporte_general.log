@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  18 MAR 2025 17:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  25 MAR 2025 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,26 +669,26 @@ LaTeX Info: Redefining \% on input line 51.
 )
 \openout1 = `Reporte_general.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -756,7 +756,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 45.
+Package hyperref Info: Link coloring ON on input line 46.
 
 (Reporte_general.out) (Reporte_general.out)
 \@outlinefile=\write4
@@ -779,24 +779,24 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Reporte_general.bbl' found.
 (Reporte_general.bbl)
-Package biblatex Info: Reference section=0 on input line 45.
-Package biblatex Info: Reference segment=0 on input line 45.
+Package biblatex Info: Reference section=0 on input line 46.
+Package biblatex Info: Reference segment=0 on input line 46.
 <../Figuras/Logo_UNAM (1).png, id=3, 1204.5pt x 1354.05875pt>
 File: ../Figuras/Logo_UNAM (1).png Graphic file (type png)
 <use ../Figuras/Logo_UNAM (1).png>
-Package pdftex.def Info: ../Figuras/Logo_UNAM (1).png  used on input line 52.
+Package pdftex.def Info: ../Figuras/Logo_UNAM (1).png  used on input line 53.
 (pdftex.def)             Requested size: 86.05125pt x 96.73918pt.
 
-Overfull \hbox (0.693pt too wide) in paragraph at lines 52--53
+Overfull \hbox (0.693pt too wide) in paragraph at lines 53--54
  [] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -804,45 +804,45 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 57.
+(Font)              using `OT1/cmr/bx/n' instead on input line 58.
 
 <../Figuras/Logo_FC (1).png, id=5, 1102.1175pt x 1233.60875pt>
 File: ../Figuras/Logo_FC (1).png Graphic file (type png)
 <use ../Figuras/Logo_FC (1).png>
-Package pdftex.def Info: ../Figuras/Logo_FC (1).png  used on input line 64.
+Package pdftex.def Info: ../Figuras/Logo_FC (1).png  used on input line 65.
 (pdftex.def)             Requested size: 86.42223pt x 96.73918pt.
 
-Overfull \hbox (1.06396pt too wide) in paragraph at lines 64--65
+Overfull \hbox (1.06396pt too wide) in paragraph at lines 65--66
  [] 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 74--75
+Overfull \hbox (15.0pt too wide) in paragraph at lines 75--76
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
@@ -881,10 +881,10 @@ Package logreq Info: Writing requests to 'Reporte_general.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19948 strings out of 473522
- 352592 string characters out of 5715578
- 1070790 words of memory out of 5000000
- 42945 multiletter control sequences out of 15000+600000
+ 19937 strings out of 473522
+ 352395 string characters out of 5715578
+ 1070732 words of memory out of 5000000
+ 42934 multiletter control sequences out of 15000+600000
  563173 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,11n,93p,1900b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -895,9 +895,9 @@ amsfonts/cm/cmcsc10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmr10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Reporte_general.pdf (2 pages, 716137 bytes).
+Output written on Reporte_general.pdf (2 pages, 713778 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

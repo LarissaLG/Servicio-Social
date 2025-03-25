@@ -31,13 +31,14 @@
 citestyle = numeric-comp,
 backend = bibtex, 
 sorting = none, % Sort as they appear
-backref=true]{biblatex} %style = trad-abbrv 
+backref=false]{biblatex} %style = trad-abbrv 
 \AtEveryBibitem{\clearfield{urldate}}
 \AtEveryBibitem{\clearfield{url}}
 \AtEveryBibitem{\clearfield{isbn}}
 \AtEveryBibitem{\clearfield{month}}
 \AtEveryBibitem{\clearfield{day}}
 \AtEveryBibitem{\clearfield{issn}}
+\AtEveryBibitem{\clearfield{publisher}}
 \DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
 \addbibresource{Referencias.bib}
 
@@ -71,7 +72,7 @@ backref=true]{biblatex} %style = trad-abbrv
 	%------ Fin de encabezado -------- %
 	\hspace{0.5cm}
 	
-	\parbox{\textwidth}{\raggedleft Ciudad Universitaria, 20 de marzo de 2025.}
+	\parbox{\textwidth}{\raggedleft Ciudad Universitaria, 28 de marzo de 2025.}
 	
 		\hspace{1cm}
 	

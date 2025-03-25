@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.86772068"
-     inkscape:cx="300.78804"
-     inkscape:cy="249.50425"
+     inkscape:zoom="0.93303299"
+     inkscape:cx="301.16834"
+     inkscape:cy="221.32122"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -355,7 +355,7 @@
          inkscape:original-d="m 96.057362,73.448442 c 0.773999,-0.448106 1.547999,-0.896211 2.321996,-1.344315 -0.16295,-1.140653 -0.325895,-2.281261 -0.488842,-3.42189"
          sodipodi:nodetypes="ccc" />
       <g
-         transform="matrix(0.52151088,0,0,0.3868942,113.7709,79.904263)"
+         transform="matrix(0.57366197,0,0,0.42558362,115.01977,80.55715)"
          ns1:version="1.10.2"
          ns1:texconverter="pdflatex"
          ns1:pdfconverter="inkscape"
@@ -389,12 +389,12 @@
             <path
                d="m -20.803777,-25.908859 c 0,-0.862732 -0.227645,-2.690902 -1.572823,-2.690902 -1.841859,0 -3.869974,3.697422 -3.869974,6.696443 0,1.232474 0.372511,2.690902 1.572824,2.690902 1.862554,0 3.869973,-3.759046 3.869973,-6.696443 z m -4.056229,1.787087 c 0.227646,-0.821649 0.496681,-1.869252 1.034753,-2.814149 0.351815,-0.636778 0.827801,-1.376263 1.427958,-1.376263 0.641546,0 0.724326,0.842191 0.724326,1.581675 0,0.65732 -0.103481,1.31464 -0.4139,2.608737 z m 2.648966,0.431366 c -0.144865,0.595696 -0.413901,1.704923 -0.931277,2.64982 -0.455291,0.903814 -0.951972,1.540593 -1.531433,1.540593 -0.434596,0 -0.703632,-0.390284 -0.703632,-1.602217 0,-0.554613 0.08278,-1.314639 0.413901,-2.588196 z m 0,0"
                id="id-be9a9028-29ba-4f4f-801e-4efd4c82b61f"
-               style="stroke-width:1.31955;fill:#ff0000" />
+               style="fill:#ff0000;stroke-width:1.31955" />
           </g>
         </g>
       </g>
       <g
-         transform="matrix(0.69334589,0,0,0.57939069,101.92602,86.809448)"
+         transform="matrix(0.76268048,0,0,0.63732976,101.78573,86.678647)"
          ns1:version="1.10.2"
          ns1:texconverter="pdflatex"
          ns1:pdfconverter="inkscape"
@@ -436,7 +436,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0.672269 0 0 0.661411 86.9686 5.32704)"
+         transform="matrix(0.7394959,0,0,0.7275521,86.706041,5.0466472)"
          ns1:version="1.10.2"
          ns1:texconverter="pdflatex"
          ns1:pdfconverter="inkscape"
@@ -483,10 +483,10 @@
         <g
            fill-opacity="1"
            id="id-325b7cbb-2833-4132-b3a5-f7c6da8da477"
-           transform="translate(-149.165, -127.843)"
+           transform="translate(-149.165,-127.843)"
            style="fill:#000000;stroke-width:0">
           <g
-             transform="translate(149.095, 134.765)"
+             transform="translate(149.095,134.765)"
              id="g8993"
              style="fill:#000000;stroke-width:0">
             <path
@@ -498,10 +498,10 @@
         <g
            fill-opacity="1"
            id="id-3642288d-be0b-4bae-a41c-54185c61a814"
-           transform="translate(-149.165, -127.843)"
+           transform="translate(-149.165,-127.843)"
            style="fill:#000000;stroke-width:0">
           <g
-             transform="translate(148.712, 134.765)"
+             transform="translate(148.712,134.765)"
              id="g5093"
              style="fill:#000000;stroke-width:0">
             <path
@@ -513,10 +513,10 @@
         <g
            fill-opacity="1"
            id="id-22884bbe-8cfb-4b9d-914b-29256e581e97"
-           transform="translate(-149.165, -127.843)"
+           transform="translate(-149.165,-127.843)"
            style="fill:#000000;stroke-width:0">
           <g
-             transform="translate(153.351, 136.259)"
+             transform="translate(153.351,136.259)"
              id="g6994"
              style="fill:#000000;stroke-width:0">
             <path
@@ -527,7 +527,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0.672269 0 0 0.661411 149.655 64.9302)"
+         transform="matrix(0.7394959,0,0,0.7275521,149.38299,64.604852)"
          ns1:version="1.10.2"
          ns1:texconverter="pdflatex"
          ns1:pdfconverter="inkscape"
@@ -574,10 +574,10 @@
         <g
            fill-opacity="1"
            id="id-98f81ab6-5226-4b6a-8771-a2f1fef3599b"
-           transform="translate(-149.165, -127.843)"
+           transform="translate(-149.165,-127.843)"
            style="fill:#28170b;stroke-width:0">
           <g
-             transform="translate(149.095, 134.765)"
+             transform="translate(149.095,134.765)"
              id="g4877"
              style="fill:#28170b;stroke-width:0">
             <path
@@ -589,10 +589,10 @@
         <g
            fill-opacity="1"
            id="id-11dfa92e-ff6e-4fa3-9f1d-5ca4f0dbbd04"
-           transform="translate(-149.165, -127.843)"
+           transform="translate(-149.165,-127.843)"
            style="fill:#28170b;stroke-width:0">
           <g
-             transform="translate(148.712, 134.765)"
+             transform="translate(148.712,134.765)"
              id="g9338"
              style="fill:#28170b;stroke-width:0">
             <path
@@ -604,10 +604,10 @@
         <g
            fill-opacity="1"
            id="id-896f3803-7eb8-4541-9123-b244909c5357"
-           transform="translate(-149.165, -127.843)"
+           transform="translate(-149.165,-127.843)"
            style="fill:#28170b;stroke-width:0">
           <g
-             transform="translate(153.351, 136.259)"
+             transform="translate(153.351,136.259)"
              id="g9435"
              style="fill:#28170b;stroke-width:0">
             <path
@@ -618,7 +618,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0.672269,0,0,0.661411,49.303465,37.974533)"
+         transform="matrix(0.7394959,0,0,0.7275521,49.07344,37.738364)"
          ns1:version="1.10.2"
          ns1:texconverter="pdflatex"
          ns1:pdfconverter="inkscape"
@@ -663,7 +663,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0.672269 0 0 0.661411 33.228 97.6928)"
+         transform="matrix(0.76997052,0,0,0.75753452,32.825341,97.285302)"
          ns1:version="1.10.2"
          ns1:texconverter="pdflatex"
          ns1:pdfconverter="inkscape"
@@ -711,10 +711,10 @@
         <g
            fill-opacity="1"
            id="id-0683a130-e174-47e9-ae92-03863aae7583"
-           transform="translate(-149.17, -127.843)"
+           transform="translate(-149.17,-127.843)"
            style="fill:#000000;stroke-width:0">
           <g
-             transform="translate(149.095, 134.765)"
+             transform="translate(149.095,134.765)"
              id="g8549"
              style="fill:#000000;stroke-width:0">
             <path
@@ -726,10 +726,10 @@
         <g
            fill-opacity="1"
            id="id-c5b0de5d-ae11-48e5-9158-24adcc11b095"
-           transform="translate(-149.17, -127.843)"
+           transform="translate(-149.17,-127.843)"
            style="fill:#000000;stroke-width:0">
           <g
-             transform="translate(148.716, 134.765)"
+             transform="translate(148.716,134.765)"
              id="g9644"
              style="fill:#000000;stroke-width:0">
             <path
@@ -741,10 +741,10 @@
         <g
            fill-opacity="1"
            id="id-f16d58d5-66e8-47aa-a401-69496c31999c"
-           transform="translate(-149.17, -127.843)"
+           transform="translate(-149.17,-127.843)"
            style="fill:#000000;stroke-width:0">
           <g
-             transform="translate(153.351, 136.259)"
+             transform="translate(153.351,136.259)"
              id="g5547"
              style="fill:#000000;stroke-width:0">
             <path

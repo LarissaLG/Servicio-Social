@@ -139,7 +139,7 @@
     \verb mphocytes using three-dimensional refractive index tomography and.pdf
     \verb :application/pdf
     \endverb
-    \field{journaltitle}{Scientific reports}
+    \field{journaltitle}{Scientific Reports}
     \field{year}{2017}
   \endentry
 
@@ -200,6 +200,7 @@
     \verb pplication/pdf
     \endverb
     \field{journaltitle}{Lasers in Medical Science}
+    \field{month}{03}
     \field{year}{2014}
   \endentry
 
@@ -310,9 +311,6 @@
          giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {John Wiley \& Sons}%
-    }
     \strng{namehash}{BCFHDR1}
     \strng{fullhash}{BCFHDR1}
     \field{labelnamesource}{author}
@@ -383,9 +381,6 @@
          giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {John Wiley \& Sons}%
-    }
     \strng{namehash}{JJD1}
     \strng{fullhash}{JJD1}
     \field{labelnamesource}{author}
@@ -443,9 +438,6 @@
          giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Academic press}%
-    }
     \strng{namehash}{AGBWHJHFE1}
     \strng{fullhash}{AGBWHJHFE1}
     \field{labelnamesource}{author}
@@ -486,10 +478,6 @@
     \list{location}{1}{%
       {Cambridge}%
     }
-    \verb{file}
-    \verb Snapshot:C\:\\Users\\Poh\\Zotero\\storage\\UKCZXJPW\\803CBC9F98DF279C
-    \verb C52F6AC53923ECD1.html:text/html
-    \endverb
     \field{year}{2012}
   \endentry
 
@@ -501,9 +489,6 @@
          given={Oliver\bibnamedelima Dimon},
          giveni={O\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
-    }
-    \list{publisher}{1}{%
-      {Springer Science \& Business Media}%
     }
     \strng{namehash}{KOD1}
     \strng{fullhash}{KOD1}
@@ -527,9 +512,6 @@
          giveni={M\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Springer US}%
-    }
     \strng{namehash}{BM1}
     \strng{fullhash}{BM1}
     \field{labelnamesource}{author}
@@ -542,6 +524,9 @@
     \verb{url}
     \verb http://link.springer.com/10.1007/978-1-4684-0053-3
     \endverb
+    \list{location}{1}{%
+      {New York, NY}%
+    }
     \field{year}{1978}
   \endentry
 
@@ -559,9 +544,6 @@
          given={Irene\bibnamedelima A.},
          giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
-    }
-    \list{publisher}{1}{%
-      {US Government printing office}%
     }
     \strng{namehash}{AMSIA1}
     \strng{fullhash}{AMSIA1}
@@ -584,9 +566,6 @@
          given={S.\bibnamedelima A.},
          giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
     }
     \strng{namehash}{MSA1}
     \strng{fullhash}{MSA1}
@@ -628,6 +607,10 @@
     \verb https://www.sciencedirect.com/science/article/pii/003039929090093J
     \endverb
     \field{volume}{22}
+    \verb{file}
+    \verb ScienceDirect Snapshot:C\:\\Users\\Poh\\Zotero\\storage\\VL2DLPZQ\\00
+    \verb 3039929090093J.html:text/html
+    \endverb
     \field{journaltitle}{Optics \& Laser Technology}
     \field{month}{12}
     \field{year}{1990}
@@ -663,6 +646,11 @@
     \verb https://link.aps.org/doi/10.1103/PhysRevB.6.4370
     \endverb
     \field{volume}{6}
+    \verb{file}
+    \verb Available Version (via Google Scholar):C\:\\Users\\Poh\\Zotero\\stora
+    \verb ge\\424DXFB7\\Johnson y Christy - 1972 - Optical Constants of the Nob
+    \verb le Metals.pdf:application/pdf
+    \endverb
     \field{journaltitle}{Physical Review B}
     \field{month}{12}
     \field{year}{1972}
