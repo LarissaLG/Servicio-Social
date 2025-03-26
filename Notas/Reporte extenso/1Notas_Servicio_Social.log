@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  25 MAR 2025 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  25 MAR 2025 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -724,6 +724,13 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen284
 \titlewidthfirst=\dimen285
 )
+(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
+Package: physics 
+
+(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
+sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+))
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
@@ -980,10 +987,6 @@ Package biblatex Info: ... and expl3
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.s
 ty
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
-sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
-)
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 75.
@@ -1011,19 +1014,19 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 83.
+ine 81.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 86.
+ine 84.
 
 
 Package fancyhdr Warning: \fancyheadoffset's `E' option without twoside option 
 is useless.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 87.
+ine 85.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
@@ -1045,26 +1048,26 @@ LaTeX Warning: Label `fig:test' multiply defined.
 )
 \openout1 = `1Notas_Servicio_Social.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Info: Redefining \. on input line 102.
-LaTeX Info: Redefining \% on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1098,20 +1101,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 102.
-Package microtype Info: Applying patch `item' on input line 102.
-Package microtype Info: Applying patch `toc' on input line 102.
-Package microtype Info: Applying patch `eqnum' on input line 102.
-Package microtype Info: Applying patch `footnote' on input line 102.
-Package microtype Info: Applying patch `verbatim' on input line 102.
-LaTeX Info: Redefining \microtypesetup on input line 102.
+LaTeX Info: Redefining \microtypecontext on input line 100.
+Package microtype Info: Applying patch `item' on input line 100.
+Package microtype Info: Applying patch `toc' on input line 100.
+Package microtype Info: Applying patch `eqnum' on input line 100.
+Package microtype Info: Applying patch `footnote' on input line 100.
+Package microtype Info: Applying patch `verbatim' on input line 100.
+LaTeX Info: Redefining \microtypesetup on input line 100.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 102.
+LaTeX Info: Redefining \showhyphens on input line 100.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1156,7 +1159,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 Package newfloat Info: `float' package detected.
 Package newfloat Info: `wrapfig' package detected.
-Package hyperref Info: Link coloring ON on input line 102.
+Package hyperref Info: Link coloring ON on input line 100.
 (1Notas_Servicio_Social.out) (1Notas_Servicio_Social.out)
 \@outlinefile=\write4
 \openout4 = `1Notas_Servicio_Social.out'.
@@ -1178,39 +1181,39 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '1Notas_Servicio_Social.bbl' found.
 (1Notas_Servicio_Social.bbl)
-Package biblatex Info: Reference section=0 on input line 102.
-Package biblatex Info: Reference segment=0 on input line 102.
+Package biblatex Info: Reference section=0 on input line 100.
+Package biblatex Info: Reference segment=0 on input line 100.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-04.
+02.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-04.
+02.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-104.
+102.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-104.
+102.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 104.
+(Font)              <12> on input line 102.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 104.
+(Font)              <8> on input line 102.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 104.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 104
+(Font)              <6> on input line 102.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 102
 .
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1219,7 +1222,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 104
+LaTeX Font Info:    Trying to load font information for U+msb on input line 102
 .
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1232,12 +1235,12 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 111.
+(Font)              <10.95> on input line 109.
 (1Aproximación cuasiestática.tex
 
 
@@ -1499,7 +1502,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 296--298
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
@@ -1513,7 +1516,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 348--350
+Underfull \hbox (badness 10000) in paragraph at lines 350--352
 
  []
 
@@ -1527,17 +1530,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-<Figuras/../../Figuras/prolato.pdf, id=373, 256.38748pt x 285.85751pt>
+<Figuras/../../Figuras/prolato.pdf, id=376, 256.38748pt x 285.85751pt>
 File: Figuras/../../Figuras/prolato.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/prolato.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/prolato.pdf  used on input line 
-369.
+371.
 (pdftex.def)             Requested size: 111.2482pt x 124.03731pt.
-<Figuras/../../Figuras/oblato.pdf, id=374, 335.01727pt x 283.75606pt>
+<Figuras/../../Figuras/oblato.pdf, id=377, 335.01727pt x 283.75606pt>
 File: Figuras/../../Figuras/oblato.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/oblato.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/oblato.pdf  used on input line 3
-70.
+72.
 (pdftex.def)             Requested size: 145.11052pt x 122.90465pt.
 ) (1Resultados.tex
 
@@ -1557,19 +1560,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-<Figuras/../../Figuras/AlContribuciones3.pdf, id=401, 360.04826pt x 275.99203pt
+<Figuras/../../Figuras/AlContribuciones3.pdf, id=404, 359.55031pt x 271.51437pt
 >
 File: Figuras/../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AlContribuciones3.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AlContribuciones3.pdf  used on i
 nput line 17.
-(pdftex.def)             Requested size: 215.24863pt x 164.99428pt.
-<Figuras/../../Figuras/CextAlbueno.pdf, id=402, 361.35pt x 292.09125pt>
+(pdftex.def)             Requested size: 215.24863pt x 162.54529pt.
+<Figuras/../../Figuras/CextAlbueno.pdf, id=405, 365.57281pt x 283.88873pt>
 File: Figuras/../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/CextAlbueno.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/CextAlbueno.pdf  used on input l
 ine 18.
-(pdftex.def)             Requested size: 212.82779pt x 172.03816pt.
+(pdftex.def)             Requested size: 212.82779pt x 165.27501pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1597,12 +1600,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-<Figuras/../../Figuras/Al1.pdf, id=429, 376.16454pt x 377.8315pt>
+<Figuras/../../Figuras/Al1.pdf, id=432, 376.16454pt x 377.8315pt>
 File: Figuras/../../Figuras/Al1.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Al1.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Al1.pdf  used on input line 35.
 (pdftex.def)             Requested size: 212.82779pt x 213.77498pt.
-<Figuras/../../Figuras/Ag1.pdf, id=430, 372.38544pt x 378.8207pt>
+<Figuras/../../Figuras/Ag1.pdf, id=433, 372.38544pt x 378.8207pt>
 File: Figuras/../../Figuras/Ag1.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Ag1.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Ag1.pdf  used on input line 36.
@@ -1631,12 +1634,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-<Figuras/../../Figuras/Al2.pdf, id=563, 368.04163pt x 374.04459pt>
+<Figuras/../../Figuras/Al2.pdf, id=568, 368.04163pt x 374.04459pt>
 File: Figuras/../../Figuras/Al2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Al2.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Al2.pdf  used on input line 45.
 (pdftex.def)             Requested size: 212.82779pt x 216.30107pt.
-<Figuras/../../Figuras/Ag2.pdf, id=564, 371.39923pt x 379.50107pt>
+<Figuras/../../Figuras/Ag2.pdf, id=569, 371.39923pt x 379.50107pt>
 File: Figuras/../../Figuras/Ag2.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/Ag2.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/Ag2.pdf  used on input line 46.
@@ -1676,23 +1679,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Ag2.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/AuAR.pdf, id=897, 359.5694pt x 275.99203pt>
+<Figuras/../../Figuras/AuAR.pdf, id=902, 358.04468pt x 270.91216pt>
 File: Figuras/../../Figuras/AuAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/AuAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/AuAR.pdf  used on input line 59.
 
-(pdftex.def)             Requested size: 212.82779pt x 163.36029pt.
-File: Figuras/../../Figuras/AuAR.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/AuAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/AuAR.pdf  used on input line 60.
-
-(pdftex.def)             Requested size: 212.82779pt x 163.36029pt.
-<Figuras/../../Figuras/drudeAu.pdf, id=898, 375.4025pt x 167.25769pt>
-File: Figuras/../../Figuras/drudeAu.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/drudeAu.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/drudeAu.pdf  used on input line 
-62.
-(pdftex.def)             Requested size: 212.82779pt x 94.82487pt.
+(pdftex.def)             Requested size: 212.82779pt x 161.0397pt.
+<Figuras/../../Figuras/Auc.pdf, id=903, 358.04468pt x 274.2359pt>
+File: Figuras/../../Figuras/Auc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Auc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Auc.pdf  used on input line 60.
+(pdftex.def)             Requested size: 212.82779pt x 163.01546pt.
+File: Figuras/../../Figuras/Auc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Auc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Auc.pdf  used on input line 62.
+(pdftex.def)             Requested size: 212.82779pt x 163.01546pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
@@ -1712,23 +1713,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21 <./Figuras/../../Figuras/AuAR.pdf> <./Figuras/../../Figuras/drudeAu.pdf
+[21 <./Figuras/../../Figuras/AuAR.pdf> <./Figuras/../../Figuras/Auc.pdf
 
-pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/drudeAu.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Auc.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/BiAR.pdf, id=1172, 360.04826pt x 275.99203pt>
-File: Figuras/../../Figuras/BiAR.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/BiAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/BiAR.pdf  used on input line 73.
-
-(pdftex.def)             Requested size: 212.82779pt x 163.1413pt.
-File: Figuras/../../Figuras/BiAR.pdf Graphic file (type pdf)
-<use Figuras/../../Figuras/BiAR.pdf>
-Package pdftex.def Info: Figuras/../../Figuras/BiAR.pdf  used on input line 74.
-
-(pdftex.def)             Requested size: 212.82779pt x 163.1413pt.
-<Figuras/../../Figuras/drudeBi.pdf, id=1173, 372.39125pt x 124.67595pt>
+<Figuras/../../Figuras/BisAR.pdf, id=1058, 385.14594pt x 267.9009pt>
+File: Figuras/../../Figuras/BisAR.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/BisAR.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/BisAR.pdf  used on input line 73
+.
+(pdftex.def)             Requested size: 212.82779pt x 148.04088pt.
+<Figuras/../../Figuras/Bic.pdf, id=1059, 398.97139pt x 277.68747pt>
+File: Figuras/../../Figuras/Bic.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Bic.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Bic.pdf  used on input line 74.
+(pdftex.def)             Requested size: 212.82779pt x 148.12701pt.
+<Figuras/../../Figuras/drudeBi.pdf, id=1060, 372.39125pt x 124.67595pt>
 File: Figuras/../../Figuras/drudeBi.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/drudeBi.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/drudeBi.pdf  used on input line 
@@ -1743,12 +1744,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22 <./Figuras/../../Figuras/BiAR.pdf> <./Figuras/../../Figuras/drudeBi.pdf
+[22 <./Figuras/../../Figuras/BisAR.pdf> <./Figuras/../../Figuras/Bic.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Bic.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./Figuras/../../Figuras/drudeBi.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/drudeBi.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<Figuras/../../Figuras/MgOAR.pdf, id=1267, 360.04826pt x 267.93068pt>
+<Figuras/../../Figuras/MgOAR.pdf, id=1221, 360.04826pt x 267.93068pt>
 File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
 <use Figuras/../../Figuras/MgOAR.pdf>
 Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 87
@@ -1769,19 +1774,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-)
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-23.
- (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
 
 
@@ -1791,7 +1783,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[23 <./Figuras/../../Figuras/MgOAR.pdf>]
+[23 <./Figuras/../../Figuras/MgOAR.pdf>])
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+21.
+
+(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1838,11 +1844,11 @@ Package logreq Info: Writing requests to '1Notas_Servicio_Social.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26544 strings out of 473522
- 473832 string characters out of 5715578
- 1239456 words of memory out of 5000000
- 48949 multiletter control sequences out of 15000+600000
- 642226 words of font info for 226 fonts, out of 8000000 for 9000
+ 27050 strings out of 473522
+ 479125 string characters out of 5715578
+ 1248747 words of memory out of 5000000
+ 49447 multiletter control sequences out of 15000+600000
+ 642398 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,13n,93p,1907b,1895s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
@@ -1865,9 +1871,9 @@ eX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/lm/lmsy9.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/lm/lmtt10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (25 pages, 9241810 bytes).
+Output written on 1Notas_Servicio_Social.pdf (25 pages, 7439562 bytes).
 PDF statistics:
- 1527 PDF objects out of 1728 (max. 8388607)
+ 1484 PDF objects out of 1728 (max. 8388607)
  178 named destinations out of 1000 (max. 500000)
- 43680 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43685 words of extra memory for PDF output out of 51595 (max. 10000000)
 

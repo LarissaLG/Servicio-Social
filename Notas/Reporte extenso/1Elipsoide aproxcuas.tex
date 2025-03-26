@@ -173,17 +173,17 @@ lo cual es equivalente a resolver
     f(\xi)\frac{\text{d}}{\text{d}\xi}\left(f(\xi)\frac{ \text{d} F(\xi)}{\text{d}\xi}\right)-\left(\frac{a^2+b^2}{4}+\frac{\xi}{2}\right)F(\xi)=0.
     \label{ecsimpli}
 \end{equation}
-La ecuación anterior es una ecuación diferencial ordinaria lineal de segundo orden, con dos soluciones no triviales linealmente independientes. Una de estas soluciones es
+La ecuación anterior es una ecuación diferencial ordinaria lineal de segundo orden, con dos soluciones no triviales linealmente independientes. Una de estas soluciones es \cite{Bohren}
 \begin{equation}
     F_1(\xi)=(c^2+\xi)^{1/2},
     \label{F1}
 \end{equation}
-y la segunda solución se obtiene mediante el método de reducción de orden. Como $F_1(\xi)$ es solución de la Ec. (\ref{laplaceplisoidal}), se propone una segunda solución dada por $F_2(\xi)=v(\xi)F_1(\xi)$ donde $v(\xi)$ se determina al sustituir dicha solución en la ecuación diferencial dada, reduciéndola a una ecuación de primer orden donde la variable dependiente será $v$. Derivando la ecuación anterior respecto a $\xi$
+mientras que la segunda solución se obtiene mediante el método de reducción de orden. Al proponer $F_2(\xi)=v(\xi)F_1(\xi)$ donde $v(\xi)$ se determina al sustituir $F_2(\xi)$ en la Ec. \ref{ecsimpli}, la Ec. \ref{ecsimpli} se reduce a una ecuación de primer orden donde $v$ es la función a determinar. Para obtener la ecuación reducida, se calcula la primera y segunda derivada de $F_2$  respecto a $\xi$
 \begin{align*}
     \frac{\text{d}F_2(\xi)}{\text{d}\xi}&=F_1(\xi)\frac{\text{d}v(\xi)}{\text{d}\xi}+v(\xi)\frac{F_1(\xi)}{\text{d}\xi},\\
     \frac{\text{d}^2F_2(\xi)}{\text{d}\xi^2}&=F_1(\xi)\frac{\text{d}^2v(\xi)}{\text{d}\xi^2}+2\frac{\text{d}v(\xi)}{\text{d}\xi}\frac{\text{d}F_1(\xi)}{\text{d}\xi}+v(\xi)\frac{\text{d}^2F_1(\xi)}{\text{d}\xi^2},
 \end{align*}
-y sustituyendo las derivadas anteriores en la Ec. (\ref{F1}), y simplificando, se obtiene
+sustituyendo las derivadas anteriores en la Ec. (\ref{F1}) y simplificando se obtiene que
 \begin{equation*}
     f^2(\xi)F_1(\xi)\frac{\text{d}^2v(\xi)}{\text{d}\xi^2}+\frac{\text{d}v(\xi)}{\text{d}\xi}\left[f(\xi)F_1(\xi)\frac{\text{d}f(\xi)}{\text{d}\xi}+2f^2(\xi)\frac{\text{d}F_1(\xi)}{\text{d}\xi}\right]=0.
 \end{equation*}
@@ -209,12 +209,14 @@ por lo tanto,
   F_2(\xi)=F_1(\xi)\int_{\xi}^{\infty}\frac{\text{d}q}{F_1^2(q)f(q)}.
   \label{F2}
 \end{equation}
-Al escribir explícitamente el integrando, usando las Ecs. (\ref{F1}) y (\ref{F2}), y haciendo una integración por partes con $u=1/(a^2+q)^{1/2}$ y $\text{d}v=1/[(c^2+q)^{3/2}(b^2+q)^{1/2}]$, se obtiene
+Al escribir explícitamente el integrando de la Ec. (\ref{F2}) al sustituir la Ec. (\ref{F1}), se obtiene que
 \begin{align}
-    F_2(\xi)&=F_1(\xi)\int_{\xi}^{\infty}\frac{\text{d}q}{(c^2+q)[(a^2+q)(b^2+q)(c^2+q)]^{1/2}}\nonumber\\
-    &=\frac{F_1(\xi)}{c^2-b^2}\left[\frac{b^2+q}{(a^2+q)(c^2+q)}\right]^{1/2}\Bigg|_\xi^{\infty}-\int_\xi^{\infty}\sqrt{\frac{b^2+q}{c^2+q}}\frac{\text{d}q}{(c^2-b^2)(a^2+q)^{3/2}}.
+    F_2(\xi)&= F_1(\xi)\int_{\xi}^{\infty}\qty[\frac{1}{(a^2 + q)^{1/2}}]
+    \qty[\frac{\dd{q}}{(c^2 + q)^{3/2} (b^2+q)^{1/2}}]\nonumber\\
+    &=\frac{F_1(\xi)}{c^2-b^2}\left[\frac{b^2+q}{(a^2+q)(c^2+q)}\right]^{1/2}\Bigg|_\xi^{\infty}-\int_\xi^{\infty}\sqrt{\frac{b^2+q}{c^2+q}}\frac{\text{d}q}{(c^2-b^2)(a^2+q)^{3/2}},
+    \label{integralF2}
 \end{align}
-Reescribiendo la segunda integral
+donde se realizó una integración por partes. Al reescribir la integral de la Ec. (\ref{integralF2}) como
 \begin{equation}
 	\int_\xi^{\infty}\frac{\sqrt{\frac{b^2+q}{a^2+q}}\sqrt{\frac{b^2+q}{a^2+q}}\sqrt{a^2-c^2}\:\text{d}q}{\sqrt{a^2-c^2}(c^2-b^2)\sqrt{\frac{c^2+q}{a^2+q}}\sqrt{\frac{b^2+q}{c^2+q}}(a^2+q)^{3/2}\sqrt{\frac{c^2+q}{a^2+q}}},\label{eliptic}
 \end{equation}
@@ -368,6 +370,6 @@ mientras que para los esferoides oblatos se tiene que
 \begin{figure}[h!]
 	\sidesubfloat[]{\includegraphics[width=.23\textwidth]{../../Figuras/prolato} \label{esf_prolato}}\quad%
 	\sidesubfloat[]{\includegraphics[width=.3\textwidth]{../../Figuras/oblato.pdf}\label{esf_oblato}}%
-	\caption{Clases especiales de elipsoides. \textbf{a)} Prolato: el eje mayor del elipsoide está orientado en la dirección del eje $\hat{e}_z$. \textbf{b)} Oblato: el eje mayor del elipsoide está orientado en la dirección del eje $\hat{e}_y$.}\label{fig:test}
+	\caption{Clases especiales de elipsoides. \textbf{a)} Prolato: el eje mayor del elipsoide está orientado en la dirección del eje $z$. \textbf{b)} Oblato: el eje mayor del elipsoide está orientado en la dirección del eje $y$.}\label{fig:test}
 \end{figure}
 
