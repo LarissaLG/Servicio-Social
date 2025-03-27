@@ -112,7 +112,7 @@ Como resultado de lo anterior, la ecuación de Laplace en coordenadas elipsoidal
 	\nabla^2\phi=(\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+(\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\eta}{\partial\eta}\right)+(\xi-\eta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)=0.
 	\label{laplaceplisoidal}
 \end{equation}
-Una de las formas por la cual se puede resolver la ecuación anterior es mediante el método de reducción de orden, el cual proporciona una solución linealmente independiente a partir de otra conocida con anterioridad \cite{Braun}. En éste contexto, $\phi$ corresponde a la solución de dicha ecuación que está determinada por la forma del campo incidente y cumple las condiciones de frontera. \\
+Una de las formas por la cual se puede resolver la ecuación anterior es mediante el método de reducción de orden, el cual proporciona una solución linealmente independiente a partir de otra conocida con anterioridad \cite{Braun}. En este contexto, $\phi$ corresponde a la solución de dicha ecuación que está determinada por la forma del campo incidente y cumple las condiciones de frontera. \\
 
 
 El potencial eléctrico solución a la Ec. (\ref{laplaceplisoidal}) hereda la simetría del sistema de interés, el cual consiste en un elipsoide homogéneo iluminado por un campo eléctrico incidente uniforme alineado a lo largo del eje $\uvec{z}$. Por tanto,  a cada punto del espacio descrito por las coordenadas elipsoidales le corresponden ocho puntos en las coordenadas cartesianas. Es decir, las propiedades de simetría del sistema en el potencial eléctrico son:
@@ -134,7 +134,7 @@ donde, de acuerdo con la expresión para $z$ en la Ec. (\ref{z_elips}),
 	\label{pot_0}
 \end{equation}
 
-Al considerar las condiciones de frontera en el sistema en dos límites: a distancias muy lejanas del elipsoide y en la interfaz entre el medio y el elipsoide, debido al teorema de unicidad \cite{Griffiths}, el problema queda totalmente determinado. Para distancias lo suficientemente lejanas a la partícula, es decir, cuando $\xi\gg a^2$, al factorizar $\xi$ de  la Ec. (\ref{x_elips}), se obtiene
+Para determinar por completo la solución al potencial $\phi$ [Ec.  (\ref{laplaceplisoidal}], se emplea el teorema de unicidad \cite{Griffiths} considerando las condiciones de frontera a distancias muy lejanas del elipsoide y en la interfaz entre el medio y el elipsoide. Para distancias lo suficientemente lejanas a la partícula, es decir, cuando $\xi\gg a^2$, al factorizar $\xi$ de  la Ec. (\ref{x_elips}), se obtiene
 \begin{equation*}
     \frac{x^2}{a^2/\xi+1}+\frac{y^2}{b^2/\xi+1}+\frac{z^2}{c^2/\xi+1}=\xi,
 \end{equation*}
@@ -147,7 +147,7 @@ entonces, $\xi \simeq r^2$ en el límite asintótico. Asimismo, en esta aproxima
 \lim_{\xi\rightarrow\infty}\phi_f=0
 \label{limitephi_p}.
 \end{equation}
-Al considerar $\phi_{int}$ y $\epsilon_{int}$ el potencial y la permitividad eléctrica en el interior del elipsoide, y las mismas cantidades $\phi_{ext}$ y $\epsilon_{ext}$ para el exterior de éste, como el potencial es continuo en la superficie del elipsoide y la componente perpendicular a la superficie del elipsoide del campo de desplazamiento eléctrico $\Vec{D}$ por ausencia de cargas externas también \cite{Griffiths}
+Al considerar $\phi_{int}$ y $\epsilon_{int}$ el potencial y la permitividad eléctrica en el interior del elipsoide, y las mismas cantidades $\phi_{ext}$ y $\epsilon_{ext}$ para el exterior de éste, como el potencial es continuo en la superficie del elipsoide y la componente perpendicular a la superficie del elipsoide del campo de desplazamiento eléctrico $\Vec{D}$ por ausencia de cargas externas también, se debe cumplir que \cite{Griffiths}
 \begin{subequations}
 \label{condicionesfrontera}
 \begin{align}
@@ -238,7 +238,7 @@ donde el módulo angular es $\beta=\mbox{arcsen}\:\kappa$ y $\kappa$ es la excen
 \begin{equation}
     \lim_{\xi \to 0}F_1(\xi)=c\hspace{1cm}\mbox{y}\hspace{1cm} \lim_{\xi \to \infty}F_2(\xi)=0.
 \end{equation}
-De éste modo, considerando que $F_1$ no satisface la condición impuesta sobre $\phi_f$ en la Ec. (\ref{limitephi_p}) y que necesariamente el potencial dentro de la partícula debe de ser finito, lo cual $F_2$ no satisface, los potenciales $\phi_{int}$ y $\phi_f$, propuestos como en la Ec. (\ref{phi0 con F}), están dados por
+De este modo, considerando que $F_1$ no satisface la condición impuesta sobre $\phi_f$ en la Ec. (\ref{limitephi_p}) y que necesariamente el potencial dentro de la partícula debe de ser finito, lo cual $F_2$ no satisface, los potenciales $\phi_{int}$ y $\phi_f$, propuestos como en la Ec. (\ref{phi0 con F}), están dados por
 \begin{align}
     \phi_{int}&=C_1F_1(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}\label{phi_int},\\
     \phi_f&=C_2F_2(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}\label{phi_p},
@@ -327,7 +327,7 @@ donde
 \end{align*}
 Se puede concluir en general que la polarizabilidad en una dirección arbitraria $j$, paralela a algún eje cartesiano es
 \begin{equation}
-    \alpha^{(j)}=V\frac{\epsilon_p-\epsilon_m}{\epsilon_m+L^{(j)}(\epsilon_p-\epsilon_m)},
+    \alpha^{(j)}=V\frac{\epsilon_{int}-\epsilon_{ext}}{\epsilon_m+L^{(j)}(\epsilon_{int}-\epsilon_{ext})},
 \end{equation}
 con $L^{(j)}$ conocido como \textit{factor geométrico}, dado por la integral 
 \begin{equation}
@@ -344,7 +344,7 @@ pues
 \end{equation*}
 que al simplificar se obtiene
 $$L^{(1)}+L^{(2)}+L^{(3)}=-abc\int_0^{\infty}\frac{\text{d}}{\text{d}q}\left(\frac{1}{f(q)}\right)\text{d}q,$$
-que puede resolverse de forma analítica mediante el teorema fundamental del cálculo. Éste procedimiento deviene en
+que puede resolverse de forma analítica mediante el teorema fundamental del cálculo. Este procedimiento deviene en
 \begin{align*}
 	\int_0^{\infty}\frac{\text{d}}{\text{d}q}\left(\frac{1}{f(q)}\right)\text{d}q=\frac{1}{f(q)}\Big|_{(abc)^2}^{\infty}=-\frac{1}{abc},
 \end{align*}
