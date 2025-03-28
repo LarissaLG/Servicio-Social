@@ -1,5 +1,5 @@
 \hypertarget{elipsoide}{\subsection{Elipsoide en la aproximación cuasiestática}}
-Las secciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En esta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes iluminadas por una onda plana electromagnética y confinadas en un elipsoide centrado en el origen, con semiejes $a,b,c$ alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$ [ver Fig. \ref{elipse}], donde $\lambda$ se relaciona con el vector de onda como $k=2\pi\sqrt{\epsilon_m}/\lambda$. A pesar de que en esta sección se introduce un caso particular de partículas pequeñas, es posible calcular una solución analítica, aproximada, al emplear las coordenadas elipsoidales confocales\footnote{Existen diversas definiciones que pueden revisarse en la Ref. \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en la Ref.~\cite{Arfken}. }, que describen una familia de superficies confocales como \cite{ConfocalEllip}
+Las secciones transversales de extinción, absorción y esparcimiento para distribuciones arbitrarias de cargas y corrientes confinadas a distancias cortas respecto al punto de observación fueron estudiadas en la sección anterior. En esta sección se estudia el caso particular del esparcimiento de luz por cargas y corrientes iluminadas por una onda plana electromagnética y confinadas en un elipsoide centrado en el origen, con semiejes $a,b,c$ alineados con los ejes $\uvec{x},\uvec{y},\uvec{z}$ respectivamente, y dimensiones tales que $\lambda\gg a>b>c$ [ver Fig. \ref{elipse}], donde $\lambda$ se relaciona con el vector de onda como $k=2\pi\sqrt{\epsilon_m}/\lambda$. Al considerar una partícula elipsoidal en la aproximación cuasiestática, es posible calcular una solución analítica, aproximada, al emplear las coordenadas elipsoidales confocales\footnote{Existen diversas definiciones que pueden revisarse en la Ref. \cite{ConfocalEllip}, sin embargo, se emplea la proporcionada en la Ref.~\cite{Arfken}. }, que describen una familia de superficies confocales como \cite{ConfocalEllip}
 \begin{equation}
 	\frac{x^2}{a^2-u}+\frac{y^2}{b^2-u}+\frac{z^2}{c^2-u}=1,
 	\label{elipsoide2}
@@ -43,7 +43,7 @@ A partir del sistema de ecuaciones dado por las Ecs. (\ref{x_elips})--(\ref{z_el
 
 
 
-En el problema de esparcimento de luz en el límite cuasiestático se resuelve el potencial eléctrico solución a la ecuación de Laplace, que en un sistema coordenado arbitrario se escribe como \cite{Arfken}
+En el problema de esparcimento de luz en el límite cuasiestático se resuelve el potencial eléctrico, solución a la ecuación de Laplace, que en un sistema coordenado arbitrario se escribe como \cite{Arfken}
 \begin{align}
 	\nabla^2\phi=\frac{1}{h_1h_2h_3}\left[\frac{\partial}{\partial q_1}\left(\frac{h_2h_3}{h_1}\frac{\partial\phi}{\partial q_1}\right)+\frac{\partial}{\partial q_2}\left(\frac{h_3h_1}{h_2}\frac{\partial\phi}{\partial q_2}\right)+\frac{\partial}{\partial q_3}\left(\frac{h_1h_2}{h_3}\frac{\partial\phi}{\partial q_3}\right)\right],
 	\label{laplaciano}    
@@ -76,10 +76,10 @@ y por economía, se define a la función $g(u)=(u-\xi)(u-\eta)(u-\zeta)$, que pe
 	1-\frac{x^2}{a^2+u}-\frac{y^2}{b^2+u}-\frac{z^2}{c^2+u}=\frac{g(u)}{(a^2+u)(b^2+u)(c^2+u)},
 \end{equation}
 donde $g(u)$ es una función cúbica con tres raíces reales dentro del rango descrito por los límites de cada variable, y al  derivarla con respecto de $u$ se obtiene
-\begin{multline}
-	\frac{x^2}{(a^2+u)^2}+\frac{y^2}{(b^2+u)^2}+\frac{z^2}{(c^2+u)^2}=\frac{g(u)}{[f(u)]^2}\left[\frac{1}{u-\xi}+\frac{1}{u-\zeta}+\frac{1}{u-\eta}\\
-	-\left(\frac{1}{a^2+u}+\frac{1}{b^2+u}+\frac{1}{c^2+u}\right)\right],
-\end{multline}
+\begin{align}
+	\frac{x^2}{(a^2+u)^2}+\frac{y^2}{(b^2+u)^2}+\frac{z^2}{(c^2+u)^2}=\frac{g(u)}{[f(u)]^2}\Biggl[&\frac{1}{u-\xi}+\frac{1}{u-\zeta}+\frac{1}{u-\eta}+\nonumber\\
+	&-\left(\frac{1}{a^2+u}+\frac{1}{b^2+u}+\frac{1}{c^2+u}\right)\Biggl],
+\end{align}
 con 
 \begin{equation}
 	f(u)=\sqrt{(a^2+u)(b^2+u)(c^2+u)},  
@@ -134,7 +134,7 @@ donde, de acuerdo con la expresión para $z$ en la Ec. (\ref{z_elips}),
 	\label{pot_0}
 \end{equation}
 
-Para determinar por completo la solución al potencial $\phi$ [Ec.  (\ref{laplaceplisoidal}], se emplea el teorema de unicidad \cite{Griffiths} considerando las condiciones de frontera a distancias muy lejanas del elipsoide y en la interfaz entre el medio y el elipsoide. Para distancias lo suficientemente lejanas a la partícula, es decir, cuando $\xi\gg a^2$, al factorizar $\xi$ de  la Ec. (\ref{x_elips}), se obtiene
+Para determinar por completo la solución al potencial $\phi$ [Ec.  (\ref{laplaceplisoidal})], se emplea el teorema de unicidad \cite{Griffiths} considerando las condiciones de frontera a distancias muy lejanas del elipsoide y en su superficie. Para distancias lo suficientemente lejanas a la partícula, es decir, cuando $\xi\gg a^2$, al factorizar $\xi$ de  la Ec. (\ref{x_elips}), se obtiene
 \begin{equation*}
     \frac{x^2}{a^2/\xi+1}+\frac{y^2}{b^2/\xi+1}+\frac{z^2}{c^2/\xi+1}=\xi,
 \end{equation*}
