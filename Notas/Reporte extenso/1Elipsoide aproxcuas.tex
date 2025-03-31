@@ -77,7 +77,7 @@ y por economía, se define a la función $g(u)=(u-\xi)(u-\eta)(u-\zeta)$, que pe
 \end{equation}
 donde $g(u)$ es una función cúbica con tres raíces reales dentro del rango descrito por los límites de cada variable, y al  derivarla con respecto de $u$ se obtiene
 \begin{align}
-	\frac{x^2}{(a^2+u)^2}+\frac{y^2}{(b^2+u)^2}+\frac{z^2}{(c^2+u)^2}=\frac{g(u)}{[f(u)]^2}\Biggl[&\frac{1}{u-\xi}+\frac{1}{u-\zeta}+\frac{1}{u-\eta}+\nonumber\\
+	\frac{x^2}{(a^2+u)^2}+\frac{y^2}{(b^2+u)^2}+\frac{z^2}{(c^2+u)^2}=\frac{g(u)}{[f(u)]^2}\Biggl[&\left(\frac{1}{u-\xi}+\frac{1}{u-\zeta}+\frac{1}{u-\eta}\right)+\nonumber\\
 	&-\left(\frac{1}{a^2+u}+\frac{1}{b^2+u}+\frac{1}{c^2+u}\right)\Biggl],
 \end{align}
 con 
@@ -112,10 +112,10 @@ Como resultado de lo anterior, la ecuación de Laplace en coordenadas elipsoidal
 	\nabla^2\phi=(\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+(\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\eta}{\partial\eta}\right)+(\xi-\eta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)=0.
 	\label{laplaceplisoidal}
 \end{equation}
-Una de las formas por la cual se puede resolver la ecuación anterior es mediante el método de reducción de orden, el cual proporciona una solución linealmente independiente a partir de otra conocida con anterioridad \cite{Braun}. En este contexto, $\phi$ corresponde a la solución de dicha ecuación que está determinada por la forma del campo incidente y cumple las condiciones de frontera. \\
+Una de las formas por la cual se puede resolver la Ec. \eqref{laplaceplisoidal} es mediante el método de reducción de orden, el cual proporciona una solución linealmente independiente a partir de otra conocida con anterioridad~\cite{Braun}. En este contexto, $\phi$ corresponde a la solución de dicha ecuación que está determinada por la forma del campo incidente y cumple las condiciones de frontera. \\
 
 
-El potencial eléctrico solución a la Ec. (\ref{laplaceplisoidal}) hereda la simetría del sistema de interés, el cual consiste en un elipsoide homogéneo iluminado por un campo eléctrico incidente uniforme alineado a lo largo del eje $\uvec{z}$. Por tanto,  a cada punto del espacio descrito por las coordenadas elipsoidales le corresponden ocho puntos en las coordenadas cartesianas. Es decir, las propiedades de simetría del sistema en el potencial eléctrico son:
+El potencial eléctrico, solución a la Ec. (\ref{laplaceplisoidal}), hereda la simetría del sistema de interés, el cual consiste en un elipsoide homogéneo iluminado por un campo eléctrico incidente uniforme alineado a lo largo del eje $z$. Por tanto,  a cada punto del espacio descrito por las coordenadas elipsoidales le corresponden ocho puntos en las coordenadas cartesianas. Es decir, las propiedades de simetría del sistema en el potencial eléctrico son:
 \begin{equation}
     \phi(x,y,z)=\phi(-x,y,z)=\phi(x,-y,z)=\phi(-x,-y,z),
 \end{equation}
@@ -134,7 +134,7 @@ donde, de acuerdo con la expresión para $z$ en la Ec. (\ref{z_elips}),
 	\label{pot_0}
 \end{equation}
 
-Para determinar por completo la solución al potencial $\phi$ [Ec.  (\ref{laplaceplisoidal})], se emplea el teorema de unicidad \cite{Griffiths} considerando las condiciones de frontera a distancias muy lejanas del elipsoide y en su superficie. Para distancias lo suficientemente lejanas a la partícula, es decir, cuando $\xi\gg a^2$, al factorizar $\xi$ de  la Ec. (\ref{x_elips}), se obtiene
+Para determinar por completo la solución al potencial $\phi$ [Ec.  (\ref{laplaceplisoidal})], se emplea el teorema de unicidad~\cite{Griffiths} considerando las condiciones de frontera a distancias muy lejanas del elipsoide y en su superficie. Para distancias lo suficientemente lejanas a la partícula, es decir, cuando $\xi\gg a^2$, al factorizar $\xi$ de  la Ec. (\ref{x_elips}), se obtiene
 \begin{equation*}
     \frac{x^2}{a^2/\xi+1}+\frac{y^2}{b^2/\xi+1}+\frac{z^2}{c^2/\xi+1}=\xi,
 \end{equation*}
@@ -178,12 +178,12 @@ La ecuación anterior es una ecuación diferencial ordinaria lineal de segundo o
     F_1(\xi)=(c^2+\xi)^{1/2},
     \label{F1}
 \end{equation}
-mientras que la segunda solución se obtiene mediante el método de reducción de orden. Al proponer $F_2(\xi)=v(\xi)F_1(\xi)$ donde $v(\xi)$ se determina al sustituir $F_2(\xi)$ en la Ec. \ref{ecsimpli}, la Ec. \ref{ecsimpli} se reduce a una ecuación de primer orden donde $v$ es la función a determinar. Para obtener la ecuación reducida, se calcula la primera y segunda derivada de $F_2$  respecto a $\xi$
+mientras que la segunda solución se obtiene mediante el método de reducción de orden. Al proponer $F_2(\xi)=v(\xi)F_1(\xi)$ donde $v(\xi)$ se determina al sustituir $F_2(\xi)$ en la Ec. \ref{ecsimpli}, esta última se reduce a una ecuación de primer orden donde $v$ es la función a determinar. Para obtener la ecuación reducida, se calcula la primera y segunda derivada de $F_2$  respecto a $\xi$
 \begin{align*}
     \frac{\text{d}F_2(\xi)}{\text{d}\xi}&=F_1(\xi)\frac{\text{d}v(\xi)}{\text{d}\xi}+v(\xi)\frac{F_1(\xi)}{\text{d}\xi},\\
     \frac{\text{d}^2F_2(\xi)}{\text{d}\xi^2}&=F_1(\xi)\frac{\text{d}^2v(\xi)}{\text{d}\xi^2}+2\frac{\text{d}v(\xi)}{\text{d}\xi}\frac{\text{d}F_1(\xi)}{\text{d}\xi}+v(\xi)\frac{\text{d}^2F_1(\xi)}{\text{d}\xi^2},
 \end{align*}
-sustituyendo las derivadas anteriores en la Ec. (\ref{F1}) y simplificando se obtiene que
+y sustituyendo las derivadas anteriores en la Ec. (\ref{F1}), al simplificar se obtiene que
 \begin{equation*}
     f^2(\xi)F_1(\xi)\frac{\text{d}^2v(\xi)}{\text{d}\xi^2}+\frac{\text{d}v(\xi)}{\text{d}\xi}\left[f(\xi)F_1(\xi)\frac{\text{d}f(\xi)}{\text{d}\xi}+2f^2(\xi)\frac{\text{d}F_1(\xi)}{\text{d}\xi}\right]=0.
 \end{equation*}
@@ -222,7 +222,7 @@ donde se realizó una integración por partes. Al reescribir la integral de la E
 \end{equation}
 y considerando que
 \begin{equation*}
-	\frac{\text{d}}{\text{d}q}\left\{E\left[\mbox{arcsen}\left(\frac{\sqrt{a^2-c^2}}{\sqrt{a^2+q}}\right)\Bigg|\frac{a^2-b^2}{a^2-c^2}\right]\right\}=-\frac{\sqrt{\frac{b^2+q}{a^2+q}}\sqrt{a^2-c^2}}{(a^2+q)^{3/2}\sqrt{\frac{c^2+q}{a^2+q}}}
+	\frac{\text{d}}{\text{d}q}\left\{E\left[\mbox{arcsen}\left(\frac{\sqrt{a^2-c^2}}{\sqrt{a^2+q}}\right)\Bigg|\frac{a^2-b^2}{a^2-c^2}\right]\right\}=-\frac{\sqrt{\frac{b^2+q}{a^2+q}}\sqrt{a^2-c^2}}{(a^2+q)^{3/2}\sqrt{\frac{c^2+q}{a^2+q}}},
 \end{equation*}
 al sustituir en la Ec. (\ref{eliptic}) y haciendo uso del teorema fundamental del cálculo, se obtiene que la segunda solución a la Ec. (\ref{ecsimpli}) es 
 \begin{align}
@@ -231,9 +231,9 @@ al sustituir en la Ec. (\ref{eliptic}) y haciendo uso del teorema fundamental de
 \end{align}
 donde $E(\phi|m)$ es una integral elíptica de segundo tipo definida como  \cite{Abramowitz}
 \begin{equation}
-    E(x|\kappa)=\int_{0}^x\frac{\sqrt{1-\kappa^2t^2}}{1-t^2}\text{d}t,\hspace{1cm}0\leq m\leq 1,
+    E(x|\kappa)=\int_{0}^x\frac{\sqrt{1-\kappa^2t^2}}{1-t^2}\text{d}t,\hspace{1cm}\text{con}\qquad 0\leq \kappa\leq 1,
 \end{equation}
-donde el módulo angular es $\beta=\mbox{arcsen}\:\kappa$ y $\kappa$ es la excentricidad. En el primer límite de integración ($\infty$) de $F_2(\xi)$ en la Ec. (\ref{F2_xi}), al evaluar se obtiene que el primer sumando es cero, y en el segundo límite la función arcoseno es cero. De esta forma, la parte angular de la integral es cero, es decir, $E(0|m)=0$. En consecuencia, considerando la definición de $F_1$ en la Ec. (\ref{F1}) se tiene que $F_1$ y $F_2$ cumplen
+donde el módulo angular es $\beta=\mbox{arcsen}\:\kappa$ y $\kappa$ es la excentricidad. En el primer límite de integración ($\infty$) de $F_2(\xi)$ en la Ec. (\ref{F2_xi}), al evaluar se obtiene que el primer sumando es cero, y para el segundo límite ($\xi$) debido a las condiciones de frontera, se considera $\xi=0$, de modo que la función arcoseno es cero. De esta forma, la parte angular de la integral es cero, es decir, $E(0|m)=0$. En consecuencia, considerando la definición de $F_1$ en la Ec. (\ref{F1}) se tiene que $F_1$ y $F_2$ cumplen
 
 \begin{equation}
     \lim_{\xi \to 0}F_1(\xi)=c\hspace{1cm}\mbox{y}\hspace{1cm} \lim_{\xi \to \infty}F_2(\xi)=0.
@@ -243,7 +243,7 @@ De este modo, considerando que $F_1$ no satisface la condición impuesta sobre $
     \phi_{int}&=C_1F_1(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}\label{phi_int},\\
     \phi_f&=C_2F_2(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}\label{phi_p},
 \end{align}
-donde $C_1$ y $C_2$ son constantes a determinar a partir de las condiciones de frontera dadas por las Ecs. (\ref{condicionesfrontera}). Empleando la primera condición de contorno [Ec. (\ref{cf1})]
+donde $C_1$ y $C_2$ son constantes a determinar a partir de las condiciones de frontera dadas por las Ecs.~(\ref{condicionesfrontera}). Empleando la primera condición de contorno [Ec. (\ref{cf1})]
 \begin{equation}
     C_1F_1(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2}=E_0\left[\frac{(c^2+\xi)(c^2+\eta)(c^2+\zeta)}{(a^2-c^2)(b^2-c^2)}\right]^{1/2}+C_2F_2(\xi)[(c^2+\eta)(c^2+\zeta)]^{1/2},
     \label{cond_front}
@@ -263,14 +263,14 @@ entonces, se puede reescribir la Ec. (\ref{C2}) como
     \label{ec1 de cf}
 \end{equation}
 y, al usar la segunda condición de contorno [Ec. (\ref{cf2})], se obtiene
-\begin{multline*}
+\begin{align*}
 	\frac{\epsilon_{int} C_1}{2}\left[\frac{(c^2+\eta)(c^2+\zeta)}{(c^2+\xi)}\right]^{1/2} 
-	= \frac{\epsilon_{ext} E_0}{2}\left[\frac{(c^2+\eta)(c^2+\zeta)}{(c^2+\xi)(a^2-c^2)(b^2-c^2)}\right]^{1/2} \\
-	+ \frac{\epsilon_{ext} C_2}{2}\left[\frac{(c^2+\eta)(c^2+\zeta)}{(c^2+\xi)}\right]^{1/2}
-	\int_{\xi}^{\infty}\frac{\text{d}q}{(c^2+q)f(q)} \\
-	+ \epsilon_{ext} C_2[(c^2+\xi)(c^2+\eta)(c^2+\zeta)]^{1/2}
+	= &\frac{\epsilon_{ext} E_0}{2}\left[\frac{(c^2+\eta)(c^2+\zeta)}{(c^2+\xi)(a^2-c^2)(b^2-c^2)}\right]^{1/2} +\\
+	&+ \frac{\epsilon_{ext} C_2}{2}\left[\frac{(c^2+\eta)(c^2+\zeta)}{(c^2+\xi)}\right]^{1/2}
+	\int_{\xi}^{\infty}\frac{\text{d}q}{(c^2+q)f(q)}+ \\
+	&+ \epsilon_{ext} C_2[(c^2+\xi)(c^2+\eta)(c^2+\zeta)]^{1/2}
 	\frac{\text{d}}{\text{d}\xi} \Bigg\{\int_{\xi}^{\infty}\frac{\text{d}q}{(c^2+q)f(q)}\Bigg\},
-\end{multline*}
+\end{align*}
 donde la integral del tercer sumando es
 \begin{align*}
     \frac{\text{d}}{\text{d}\xi}\left[\int_{\xi}^{\infty}\frac{\text{d}q}{(c^2+q)f(q)}\right]&=\frac{\text{d}}{\text{d}\xi}\left[\lim_{a\to\infty}\int_{\xi}^{a}\frac{\text{d}q}{(c^2+q)f(q)}\right]=-\lim_{a\to\infty}\frac{1}{(c^2+\xi)f(\xi)}=-\frac{1}{(c^2+\xi)f(\xi)};
@@ -302,9 +302,9 @@ Al considerar distancias $r$ muy alejadas del origen tales que $\xi\simeq r^2\gg
 \begin{equation*}
     \int_{\xi}^{\infty}\frac{\text{d}q}{F_1^2(q)f(q)}= \int_{\xi}^{\infty}\frac{\text{d}q}{(c^2+q)f(q)}=\int_{\xi}^{\infty}\frac{\text{d}q}{q^{5/2}}=\frac{2}{3}\xi^{-3/2},
 \end{equation*}
-y entonces el potencial $\phi_p$ está dado por
+el potencial $\phi_p$ se reescribe como
 \begin{equation}
-    \phi_p\sim\left(\dfrac{E_0\cos\theta}{r^2}\right)\dfrac{\left(\dfrac{abc}{3}\right)\left(\dfrac{\epsilon_{int}-\epsilon_{ext}}{\epsilon_{ext}}\right)}{1+\dfrac{L^{(3)}(\epsilon_{int}-\epsilon_{ext})}{\epsilon_{ext}}},\hspace{1cm}(r\gg a)
+    \phi_p\sim\left(\dfrac{E_0\cos\theta}{r^2}\right)\dfrac{\left(\dfrac{abc}{3}\right)\left(\dfrac{\epsilon_{int}-\epsilon_{ext}}{\epsilon_{ext}}\right)}{1+\dfrac{L^{(3)}(\epsilon_{int}-\epsilon_{ext})}{\epsilon_{ext}}},
 \end{equation}
 cuya expresión es equivalente a la de un dipolo puntual dado por
 \begin{equation}
@@ -315,7 +315,7 @@ Entonces, la polarizabilidad $\alpha^{(3)}$ de un elipsoide en un campo paralelo
 \begin{equation}
     \alpha^{(3)}=V\frac{\epsilon_{int}-\epsilon_{ext}}{\epsilon_{ext}+L^{(3)}(\epsilon_{int}-\epsilon_{ext})},
 \end{equation}
-donde $V=4\pi abc/3$ es el volumen del elipsoide. De manera análoga, las polarizabilidades $ \alpha^{(1)}$ y $ \alpha^{(2)}$ cuando el campo es aplicado en los ejes $\hat{e}_x$ y $\hat{e}_y$ son
+donde $V=4\pi abc/3$ es el volumen del elipsoide. De manera análoga, las polarizabilidades $ \alpha^{(1)}$ y $ \alpha^{(2)}$ cuando el campo es aplicado en los ejes $x$ y $y$ son
 \begin{align*}
     \alpha^{(1)}=4\pi abc\left[ \frac{\epsilon_{int}-\epsilon_{ext}}{3\epsilon_{ext}+3L^{(1)}(\epsilon_{int}-\epsilon_{ext})}\right]\qquad\text{y}\qquad
     \alpha^{(2)}=4\pi abc\left[ \frac{\epsilon_{int}-\epsilon_{ext}}{3\epsilon_{ext}+3L^{(2)}(\epsilon_{int}-\epsilon_{ext})}\right],
@@ -355,7 +355,7 @@ y por consiguiente, se cumple la Ec. (\ref{rel_fac_geom}).\\
     L_{\text{esfera}}=L^{(1)}=L^{(2)}=L^{(3)}=\frac{a^3}{2}\int_0^{\infty}\frac{\text{d}q}{(a^2+q)^{5/2}}=\frac{1}{3}.
 \end{equation*}
 
-Una clase especial de elipsoides son los \textit{esferoides}, los cuales tienen dos ejes de igual longitud, por lo cual, sólo uno de los factores geométricos es independiente. El esferoide prolato [Fig. \ref{esf_prolato}], para el cual $b=c>a$ y $L_2=L_3$ es generado por la rotación de una elipse sobre su eje mayor; el esferoide oblato [Fig. \ref{esf_oblato}], para el cual $b=a>c$ y $L_1=L_2$ es generado al rotar una elipse sobre su eje menor. Para los esferoides, se tiene una expresión analítica para $L_1$ en función de la excentricidad $e$ \cite{Bohren}. En el caso de los esferoides prolatos se tiene que
+Una clase especial de elipsoides son los \textit{esferoides}, los cuales tienen dos ejes de igual longitud, por lo cual, sólo uno de los factores geométricos es independiente. El esferoide prolato [ver Fig. \ref{esf_prolato}], para el cual $b=c>a$ y $L_2=L_3$ es generado por la rotación de una elipse sobre su eje mayor; el esferoide oblato [ver Fig. \ref{esf_oblato}], para el cual $b=a>c$ y $L_1=L_2$ es generado al rotar una elipse sobre su eje menor. Para los esferoides, se tiene una expresión analítica para $L_1$ en función de la excentricidad $e$ \cite{Bohren}. En el caso de los esferoides prolatos se tiene que
 \begin{equation}
 	L_1=\frac{1-e^2}{e^2}\left[-1+\frac{1}{2e}\left(\text{ln}\frac{1+e}{1-e}\right)\right]\qquad\text{con}\qquad e^2=1-\frac{b^2}{a^2},
 \end{equation}

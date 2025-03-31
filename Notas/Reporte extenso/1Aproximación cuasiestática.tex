@@ -39,14 +39,14 @@ En la sección anterior se abordó una solución que asume que el campo eléctri
     \Vec{J}(\Vec{r},t)&=\Vec{J}(\Vec{r}\,)e^{-i\omega t},
     \label{armonicf}
 \end{align}
-considerando que el significado físico lo posee la parte real. Entonces, es posible determinar los campos electromagnéticos generados por las cargas y corrientes mediante el potencial vectorial como \cite{Jackson}:
+considerando que el significado físico lo posee la parte real. Entonces, es posible determinar los campos electromagnéticos generados por las cargas y corrientes mediante el potencial vectorial como \cite{Jackson}
 \begin{align}
   \Vec{A}(\Vec{r},t)=\frac{\mu_0}{4\pi}\int \left( \text{d}^3r'\frac{\Vec{J}(\Vec{r}\,')}{|\Vec{r}-\Vec{r}\,'|}\right)e^{-i\omega t_r},
   \label{Achafa}
 \end{align}
-en donde se emplea la norma de Lorentz \cite{Griffiths} y la densidad de corriente se evalúa en el tiempo de retardo $t_r=t-|\Vec{r}-\Vec{r'}|/c$. \\
+en donde se emplea la norma de Lorentz \cite{Griffiths} y la densidad de corriente se evalúa en el tiempo de retardo $t_r=t-|\Vec{r}-\Vec{r}\,'|/c$. \\
 
-Las ondas planas son ondas de frecuencia constante $\omega$ que se propagan con velocidad $c$. Su número de onda está dado por $k=\omega/c$, y a partir de él se pueden caracterizar regiones espaciales en función del parámetro adimensional $kr$. Alternativamente, esta relación puede expresarse en términos de la longitud de onda $\lambda=2\pi/k$. En particular, en la región de campo cercano, donde $r\ll\lambda$ (o $kr\ll 1$), tal que exp($ik|\Vec{r}-\Vec{r'}|)\to 1$, se tiene que, al obviar la dependencia temporal, la Ec. (\ref{Achafa}), se reescribe como \cite{Jackson}
+Las ondas planas son ondas de frecuencia constante $\omega$ que se propagan con velocidad $c$. Su número de onda está dado por $k=\omega/c$, y a partir de él se pueden caracterizar regiones espaciales en función del parámetro adimensional $kr$. Alternativamente, esta relación puede expresarse en términos de la longitud de onda $\lambda=2\pi/k$. En particular, en la región de campo cercano, donde $r\ll\lambda$ (o $kr\ll 1$), tal que exp($ik|\Vec{r}-\Vec{r'}|)\to 1$, se tiene que, al obviar la dependencia temporal, la Ec. (\ref{Achafa}), se reescribe como~\cite{Jackson}
 \begin{equation*}
 	\Vec{A}(\Vec{r}\,)=\frac{\mu_0}{4\pi}\int \frac{\Vec{J}(\Vec{r}\,')}{|\Vec{r}-\Vec{r}\,'|} \text{d}^3r',
 \end{equation*} 
@@ -55,7 +55,7 @@ mientras que en la región de campo lejano ($kr\gg 1$), dado que la exponencial 
 	|\Vec{r}-\Vec{r}\,'|\simeq r-\hat{e}_r\cdot\Vec{r}\,',    
 \end{equation}
  que se obtiene al aplicar la ley de cosenos\footnote{Empleando la ley de cosenos y haciendo una expansión binomial $
- 	|\Vec{r}-\Vec{r}\,'|=\sqrt{r^2+r'\,^2-2rr'\cos\theta}=r\sqrt{1+\left(r'/r\right)^2-2\left[(r'/r)\cos\theta\right]}\simeq r\left\{1-(\hat{e}_r\cdot\Vec{r}\,'/r)+1/2\left(r'/r\right)^2\right\}\simeq r-\hat{e}_r\cdot\Vec{r}\,'.$} en el triángulo mostrado en la Fig.~\ref{vectposi}, donde $\hat{e}_r$ un vector unitario en la dirección de $\Vec{r}$. 	
+ 	|\Vec{r}-\Vec{r}\,'|=\sqrt{r^2+r'\,^2-2rr'\cos\theta}=r\sqrt{1+\left(r'/r\right)^2-2\left[(r'/r)\cos\theta\right]}\simeq r\left[1-(\hat{e}_r\cdot\Vec{r}\,'/r)+1/2\left(r'/r\right)^2\right]\simeq r-\hat{e}_r\cdot\Vec{r}\,'.$} en el triángulo mostrado en la Fig.~\ref{vectposi}, donde $\hat{e}_r$ es un vector unitario en la dirección de $\Vec{r}$. 	
 	Si sólo se consideran los términos que decaen como $r^{-1}$, el inverso de la distancia en la Ec. (\ref{Achafa}) puede ser reemplazado por $r$. Entonces, al obviar nuevamente la dependencia temporal, el potencial vectorial es
 	\begin{equation*}
 	\lim_{kr\rightarrow\infty}\Vec{A}(\Vec{r}\,)=\frac{\mu_0}{4\pi}\frac{e^{ikr}}{r}\int \Vec{J}(\Vec{r}\,')e^{-ik\hat{e}_r\cdot\Vec{r}\,'}\text{d}^3r',    
@@ -104,7 +104,7 @@ A partir de las Ecs. (\ref{E})  y (\ref{H}) se observa que el campo $\Vec{H}$ es
     \Vec{E}_p&=\frac{e^{ikr}}{-ikr}\frac{ik^3}{4\pi\epsilon_m}\hat{e}_r\times(\hat{e}_r\times \Vec{p}\,) e^{i\omega t}\qquad\text{y}\qquad
     \Vec{H}_p=\frac{ck^2}{4\pi}(\hat{e}_r\times\Vec{p}\,)\frac{e^{ikr}}{r}e^{i\omega t}.
 \end{align}
-En el caso particular en que la onda electromagnética incidente esté polarizada en la dirección $\hat{e}_x$, el momento dipolar inducido es $\Vec{p}=\epsilon_m \alpha E_0 e^{-i\omega t}\hat{e}_x$. Al reescribir al vector $\hat{e}_x$ en términos de la base de vectores esféricos como \cite{Griffiths}
+En el caso particular en que la onda electromagnética incidente esté polarizada en la dirección $\hat{e}_x$, el momento dipolar inducido es $\Vec{p}=\epsilon_m \alpha E_0 e^{-i\omega t}\hat{e}_x$. De modo que al reescribir al vector $\hat{e}_x$ en términos de la base de vectores esféricos como \cite{Griffiths}
 \begin{equation}
 	\hat{e}_x=\sin\theta\cos\phi\: \hat{e}_r+\cos\theta\cos\phi\: \hat{e}_{\theta}-\sin\phi \:\hat{e}_{\phi},
 \end{equation}

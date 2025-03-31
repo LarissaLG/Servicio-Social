@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  27 MAR 2025 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  31 MAR 2025 12:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,11 +1824,11 @@ Package logreq Info: Writing requests to '1Notas_Servicio_Social.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27079 strings out of 473522
- 480184 string characters out of 5715578
- 1247851 words of memory out of 5000000
- 49472 multiletter control sequences out of 15000+600000
- 642570 words of font info for 230 fonts, out of 8000000 for 9000
+ 27070 strings out of 473522
+ 480055 string characters out of 5715578
+ 1247852 words of memory out of 5000000
+ 49471 multiletter control sequences out of 15000+600000
+ 642220 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,13n,93p,1907b,1895s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb>
@@ -1851,7 +1851,7 @@ eX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/lm/lmsy9.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/lm/lmtt10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 1Notas_Servicio_Social.pdf (25 pages, 6451855 bytes).
+Output written on 1Notas_Servicio_Social.pdf (25 pages, 6451922 bytes).
 PDF statistics:
  1577 PDF objects out of 1728 (max. 8388607)
  178 named destinations out of 1000 (max. 500000)
