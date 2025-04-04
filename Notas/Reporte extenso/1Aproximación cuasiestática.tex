@@ -46,7 +46,7 @@ considerando que el significado físico lo posee la parte real. Entonces, es pos
 \end{align}
 en donde se emplea la norma de Lorentz \cite{Griffiths} y la densidad de corriente se evalúa en el tiempo de retardo $t_r=t-|\Vec{r}-\Vec{r}\,'|/c$. \\
 
-Las ondas planas son ondas de frecuencia constante $\omega$ que se propagan con velocidad $c$. Su número de onda está dado por $k=\omega/c$, y a partir de él se pueden caracterizar regiones espaciales en función del parámetro adimensional $kr$. Alternativamente, esta relación puede expresarse en términos de la longitud de onda $\lambda=2\pi/k$. En particular, en la región de campo cercano, donde $r\ll\lambda$ (o $kr\ll 1$), tal que exp($ik|\Vec{r}-\Vec{r'}|)\to 1$, se tiene que, al obviar la dependencia temporal, la Ec. (\ref{Achafa}), se reescribe como~\cite{Jackson}
+Las ondas planas son ondas de frecuencia constante $\omega$ que se propagan con velocidad $c$. Su número de onda en el vacío está dado por $k=\omega/c$, y se pueden caracterizar regiones espaciales en función del parámetro adimensional $kr$. Alternativamente, esta relación puede expresarse en términos de la longitud de onda $\lambda=2\pi/k$. En particular, en la región de campo cercano, donde $r\ll\lambda$ (o $kr\ll 1$), tal que exp($ik|\Vec{r}-\Vec{r'}|)\to 1$, se tiene que, al obviar la dependencia temporal, la Ec. (\ref{Achafa}) se reescribe como~\cite{Jackson}
 \begin{equation*}
 	\Vec{A}(\Vec{r}\,)=\frac{\mu_0}{4\pi}\int \frac{\Vec{J}(\Vec{r}\,')}{|\Vec{r}-\Vec{r}\,'|} \text{d}^3r',
 \end{equation*} 
@@ -66,12 +66,12 @@ mientras que en la región de campo lejano ($kr\gg 1$), dado que la exponencial 
 	\end{equation*}
 \begin{figure}[h!]
 	\includegraphics[width=6cm]{../../Figuras/aprox.png}
-	\caption{Esquema de un volumen arbitrario divido en elementos diferenciales d$^3r'$, cuya posición $\Vec{r}$ se mide desde un origen arbitrario. El vector $\Vec{r}-\Vec{r}\,'$ representa su interacción con el punto $\Vec{r}$.}
+	\caption{Esquema de un volumen arbitrario divido en elementos diferenciales d$^3r'$, cuya posición $\Vec{r}$ se mide desde un origen arbitrario. El vector $\Vec{r}-\Vec{r}\,'$ representa su distancia al punto $\Vec{r}$.}
 	\label{vectposi}
 \end{figure}
 Al considerar únicamente el primer término de la expansión, se concluye que 
 \begin{equation}
-    \Vec{A}(\Vec{r})\approx\frac{\mu_0}{4\pi}\frac{e^{ikr}}{r}\int \Vec{J}(\Vec{r}\,') \text{d}^3r',    
+    \Vec{A}(\Vec{r}\,)\approx\frac{\mu_0}{4\pi}\frac{e^{ikr}}{r}\int \Vec{J}(\Vec{r}\,') \text{d}^3r',    
     \label{aprox_pot_vec}
 \end{equation}
 que al realizar una integración por partes\footnote{Al considerar $\int_V \Vec{r}\,'[\nabla'\cdot\Vec{J}(\Vec{r}\,')]\text{d}^3r'=\int_{\partial V} \Vec{r}\,'[\Vec{J}(\Vec{r}\,')\cdot \text{d}\Vec{S}]\int_V \Vec{J}(\Vec{r}\,')\text{d}^3r'$ y asumiendo que $\Vec{J}$ se desvanece en los límites del volumen $V$, es decir, en la superficie $\partial V$. }, se obtiene que
@@ -92,7 +92,7 @@ se obtiene \cite{Jackson}
     \Vec{A}(\Vec{r}\,)=-\frac{i\omega\mu_0}{4\pi}\frac{e^{ikr}}{r}\int \Vec{r}\,'\rho(\Vec{r}\,')\text{d}^3r'=-\frac{i\omega\mu_0}{4\pi}\frac{e^{ikr}}{r}\Vec{p}. 
     \label{A_dip}  
 \end{equation}
-Al emplear la ley de Faraday-Lenz para determinar el campo eléctrico y calcular el campo $\Vec{H}$ como el rotacional del potencial vectorial, se sigue que \cite{Jackson}
+Calculando el campo eléctrico y luego empleando la ley de Faraday-Lenz para calcular el campo $\Vec{H}$, se sigue que \cite{Jackson}
 \begin{align}
 	\Vec{E}&=\frac{1}{4\pi\epsilon_0}\left\{k^2(\hat{e}_r\times\Vec{p}\,)\times\hat{e}_r\frac{e^{ikr}}{r}+[3\hat{e}_r(\hat{e}_r\cdot\Vec{p}\,)-\Vec{p}\,]\left(\frac{1}{r^3}-\frac{ik}{r^2}\right)e^{ikr}\right\},\label{E}\\
     \Vec{H}&=\frac{ck^2}{4\pi}(\hat{e}_r\times\Vec{p}\,)\frac{e^{ikr}}{r}\left(1-\frac{1}{ikr}\right).    \label{H}

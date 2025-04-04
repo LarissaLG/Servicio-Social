@@ -99,7 +99,7 @@ Mediante un proceso análogo, se tiene que \cite{Arfken}
 	h_3=\frac{\sqrt{(\zeta-\xi)(\zeta-\eta)}}{2f(\zeta)}.
 	\label{h2yh3}
 \end{equation}
-Sustituyendo las Ecs. (\ref{h1}) y (\ref{h2yh3}) en la Ec. (\ref{laplaciano}), y simplificando se obtiene
+Sustituyendo las Ecs. (\ref{h1_1}) y (\ref{h2yh3}) en la Ec. (\ref{laplaciano}), y simplificando se obtiene
 \begin{align*}
 	\nabla^2\phi=\frac{4}{\Upsilon}\left[(\eta-\zeta)f(\xi)\frac{\partial}{\partial\xi}\left(f(\xi)\frac{\partial\phi}{\partial\xi}\right)+(\zeta-\xi)f(\eta)\frac{\partial}{\partial\eta}\left(f(\eta)\frac{\partial\eta}{\partial\eta}\right)+(\xi-\zeta)f(\zeta)\frac{\partial}{\partial\zeta}\left(f(\zeta)\frac{\partial\phi}{\partial\zeta}\right)\right],
 \end{align*}
@@ -178,7 +178,7 @@ La ecuación anterior es una ecuación diferencial ordinaria lineal de segundo o
     F_1(\xi)=(c^2+\xi)^{1/2},
     \label{F1}
 \end{equation}
-mientras que la segunda solución se obtiene mediante el método de reducción de orden. Al proponer $F_2(\xi)=v(\xi)F_1(\xi)$ donde $v(\xi)$ se determina al sustituir $F_2(\xi)$ en la Ec. \ref{ecsimpli}, esta última se reduce a una ecuación de primer orden donde $v$ es la función a determinar. Para obtener la ecuación reducida, se calcula la primera y segunda derivada de $F_2$  respecto a $\xi$
+mientras que la segunda solución se obtiene mediante el método de reducción de orden. Al proponer $F_2(\xi)=v(\xi)F_1(\xi)$ donde $v(\xi)$ se determina al sustituir $F_2(\xi)$ en la Ec. \eqref{ecsimpli}, esta última se reduce a una ecuación de primer orden donde $v$ es la función a determinar. Para obtener la ecuación reducida, se calcula la primera y segunda derivada de $F_2$  respecto a $\xi$
 \begin{align*}
     \frac{\text{d}F_2(\xi)}{\text{d}\xi}&=F_1(\xi)\frac{\text{d}v(\xi)}{\text{d}\xi}+v(\xi)\frac{F_1(\xi)}{\text{d}\xi},\\
     \frac{\text{d}^2F_2(\xi)}{\text{d}\xi^2}&=F_1(\xi)\frac{\text{d}^2v(\xi)}{\text{d}\xi^2}+2\frac{\text{d}v(\xi)}{\text{d}\xi}\frac{\text{d}F_1(\xi)}{\text{d}\xi}+v(\xi)\frac{\text{d}^2F_1(\xi)}{\text{d}\xi^2},
@@ -271,7 +271,7 @@ y, al usar la segunda condición de contorno [Ec. (\ref{cf2})], se obtiene
 	&+ \epsilon_{ext} C_2[(c^2+\xi)(c^2+\eta)(c^2+\zeta)]^{1/2}
 	\frac{\text{d}}{\text{d}\xi} \Bigg\{\int_{\xi}^{\infty}\frac{\text{d}q}{(c^2+q)f(q)}\Bigg\},
 \end{align*}
-donde la integral del tercer sumando es
+donde la integral del tercer sumando a la derecha de la igualdad es
 \begin{align*}
     \frac{\text{d}}{\text{d}\xi}\left[\int_{\xi}^{\infty}\frac{\text{d}q}{(c^2+q)f(q)}\right]&=\frac{\text{d}}{\text{d}\xi}\left[\lim_{a\to\infty}\int_{\xi}^{a}\frac{\text{d}q}{(c^2+q)f(q)}\right]=-\lim_{a\to\infty}\frac{1}{(c^2+\xi)f(\xi)}=-\frac{1}{(c^2+\xi)f(\xi)};
 \end{align*}
