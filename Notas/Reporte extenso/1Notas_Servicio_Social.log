@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  4 APR 2025 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  28 JUL 2025 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1827,7 +1827,7 @@ Package logreq Info: Writing requests to '1Notas_Servicio_Social.run.xml'.
 Here is how much of TeX's memory you used:
  27062 strings out of 473522
  479998 string characters out of 5715578
- 1247997 words of memory out of 5000000
+ 1247971 words of memory out of 5000000
  49472 multiletter control sequences out of 15000+600000
  641900 words of font info for 222 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
