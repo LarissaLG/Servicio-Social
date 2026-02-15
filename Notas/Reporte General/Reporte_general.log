@@ -1,118 +1,161 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  13 MAY 2025 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  20 OCT 2025 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./Reporte_general.tex
 (Reporte_general.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-19>
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/base\article.c
+ls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.cl
+o
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count196
-\c@section=\count197
-\c@subsection=\count198
-\c@subsubsection=\count199
-\c@paragraph=\count266
-\c@subparagraph=\count267
-\c@figure=\count268
-\c@table=\count269
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen141
+\bibindent=\dimen148
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.
+sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
-eX and XeLaTeX
-\babel@savecnt=\count270
-\U@D=\dimen142
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.
+sty
+Package: babel 2025/07/13 v25.11 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count283
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2078.
+\U@D=\dimen149
 \l@unhyphenated=\language79
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbab
+el.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count271
+\bbl@dirlevel=\count284
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.
+cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\
+spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale
+/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 12.
+)
 \es@quottoks=\toks19
-\es@quotdepth=\count272
+\es@quotdepth=\count285
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-s
-panish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
-)
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
+on input line 4.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
+ on input line 4.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfi
+g.sty
 Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graph
+icx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyva
+l.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graph
+ics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.
+sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\g
+raphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\p
+dftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen143
-\Gin@req@width=\dimen144
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
 )
-\epsfxsize=\dimen145
-\epsfysize=\dimen146
+\epsfxsize=\dimen152
+\epsfysize=\dimen153
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geome
+try.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex
+.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.
+sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count273
-\Gm@cntv=\count274
-\c@Gm@tempcnt=\count275
-\Gm@bindingoffset=\dimen147
-\Gm@wd@mp=\dimen148
-\Gm@odd@mp=\dimen149
-\Gm@even@mp=\dimen150
-\Gm@layoutwidth=\dimen151
-\Gm@layoutheight=\dimen152
-\Gm@layouthoffset=\dimen153
-\Gm@layoutvoffset=\dimen154
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks21
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geome
+try.cfg))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancy
+hdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip51
@@ -131,138 +174,150 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip64
 \@temptokenb=\toks22
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyper
+ref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvse
+tkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefineke
-ys.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys
+\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pd
+fescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxc
+mds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.s
-ty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\p
+dftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\in
+fwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolo
+r.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\namer
+ef.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refco
+unt.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitle
-string.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestri
+ng\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvop
+tions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count276
-) (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count277
+\c@section@level=\count289
 )
-\@linkdim=\dimen155
-\Hy@linkcounter=\count278
-\Hy@pagecounter=\count279
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etool
+box.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count290
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\st
+ringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen162
+\Hy@linkcounter=\count291
+\Hy@pagecounter=\count292
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1en
+c.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intc
+alc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count280
+\Hy@SavedSpaceFactor=\count293
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc
+.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count281
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count294
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen156
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen163
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitse
+t.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.s
-ty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\b
+igintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count282
-\Field@Width=\dimen157
-\Fld@charsize=\dimen158
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
-
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count283
-\c@Item=\count284
-\c@Hfootnote=\count285
+\Fld@menulength=\count295
+\Field@Width=\dimen164
+\Fld@charsize=\dimen165
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count296
+\c@Item=\count297
+\c@Hfootnote=\count298
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdft
+ex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
-with kernel methods
-)
-\Fld@listcount=\count286
-\c@bookmark@seq@number=\count287
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck
+\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
-heck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecou
-nter.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounte
+r\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+84.
 )
 \Hy@SectionHShift=\skip65
 )
@@ -280,78 +335,87 @@ is useless.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 18.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2024/11/05 v2.17t AMS math features
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmat
+h.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip66
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstex
+t.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen
+.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
-\ex@=\dimen159
+\ex@=\dimen166
 ))
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy
+.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen160
+\pmbraise@=\dimen167
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn
+.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count288
+\inf@bad=\count301
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count289
-\leftroot@=\count290
+\uproot@=\count302
+\leftroot@=\count303
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count291
-\DOTSCASE@=\count292
+\classnum@=\count304
+\DOTSCASE@=\count305
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box53
+\strutbox@=\box54
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen161
+\big@size=\dimen168
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count293
+\macc@depth=\count306
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count294
+\c@MaxMatrixCols=\count307
 \dotsspace@=\muskip18
-\c@parentequation=\count295
-\dspbrk@lvl=\count296
+\c@parentequation=\count308
+\dspbrk@lvl=\count309
 \tag@help=\toks24
-\row@=\count297
-\column@=\count298
-\maxfields@=\count299
+\row@=\count310
+\column@=\count311
+\maxfields@=\count312
 \andhelp@=\toks25
-\eqnshift@=\dimen162
-\alignsep@=\dimen163
-\tagshift@=\dimen164
-\tagwidth@=\dimen165
-\totwidth@=\dimen166
-\lineht@=\dimen167
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
 \@envbody=\toks26
 \multlinegap=\skip67
 \multlinetaggap=\skip68
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssy
+mb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfo
+nts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -359,7 +423,8 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.
+sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks28
 \thm@bodyfont=\toks29
@@ -371,82 +436,88 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip71
 \dth@everypar=\toks33
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3key
-s2e.sty
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-01-18 L3 programming layer (loader) 
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.
+sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3k
+eys2e\l3keys2e.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3
+.sty
+Package: expl3 2025-07-19 L3 programming layer (loader) 
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
-x.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
-\l__pdf_internal_box=\box54
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3ba
+ckend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count313
 ))
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count301
-\l__lipsum_a_int=\count302
-\l__lipsum_b_int=\count303
+\g__lipsum_par_int=\count314
+\l__lipsum_a_int=\count315
+\l__lipsum_b_int=\count316
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.
+ltd.tex))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\bibla
+tex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.
+sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count304
+\lrq@indent=\count317
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.
+def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.st
+y
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count305
-\c@listtotal=\count306
-\c@listcount=\count307
-\c@liststart=\count308
-\c@liststop=\count309
-\c@citecount=\count310
-\c@citetotal=\count311
-\c@multicitecount=\count312
-\c@multicitetotal=\count313
-\c@instcount=\count314
-\c@maxnames=\count315
-\c@minnames=\count316
-\c@maxitems=\count317
-\c@minitems=\count318
-\c@citecounter=\count319
-\c@maxcitecounter=\count320
-\c@savedcitecounter=\count321
-\c@uniquelist=\count322
-\c@uniquename=\count323
-\c@refsection=\count324
-\c@refsegment=\count325
-\c@maxextratitle=\count326
-\c@maxextratitleyear=\count327
-\c@maxextraname=\count328
-\c@maxextradate=\count329
-\c@maxextraalpha=\count330
-\c@abbrvpenalty=\count331
-\c@highnamepenalty=\count332
-\c@lownamepenalty=\count333
-\c@maxparens=\count334
-\c@parenlevel=\count335
-\blx@tempcnta=\count336
-\blx@tempcntb=\count337
-\blx@tempcntc=\count338
-\c@blx@maxsection=\count339
-\blx@maxsegment@0=\count340
-\blx@notetype=\count341
-\blx@parenlevel@text=\count342
-\blx@parenlevel@foot=\count343
-\blx@sectionciteorder@0=\count344
-\blx@sectionciteorderinternal@0=\count345
-\blx@entrysetcounter=\count346
-\blx@biblioinstance=\count347
+\c@tabx@nest=\count318
+\c@listtotal=\count319
+\c@listcount=\count320
+\c@liststart=\count321
+\c@liststop=\count322
+\c@citecount=\count323
+\c@citetotal=\count324
+\c@multicitecount=\count325
+\c@multicitetotal=\count326
+\c@instcount=\count327
+\c@maxnames=\count328
+\c@minnames=\count329
+\c@maxitems=\count330
+\c@minitems=\count331
+\c@citecounter=\count332
+\c@maxcitecounter=\count333
+\c@savedcitecounter=\count334
+\c@uniquelist=\count335
+\c@uniquename=\count336
+\c@refsection=\count337
+\c@refsegment=\count338
+\c@maxextratitle=\count339
+\c@maxextratitleyear=\count340
+\c@maxextraname=\count341
+\c@maxextradate=\count342
+\c@maxextraalpha=\count343
+\c@abbrvpenalty=\count344
+\c@highnamepenalty=\count345
+\c@lownamepenalty=\count346
+\c@maxparens=\count347
+\c@parenlevel=\count348
+\blx@tempcnta=\count349
+\blx@tempcntb=\count350
+\blx@tempcntc=\count351
+\c@blx@maxsection=\count352
+\blx@maxsegment@0=\count353
+\blx@notetype=\count354
+\blx@parenlevel@text=\count355
+\blx@parenlevel@foot=\count356
+\blx@sectionciteorder@0=\count357
+\blx@sectionciteorderinternal@0=\count358
+\blx@entrysetcounter=\count359
+\blx@biblioinstance=\count360
 \labelnumberwidth=\skip72
 \labelalphawidth=\skip73
 \biblabelsep=\skip74
@@ -458,14 +529,15 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count348
-\c@maxcomprange=\count349
-\c@mincompwidth=\count350
+\c@mincomprange=\count361
+\c@maxcomprange=\count362
+\c@mincompwidth=\count363
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-d
+m.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex citestyle data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
@@ -473,74 +545,74 @@ Package biblatex Info: Trying to load biblatex bibstyle data model...
 Package biblatex Info: ... file 'trad-abbrv.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count351
-\c@savedafterword=\count352
-\c@annotator=\count353
-\c@savedannotator=\count354
-\c@author=\count355
-\c@savedauthor=\count356
-\c@bookauthor=\count357
-\c@savedbookauthor=\count358
-\c@commentator=\count359
-\c@savedcommentator=\count360
-\c@editor=\count361
-\c@savededitor=\count362
-\c@editora=\count363
-\c@savededitora=\count364
-\c@editorb=\count365
-\c@savededitorb=\count366
-\c@editorc=\count367
-\c@savededitorc=\count368
-\c@foreword=\count369
-\c@savedforeword=\count370
-\c@holder=\count371
-\c@savedholder=\count372
-\c@introduction=\count373
-\c@savedintroduction=\count374
-\c@namea=\count375
-\c@savednamea=\count376
-\c@nameb=\count377
-\c@savednameb=\count378
-\c@namec=\count379
-\c@savednamec=\count380
-\c@translator=\count381
-\c@savedtranslator=\count382
-\c@shortauthor=\count383
-\c@savedshortauthor=\count384
-\c@shorteditor=\count385
-\c@savedshorteditor=\count386
-\c@labelname=\count387
-\c@savedlabelname=\count388
-\c@institution=\count389
-\c@savedinstitution=\count390
-\c@lista=\count391
-\c@savedlista=\count392
-\c@listb=\count393
-\c@savedlistb=\count394
-\c@listc=\count395
-\c@savedlistc=\count396
-\c@listd=\count397
-\c@savedlistd=\count398
-\c@liste=\count399
-\c@savedliste=\count400
-\c@listf=\count401
-\c@savedlistf=\count402
-\c@location=\count403
-\c@savedlocation=\count404
-\c@organization=\count405
-\c@savedorganization=\count406
-\c@origlocation=\count407
-\c@savedoriglocation=\count408
-\c@origpublisher=\count409
-\c@savedorigpublisher=\count410
-\c@publisher=\count411
-\c@savedpublisher=\count412
-\c@language=\count413
-\c@savedlanguage=\count414
-\c@origlanguage=\count415
-\c@savedoriglanguage=\count416
-\c@pageref=\count417
-\c@savedpageref=\count418
+\c@afterword=\count364
+\c@savedafterword=\count365
+\c@annotator=\count366
+\c@savedannotator=\count367
+\c@author=\count368
+\c@savedauthor=\count369
+\c@bookauthor=\count370
+\c@savedbookauthor=\count371
+\c@commentator=\count372
+\c@savedcommentator=\count373
+\c@editor=\count374
+\c@savededitor=\count375
+\c@editora=\count376
+\c@savededitora=\count377
+\c@editorb=\count378
+\c@savededitorb=\count379
+\c@editorc=\count380
+\c@savededitorc=\count381
+\c@foreword=\count382
+\c@savedforeword=\count383
+\c@holder=\count384
+\c@savedholder=\count385
+\c@introduction=\count386
+\c@savedintroduction=\count387
+\c@namea=\count388
+\c@savednamea=\count389
+\c@nameb=\count390
+\c@savednameb=\count391
+\c@namec=\count392
+\c@savednamec=\count393
+\c@translator=\count394
+\c@savedtranslator=\count395
+\c@shortauthor=\count396
+\c@savedshortauthor=\count397
+\c@shorteditor=\count398
+\c@savedshorteditor=\count399
+\c@labelname=\count400
+\c@savedlabelname=\count401
+\c@institution=\count402
+\c@savedinstitution=\count403
+\c@lista=\count404
+\c@savedlista=\count405
+\c@listb=\count406
+\c@savedlistb=\count407
+\c@listc=\count408
+\c@savedlistc=\count409
+\c@listd=\count410
+\c@savedlistd=\count411
+\c@liste=\count412
+\c@savedliste=\count413
+\c@listf=\count414
+\c@savedlistf=\count415
+\c@location=\count416
+\c@savedlocation=\count417
+\c@organization=\count418
+\c@savedorganization=\count419
+\c@origlocation=\count420
+\c@savedoriglocation=\count421
+\c@origpublisher=\count422
+\c@savedorigpublisher=\count423
+\c@publisher=\count424
+\c@savedpublisher=\count425
+\c@language=\count426
+\c@savedlanguage=\count427
+\c@origlanguage=\count428
+\c@savedoriglanguage=\count429
+\c@pageref=\count430
+\c@savedpageref=\count431
 \shorthandwidth=\skip80
 \shortjournalwidth=\skip81
 \shortserieswidth=\skip82
@@ -558,14 +630,16 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-c
+ompat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
-File: blx-bibtex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-b
+ibtex.def
+File: blx-bibtex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 
 
 Package biblatex Warning: Using fall-back bibtex backend:
@@ -574,52 +648,55 @@ Package biblatex Warning: Using fall-back bibtex backend:
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count419
-\c@textcitetotal=\count420
-\c@textcitemaxnames=\count421
-\c@biburlbigbreakpenalty=\count422
-\c@biburlbreakpenalty=\count423
-\c@biburlnumpenalty=\count424
-\c@biburlucpenalty=\count425
-\c@biburllcpenalty=\count426
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\bibla
+tex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count432
+\c@textcitetotal=\count433
+\c@textcitemaxnames=\count434
+\c@biburlbigbreakpenalty=\count435
+\c@biburlbreakpenalty=\count436
+\c@biburlnumpenalty=\count437
+\c@biburlucpenalty=\count438
+\c@biburllcpenalty=\count439
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count427
+\c@smartand=\count440
 )
 Package biblatex Info: Trying to load bibliography style 'trad-abbrv'...
 Package biblatex Info: ... file 'trad-abbrv.bbx' found.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-trad\trad-abbrv.
-bbx
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-trad\
+trad-abbrv.bbx
 File: trad-abbrv.bbx 2021/03/06 v0.5 biblatex-trad abbrv bibliography style
 Package biblatex Info: Trying to load bibliography style 'trad-standard'...
 Package biblatex Info: ... file 'trad-standard.bbx' found.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-trad\trad-standa
-rd.bbx
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-trad\
+trad-standard.bbx
 File: trad-standard.bbx 2021/03/06 v0.5 biblatex-trad base bibliography style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count428
-\c@bbx:relatedtotal=\count429
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\s
+tandard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count441
+\c@bbx:relatedtotal=\count442
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-comp
-.cbx
-File: numeric-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count430
-\c@cbx@tempcntb=\count431
-\c@cbx@tempcntc=\count432
-\c@cbx@tempcntd=\count433
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\n
+umeric-comp.cbx
+File: numeric-comp.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count443
+\c@cbx@tempcntb=\count444
+\c@cbx@tempcntc=\count445
+\c@cbx@tempcntd=\count446
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -635,30 +712,31 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\bibla
+tex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2025-01-18 L3 programming layer (loader) 
+(biblatex)             2025-07-19 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.s
-ty
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
-sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-c
+ase-expl3.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xpa
+rse\xparse.sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count434
-\@quotereset=\count435
+\@quotelevel=\count447
+\@quotereset=\count448
 
 LaTeX Warning: Unused global option(s):
     [9pt].
@@ -666,6 +744,8 @@ LaTeX Warning: Unused global option(s):
 (Reporte_general.aux
 LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 51.
 )
 \openout1 = `Reporte_general.aux'.
 
@@ -690,27 +770,29 @@ LaTeX Font Info:    ... okay on input line 46.
 LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\su
+pp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count436
-\scratchdimen=\dimen168
+\scratchcounter=\count449
+\scratchdimen=\dimen175
 \scratchbox=\box55
-\nofMPsegments=\count437
-\nofMParguments=\count438
+\nofMPsegments=\count450
+\nofMParguments=\count451
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count439
-\MPscratchDim=\dimen169
-\MPnumerator=\count440
-\makeMPintoPDFobject=\count441
+\MPscratchCnt=\count452
+\MPscratchDim=\dimen176
+\MPnumerator=\count453
+\makeMPintoPDFobject=\count454
 \everyMPtoPDFconversion=\toks35
 )
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
-e.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\e
+pstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epsto
+pdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -747,26 +829,30 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color
+.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\c
+olor.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathc
+olor.ltx))
 Package hyperref Info: Link coloring ON on input line 46.
-
-(Reporte_general.out) (Reporte_general.out)
+ (Reporte_general.out) (Reporte_general.out)
 \@outlinefile=\write4
 \openout4 = `Reporte_general.out'.
 
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lbx
-File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\s
+panish.lbx
+File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -778,7 +864,7 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Reporte_general.bbl' found.
-(Reporte_general.bbl)
+ (Reporte_general.bbl)
 Package biblatex Info: Reference section=0 on input line 46.
 Package biblatex Info: Reference segment=0 on input line 46.
 <../Figuras/Logo_UNAM (1).png, id=3, 1204.5pt x 1354.05875pt>
@@ -793,13 +879,16 @@ Overfull \hbox (0.693pt too wide) in paragraph at lines 53--54
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.
+fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 
 
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.
+fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
@@ -850,8 +939,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
 [1
 
-{C:/Users/Poh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../Figuras/Log
-o_UNAM (1).png> <../Figuras/Logo_FC (1).png>]
+{C:/Users/Nanoplasmonics/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../
+Figuras/Logo_UNAM (1).png> <../Figuras/Logo_FC (1).png>]
 
 [2] (Reporte_general.aux
 LaTeX Info: Redefining \sptext on input line 51.
@@ -859,8 +948,8 @@ LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
 )
  ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-19>
  ***********
 
 
@@ -881,20 +970,21 @@ Package logreq Info: Writing requests to 'Reporte_general.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19937 strings out of 473522
- 352395 string characters out of 5715578
- 1070732 words of memory out of 5000000
- 42934 multiletter control sequences out of 15000+600000
- 563173 words of font info for 53 fonts, out of 8000000 for 9000
+ 20082 strings out of 468149
+ 356539 string characters out of 5426727
+ 1083837 words of memory out of 5000000
+ 48453 multiletter control sequences out of 15000+600000
+ 631161 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,11n,93p,1900b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-bx10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmcsc10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+ 75i,11n,79p,1900b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nanoplasmonics/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Nanoplasmoni
+cs/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
+sers/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmti10.pfb><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmtt10.pfb>
 Output written on Reporte_general.pdf (2 pages, 713767 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)

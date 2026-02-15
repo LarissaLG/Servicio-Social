@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  4 AUG 2025 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.1)  23 NOV 2025 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -167,27 +167,1813 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.
+sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks28
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/floatrow\float
+row.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 
-! LaTeX Error: File `amsthm.sty' not found.
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyva
+l.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks29
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/caption\captio
+n3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen159
+\captionmargin=\dimen160
+\caption@leftmargin=\dimen161
+\caption@rightmargin=\dimen162
+\caption@width=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+Package caption Info: Standard document class detected.
+)
+\c@float@type=\count298
+\float@exts=\toks30
+\float@box=\box55
+\@floatcapt=\box56
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+\FR@everyfloat=\toks31
+\flrow@foot=\insert252
+\FB@wd=\dimen167
+\FBo@wd=\dimen168
+\FBc@wd=\dimen169
+\FBo@ht=\skip57
+\FBc@ht=\skip58
+\FBf@ht=\skip59
+\FBo@max=\skip60
+\FBc@max=\skip61
+\FBf@max=\skip62
+\c@FBl@b=\count299
+\floatbox@depth=\count300
+\c@FRobj=\count301
+\c@FRsobj=\count302
+\Xhsize=\skip63
+\sXhsize=\skip64
+\Zhsize=\skip65
+\sZhsize=\skip66
+\flrow@rowbox=\box57
+\FR@Zunitlength=\dimen170
+\c@FBcnt=\count303
+\FPOScnt=\count304
+\LTleft=\skip67
+\LTright=\skip68
+\LTleft=\skip69
+\LTright=\skip70
+\flrow@types=\toks32
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.
+sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.7 \usepackage
-               {floatrow}^^M
-*** (cannot \read from terminal in nonstop modes)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/caption\captio
+n.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+\c@caption@flags=\count305
+\c@continuedfloat=\count306
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: floatrow package is loaded.
+)
+\c@KVtest=\count307
+\sf@farskip=\skip71
+\sf@captopadj=\dimen171
+\sf@capskip=\skip72
+\sf@nearskip=\skip73
+\c@subfigure=\count308
+\c@subfigure@save=\count309
+\c@lofdepth=\count310
+\c@subtable=\count311
+\c@subtable@save=\count312
+\c@lotdepth=\count313
+\sf@top=\skip74
+\sf@bottom=\skip75
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.
+sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks33
+\inpenc@posthook=\toks34
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.
+sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3k
+eys2e\l3keys2e.sty
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3
+.sty
+Package: expl3 2025-07-19 L3 programming layer (loader) 
 
- 
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3ba
+ckend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count314
+))
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count315
+\l__lipsum_a_int=\count316
+\l__lipsum_b_int=\count317
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.
+ltd.tex))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blin
+dtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.s
+ty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count318
+\c@Blindtext=\count319
+\c@blind@countparstart=\count320
+\blind@countxx=\count321
+\blindtext@numBlindtext=\count322
+\blind@countyy=\count323
+\c@blindlist=\count324
+\c@blindlistlevel=\count325
+\c@blindlist@level=\count326
+\blind@listitem=\count327
+\c@blind@listcount=\count328
+\c@blind@levelcount=\count329
+\blind@mathformula=\count330
+\blind@Mathformula=\count331
+\c@blind@randomcount=\count332
+\c@blind@randommax=\count333
+\c@blind@pangramcount=\count334
+\c@blind@pangrammax=\count335
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graph
+icx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graph
+ics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.
+sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\g
+raphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\p
+dftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcap
+tion.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+LaTeX Info: Redefining \subref on input line 189.
+Package subcaption Info: The counter `subfigure' was already defined by
+(subcaption)             \newsubfloat (offered by the subfig package) on input 
+line 238.
+Package subcaption Info: The counter `subtable' was already defined by
+(subcaption)             \newsubfloat (offered by the subfig package) on input 
+line 238.
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.s
+ty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+6.
+ (C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/microtype\micr
+otype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etool
+box.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count336
+)
+\MT@toks=\toks35
+\MT@tempbox=\box58
+\MT@count=\count337
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks36
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen174
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count338
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/microtype\micr
+otype-pdftex.def
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip76
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/microtype\micr
+otype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geome
+try.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex
+.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.
+sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count339
+\Gm@cntv=\count340
+\c@Gm@tempcnt=\count341
+\Gm@bindingoffset=\dimen175
+\Gm@wd@mp=\dimen176
+\Gm@odd@mp=\dimen177
+\Gm@even@mp=\dimen178
+\Gm@layoutwidth=\dimen179
+\Gm@layoutheight=\dimen180
+\Gm@layouthoffset=\dimen181
+\Gm@layoutvoffset=\dimen182
+\Gm@dimlist=\toks37
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geome
+try.cfg))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol
+.sty
+Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
+\c@tracingmulticols=\count342
+\mult@box=\box59
+\multicol@leftmargin=\dimen183
+\c@unbalance=\count343
+\c@collectmore=\count344
+\doublecol@number=\count345
+\multicoltolerance=\count346
+\multicolpretolerance=\count347
+\full@width=\dimen184
+\page@free=\dimen185
+\premulticols=\dimen186
+\postmulticols=\dimen187
+\multicolsep=\skip77
+\multicolbaselineskip=\skip78
+\partial@page=\box60
+\last@line=\box61
+\mc@boxedresult=\box62
+\maxbalancingoverflow=\dimen188
+\mult@rightbox=\box63
+\mult@grightbox=\box64
+\mult@firstbox=\box65
+\mult@gfirstbox=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\c@minrows=\count348
+\c@columnbadness=\count349
+\c@finalcolumnbadness=\count350
+\last@try=\dimen189
+\multicolovershoot=\dimen190
+\multicolundershoot=\dimen191
+\mult@nat@firstbox=\box103
+\colbreak@box=\box104
+\mc@col@check@num=\count351
+\g__mc_curr_col_int=\count352
+)
+Package caption Info: Option `figurename' requires the `newfloat' package on in
+put line 28.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/newfloat\newfl
+oat.sty
+Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\bookt
+abs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen192
+\lightrulewidth=\dimen193
+\cmidrulewidth=\dimen194
+\belowrulesep=\dimen195
+\belowbottomsep=\dimen196
+\aboverulesep=\dimen197
+\abovetopsep=\dimen198
+\cmidrulesep=\dimen199
+\cmidrulekern=\dimen256
+\defaultaddspace=\dimen257
+\@cmidla=\count353
+\@cmidlb=\count354
+\@aboverulesep=\dimen258
+\@belowrulesep=\dimen259
+\@thisruleclass=\count355
+\@lastruleclass=\count356
+\@thisrulewidth=\dimen260
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyper
+ref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvse
+tkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys
+\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pd
+fescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxc
+mds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\p
+dftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\in
+fwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolo
+r.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\namer
+ef.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refco
+unt.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestri
+ng\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvop
+tions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count357
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\st
+ringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen261
+\Hy@linkcounter=\count358
+\Hy@pagecounter=\count359
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1en
+c.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intc
+alc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count360
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc
+.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count361
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen262
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitse
+t.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\b
+igintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count362
+\Field@Width=\dimen263
+\Fld@charsize=\dimen264
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count363
+\c@Item=\count364
+\c@Hfootnote=\count365
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdft
+ex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count366
+\c@bookmark@seq@number=\count367
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck
+\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounte
+r\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip79
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfi
+g.sty
+\wrapoverhang=\dimen265
+\WF@size=\dimen266
+\c@WF@wrappedlines=\count368
+\WF@box=\box105
+\WF@everypar=\toks38
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.
+sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\c
+olor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathc
+olor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettr
+ine.sty
+File: lettrine.sty 2025-01-30 v2.80 (Daniel Flipo)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp
+\xfp.sty
+Package: xfp 2024-08-16 L3 Floating point unit
+)
+\c@DefaultLines=\count369
+\c@DefaultDepth=\count370
+\DefaultFindent=\dimen267
+\DefaultNindent=\dimen268
+\DefaultSlope=\dimen269
+\DiscardVskip=\dimen270
+\L@lettrine=\box106
+\L@lbox=\box107
+\L@tbox=\box108
+\c@L@lines=\count371
+\c@L@depth=\count372
+\L@Pindent=\dimen271
+\L@Findent=\dimen272
+\L@Nindent=\dimen273
+\L@lraise=\dimen274
+\L@first=\dimen275
+\L@next=\dimen276
+\L@slope=\dimen277
+\L@height=\dimen278
+\L@novskip=\dimen279
+\L@target@ht=\dimen280
+\L@target@dp=\dimen281
+\L@target@tht=\dimen282
+\LettrineWidth=\dimen283
+\LettrineHeight=\dimen284
+\LettrineDepth=\dimen285
+\L@finalht=\dimen286
+\L@finaldp=\dimen287
+
+Loading lettrine.cfg
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettr
+ine.cfg)
+\Lettrine@tweaks=\toks39
+\Llist@everypar=\toks40
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/paralist\paral
+ist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip80
+\plpartopsep=\skip81
+\plitemsep=\skip82
+\plparsep=\skip83
+\pl@lab=\toks41
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/abstract\abstr
+act.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip84
+\absleftindent=\skip85
+\absrightindent=\skip86
+\absparindent=\skip87
+\absparsep=\skip88
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\title
+sec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box109
+\beforetitleunit=\skip89
+\aftertitleunit=\skip90
+\ttl@plus=\dimen288
+\ttl@minus=\dimen289
+\ttl@toksa=\toks42
+\titlewidth=\dimen290
+\titlewidthlast=\dimen291
+\titlewidthfirst=\dimen292
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/physics\physic
+s.sty
+Package: physics 
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xpa
+rse\xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\bibla
+tex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.
+sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count373
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.
+def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.st
+y
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count374
+\c@listtotal=\count375
+\c@listcount=\count376
+\c@liststart=\count377
+\c@liststop=\count378
+\c@citecount=\count379
+\c@citetotal=\count380
+\c@multicitecount=\count381
+\c@multicitetotal=\count382
+\c@instcount=\count383
+\c@maxnames=\count384
+\c@minnames=\count385
+\c@maxitems=\count386
+\c@minitems=\count387
+\c@citecounter=\count388
+\c@maxcitecounter=\count389
+\c@savedcitecounter=\count390
+\c@uniquelist=\count391
+\c@uniquename=\count392
+\c@refsection=\count393
+\c@refsegment=\count394
+\c@maxextratitle=\count395
+\c@maxextratitleyear=\count396
+\c@maxextraname=\count397
+\c@maxextradate=\count398
+\c@maxextraalpha=\count399
+\c@abbrvpenalty=\count400
+\c@highnamepenalty=\count401
+\c@lownamepenalty=\count402
+\c@maxparens=\count403
+\c@parenlevel=\count404
+\blx@tempcnta=\count405
+\blx@tempcntb=\count406
+\blx@tempcntc=\count407
+\c@blx@maxsection=\count408
+\blx@maxsegment@0=\count409
+\blx@notetype=\count410
+\blx@parenlevel@text=\count411
+\blx@parenlevel@foot=\count412
+\blx@sectionciteorder@0=\count413
+\blx@sectionciteorderinternal@0=\count414
+\blx@entrysetcounter=\count415
+\blx@biblioinstance=\count416
+\labelnumberwidth=\skip91
+\labelalphawidth=\skip92
+\biblabelsep=\skip93
+\bibitemsep=\skip94
+\bibnamesep=\skip95
+\bibinitsep=\skip96
+\bibparsep=\skip97
+\bibhang=\skip98
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count417
+\c@maxcomprange=\count418
+\c@mincompwidth=\count419
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-d
+m.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex bibstyle data model...
+Package biblatex Info: ... file 'trad-abbrv.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count420
+\c@savedafterword=\count421
+\c@annotator=\count422
+\c@savedannotator=\count423
+\c@author=\count424
+\c@savedauthor=\count425
+\c@bookauthor=\count426
+\c@savedbookauthor=\count427
+\c@commentator=\count428
+\c@savedcommentator=\count429
+\c@editor=\count430
+\c@savededitor=\count431
+\c@editora=\count432
+\c@savededitora=\count433
+\c@editorb=\count434
+\c@savededitorb=\count435
+\c@editorc=\count436
+\c@savededitorc=\count437
+\c@foreword=\count438
+\c@savedforeword=\count439
+\c@holder=\count440
+\c@savedholder=\count441
+\c@introduction=\count442
+\c@savedintroduction=\count443
+\c@namea=\count444
+\c@savednamea=\count445
+\c@nameb=\count446
+\c@savednameb=\count447
+\c@namec=\count448
+\c@savednamec=\count449
+\c@translator=\count450
+\c@savedtranslator=\count451
+\c@shortauthor=\count452
+\c@savedshortauthor=\count453
+\c@shorteditor=\count454
+\c@savedshorteditor=\count455
+\c@labelname=\count456
+\c@savedlabelname=\count457
+\c@institution=\count458
+\c@savedinstitution=\count459
+\c@lista=\count460
+\c@savedlista=\count461
+\c@listb=\count462
+\c@savedlistb=\count463
+\c@listc=\count464
+\c@savedlistc=\count465
+\c@listd=\count466
+\c@savedlistd=\count467
+\c@liste=\count468
+\c@savedliste=\count469
+\c@listf=\count470
+\c@savedlistf=\count471
+\c@location=\count472
+\c@savedlocation=\count473
+\c@organization=\count474
+\c@savedorganization=\count475
+\c@origlocation=\count476
+\c@savedoriglocation=\count477
+\c@origpublisher=\count478
+\c@savedorigpublisher=\count479
+\c@publisher=\count480
+\c@savedpublisher=\count481
+\c@language=\count482
+\c@savedlanguage=\count483
+\c@origlanguage=\count484
+\c@savedoriglanguage=\count485
+\c@pageref=\count486
+\c@savedpageref=\count487
+\shorthandwidth=\skip99
+\shortjournalwidth=\skip100
+\shortserieswidth=\skip101
+\shorttitlewidth=\skip102
+\shortauthorwidth=\skip103
+\shorteditorwidth=\skip104
+\locallabelnumberwidth=\skip105
+\locallabelalphawidth=\skip106
+\localshorthandwidth=\skip107
+\localshortjournalwidth=\skip108
+\localshortserieswidth=\skip109
+\localshorttitlewidth=\skip110
+\localshortauthorwidth=\skip111
+\localshorteditorwidth=\skip112
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-c
+ompat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-b
+ibtex.def
+File: blx-bibtex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\bibla
+tex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count488
+\c@textcitetotal=\count489
+\c@textcitemaxnames=\count490
+\c@biburlbigbreakpenalty=\count491
+\c@biburlbreakpenalty=\count492
+\c@biburlnumpenalty=\count493
+\c@biburlucpenalty=\count494
+\c@biburllcpenalty=\count495
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count496
+)
+Package biblatex Info: Trying to load bibliography style 'trad-abbrv'...
+Package biblatex Info: ... file 'trad-abbrv.bbx' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-trad\
+trad-abbrv.bbx
+File: trad-abbrv.bbx 2021/03/06 v0.5 biblatex-trad abbrv bibliography style
+Package biblatex Info: Trying to load bibliography style 'trad-standard'...
+Package biblatex Info: ... file 'trad-standard.bbx' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-trad\
+trad-standard.bbx
+File: trad-standard.bbx 2021/03/06 v0.5 biblatex-trad base bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\s
+tandard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count497
+\c@bbx:relatedtotal=\count498
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\n
+umeric-comp.cbx
+File: numeric-comp.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count499
+\c@cbx@tempcntb=\count500
+\c@cbx@tempcntc=\count501
+\c@cbx@tempcntd=\count502
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\bibla
+tex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2025-07-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-c
+ase-expl3.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 75.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancy
+hdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip113
+\f@nch@offset@elh=\skip114
+\f@nch@offset@erh=\skip115
+\f@nch@offset@olh=\skip116
+\f@nch@offset@orh=\skip117
+\f@nch@offset@elf=\skip118
+\f@nch@offset@erf=\skip119
+\f@nch@offset@olf=\skip120
+\f@nch@offset@orf=\skip121
+\f@nch@height=\skip122
+\f@nch@footalignment=\skip123
+\f@nch@widthL=\skip124
+\f@nch@widthC=\skip125
+\f@nch@widthR=\skip126
+\@temptokenb=\toks43
+)
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 81.
+
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 84.
+
+
+Package fancyhdr Warning: \fancyheadoffset's `E' option without twoside option 
+is useless.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 85.
+
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count503
+\@quotereset=\count504
+
+LaTeX Warning: Unused global option(s):
+    [paper].
+
+(1Notas_Servicio_Social.aux
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 51.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+)
+\openout1 = `1Notas_Servicio_Social.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/floatrow\fr-su
+bfig.sty
+Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
+\FBsc@max=\skip127
+\FBso@max=\skip128
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\su
+pp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count505
+\scratchdimen=\dimen293
+\scratchbox=\box110
+\nofMPsegments=\count506
+\nofMParguments=\count507
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count508
+\MPscratchDim=\dimen294
+\MPnumerator=\count509
+\makeMPintoPDFobject=\count510
+\everyMPtoPDFconversion=\toks45
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\e
+pstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epsto
+pdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \microtypecontext on input line 100.
+Package microtype Info: Applying patch `item' on input line 100.
+Package microtype Info: Applying patch `toc' on input line 100.
+Package microtype Info: Applying patch `eqnum' on input line 100.
+Package microtype Info: Applying patch `footnote' on input line 100.
+Package microtype Info: Applying patch `verbatim' on input line 100.
+LaTeX Info: Redefining \microtypesetup on input line 100.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-c
+mr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69684pt, 73.69266pt)
+* v-part:(T,H,B)=(71.13188pt, 654.41338pt, 69.42473pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=483.69684pt
+* \textheight=654.41338pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=20.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package newfloat Info: `float' package detected.
+Package newfloat Info: `wrapfig' package detected.
+Package hyperref Info: Link coloring ON on input line 100.
+(1Notas_Servicio_Social.out) (1Notas_Servicio_Social.out)
+\@outlinefile=\write4
+\openout4 = `1Notas_Servicio_Social.out'.
+
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\s
+panish.lbx
+File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `1Notas_Servicio_Social-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '1Notas_Servicio_Social.bbl' found.
+ (1Notas_Servicio_Social.bbl)
+Package biblatex Info: Reference section=0 on input line 100.
+Package biblatex Info: Reference segment=0 on input line 100.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+02.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+02.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+102.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+102.
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 102.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 102.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 102.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 102
+.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.
+fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-m
+sa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 102
+.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.
+fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-m
+sb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 109.
+(1Aproximación cuasiestática.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1{C:/Users/Nanoplasmonics/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:
+/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.en
+c}
+
+{C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ma
+thit.enc}{C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/lm/lm-rm.enc}]
+<Figuras/../../Figuras/shereE0.png, id=75, 376.40625pt x 402.00188pt>
+File: Figuras/../../Figuras/shereE0.png Graphic file (type png)
+<use Figuras/../../Figuras/shereE0.png>
+Package pdftex.def Info: Figuras/../../Figuras/shereE0.png  used on input line 
+27.
+(pdftex.def)             Requested size: 145.11052pt x 154.98282pt.
+<Figuras/../../Figuras/electricfield_sphere.png, id=77, 280.55214pt x 344.07747
+pt>
+File: Figuras/../../Figuras/electricfield_sphere.png Graphic file (type png)
+<use Figuras/../../Figuras/electricfield_sphere.png>
+Package pdftex.def Info: Figuras/../../Figuras/electricfield_sphere.png  used o
+n input line 28.
+(pdftex.def)             Requested size: 120.92421pt x 148.30743pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 29.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2{C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-
+mathex.enc}{C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
+ps/lm/lm-mathsy.enc} <./Figuras/../../Figuras/shereE0.png> <./Figuras/../../Fig
+uras/electricfield_sphere.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 58--58
+[][][]\T1/lmr/m/n/9 (+20) Empleando la ley de co-se-nos y ha-cien-do una ex-pan
+-si�n bi-no-mial $\OMS/lmsy/m/n/9 j[] ^^@ [] []j \OT1/lmr/m/n/9 (+20) = [] =
+ []
+
+<Figuras/../../Figuras/aprox.png, id=107, 282.72025pt x 218.2554pt>
+File: Figuras/../../Figuras/aprox.png Graphic file (type png)
+<use Figuras/../../Figuras/aprox.png>
+Package pdftex.def Info: Figuras/../../Figuras/aprox.png  used on input line 68
+.
+(pdftex.def)             Requested size: 170.71652pt x 131.79015pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4 <./Figuras/../../Figuras/aprox.png>]) (1Extinción,esp,abs.tex
+<Figuras/../../Figuras/WA.pdf, id=150, 348.6672pt x 293.94261pt>
+File: Figuras/../../Figuras/WA.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/WA.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/WA.pdf  used on input line 11.
+(pdftex.def)             Requested size: 170.71652pt x 143.92549pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6 <./Figuras/../../Figuras/WA.pdf>]) (1Elipsoide aproxcuas.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+<Figuras/../../Figuras/ellipsoid.pdf, id=225, 330.8059pt x 258.92421pt>
+File: Figuras/../../Figuras/ellipsoid.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/ellipsoid.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/ellipsoid.pdf  used on input lin
+e 38.
+(pdftex.def)             Requested size: 217.6621pt x 170.36899pt.
+<Figuras/../../Figuras/quadraticonfo.pdf, id=226, 376.44481pt x 426.52786pt>
+File: Figuras/../../Figuras/quadraticonfo.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/quadraticonfo.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/quadraticonfo.pdf  used on input
+ line 39.
+(pdftex.def)             Requested size: 193.47577pt x 219.21848pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8 <./Figuras/../../Figuras/ellipsoid.pdf> <./Figuras/../../Figuras/quadraticon
+fo.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/quadraticonfo.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 350--352
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15]
+<Figuras/../../Figuras/prolato.pdf, id=377, 256.38748pt x 285.85751pt>
+File: Figuras/../../Figuras/prolato.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/prolato.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/prolato.pdf  used on input line 
+371.
+(pdftex.def)             Requested size: 111.2482pt x 124.03731pt.
+<Figuras/../../Figuras/oblato.pdf, id=378, 335.01727pt x 283.75606pt>
+File: Figuras/../../Figuras/oblato.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/oblato.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/oblato.pdf  used on input line 3
+72.
+(pdftex.def)             Requested size: 145.11052pt x 122.90465pt.
+) (1Resultados.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16 <./Figuras/../../Figuras/prolato.pdf> <./Figuras/../../Figuras/oblato.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/oblato.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+<Figuras/../../Figuras/AlContribuciones3.pdf, id=405, 359.55031pt x 271.51437pt
+>
+File: Figuras/../../Figuras/AlContribuciones3.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/AlContribuciones3.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/AlContribuciones3.pdf  used on i
+nput line 17.
+(pdftex.def)             Requested size: 215.24863pt x 162.54529pt.
+<Figuras/../../Figuras/CextAlbueno.pdf, id=406, 365.57281pt x 283.88873pt>
+File: Figuras/../../Figuras/CextAlbueno.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/CextAlbueno.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/CextAlbueno.pdf  used on input l
+ine 18.
+(pdftex.def)             Requested size: 212.82779pt x 165.27501pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18 <./Figuras/../../Figuras/AlContribuciones3.pdf> <./Figuras/../../Figuras/Ce
+xtAlbueno.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/CextAlbueno.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>]
+<Figuras/../../Figuras/Al1.pdf, id=559, 393.35841pt x 389.00432pt>
+File: Figuras/../../Figuras/Al1.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Al1.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Al1.pdf  used on input line 35.
+(pdftex.def)             Requested size: 212.82779pt x 210.4747pt.
+<Figuras/../../Figuras/Ag1.pdf, id=560, 387.31514pt x 385.39041pt>
+File: Figuras/../../Figuras/Ag1.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Ag1.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Ag1.pdf  used on input line 36.
+(pdftex.def)             Requested size: 212.82779pt x 211.76544pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+<Figuras/../../Figuras/Al2.pdf, id=571, 392.36041pt x 386.4329pt>
+File: Figuras/../../Figuras/Al2.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Al2.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Al2.pdf  used on input line 45.
+(pdftex.def)             Requested size: 212.82779pt x 209.60818pt.
+<Figuras/../../Figuras/Ag2.pdf, id=572, 386.0497pt x 385.02509pt>
+File: Figuras/../../Figuras/Ag2.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Ag2.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Ag2.pdf  used on input line 46.
+(pdftex.def)             Requested size: 212.82779pt x 212.26382pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19 <./Figuras/../../Figuras/Al1.pdf> <./Figuras/../../Figuras/Ag1.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Ag1.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20 <./Figuras/../../Figuras/Al2.pdf> <./Figuras/../../Figuras/Ag2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Ag2.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+<Figuras/../../Figuras/AuAR.pdf, id=865, 366.90445pt x 273.52417pt>
+File: Figuras/../../Figuras/AuAR.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/AuAR.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/AuAR.pdf  used on input line 59.
+
+(pdftex.def)             Requested size: 212.82779pt x 158.66498pt.
+<Figuras/../../Figuras/Auc.pdf, id=866, 369.33687pt x 274.85149pt>
+File: Figuras/../../Figuras/Auc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Auc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Auc.pdf  used on input line 60.
+(pdftex.def)             Requested size: 212.82779pt x 158.38226pt.
+<Figuras/../../Figuras/drudeAu.pdf, id=867, 391.53308pt x 189.4617pt>
+File: Figuras/../../Figuras/drudeAu.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/drudeAu.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/drudeAu.pdf  used on input line 
+62.
+(pdftex.def)             Requested size: 232.17241pt x 112.34515pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21 <./Figuras/../../Figuras/AuAR.pdf> <./Figuras/../../Figuras/Auc.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Auc.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./Figuras/../../Figuras/drudeAu.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/drudeAu.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+<Figuras/../../Figuras/BisAR.pdf, id=1024, 391.33704pt x 273.9234pt>
+File: Figuras/../../Figuras/BisAR.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/BisAR.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/BisAR.pdf  used on input line 73
+.
+(pdftex.def)             Requested size: 212.82779pt x 148.97389pt.
+<Figuras/../../Figuras/Bic.pdf, id=1025, 401.39839pt x 276.93465pt>
+File: Figuras/../../Figuras/Bic.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/Bic.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/Bic.pdf  used on input line 74.
+(pdftex.def)             Requested size: 212.82779pt x 146.83382pt.
+<Figuras/../../Figuras/drudeBi.pdf, id=1026, 390.85905pt x 189.48524pt>
+File: Figuras/../../Figuras/drudeBi.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/drudeBi.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/drudeBi.pdf  used on input line 
+76.
+(pdftex.def)             Requested size: 212.82779pt x 103.17921pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22 <./Figuras/../../Figuras/BisAR.pdf> <./Figuras/../../Figuras/Bic.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/Bic.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./Figuras/../../Figuras/drudeBi.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/drudeBi.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+<Figuras/../../Figuras/MgOAR.pdf, id=1182, 385.3145pt x 257.36153pt>
+File: Figuras/../../Figuras/MgOAR.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/MgOAR.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/MgOAR.pdf  used on input line 87
+.
+(pdftex.def)             Requested size: 212.82779pt x 142.1501pt.
+<Figuras/../../Figuras/MgOc.pdf, id=1183, 378.53922pt x 258.11433pt>
+File: Figuras/../../Figuras/MgOc.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/MgOc.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/MgOc.pdf  used on input line 88.
+
+(pdftex.def)             Requested size: 212.82779pt x 145.122pt.
+<Figuras/../../Figuras/drudeMgO.pdf, id=1184, 393.08153pt x 187.44238pt>
+File: Figuras/../../Figuras/drudeMgO.pdf Graphic file (type pdf)
+<use Figuras/../../Figuras/drudeMgO.pdf>
+Package pdftex.def Info: Figuras/../../Figuras/drudeMgO.pdf  used on input line
+ 90.
+(pdftex.def)             Requested size: 222.50378pt x 106.09962pt.
+) (1Conclusiones.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[23 <./Figuras/../../Figuras/MgOAR.pdf> <./Figuras/../../Figuras/MgOc.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/MgOc.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./Figuras/../../Figuras/drudeMgO.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/../../Figuras/drudeMgO.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>])
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+21.
+
+(C:\Users\Nanoplasmonics\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25] (1Notas_Servicio_Social.aux
+LaTeX Info: Redefining \sptext on input line 51.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-19>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `1Notas_Servicio_Social.out' has not changed.
+
+(rerunfilecheck)             Checksum: A45C8E433D63C8698549D94379398FD5;1822.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                1Notas_Servicio_Social
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to '1Notas_Servicio_Social.run.xml'.
+\openout1 = `1Notas_Servicio_Social.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2412 strings out of 468149
- 37992 string characters out of 5426727
- 444927 words of memory out of 5000000
- 31064 multiletter control sequences out of 15000+600000
- 627125 words of font info for 41 fonts, out of 8000000 for 9000
+ 27228 strings out of 468149
+ 485757 string characters out of 5426727
+ 1261728 words of memory out of 5000000
+ 55012 multiletter control sequences out of 15000+600000
+ 709888 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,0n,65p,241b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 75i,13n,79p,1907b,1898s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmbx10.pfb><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/lm/lmbx12.pfb><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmbx9.pfb><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Nanoplasmonics/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Nanoplasmonics/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Nanoplasmonic
+s/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Nanop
+lasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Use
+rs/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb
+><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mr10.pfb><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/lm/lmr6.pfb><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/lm/lmr8.pfb><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/lm/lmr9.pfb><C:/Users/Nanoplasmonics/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Nanoplasmonics/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Nanoplasmonics/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/Nanoplasmonic
+s/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Nanop
+lasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Use
+rs/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pf
+b><C:/Users/Nanoplasmonics/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb>
+Output written on 1Notas_Servicio_Social.pdf (25 pages, 6439599 bytes).
+PDF statistics:
+ 1537 PDF objects out of 1728 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
+ 43700 words of extra memory for PDF output out of 51595 (max. 10000000)
+
